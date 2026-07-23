@@ -1,0 +1,96 @@
+.hero-banner {
+  width: 100%;
+  position: relative;
+}
+
+.heroSwiper {
+  width: 100%;
+  height: 100vh;
+}
+
+.video-slide {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.banner-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,.45);
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+  color: #fff;
+  z-index: 10;
+  max-width: 600px;
+}
+
+.content h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.hero-btn {
+  padding: 14px 35px;
+  border: none;
+  border-radius: 5px;
+  background: #f7b500;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  background: #fff;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff;
+}
+
+.swiper-pagination-bullet {
+  background: #fff;
+}
+
+.swiper-pagination-bullet-active {
+  background: #f7b500;
+}
+
+@media (max-width: 768px) {
+  .heroSwiper,
+  .video-slide {
+    height: unset;
+  }
+
+  .content {
+    left: 5%;
+    right: 5%;
+  }
+
+  .content h1 {
+    font-size: 34px;
+  }
+
+  .content p {
+    font-size: 16px;
+  }
+}
