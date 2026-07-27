@@ -1,95 +1,174 @@
-import Link from "next/link";
+"use client";
 
+import Link from "next/link";
+import Image from "next/image";
 export default function About() {
   return (
-    <section className="rs-about-area pb-130 pt-130">
+    <section className="rs-about-area section-space-top rs-about-six bg-primary section-space-bottom">
       <div className="container">
         <div className="row">
-          <div className="col-xl-7 col-lg-6">
-            <div className="rs-about-thumb-wrapper wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="1s">
+          <div className="col-xl-12">
+            <div className="rs-about-wrapper">
               <div className="rs-about-thumb">
-                <img src="/assets/images/about/about-thumb-01.webp" alt="image" />
+                <Image
+                  src="assets/images/about/about-thumb-18.webp"
+                  width={650}
+                  height={600}
+                  alt="About"
+                />
               </div>
-              <div className="rs-about-thumb-two">
-                <img src="/assets/images/about/about-thumb-02.webp" alt="image" />
-              </div>
-              <div className="rs-about-thumb-shape">
-                <img src="/assets/images/shape/about-shape-01.webp" alt="image" />
-              </div>
-              <div className="rs-about-year-shape">
-                <div className="rs-about-year-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
-                    <path
-                      d="M6 10H8V6C8 3.79086 9.79086 2 12 2H36C38.2091 2 40 3.79086 40 6V10H42C43.1046 10 44 10.8954 44 12V36C44 38.2091 42.2091 40 40 40H8C5.79086 40 4 38.2091 4 36V12C4 10.8954 4.89543 10 6 10ZM8 14V36H40V14H8ZM12 10H36V6H12V10ZM24 33C27.866 33 31 29.866 31 26C31 22.134 27.866 19 24 19C20.134 19 17 22.134 17 26C17 29.866 20.134 33 24 33ZM24 29C22.3431 29 21 27.6569 21 26C21 24.3431 22.3431 23 24 23C25.6569 23 27 24.3431 27 26C27 27.6569 25.6569 29 24 29Z"
-                      fill="#005B5C" />
-                  </svg>
+              <div className="rs-about-content-wrapper">
+                <div className="section-title-wrapper">
+                  <span className="section-subtitle has-theme-red is-uppercase">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="41"
+                      height="41"
+                      viewBox="0 0 41 41"
+                    >
+                      <path d="M11.0523 34.2847V36.1916C11.0386 36.577 11.1671 36.954 11.4132 37.2509C13.7169 39.9512 16.816 40.6162 20.1857 40.6162C23.5554 40.6162 26.6568 39.9512 28.9582 37.2509C29.206 36.9548 29.3352 36.5774 29.3212 36.1916V34.2847C29.3212 32.3305 28.663 30.5636 27.6014 29.2876C26.5668 28.0389 25.1445 27.2659 23.5893 27.2659H16.7842C15.2287 27.2659 13.8067 28.0393 12.7699 29.2876C11.7104 30.5634 11.0523 32.3305 11.0523 34.2847ZM24.2629 15.4167C23.4567 14.6105 22.4295 14.0615 21.3112 13.839C20.193 13.6166 19.0339 13.7307 17.9805 14.1671C16.9271 14.6034 16.0268 15.3423 15.3933 16.2903C14.7599 17.2383 14.4218 18.3529 14.4218 19.493C14.4218 20.6332 14.7599 21.7477 15.3933 22.6958C16.0268 23.6438 16.9271 24.3827 17.9805 24.819C19.0339 25.2553 20.193 25.3695 21.3112 25.147C22.4295 24.9246 23.4567 24.3756 24.2629 23.5693C24.7983 23.0341 25.223 22.3986 25.5128 21.6992C25.8025 20.9997 25.9517 20.2501 25.9517 19.493C25.9517 18.736 25.8025 17.9863 25.5128 17.2869C25.223 16.5875 24.7983 15.952 24.2629 15.4167ZM30.5065 36.9331C32.445 37.1473 34.8477 37.0413 36.6058 36.4417C37.9546 35.9946 39.1535 35.1833 40.0701 34.0976C40.276 33.8504 40.3828 33.5356 40.3699 33.2141V31.5371C40.3699 29.8376 39.7997 28.3005 38.8778 27.1914C37.9807 26.1118 36.7523 25.4423 35.4066 25.4423H29.4289C28.284 25.4423 27.2494 25.9202 26.4289 26.6911C26.4195 26.6997 26.4123 26.7104 26.4079 26.7223C26.4035 26.7342 26.402 26.747 26.4035 26.7596C26.4051 26.7722 26.4096 26.7843 26.4168 26.7948C26.4239 26.8053 26.4335 26.814 26.4447 26.82C29.0142 28.2107 30.5041 31.2242 30.5041 34.2851V36.192C30.5047 36.4087 30.4821 36.6247 30.4365 36.8365C30.434 36.8476 30.434 36.859 30.4363 36.87C30.4385 36.881 30.4431 36.8915 30.4497 36.9006C30.4563 36.9098 30.4648 36.9174 30.4745 36.9231C30.4843 36.9288 30.4951 36.9323 30.5063 36.9335L30.5065 36.9331ZM34.753 15.7909C34.1873 15.2255 33.4667 14.8405 32.6823 14.6845C31.8978 14.5286 31.0848 14.6088 30.3459 14.915C29.607 15.2211 28.9755 15.7395 28.5312 16.4045C28.0868 17.0695 27.8497 17.8514 27.8497 18.6512C27.8497 19.451 28.0868 20.2328 28.5312 20.8978C28.9755 21.5629 29.607 22.0812 30.3459 22.3874C31.0848 22.6935 31.8978 22.7737 32.6823 22.6178C33.4667 22.4619 34.1873 22.0769 34.753 21.5115C35.5115 20.7528 35.9375 19.724 35.9375 18.6512C35.9375 17.5784 35.5115 16.5496 34.753 15.7909ZM11.3387 15.7909C10.773 15.2252 10.0523 14.8399 9.26759 14.6838C8.48292 14.5277 7.66959 14.6079 6.93045 14.914C6.19131 15.2202 5.55955 15.7386 5.11507 16.4039C4.67059 17.0691 4.43335 17.8511 4.43335 18.6512C4.43335 19.4512 4.67059 20.2333 5.11507 20.8985C5.55955 21.5637 6.19131 22.0822 6.93045 22.3883C7.66959 22.6945 8.48292 22.7746 9.26759 22.6185C10.0523 22.4625 10.773 22.0772 11.3387 21.5115C12.0965 20.7524 12.5221 19.7237 12.5221 18.6512C12.5221 17.5786 12.0965 16.5499 11.3387 15.7909ZM21.8806 3.20963L20.2575 0.0423162C20.2506 0.0295193 20.2403 0.0188307 20.2278 0.0113816C20.2153 0.0039325 20.2011 0 20.1865 0C20.172 0 20.1577 0.0039325 20.1452 0.0113816C20.1327 0.0188307 20.1224 0.0295193 20.1155 0.0423162L18.5039 3.18436C18.4593 3.28308 18.3908 3.36916 18.3046 3.43486C18.2185 3.50056 18.1173 3.54382 18.0103 3.56077L14.4987 4.12426C14.4842 4.12666 14.4706 4.13302 14.4595 4.14263C14.4484 4.15225 14.4402 4.16474 14.4358 4.17874C14.4313 4.19273 14.4308 4.20768 14.4343 4.22194C14.4378 4.2362 14.4452 4.24921 14.4557 4.25953L16.9645 6.78394C17.0372 6.85636 17.0916 6.945 17.1234 7.04257C17.1551 7.14015 17.1632 7.24387 17.1471 7.3452L16.5993 10.8614C16.597 10.8759 16.5987 10.8908 16.6044 10.9044C16.61 10.918 16.6193 10.9298 16.6312 10.9384C16.6431 10.9471 16.6572 10.9522 16.6718 10.9534C16.6865 10.9545 16.7012 10.9515 16.7143 10.9448L19.8901 9.33775C19.9821 9.29155 20.0837 9.26749 20.1866 9.26749C20.2896 9.26749 20.3911 9.29155 20.4831 9.33775L23.6589 10.9448C23.6719 10.9515 23.6865 10.9544 23.701 10.9533C23.7156 10.9521 23.7295 10.9469 23.7412 10.9382C23.753 10.9295 23.7621 10.9177 23.7674 10.9042C23.7728 10.8906 23.7743 10.8758 23.7717 10.8614L23.2307 7.37906C23.2087 7.27269 23.2133 7.16256 23.2439 7.05836C23.2745 6.95416 23.3303 6.85909 23.4063 6.78154L25.9174 4.25953C25.9276 4.24909 25.9348 4.23609 25.9381 4.22191C25.9415 4.20773 25.9409 4.1929 25.9365 4.17901C25.9321 4.16512 25.924 4.15269 25.9131 4.14304C25.9021 4.1334 25.8888 4.12691 25.8745 4.12426L22.3627 3.55888C22.2604 3.54292 22.1634 3.50294 22.0796 3.44221C21.9957 3.38149 21.9275 3.30175 21.8804 3.20954L21.8806 3.20963ZM9.86912 36.1924V34.2847C9.86912 31.2238 11.3568 28.2102 13.9285 26.8196C13.9397 26.8135 13.9493 26.8049 13.9564 26.7944C13.9636 26.7839 13.9681 26.7718 13.9697 26.7592C13.9712 26.7466 13.9697 26.7338 13.9653 26.7218C13.9609 26.7099 13.9537 26.6992 13.9443 26.6907C13.1216 25.9198 12.087 25.4419 10.9443 25.4419H4.96656C3.62095 25.4419 2.39256 26.1114 1.49545 27.191C0.573602 28.3003 0.00108664 29.8376 0.00108664 31.5371V33.2141C-0.0121295 33.536 0.0955974 33.8512 0.303071 34.0976C2.30911 36.453 5.01614 37.0301 7.95529 37.0301C8.59373 37.0331 9.23185 37.0008 9.86671 36.9331C9.87784 36.9317 9.88856 36.9281 9.89821 36.9224C9.90785 36.9166 9.91621 36.909 9.92277 36.8999C9.92933 36.8908 9.93394 36.8804 9.93631 36.8695C9.93869 36.8585 9.93878 36.8472 9.93658 36.8362C9.89097 36.6244 9.86829 36.4083 9.86895 36.1917L9.86912 36.1924Z"></path>
+                    </svg>
+                    ABOUT NSB
+                  </span>
+                  <h2 className="section-title rs-split-text-enable split-in-left mb-3 fs-1">
+                    Best Energy Management College in India
+                  </h2>
                 </div>
-                <h4 className="rs-about-year-title"> 56+ <br /> <span>Years Of History</span></h4>
-              </div>
-            </div>
-          </div>
-          <div className="col-xl-5 col-lg-6">
-            <div className="rs-about-content-wrapper">
-              <div className="section-title-wrapper mb-25">
-                <span className="section-subtitle">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                    <path
-                      d="M5.21484 12.8949V16.6564C5.21484 16.6564 8.82175 15.1537 12.0198 15.1537C15.2178 15.1537 18.8255 16.6564 18.8255 16.6564V12.8424C18.8255 12.8424 15.3844 11.0225 11.9665 11.0225C8.55018 11.021 5.21484 12.8949 5.21484 12.8949Z">
-                    </path>
-                    <path
-                      d="M22.6467 11.9993L24 11.2716L22.6467 10.5222V10.1666C22.6467 10.1666 23.0278 8.23413 20.862 9.24464C20.7517 9.30465 20.6924 9.36542 20.6684 9.42468L11.7367 4.47119L0 11.1884L4.43211 13.2019V12.5485C4.43211 12.5485 8.15079 10.4607 11.9625 10.4607C15.7734 10.4607 19.6092 12.4899 19.6092 12.4899V13.631L22.0563 12.3167V17.6377H21.2416V19.529L22.3248 18.7803L23.5274 19.529V17.637H22.6467V11.9993ZM22.0555 9.83803V10.1944L21.3413 9.79827C21.6017 9.62573 22.0555 9.38642 22.0555 9.83803ZM21.814 11.9251C21.737 11.9279 21.6603 11.9152 21.5883 11.8877C21.5164 11.8602 21.4507 11.8185 21.3952 11.7651C21.3398 11.7117 21.2956 11.6476 21.2655 11.5768C21.2353 11.5059 21.2198 11.4297 21.2197 11.3527C21.2197 11.2757 21.2351 11.1994 21.2652 11.1285C21.2953 11.0576 21.3393 10.9935 21.3947 10.94C21.4501 10.8865 21.5157 10.8447 21.5876 10.8172C21.6595 10.7896 21.7362 10.7768 21.8132 10.7795C21.9615 10.7848 22.102 10.8474 22.2051 10.9542C22.3082 11.0609 22.3659 11.2035 22.366 11.3519C22.3661 11.5003 22.3086 11.643 22.2056 11.7499C22.1027 11.8568 21.9623 11.9196 21.814 11.9251Z">
-                    </path>
-                  </svg>
-                  About Univet
-                </span>
-                <h2 className="section-title rs-split-text-enable split-in-left">Excellence in <br />
-                  Education Since 1950</h2>
-                <p className="section-desc mb-0">Univet is a vibrant community of scholars, researchers, and
-                  students dedicated to advancing knowledge and fostering innovation.</p>
-              </div>
-              <div className="rs-about-list">
-                <ul>
-                  <li><i className="ri-check-line"></i> We are committed to providing a transformative</li>
-                  <li><i className="ri-check-line"></i> A strong foundation in the liberal arts</li>
-                  <li><i className="ri-check-line"></i> Dedicated to advancing knowledge and fostering
-                  </li>
-                </ul>
-              </div>
-              <div className="rs-about-btn-wrapper animation--flip">
-                <div className="rs-about-btn">
-                  <Link className="rs-btn has-icon has-theme-yellow hover-white" href="/about">
-                    <span className="btn-text-wrap">
-                      <span className="text-default">More About Univet</span>
-                      <span className="text-hover">More About Univet</span>
-                    </span>
-                    <span className="icon-box has-rotate">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 15">
-                        <path
-                          d="M10.5 7.5C10.5 8.32843 9.82843 9 9 9C8.17157 9 7.5 8.32843 7.5 7.5C7.5 6.67157 8.17157 6 9 6C9.82843 6 10.5 6.67157 10.5 7.5Z">
-                        </path>
-                        <path
-                          d="M10.5 13.5C10.5 14.3284 9.82843 15 9 15C8.17157 15 7.5 14.3284 7.5 13.5C7.5 12.6716 8.17157 12 9 12C9.82843 12 10.5 12.6716 10.5 13.5Z">
-                        </path>
-                        <path
-                          d="M3 7.5C3 8.32843 2.32843 9 1.5 9C0.671573 9 0 8.32843 0 7.5C0 6.67157 0.671573 6 1.5 6C2.32843 6 3 6.67157 3 7.5Z">
-                        </path>
-                        <path
-                          d="M18 7.5C18 8.32843 17.3284 9 16.5 9C15.6716 9 15 8.32843 15 7.5C15 6.67157 15.6716 6 16.5 6C17.3284 6 18 6.67157 18 7.5Z">
-                        </path>
-                        <path
-                          d="M10.5 1.5C10.5 2.32843 9.82843 3 9 3C8.17157 3 7.5 2.32843 7.5 1.5C7.5 0.671573 8.17157 0 9 0C9.82843 0 10.5 0.671573 10.5 1.5Z">
-                        </path>
-                      </svg>
-                    </span>
-                  </Link>
-                </div>
-                <div className="rs-about-author">
-                  <div className="rs-about-author-thumb">
-                    <img src="/assets/images/user/user-thumb-01.webp" alt="image" />
+                {/* <div className="rs-about-tab">
+                  <ul className="nav nav-pills" id="pills-tab" role="tablist">
+                    <li className="nav-item" role="presentation">
+                      <button
+                        className="nav-link active"
+                        id="pills-item-one-tab"
+                        data-bs-toggle="pill"
+                        data-bs-target="#pills-item-one"
+                        type="button"
+                        role="tab"
+                        aria-controls="pills-item-one"
+                        aria-selected="true"
+                      >
+                        Mission
+                      </button>
+                    </li>
+                    <li className="nav-item" role="presentation">
+                      <button
+                        className="nav-link"
+                        id="pills-item-two-tab"
+                        data-bs-toggle="pill"
+                        data-bs-target="#pills-item-two"
+                        type="button"
+                        role="tab"
+                        aria-controls="pills-item-two"
+                        aria-selected="false"
+                      >
+                        {" "}
+                        Vision
+                      </button>
+                    </li>
+                    <li className="nav-item" role="presentation">
+                      <button
+                        className="nav-link"
+                        id="pills-item-three-tab"
+                        data-bs-toggle="pill"
+                        data-bs-target="#pills-item-three"
+                        type="button"
+                        role="tab"
+                        aria-controls="pills-item-three"
+                        aria-selected="false"
+                      >
+                        Values
+                      </button>
+                    </li>
+                  </ul>
+                </div> */}
+                <div className="rs-aobut-tab-content-wrapper">
+                  <div
+                    className="tab-content rs-about-tab-anim"
+                    id="pills-tabContent"
+                  >
+                    <div
+                      className="tab-pane fade show active"
+                      id="pills-item-one"
+                      role="tabpanel"
+                      aria-labelledby="pills-item-one-tab"
+                      tabIndex={0}
+                    >
+                      <div className="rs-about-tab-content">
+                        <p className="">
+                          NTPC Limited, a Maharatna company of Government of
+                          India, is India’s largest energy conglomerate with an
+                          installed capacity of more than 90,000+ MW (including
+                          ~30,000 MW through JVs/Subsidiaries). NTPC Limited is
+                          instrumental in promoting NTPC Education and Research
+                          Society (NEARS). Under the aegis of NEARS, NTPC School
+                          of Business (NSB) was set up in the year 2014 with the
+                          aim to nurture human capital for the entire energy
+                          sector.
+                        </p>
+                        <p>
+                          NTPC School of Business (NSB) has two AICTE approved
+                          programmes, namely, Post Graduate Diploma in
+                          Management – Executive (PGDM-E) and Post Graduate
+                          Diploma in Energy Management (PGDM-EM). These courses
+                          are designed to enrich management learning and
+                          practice at all levels of decision making in the area
+                          of energy management. The focus on energy management
+                          consolidates to deliver knowledge and value-added
+                          academic and research enrichment services for
+                          sustainable development of the Indian economy.
+                        </p>
+                      </div>
+                    </div>
                   </div>
-                  <div className="rs-about-author-content">
-                    <h5 className="rs-about-author-title">Michael A. Smith</h5>
-                    <span className="rs-about-author-desc">Vice Chancellor</span>
+                </div>
+
+                <div className="rs-about-info mt-4">
+                  <div className="rs-about-btn">
+                    <Link
+                      className="rs-btn has-icon has-theme-red"
+                      href="/about"
+                    >
+                      <span className="btn-text-wrap">
+                        <span className="text-default">More About Us</span>
+                        <span className="text-hover">More About Us</span>
+                      </span>
+                      <span className="icon-box has-rotate">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 18 15"
+                        >
+                          <path d="M10.5 7.5C10.5 8.32843 9.82843 9 9 9C8.17157 9 7.5 8.32843 7.5 7.5C7.5 6.67157 8.17157 6 9 6C9.82843 6 10.5 6.67157 10.5 7.5Z"></path>
+                          <path d="M10.5 13.5C10.5 14.3284 9.82843 15 9 15C8.17157 15 7.5 14.3284 7.5 13.5C7.5 12.6716 8.17157 12 9 12C9.82843 12 10.5 12.6716 10.5 13.5Z"></path>
+                          <path d="M3 7.5C3 8.32843 2.32843 9 1.5 9C0.671573 9 0 8.32843 0 7.5C0 6.67157 0.671573 6 1.5 6C2.32843 6 3 6.67157 3 7.5Z"></path>
+                          <path d="M18 7.5C18 8.32843 17.3284 9 16.5 9C15.6716 9 15 8.32843 15 7.5C15 6.67157 15.6716 6 16.5 6C17.3284 6 18 6.67157 18 7.5Z"></path>
+                          <path d="M10.5 1.5C10.5 2.32843 9.82843 3 9 3C8.17157 3 7.5 2.32843 7.5 1.5C7.5 0.671573 8.17157 0 9 0C9.82843 0 10.5 0.671573 10.5 1.5Z"></path>
+                        </svg>
+                      </span>
+                    </Link>
+                  </div>
+                  <div className="rs-about-counter-wrapper">
+                    <div className="rs-about-counter-icon">
+                      <Image
+                        src="assets/images/logo/nsblogoshort.jpg"
+                        width={80}
+                        height={70}
+                        alt="About"
+                      />
+                    </div>
+                    <div className="rs-about-counter">
+                      <div className="rs-counter-number-wrapper">
+                        <span
+                          className="rs-counter-number odometer"
+                          data-count="12"
+                        >
+                          12
+                        </span>
+                        <span className="prefix">+</span>
+                      </div>
+                      <span className="rs-counter-title">
+                        Years of Education
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>

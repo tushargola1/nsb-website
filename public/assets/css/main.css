@@ -762,30 +762,30 @@ textarea:focus {
 }
 
 .section-space-top {
-  padding-top: 120px;
+  padding-top: 50px;
 }
 @media only screen and (max-width: 1199px) {
   .section-space-top {
-    padding-top: 100px;
+    padding-top: 30px;
   }
 }
 @media only screen and (max-width: 991px) {
   .section-space-top {
-    padding-top: 80px;
+    padding-top: 20px;
   }
 }
 
 .section-space-bottom {
-  padding-bottom: 120px;
+  padding-bottom: 50px;
 }
 @media only screen and (max-width: 1199px) {
   .section-space-bottom {
-    padding-bottom: 100px;
+    padding-bottom: 30px;
   }
 }
 @media only screen and (max-width: 991px) {
   .section-space-bottom {
-    padding-bottom: 80px;
+    padding-bottom: 20px;
   }
 }
 
@@ -10543,6 +10543,8 @@ html.lenis body {
 }
 .rs-about-six .rs-about-thumb > img {
   width: 100%;
+  object-fit: contain;
+  height: 100%;
 }
 .rs-about-six .rs-about-meta-wrapper {
   background: var(--rs-theme-red);
@@ -10659,7 +10661,7 @@ html.lenis body {
 }
 .rs-about-six .rs-about-tab .nav-link.active {
   color: var(--rs-theme-red);
-  background: var(--rs-white);
+  background: var(--bs-gray-200);
 }
 .rs-about-six .rs-about-tab .nav-link:hover {
   color: var(--rs-theme-red);
@@ -10673,21 +10675,17 @@ html.lenis body {
   }
 }
 .rs-about-six .rs-about-tab-content {
-  border-radius: 6px;
+  /* border-radius: 6px;
   padding-top: 16px;
   padding-bottom: 16px;
   padding-inline-start: 20px;
   padding-inline-end: 20px;
-  background: var(--rs-white);
+  background: whitesmoke; */
 }
 .rs-about-six .rs-about-tab-content p {
   font-size: 15px;
 }
-@media only screen and (max-width: 575px) {
-  .rs-about-six .rs-about-tab-content {
-    display: none;
-  }
-}
+
 .rs-about-six .rs-about-counter-icon svg {
   width: 50px;
   height: 50px;
@@ -16108,7 +16106,7 @@ html.lenis body {
   color: var(--rs-white);
   font-size: 16px;
   transition: all 0.3s ease-in-out;
-  padding: 15px 35px;
+  padding: 5px 15px;
 }
 @media only screen and (max-width: 991px) {
   .rs-gallery-two .rs-gallery-tab-wrapper .nav-link {
@@ -16128,7 +16126,7 @@ html.lenis body {
   -webkit-animation: slide-down 5s ease-out;
   animation: slide-down 5s ease-out;
 }
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
   .rs-gallery-two .rs-gallery-content-wrapper {
     display: none;
   }
@@ -16137,7 +16135,7 @@ html.lenis body {
   .rs-gallery-two .rs-gallery-tab-wrapper {
     display: none;
   }
-}
+} */
 .rs-gallery-two .rs-gallery-accordion {
   display: none;
   margin-top: 30px;
@@ -16938,7 +16936,7 @@ html.lenis body {
   }
 }
 .rs-overview-two .rs-overview-thumb {
-  height: 100%;
+  height: 70%;
 }
 .rs-overview-two .rs-overview-thumb img {
   width: 100%;

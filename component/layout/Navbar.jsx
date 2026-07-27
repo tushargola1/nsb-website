@@ -311,7 +311,7 @@ export default function Navbar() {
               {/* <span />
               <span />
               <span /> */}
-        <i class="fa-solid fa-bars"></i>
+        <i className="fa-solid fa-bars"></i>
             </button>
           </div>
         </div>

@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.webp" />
+        <link rel="shortcut icon" type="image/x-icon" href="/assets/images/logo/nsblogoshort.jpg" />
         {/* CSS */}
         <link rel="stylesheet" href="/assets/css/vendor/bootstrap.min.css" />
         <link rel="stylesheet" href="/assets/css/vendor/animate.min.css" />
@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="/assets/css/main.css" />
         
         {/* {font awesome} */}
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossOrigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
       </head>
       {/* <body className="rs-smoother-yes"> */}
       <body >

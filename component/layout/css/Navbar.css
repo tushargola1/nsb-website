@@ -95,6 +95,11 @@
 .nsb-navbar--sticky {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
   background: whitesmoke;
+  border-radius: 12px;
+    /* padding: 0 20px; */
+    margin-left: 20px;
+    margin-right: 20px;
+    top: 15px;
 }
 .nsb-navbar-inner {
   max-width: 1400px;

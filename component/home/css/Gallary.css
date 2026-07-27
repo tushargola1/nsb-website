@@ -1,0 +1,8 @@
+.gallary-parent-div.section-space{
+    padding-top: 0;
+}
+@media (max-width:768px) {
+    .gallary-parent-div.section-space{
+    padding-top: 100px;
+}
+}

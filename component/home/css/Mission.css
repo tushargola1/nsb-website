@@ -1,0 +1,17 @@
+
+.mission-vission-height{
+    height: 500px;
+}
+
+@media (max-width: 1024px) {
+    .mission-vission-height{
+    height: 390px;
+}
+
+}
+@media (max-width: 768px) {
+    .mission-vission-height{
+    height: 100%;
+}
+
+}
