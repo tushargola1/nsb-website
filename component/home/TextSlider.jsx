@@ -6,10 +6,10 @@ export default function TextSlider() {
             <div className="container-fluid">
                 <div className="rs-faculty-bg">
                     <div className="rs-faculty-shape-one gsap-move up-100">
-                        <img src="assets/images/shape/half-wave-shape.webp" alt="image" />
+                        <img src="/assets/images/shape/half-wave-shape.webp" alt="image" />
                     </div>
                     <div className="rs-faculty-shape-two">
-                        <img src="assets/images/shape/graduation-doc-shape.webp" alt="image" />
+                        <img src="/assets/images/shape/graduation-doc-shape.webp" alt="image" />
                     </div>
                     <div className="container">
 
@@ -35,11 +35,11 @@ export default function TextSlider() {
                                         <div className="rs-faculty-sidebar">
                                             <div className="rs-admission-cta">
                                                 <div className="rs-admission-cta-shape">
-                                                    <img src="assets/images/shape/badge-shape.webp" alt="image" />
+                                                    <img src="/assets/images/shape/badge-shape.webp" alt="image" />
                                                 </div>
                                                 <div className="rs-admission-cta-content">
                                                     <div className="rs-admission-cta-thumb">
-                                                        <img src="assets/images/user/client-group.webp" alt="image" />
+                                                        <img src="/assets/images/user/client-group.webp" alt="image" />
                                                     </div>
                                                     <p className="rs-admission-cta-desc">4558 + Admission</p>
                                                     <div className="rs-admission-cta-btn">
@@ -128,7 +128,7 @@ export default function TextSlider() {
                                                                 <span className="rs-notice-id">UBD/REG/MED/0002/IKJFJ/03</span>
                                                             </div>
                                                             <div className="rs-notice-link">
-                                                                <a href="assets/notice/document.html" download>
+                                                                <a href="/assets/notice/document.html" download>
                                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                                                                         <path d="M13.6306 8.65779V4.87288C13.6306 4.76456 13.5806 4.66444 13.5098 4.58526L9.26635 0.129258C9.18709 0.0459374 9.07455 0 8.96205 0H2.23421C0.992107 0 0 1.01289 0 2.25507V14.9771C0 16.2193 0.992107 17.2156 2.23418 17.2156H7.54483C8.54932 18.8829 10.3752 20 12.4551 20C15.6147 20 18.195 17.4322 18.195 14.2684C18.1993 11.5048 16.215 9.19553 13.6306 8.65783V8.65779ZM9.37897 1.4632L12.2259 4.46019H10.3793C9.82908 4.46019 9.37893 4.00589 9.37893 3.4557L9.37897 1.4632ZM2.23418 16.3818C1.45476 16.3818 0.833748 15.7565 0.833748 14.9771V2.25507C0.833748 1.4714 1.45476 0.833748 2.23418 0.833748H8.54522V3.45562C8.54522 4.46851 9.36643 5.2939 10.3793 5.2939H12.7969V8.54936C12.6719 8.54522 12.5719 8.53268 12.4635 8.53268C11.0087 8.53268 9.67068 9.09131 8.66194 9.9667H3.36808C3.13874 9.9667 2.95121 10.1542 2.95121 10.3834C2.95121 10.6128 3.13871 10.8003 3.36808 10.8003H7.88663C7.59061 11.2172 7.34463 11.634 7.15303 12.0926H3.36804C3.13871 12.0926 2.95117 12.2801 2.95117 12.5094C2.95117 12.7386 3.13867 12.9263 3.36804 12.9263H6.88198C6.77776 13.3432 6.72358 13.8058 6.72358 14.2685C6.72358 15.0187 6.86944 15.7608 7.13206 16.3861H2.23418V16.3818ZM12.4594 19.1705C9.75826 19.1705 7.56147 16.9737 7.56147 14.2726C7.56147 11.5715 9.75404 9.37467 12.4594 9.37467C15.1646 9.37467 17.3572 11.5715 17.3572 14.2726C17.3572 16.9737 15.1605 19.1705 12.4594 19.1705Z">
                                                                         </path>
@@ -188,7 +188,7 @@ export default function TextSlider() {
                                                                 <span className="rs-notice-id">UBD/REG/MED/0002/IKJFJ/02</span>
                                                             </div>
                                                             <div className="rs-notice-link">
-                                                                <a href="assets/notice/document.html" download>
+                                                                <a href="/assets/notice/document.html" download>
                                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                                                                         <path d="M13.6306 8.65779V4.87288C13.6306 4.76456 13.5806 4.66444 13.5098 4.58526L9.26635 0.129258C9.18709 0.0459374 9.07455 0 8.96205 0H2.23421C0.992107 0 0 1.01289 0 2.25507V14.9771C0 16.2193 0.992107 17.2156 2.23418 17.2156H7.54483C8.54932 18.8829 10.3752 20 12.4551 20C15.6147 20 18.195 17.4322 18.195 14.2684C18.1993 11.5048 16.215 9.19553 13.6306 8.65783V8.65779ZM9.37897 1.4632L12.2259 4.46019H10.3793C9.82908 4.46019 9.37893 4.00589 9.37893 3.4557L9.37897 1.4632ZM2.23418 16.3818C1.45476 16.3818 0.833748 15.7565 0.833748 14.9771V2.25507C0.833748 1.4714 1.45476 0.833748 2.23418 0.833748H8.54522V3.45562C8.54522 4.46851 9.36643 5.2939 10.3793 5.2939H12.7969V8.54936C12.6719 8.54522 12.5719 8.53268 12.4635 8.53268C11.0087 8.53268 9.67068 9.09131 8.66194 9.9667H3.36808C3.13874 9.9667 2.95121 10.1542 2.95121 10.3834C2.95121 10.6128 3.13871 10.8003 3.36808 10.8003H7.88663C7.59061 11.2172 7.34463 11.634 7.15303 12.0926H3.36804C3.13871 12.0926 2.95117 12.2801 2.95117 12.5094C2.95117 12.7386 3.13867 12.9263 3.36804 12.9263H6.88198C6.77776 13.3432 6.72358 13.8058 6.72358 14.2685C6.72358 15.0187 6.86944 15.7608 7.13206 16.3861H2.23418V16.3818ZM12.4594 19.1705C9.75826 19.1705 7.56147 16.9737 7.56147 14.2726C7.56147 11.5715 9.75404 9.37467 12.4594 9.37467C15.1646 9.37467 17.3572 11.5715 17.3572 14.2726C17.3572 16.9737 15.1605 19.1705 12.4594 19.1705Z">
                                                                         </path>
@@ -248,7 +248,7 @@ export default function TextSlider() {
                                                                 <span className="rs-notice-id">UBD/REG/MED/0002/IKJFJ/01</span>
                                                             </div>
                                                             <div className="rs-notice-link">
-                                                                <a href="assets/notice/document.html" download>
+                                                                <a href="/assets/notice/document.html" download>
                                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                                                                         <path d="M13.6306 8.65779V4.87288C13.6306 4.76456 13.5806 4.66444 13.5098 4.58526L9.26635 0.129258C9.18709 0.0459374 9.07455 0 8.96205 0H2.23421C0.992107 0 0 1.01289 0 2.25507V14.9771C0 16.2193 0.992107 17.2156 2.23418 17.2156H7.54483C8.54932 18.8829 10.3752 20 12.4551 20C15.6147 20 18.195 17.4322 18.195 14.2684C18.1993 11.5048 16.215 9.19553 13.6306 8.65783V8.65779ZM9.37897 1.4632L12.2259 4.46019H10.3793C9.82908 4.46019 9.37893 4.00589 9.37893 3.4557L9.37897 1.4632ZM2.23418 16.3818C1.45476 16.3818 0.833748 15.7565 0.833748 14.9771V2.25507C0.833748 1.4714 1.45476 0.833748 2.23418 0.833748H8.54522V3.45562C8.54522 4.46851 9.36643 5.2939 10.3793 5.2939H12.7969V8.54936C12.6719 8.54522 12.5719 8.53268 12.4635 8.53268C11.0087 8.53268 9.67068 9.09131 8.66194 9.9667H3.36808C3.13874 9.9667 2.95121 10.1542 2.95121 10.3834C2.95121 10.6128 3.13871 10.8003 3.36808 10.8003H7.88663C7.59061 11.2172 7.34463 11.634 7.15303 12.0926H3.36804C3.13871 12.0926 2.95117 12.2801 2.95117 12.5094C2.95117 12.7386 3.13867 12.9263 3.36804 12.9263H6.88198C6.77776 13.3432 6.72358 13.8058 6.72358 14.2685C6.72358 15.0187 6.86944 15.7608 7.13206 16.3861H2.23418V16.3818ZM12.4594 19.1705C9.75826 19.1705 7.56147 16.9737 7.56147 14.2726C7.56147 11.5715 9.75404 9.37467 12.4594 9.37467C15.1646 9.37467 17.3572 11.5715 17.3572 14.2726C17.3572 16.9737 15.1605 19.1705 12.4594 19.1705Z">
                                                                         </path>
@@ -323,7 +323,7 @@ export default function TextSlider() {
                                                         <div className="rs-faculty-item-wrapper">
                                                             <div className="rs-faculty-item">
                                                                 <div className="rs-faculty-thumb">
-                                                                    <img src="assets/images/faculty/faculty-thumb-01.webp" alt="image" />
+                                                                    <img src="/assets/images/faculty/faculty-thumb-01.webp" alt="image" />
                                                                     <div className="rs-faculty-info">
                                                                         <h5 className="rs-faculty-title"> <a href="faculty-details.html">Faculty of Education</a>
                                                                         </h5>
@@ -332,7 +332,7 @@ export default function TextSlider() {
                                                             </div>
                                                             <div className="rs-faculty-item">
                                                                 <div className="rs-faculty-thumb">
-                                                                    <img src="assets/images/faculty/faculty-thumb-02.webp" alt="image" />
+                                                                    <img src="/assets/images/faculty/faculty-thumb-02.webp" alt="image" />
                                                                     <div className="rs-faculty-info">
                                                                         <h5 className="rs-faculty-title">
                                                                             <a href="faculty-details.html">Faculty of Law</a>
@@ -342,7 +342,7 @@ export default function TextSlider() {
                                                             </div>
                                                             <div className="rs-faculty-item">
                                                                 <div className="rs-faculty-thumb">
-                                                                    <img src="assets/images/faculty/faculty-thumb-03.webp" alt="image" />
+                                                                    <img src="/assets/images/faculty/faculty-thumb-03.webp" alt="image" />
                                                                     <div className="rs-faculty-info">
                                                                         <h5 className="rs-faculty-title">
                                                                             <a href="faculty-details.html">Faculty of Social Sciences</a>
@@ -352,7 +352,7 @@ export default function TextSlider() {
                                                             </div>
                                                             <div className="rs-faculty-item">
                                                                 <div className="rs-faculty-thumb">
-                                                                    <img src="assets/images/faculty/faculty-thumb-04.webp" alt="image" />
+                                                                    <img src="/assets/images/faculty/faculty-thumb-04.webp" alt="image" />
                                                                     <div className="rs-faculty-info">
                                                                         <h5 className="rs-faculty-title">
                                                                             <a href="faculty-details.html">Faculty of Engineering</a>
@@ -366,7 +366,7 @@ export default function TextSlider() {
                                                         <div className="rs-faculty-item-wrapper">
                                                             <div className="rs-faculty-item">
                                                                 <div className="rs-faculty-thumb">
-                                                                    <img src="assets/images/faculty/faculty-thumb-05.webp" alt="image" />
+                                                                    <img src="/assets/images/faculty/faculty-thumb-05.webp" alt="image" />
                                                                     <div className="rs-faculty-info">
                                                                         <h5 className="rs-faculty-title">
                                                                             <a href="faculty-details.html">M.Sc. in Software Engineering</a>
@@ -376,7 +376,7 @@ export default function TextSlider() {
                                                             </div>
                                                             <div className="rs-faculty-item">
                                                                 <div className="rs-faculty-thumb">
-                                                                    <img src="assets/images/faculty/faculty-thumb-06.webp" alt="image" />
+                                                                    <img src="/assets/images/faculty/faculty-thumb-06.webp" alt="image" />
                                                                     <div className="rs-faculty-info">
                                                                         <h5 className="rs-faculty-title">
                                                                             <a href="faculty-details.html">B.Sc. in Software Engineering</a>
@@ -386,7 +386,7 @@ export default function TextSlider() {
                                                             </div>
                                                             <div className="rs-faculty-item">
                                                                 <div className="rs-faculty-thumb">
-                                                                    <img src="assets/images/faculty/faculty-thumb-07.webp" alt="image" />
+                                                                    <img src="/assets/images/faculty/faculty-thumb-07.webp" alt="image" />
                                                                     <div className="rs-faculty-info">
                                                                         <h5 className="rs-faculty-title">
                                                                             <a href="faculty-details.html">MBA in Business Administration</a>
@@ -396,7 +396,7 @@ export default function TextSlider() {
                                                             </div>
                                                             <div className="rs-faculty-item">
                                                                 <div className="rs-faculty-thumb">
-                                                                    <img src="assets/images/faculty/faculty-thumb-04.webp" alt="image" />
+                                                                    <img src="/assets/images/faculty/faculty-thumb-04.webp" alt="image" />
                                                                     <div className="rs-faculty-info">
                                                                         <h5 className="rs-faculty-title">
                                                                             <a href="faculty-details.html">BBA in Business Administration</a>
@@ -410,7 +410,7 @@ export default function TextSlider() {
                                                         <div className="rs-faculty-item-wrapper">
                                                             <div className="rs-faculty-item">
                                                                 <div className="rs-faculty-thumb">
-                                                                    <img src="assets/images/faculty/faculty-thumb-03.webp" alt="image" />
+                                                                    <img src="/assets/images/faculty/faculty-thumb-03.webp" alt="image" />
                                                                     <div className="rs-faculty-info">
                                                                         <h5 className="rs-faculty-title">
                                                                             <a href="faculty-details.html">Integrative Research in Applied Science</a>
@@ -420,7 +420,7 @@ export default function TextSlider() {
                                                             </div>
                                                             <div className="rs-faculty-item">
                                                                 <div className="rs-faculty-thumb">
-                                                                    <img src="assets/images/faculty/faculty-thumb-08.webp" alt="image" />
+                                                                    <img src="/assets/images/faculty/faculty-thumb-08.webp" alt="image" />
                                                                     <div className="rs-faculty-info">
                                                                         <h5 className="rs-faculty-title">
                                                                             <a href="faculty-details.html">Transformative Applied Science and Engineering</a>
@@ -430,7 +430,7 @@ export default function TextSlider() {
                                                             </div>
                                                             <div className="rs-faculty-item">
                                                                 <div className="rs-faculty-thumb">
-                                                                    <img src="assets/images/faculty/faculty-thumb-09.webp" alt="image" />
+                                                                    <img src="/assets/images/faculty/faculty-thumb-09.webp" alt="image" />
                                                                     <div className="rs-faculty-info">
                                                                         <h5 className="rs-faculty-title">
                                                                             <a href="faculty-details.html">Research Innovation, Academic Inquiry & Global</a>
@@ -440,7 +440,7 @@ export default function TextSlider() {
                                                             </div>
                                                             <div className="rs-faculty-item">
                                                                 <div className="rs-faculty-thumb">
-                                                                    <img src="assets/images/faculty/faculty-thumb-04.webp" alt="image" />
+                                                                    <img src="/assets/images/faculty/faculty-thumb-04.webp" alt="image" />
                                                                     <div className="rs-faculty-info">
                                                                         <h5 className="rs-faculty-title">
                                                                             <a href="faculty-details.html">The Future of Student Innovations</a>
@@ -480,7 +480,7 @@ export default function TextSlider() {
                                                                 <div className="rs-faculty-item-wrapper">
                                                                     <div className="rs-faculty-item">
                                                                         <div className="rs-faculty-thumb">
-                                                                            <img src="assets/images/faculty/faculty-thumb-01.webp" alt="image" />
+                                                                            <img src="/assets/images/faculty/faculty-thumb-01.webp" alt="image" />
                                                                             <div className="rs-faculty-info">
                                                                                 <h5 className="rs-faculty-title"> <a href="faculty-details.html">Faculty of
                                                                                         Education</a>
@@ -490,7 +490,7 @@ export default function TextSlider() {
                                                                     </div>
                                                                     <div className="rs-faculty-item">
                                                                         <div className="rs-faculty-thumb">
-                                                                            <img src="assets/images/faculty/faculty-thumb-02.webp" alt="image" />
+                                                                            <img src="/assets/images/faculty/faculty-thumb-02.webp" alt="image" />
                                                                             <div className="rs-faculty-info">
                                                                                 <h5 className="rs-faculty-title">
                                                                                     <a href="faculty-details.html">Faculty of Law</a>
@@ -500,7 +500,7 @@ export default function TextSlider() {
                                                                     </div>
                                                                     <div className="rs-faculty-item">
                                                                         <div className="rs-faculty-thumb">
-                                                                            <img src="assets/images/faculty/faculty-thumb-03.webp" alt="image" />
+                                                                            <img src="/assets/images/faculty/faculty-thumb-03.webp" alt="image" />
                                                                             <div className="rs-faculty-info">
                                                                                 <h5 className="rs-faculty-title">
                                                                                     <a href="faculty-details.html">Faculty of Social Sciences</a>
@@ -510,7 +510,7 @@ export default function TextSlider() {
                                                                     </div>
                                                                     <div className="rs-faculty-item">
                                                                         <div className="rs-faculty-thumb">
-                                                                            <img src="assets/images/faculty/faculty-thumb-04.webp" alt="image" />
+                                                                            <img src="/assets/images/faculty/faculty-thumb-04.webp" alt="image" />
                                                                             <div className="rs-faculty-info">
                                                                                 <h5 className="rs-faculty-title">
                                                                                     <a href="faculty-details.html">Faculty of Engineering</a>
@@ -548,7 +548,7 @@ export default function TextSlider() {
                                                                 <div className="rs-faculty-item-wrapper">
                                                                     <div className="rs-faculty-item">
                                                                         <div className="rs-faculty-thumb">
-                                                                            <img src="assets/images/faculty/faculty-thumb-05.webp" alt="image" />
+                                                                            <img src="/assets/images/faculty/faculty-thumb-05.webp" alt="image" />
                                                                             <div className="rs-faculty-info">
                                                                                 <h5 className="rs-faculty-title">
                                                                                     <a href="faculty-details.html">M.Sc. in Software Engineering</a>
@@ -558,7 +558,7 @@ export default function TextSlider() {
                                                                     </div>
                                                                     <div className="rs-faculty-item">
                                                                         <div className="rs-faculty-thumb">
-                                                                            <img src="assets/images/faculty/faculty-thumb-06.webp" alt="image" />
+                                                                            <img src="/assets/images/faculty/faculty-thumb-06.webp" alt="image" />
                                                                             <div className="rs-faculty-info">
                                                                                 <h5 className="rs-faculty-title">
                                                                                     <a href="faculty-details.html">B.Sc. in Software Engineering</a>
@@ -568,7 +568,7 @@ export default function TextSlider() {
                                                                     </div>
                                                                     <div className="rs-faculty-item">
                                                                         <div className="rs-faculty-thumb">
-                                                                            <img src="assets/images/faculty/faculty-thumb-07.webp" alt="image" />
+                                                                            <img src="/assets/images/faculty/faculty-thumb-07.webp" alt="image" />
                                                                             <div className="rs-faculty-info">
                                                                                 <h5 className="rs-faculty-title">
                                                                                     <a href="faculty-details.html">MBA in Business Administration</a>
@@ -578,7 +578,7 @@ export default function TextSlider() {
                                                                     </div>
                                                                     <div className="rs-faculty-item">
                                                                         <div className="rs-faculty-thumb">
-                                                                            <img src="assets/images/faculty/faculty-thumb-04.webp" alt="image" />
+                                                                            <img src="/assets/images/faculty/faculty-thumb-04.webp" alt="image" />
                                                                             <div className="rs-faculty-info">
                                                                                 <h5 className="rs-faculty-title">
                                                                                     <a href="faculty-details.html">BBA in Business Administration</a>
@@ -609,7 +609,7 @@ export default function TextSlider() {
                                                                 <div className="rs-faculty-item-wrapper">
                                                                     <div className="rs-faculty-item">
                                                                         <div className="rs-faculty-thumb">
-                                                                            <img src="assets/images/faculty/faculty-thumb-03.webp" alt="image" />
+                                                                            <img src="/assets/images/faculty/faculty-thumb-03.webp" alt="image" />
                                                                             <div className="rs-faculty-info">
                                                                                 <h5 className="rs-faculty-title">
                                                                                     <a href="faculty-details.html">Integrative Research in Applied Science</a>
@@ -619,7 +619,7 @@ export default function TextSlider() {
                                                                     </div>
                                                                     <div className="rs-faculty-item">
                                                                         <div className="rs-faculty-thumb">
-                                                                            <img src="assets/images/faculty/faculty-thumb-08.webp" alt="image" />
+                                                                            <img src="/assets/images/faculty/faculty-thumb-08.webp" alt="image" />
                                                                             <div className="rs-faculty-info">
                                                                                 <h5 className="rs-faculty-title">
                                                                                     <a href="faculty-details.html">Transformative Applied Science and
@@ -630,7 +630,7 @@ export default function TextSlider() {
                                                                     </div>
                                                                     <div className="rs-faculty-item">
                                                                         <div className="rs-faculty-thumb">
-                                                                            <img src="assets/images/faculty/faculty-thumb-09.webp" alt="image" />
+                                                                            <img src="/assets/images/faculty/faculty-thumb-09.webp" alt="image" />
                                                                             <div className="rs-faculty-info">
                                                                                 <h5 className="rs-faculty-title">
                                                                                     <a href="faculty-details.html">Research Innovation, Academic Inquiry &
@@ -641,7 +641,7 @@ export default function TextSlider() {
                                                                     </div>
                                                                     <div className="rs-faculty-item">
                                                                         <div className="rs-faculty-thumb">
-                                                                            <img src="assets/images/faculty/faculty-thumb-04.webp" alt="image" />
+                                                                            <img src="/assets/images/faculty/faculty-thumb-04.webp" alt="image" />
                                                                             <div className="rs-faculty-info">
                                                                                 <h5 className="rs-faculty-title">
                                                                                     <a href="faculty-details.html">The Future of Student Innovations</a>

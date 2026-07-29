@@ -1,0 +1,105 @@
+/* Announcement */
+
+.announce {
+  position: relative;
+  padding: 9px;
+  line-height: 2.3;
+  border: 1px solid rgb(231, 231, 231);
+  background: #fff;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.announce::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 13vw;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    #fff 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  z-index: 2;
+}
+
+.announce::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 13vw;
+  height: 100%;
+  background: linear-gradient(
+    270deg,
+    #fff 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  z-index: 2;
+}
+
+.updateImg {
+  max-width: 44px;
+  height: auto;
+  z-index: 3;
+  flex-shrink: 0;
+}
+
+.rightImg {
+  transform: scaleX(-1);
+}
+
+/* Marquee */
+
+.marquee {
+  flex: 1;
+  overflow: hidden;
+  margin: 0 15px;
+}
+
+.track {
+  display: inline-flex;
+  align-items: center;
+  gap: 60px;
+  white-space: nowrap;
+  width: max-content;
+  animation: marquee 20s linear infinite;
+}
+
+.track:hover {
+  animation-play-state: paused;
+}
+
+.missionLiContent {
+  list-style: none;
+  color: var(--dark-blue);
+  position: relative;
+}
+
+.missionLiContent::after{
+     content: "|";
+    position: absolute;
+    top: -15px;
+    font-size: 27px;
+    left: -32px;
+
+}
+.missionLiContent a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+.missionLiContent a:hover{
+    color: #c2025d;
+}
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

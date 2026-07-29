@@ -67,7 +67,7 @@
     function rs_settings_append(enableSettings) {
         const settings = $('body');
         const settings_html = `
-        <div class="rs-theme-settings-area">
+        <div class="rs-theme-settings-area d-none">
             <div class="rs-theme-wrapper">
                 <div class="rs-theme-header text-center">
                     <h4 class="rs-theme-header-title">

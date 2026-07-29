@@ -1,0 +1,80 @@
+/* FullCalendar global overrides to make it look modern and premium */
+.fc {
+  font-family: inherit !important;
+}
+
+.fc .fc-toolbar-title {
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+  color: #1e3a8a !important;
+}
+
+.fc .fc-button-primary {
+  background-color: #f1f5f9 !important;
+  border-color: #e2e8f0 !important;
+  color: #475569 !important;
+  font-weight: 500 !important;
+  text-transform: capitalize !important;
+  box-shadow: none !important;
+}
+
+.fc .fc-button-primary:hover {
+  background-color: #e2e8f0 !important;
+  color: #0f172a !important;
+}
+
+.fc .fc-button-primary:not(:disabled).fc-button-active,
+.fc .fc-button-primary:not(:disabled):active {
+  background-color: #4f46e5 !important;
+  border-color: #4f46e5 !important;
+  color: #ffffff !important;
+}
+
+.fc-theme-standard th {
+  padding: 8px 0 !important;
+  background: #f8fafc !important;
+  border-color: #e2e8f0 !important;
+}
+
+.fc-theme-standard td, .fc-theme-standard th {
+  border-color: #e2e8f0 !important;
+}
+
+.fc-list-day-cushion {
+  background-color: #f8fafc !important;
+  padding: 12px 16px !important;
+}
+
+.fc-list-day-text, .fc-list-day-side-text {
+  font-weight: 700 !important;
+  color: #0f172a !important;
+  font-size: 1rem !important;
+}
+
+.fc-list-event {
+  cursor: pointer !important;
+  transition: background-color 0.2s !important;
+}
+
+.fc-list-event:hover td {
+  background-color: #f1f5f9 !important;
+}
+
+.fc-list-event-title {
+  font-weight: 500 !important;
+  color: #1e293b !important;
+  padding: 12px 16px !important;
+}
+
+.fc-list-event-time {
+  padding: 12px 16px !important;
+  color: #64748b !important;
+}
+
+.fc-list-event-graphic {
+  padding: 12px 0 12px 16px !important;
+}
+
+.fc .fc-list-event-dot {
+  border-width: 5px !important;
+}

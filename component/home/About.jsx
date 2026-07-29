@@ -11,7 +11,7 @@ export default function About() {
             <div className="rs-about-wrapper">
               <div className="rs-about-thumb">
                 <Image
-                  src="assets/images/about/about-thumb-18.webp"
+                  src="/assets/images/about/about-thumb-18.webp"
                   width={650}
                   height={600}
                   alt="About"
@@ -149,7 +149,7 @@ export default function About() {
                   <div className="rs-about-counter-wrapper">
                     <div className="rs-about-counter-icon">
                       <Image
-                        src="assets/images/logo/nsblogoshort.jpg"
+                        src="/assets/images/logo/nsblogoshort.jpg"
                         width={80}
                         height={70}
                         alt="About"

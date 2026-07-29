@@ -13,15 +13,23 @@ import Blog from "@/component/home/Blog";
 import Gallery from "@/component/home/Gallery";
 import CtaBanner from "@/component/home/CtaBanner";
 import Mission from "@/component/home/Mission";
+import Announcement from "@/component/home/announcement/Announcement";
+import EventsCalendar from "@/component/events-calendar/EventsCalendar";
+import ProgramCard from "@/component/Cards/ProgramCard";
+import {programData} from "@/component/data/programData";
+import StatsSection from "@/component/home/StatsSection";
 
 export default function Home() {
   return (
     <>
      <HeroBanner />
+     <Announcement/>  
       {/* <Features /> */}
       <About />
       <Mission/>
-      <Gallery />
+      <ProgramCard programData = {programData} />
+      <Gallery limit={6} />
+      <StatsSection/>
        {/* <Programs />
       <AboutTwo />
       <Faculty />

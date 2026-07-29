@@ -4,10 +4,10 @@ export default function Team() {
   return (
     <section className="rs-team-area section-space rs-team-one bg-primary rs-swiper">
             <div className="rs-team-life">
-                <img src="assets/images/shape/graduation-doc-shape-two.webp" alt="image" />
+                <img src="/assets/images/shape/graduation-doc-shape-two.webp" alt="image" />
             </div>
             <div className="rs-team-life-two gsap-move up-100">
-                <img src="assets/images/shape/graduation-shape.webp" alt="image" />
+                <img src="/assets/images/shape/graduation-shape.webp" alt="image" />
             </div>
             <div className="container">
                 <div className="row align-items-center g-5 section-title-space">
@@ -65,7 +65,7 @@ export default function Team() {
                                 <div className="swiper-slide">
                                     <div className="rs-team-item">
                                         <div className="rs-team-thumb">
-                                            <a href="team-details.html"><img src="assets/images/team/team-thumb-01.webp" alt="image" /></a>
+                                            <a href="team-details.html"><img src="/assets/images/team/team-thumb-01.webp" alt="image" /></a>
                                             <div className="rs-team-social theme-social has-medium has-bg-white has-theme-yellow">
                                                 <span className="social-icon"><i className="ri-share-line"></i></span>
                                                 <a href="#" target="_blank">
@@ -94,7 +94,7 @@ export default function Team() {
                                 <div className="swiper-slide">
                                     <div className="rs-team-item">
                                         <div className="rs-team-thumb">
-                                            <a href="team-details.html"><img src="assets/images/team/team-thumb-02.webp" alt="image" /></a>
+                                            <a href="team-details.html"><img src="/assets/images/team/team-thumb-02.webp" alt="image" /></a>
                                             <div className="rs-team-social theme-social has-medium has-bg-white has-theme-yellow">
                                                 <span className="social-icon"><i className="ri-share-line"></i></span>
                                                 <a href="#" target="_blank">
@@ -123,7 +123,7 @@ export default function Team() {
                                 <div className="swiper-slide">
                                     <div className="rs-team-item">
                                         <div className="rs-team-thumb">
-                                            <a href="team-details.html"><img src="assets/images/team/team-thumb-03.webp" alt="image" /></a>
+                                            <a href="team-details.html"><img src="/assets/images/team/team-thumb-03.webp" alt="image" /></a>
                                             <div className="rs-team-social theme-social has-medium has-bg-white has-theme-yellow">
                                                 <span className="social-icon"><i className="ri-share-line"></i></span>
                                                 <a href="#" target="_blank">
@@ -152,7 +152,7 @@ export default function Team() {
                                 <div className="swiper-slide">
                                     <div className="rs-team-item">
                                         <div className="rs-team-thumb">
-                                            <a href="team-details.html"><img src="assets/images/team/team-thumb-04.webp" alt="image" /></a>
+                                            <a href="team-details.html"><img src="/assets/images/team/team-thumb-04.webp" alt="image" /></a>
                                             <div className="rs-team-social theme-social has-medium has-bg-white has-theme-yellow">
                                                 <span className="social-icon"><i className="ri-share-line"></i></span>
                                                 <a href="#" target="_blank">

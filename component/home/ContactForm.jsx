@@ -4,7 +4,7 @@ export default function ContactForm() {
   return (
     <section className="rs-contact-area bg-primary rs-contact-one">
             <div className="rs-contact-wrapper">
-                <div className="rs-contact-bg-thumb include-bg" data-background="assets/images/bg/contact-bg-thumb-01.webp">
+                <div className="rs-contact-bg-thumb include-bg" data-background="/assets/images/bg/contact-bg-thumb-01.webp">
                 </div>
                 <div className="container">
                     <div className="row align-items-end g-5">
@@ -29,9 +29,9 @@ export default function ContactForm() {
                                         excellence, innovation, and student success.</p>
                                 </div>
                                 <div className="rs-contact-thumb-wrapper wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
-                                    <div className="rs-contact-bg-thumb-two" data-background="assets/images/bg/contact-bg-thumb-01.webp"></div>
+                                    <div className="rs-contact-bg-thumb-two" data-background="/assets/images/bg/contact-bg-thumb-01.webp"></div>
                                     <div className="rs-contact-thumb">
-                                        <img src="assets/images/contact/contact-thumb-01.webp" alt="image" />
+                                        <img src="/assets/images/contact/contact-thumb-01.webp" alt="image" />
                                     </div>
                                 </div>
                             </div>

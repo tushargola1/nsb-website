@@ -7,8 +7,14 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./css/HeroBanner.css";
-
+import { HomeBannerData } from "../data/HomeBannerData";
+import Image from "next/image";
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
+import { useState } from "react";
 export default function HeroBanner() {
+  const [open, setOpen] = useState(false);
+  const [index, setIndex] = useState(0);
   const videos = [
     "/assets/video/NSB.mp4",
     // "/assets/video/NSB.mp4",
@@ -19,22 +25,58 @@ export default function HeroBanner() {
     <section className="hero-banner">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
-        slidesPerView={1}
-        spaceBetween={0}
-        loop={true}
+        spaceBetween={5}
+        loop
         speed={1000}
-        navigation={true}
+        navigation
         pagination={{ clickable: true }}
         autoplay={{
           delay: 6000,
           disableOnInteraction: false,
         }}
-        className="heroSwiper"
+        breakpoints={{
+          0: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          576: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          992: {
+            slidesPerView: 3,
+            spaceBetween: 15,
+          },
+          1200: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+        }}
+        className="heroSwiperd"
       >
-        {videos.map((video, index) => (
-          <SwiperSlide key={index}>
-            <div className="video-slide">
-              <video
+        {HomeBannerData.map((item, index) => (
+          <SwiperSlide
+            key={index}
+            onClick={() => {
+              setIndex(index);
+              setOpen(true);
+            }}
+            style={{ cursor: "pointer" }}
+          >
+            <div className="video-slidej">
+              <Image
+                src={item.src}
+                alt={item.title || ""}
+                width={500}
+                height={400}
+                style={{ objectFit: "cover" }}
+              />
+
+              {/* <video
                 autoPlay
                 muted
                 loop
@@ -42,7 +84,7 @@ export default function HeroBanner() {
                 className="banner-video"
               >
                 <source src={video} type="video/mp4" />
-              </video>
+              </video> */}
 
               {/* <div className="overlay"></div>
 
@@ -58,6 +100,16 @@ export default function HeroBanner() {
           </SwiperSlide>
         ))}
       </Swiper>
+      <Lightbox
+        open={open}
+        close={() => setOpen(false)}
+        index={index}
+        slides={HomeBannerData.map((item) => ({
+          src: item.src,
+          title: item.title,
+          description: item.description,
+        }))}
+      />
     </section>
   );
 }

@@ -5,34 +5,19 @@ import Image from "next/image";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import "./css/Gallary.css";
+import EventsCalendar from "../events-calendar/EventsCalendar";
+import {galleryData} from '@/component/data/galleryData';
 
-export const galleryData = [
-  {
-    id: 1,
-    category: "All",
-    image: "/assets/images/gallery/events/gallery-thumb-01.webp",
-  },
-  {
-    id: 2,
-    category: "Events",
-    image: "/assets/images/gallery/events/gallery-thumb-02.webp",
-  },
-  {
-    id: 3,
-    category: "MDP Programs",
-    image: "/assets/images/gallery/mdp/gallery-thumb-01.webp",
-  },
-  {
-    id: 4,
-    category: "MOU",
-    image: "/assets/images/gallery/mou/gavv  23456ty76567llery-thumb-01.webp",
-  },
-  {
-    id: 5,
-    category: "Student Activities",
-    image: "/assets/images/gallery/student/gallery-thumb-01.webp",
-  },
-];
+export const galleryDataMain = Object.entries(galleryData).flatMap(
+  ([category, images]) =>
+    images.map((img, i) => ({
+      id: `${category}-${i}`,
+      category,
+      image: img.src,
+      title: img.title,
+      description: img.description,
+    })),
+);
 
 export default function Gallery({ limit }) {
   const [activeTab, setActiveTab] = useState("All");
@@ -43,27 +28,24 @@ export default function Gallery({ limit }) {
   const tabs = ["All", "Events", "MDP Programs", "MOU", "Student Activities"];
   const images =
     activeTab === "All"
-      ? galleryData
-      : galleryData.filter((item) => item.category === activeTab);
+      ? galleryDataMain
+      : galleryDataMain.filter((item) => item.category === activeTab);
 
   const displayImages = limit ? images.slice(0, limit) : images;
   return (
-    <section className="rs-gallery-area section-space rs-gallery-two gallary-parent-div">
+    <section className="rs-gallery-area section-space rs-gallery-two gallary-parent-div ">
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-xl-10">
+          <div className="">
             <div className="section-title-wrapper text-center">
-              <h2 className="section-title rs-split-text-enable split-in-left mb-20 has-theme-blue">
-                Life at Our University
+              <h2 className="section-title rs-split-text-enable split-in-left has-theme-blue mb-1">
+                Events At NSB
               </h2>
-              <p className="section-desc">
-                Explore life at our university through images and memories.
-              </p>
             </div>
           </div>
         </div>
         <div className="row">
-          <div className="col-xl-12">
+          <div className="col-md-12 col-lg-12 col-xl-8 col-12">
             <div className="rs-gallery-tab-wrapper">
               <ul className="nav nav-pills">
                 {tabs.map((tab) => (
@@ -89,12 +71,28 @@ export default function Gallery({ limit }) {
                         setOpen(true);
                       }}
                     >
-                      <Image src={item.image} alt="" width={300} height={350} />
+                      <Image
+                        src={item.image}
+                        alt={item.title || ""}
+                        width={300}
+                        height={300}
+                      />
+                      <div className="rs-gallery-overlay">
+                        <h4 className="rs-gallery-overlay-title">
+                          {item.title}
+                        </h4>
+                        <p className="rs-gallery-overlay-desc">
+                          {item.description}
+                        </p>
+                      </div>
                     </div>
                   </div>
                 ))}
               </div>
             </div>
+          </div>
+          <div className="col-md-12 col-lg-12 col-xl-4 col-12">
+            <EventsCalendar />
           </div>
         </div>
       </div>
@@ -102,8 +100,10 @@ export default function Gallery({ limit }) {
         open={open}
         close={() => setOpen(false)}
         index={index}
-        slides={images.map((item) => ({
+        slides={displayImages.map((item) => ({
           src: item.image,
+          title: item.title,
+          description: item.description,
         }))}
       />
     </section>
