@@ -58,7 +58,13 @@ const facultyData = [
 
     publications: {
       bookAndRecognition:
-        "He got BEST FACULTY AWARD – from AIMA-NMA (2005). He has been recognized as an International Trainer in the area of Finance by American Society for Mechanical Engineers (ASME), USA. Very recently, he was awarded 100 most influential Director in India. He has published seven books and more than 30 articles on various topics. His latest books are in the areas of: Security analysis and portfolio management (2007), Financial Wisdom (2009), Mergers and acquisition (2010).",
+        "He got BEST FACULTY AWARD – from AIMA-NMA (2005). He has been recognized as an International Trainer in the area of Finance by American Society for Mechanical Engineers (ASME), USA. Very recently, he was awarded 100 most influential Director in India. He has published seven books and more than 30 articles on various topics.",
+
+      books: [
+        "Security Analysis and Portfolio Management (2007)",
+        "Financial Wisdom (2009)",
+        "Mergers and Acquisition (2010)",
+      ],
     },
   
   },
@@ -176,7 +182,7 @@ const facultyData = [
     },
   },
   {
-    slug: "Brijesh Bhatt",
+    slug: "Brijesh_Bhatt",
     name: "Dr. Brijesh Bhatt",
     designation: "Assistant Professor",
     category: "NSB Faculty",
@@ -248,7 +254,7 @@ const facultyData = [
   },
 
   {
-    slug: "Prashant Jha",
+    slug: "Prashant_Jha",
     name: "Dr. Prashant Jha",
     designation: "Assistant Professor",
     category: "NSB Faculty",
@@ -288,7 +294,6 @@ const facultyData = [
       email: "prashant.jha@nsb.ac.in",
     },
     publications: {
-      link: "",
 
       bookChapters: [
         "Shalabh, Dhar, S. S., Chakraborty, C., and Jha, P. (2024). Goodness of Fit Based and Variable Selection in Non-parametric Measurement Error Model. Statistical Modeling and Applications on Real-Time Problems: Unraveling Insights through Advanced Analytical Techniques. CRC Press; Taylor and Francis (Edited by: Chandra Shekhar and Raghaw Raman Sinha)",
@@ -301,7 +306,7 @@ const facultyData = [
     },
   },
   {
-    slug: "R Gopichandran",
+    slug: "R_Gopichandran",
     name: "Dr. R Gopichandran",
     designation: "Faculty",
     category: "NSB Faculty",
@@ -379,7 +384,7 @@ const facultyData = [
     },
   },
   {
-    slug: "Sandeep Kumar",
+    slug: "Sandeep_Kumar",
     name: "Dr. Sandeep Kumar",
     designation: "Faculty",
     category: "NSB Faculty",
@@ -502,7 +507,7 @@ const facultyData = [
     },
   },
   {
-  slug: "Shiv Ratan Agarwal",
+  slug: "Shiv_Ratan_Agarwal",
     name: "Dr. Shiv Ratan Agarwal",
     designation: "Associate Professor",
     category: "NSB Faculty",
@@ -546,7 +551,6 @@ const facultyData = [
         "Customer relationship management",
         "Text mining and sentiment analysis",
       ],
-      currentResearch: [],
     },
 
     contact: {
@@ -610,23 +614,10 @@ const facultyData = [
     summary:
       "Prof. K.S. Bandyopadhyay is a faculty member in Energy Market & Policy.",
 
-    academicAffiliation: [],
-
-    consulting: [],
-
-    thoughts: "",
-
-    education: [],
-
-    professionalAffiliation: [],
-
-    teaching: [],
-
     areaOfResearch: {
       areas: [
         "Energy Market & Policy",
       ],
-      currentResearch: [],
     },
 
     contact: {
@@ -642,18 +633,12 @@ const facultyData = [
     category: "IIM-A Faculty",
     image: "../assets/images/faculty/faculty-details/IIM-A Faculty/Sanjay Verma.webp",
 
-    summary: "",
-
     academicAffiliation: [
       "Government College Ajmer, Rajasthan, India",
       "Institute of Management Studies Bikaner, Rajasthan, India",
       "Xaviers Institute of Management Bhubaneswar, Orissa, India",
       "Indian Institute of Management Ahmedabad, India",
     ],
-
-    consulting: [],
-
-    thoughts: "",
 
     education: [
       { degree: "Fellow (Management Information Systems)", institution: "IIM Calcutta", year: "" },
@@ -664,13 +649,6 @@ const facultyData = [
       "Member, Academy of Management",
       "Member, Association of Information Professionals",
     ],
-
-    teaching: [],
-
-    areaOfResearch: {
-      areas: [],
-      currentResearch: [],
-    },
 
     contact: {
       website: "https://www.iima.ac.in",
@@ -685,30 +663,15 @@ const facultyData = [
     category: "IIM-A Faculty",
     image: "../assets/images/faculty/faculty-details/IIM-A Faculty/Amit Karna.webp",
 
-    summary: "",
-
     academicAffiliation: [
       "Faculty Member, Business Policy, Indian Institute of Management Ahmedabad (August 2014 onwards)",
       "Chairperson, Centre for Innovation Incubation and Entrepreneurship, Indian Institute of Management Ahmedabad (March 2015 onwards)",
       "Faculty Member, Strategy, Organization & Leadership, EBS University, Germany (May 2009 – July 2014)",
     ],
 
-    consulting: [],
-
-    thoughts: "",
-
     education: [
       { degree: "Ph.D. (Strategic Management)", institution: "Indian Institute of Management Ahmedabad", year: "" },
     ],
-
-    professionalAffiliation: [],
-
-    teaching: [],
-
-    areaOfResearch: {
-      areas: [],
-      currentResearch: [],
-    },
 
     contact: {
       website: "https://www.iima.ac.in",
@@ -722,8 +685,6 @@ const facultyData = [
     category: "IIM-A Faculty",
     image: "../assets/images/faculty/faculty-details/IIM-A Faculty/Ajay Pandey.webp",
 
-    summary: "",
-
     academicAffiliation: [
       "Member of Faculty, IIM Ahmedabad (since April 2001)",
       "MDI, Gurgaon (earlier)",
@@ -731,23 +692,10 @@ const facultyData = [
       "IIM, Lucknow (earlier)",
     ],
 
-    consulting: [],
-
-    thoughts: "",
-
     education: [
       { degree: "Fellow", institution: "IIM Ahmedabad", year: "" },
       { degree: "B.E.", institution: "Roorkee", year: "" },
     ],
-
-    professionalAffiliation: [],
-
-    teaching: [],
-
-    areaOfResearch: {
-      areas: [],
-      currentResearch: [],
-    },
 
     contact: {
       website: "https://www.iima.ac.in",
@@ -762,18 +710,12 @@ const facultyData = [
     category: "IIM-A Faculty",
     image: "../assets/images/faculty/faculty-details/IIM-A Faculty/Sunil Maheshwari.webp",
 
-    summary: "",
-
     academicAffiliation: [
       "Human Resource Management Area, IIM Ahmedabad",
       "Business Policy Area, IIM Ahmedabad",
       "Public System Group, IIM Ahmedabad",
       "Centre for Management of Health Services (CMHS), IIM Ahmedabad",
     ],
-
-    consulting: [],
-
-    thoughts: "",
 
     education: [
       { degree: "Fellow", institution: "IIM Ahmedabad", year: "" },
@@ -784,13 +726,6 @@ const facultyData = [
       "Member, Strategy Forum of India",
       "Member, National HRD Network",
     ],
-
-    teaching: [],
-
-    areaOfResearch: {
-      areas: [],
-      currentResearch: [],
-    },
 
     contact: {
       website: "https://www.iima.ac.in",
@@ -804,16 +739,10 @@ const facultyData = [
     category: "IIM-A Faculty",
     image: "../assets/images/faculty/faculty-details/IIM-A Faculty/Arnab Laha.webp",
 
-    summary: "",
-
     academicAffiliation: [
       "Member, Indian Science Congress Association",
       "Member, Indian Statistical Institute",
     ],
-
-    consulting: [],
-
-    thoughts: "",
 
     education: [
       { degree: "Ph.D.", institution: "Indian Statistical Institute", year: "" },
@@ -830,13 +759,6 @@ const facultyData = [
       "Former Programmer, R S Software (I) Pvt. Ltd.",
     ],
 
-    teaching: [],
-
-    areaOfResearch: {
-      areas: [],
-      currentResearch: [],
-    },
-
     contact: {
       website: "https://www.iima.ac.in",
       email: "arnab.laha@iima.ac.in",
@@ -844,23 +766,17 @@ const facultyData = [
     },
   },
 
-  {slug: "Diptesh Ghosh",
+  {slug: "Diptesh_Ghosh",
     name: "Diptesh Ghosh",
     designation: "Faculty",
     category: "IIM-A Faculty",
     image: "../assets/images/faculty/faculty-details/IIM-A Faculty/Diptesh Ghosh.webp",
-
-    summary: "",
 
     academicAffiliation: [
       "Production and Quantitative Methods Area, IIM Ahmedabad (2001 – Present)",
       "Department of Econometrics and Operations Research, Faculty of Economics, University of Groningen (2000 – 2001)",
       "Decision Sciences Group, IIM Lucknow (1997 – 1999)",
     ],
-
-    consulting: [],
-
-    thoughts: "",
 
     education: [
       { degree: "Fellow (Operations Research and Systems Analysis)", institution: "IIM Calcutta, India", year: "" },
@@ -875,27 +791,17 @@ const facultyData = [
       "Institution of Engineers (India)",
     ],
 
-    teaching: [],
-
-    areaOfResearch: {
-      areas: [],
-      currentResearch: [],
-    }
   },
-  {slug: "Arvind Sahay",
+  {slug: "Arvind_Sahay",
     name: "Arvind Sahay",
     designation: "Professor",
     category: "IIM-A Faculty",
     image: "../assets/images/faculty/faculty-details/IIM-A Faculty/Arvind Sahay.webp",
 
-    summary: "",
-
     academicAffiliation: [
       "Professor, Indian Institute of Management, Ahmedabad (2004 – present)",
       "Assistant Professor, London Business School, University of London (1996 – 2004)",
     ],
-
-    consulting: [],
 
     thoughts:
       "Has worked in the manufacturing sector as management trainee and purchase officer, and in the financial services sector as a manager in operations and corporate banking, and has done work in IT consulting. Has been a regular columnist for the Outlook Business magazine and also writes occasionally for leading business newspapers like Mint, Financial Express, etc.",
@@ -906,28 +812,17 @@ const facultyData = [
       { degree: "Bachelor of Technology (Chemical Eng.)", institution: "Indian Institute of Technology, Kanpur, India", year: "1982 – 1986" },
     ],
 
-    professionalAffiliation: [],
-
-    teaching: [],
-
-    areaOfResearch: {
-      areas: [],
-      currentResearch: [],
-    },
-
     contact: {
       website: "https://www.iima.ac.in",
       email: "asahay@iima.ac.in",
       phone: "(91) 79-6632 4896",
     },
   },
-  {slug: "Vaibhavi Kulkarni",
+  {slug: "Vaibhavi_Kulkarni",
     name: "Vaibhavi Kulkarni",
     designation: "Assistant Professor",
     category: "IIM-A Faculty",
     image: "../assets/images/faculty/faculty-details/IIM-A Faculty/Vaibhavi Kulkarni.webp",
-
-    summary: "",
 
     academicAffiliation: [
       "Assistant Professor, Indian Institute of Management – Ahmedabad, Communications Area (Currently)",
@@ -935,10 +830,6 @@ const facultyData = [
       "Guest Faculty, Indian Institute of Management – Lucknow",
       "Guest Faculty, Xavier's Labour and Research Institute (XLRI)",
     ],
-
-    consulting: [],
-
-    thoughts: "",
 
     education: [
       { degree: "Ph.D. in Organizational Communication", institution: "School of Communication and Information, Rutgers University", year: "2013" },
@@ -949,34 +840,21 @@ const facultyData = [
       "Member, International Communication Association",
     ],
 
-    teaching: [],
-
-    areaOfResearch: {
-      areas: [],
-      currentResearch: [],
-    },
-
     contact: {
       website: "https://www.iima.ac.in",
       email: "vaibhavik@iima.ac.in",
       phone: "(91) 79-6632 4815",
     },
   },
-  {slug: "Sobhesh Kumar Agarwalla",
+  {slug: "Sobhesh_Kumar_Agarwalla",
     name: "Sobhesh Kumar Agarwalla",
     designation: "Associate Professor",
     category: "IIM-A Faculty",
     image: "../assets/images/faculty/faculty-details/IIM-A Faculty/Sobhesh Kumar Agarwalla.webp",
 
-    summary: "",
-
     academicAffiliation: [
       "Associate Professor, Finance and Accounting Area, IIM Ahmedabad",
     ],
-
-    consulting: [],
-
-    thoughts: "",
 
     education: [
       { degree: "Fellow (IIMA), FCA, ACS, ACMA", institution: "", year: "" },
@@ -989,26 +867,17 @@ const facultyData = [
       "Associate Member, Institute of Costs Accountants of India",
     ],
 
-    teaching: [],
-
-    areaOfResearch: {
-      areas: [],
-      currentResearch: [],
-    },
-
     contact: {
       website: "https://www.iima.ac.in",
       email: "sobhesh@iima.ac.in",
       phone: "(91) 79-6632 4865",
     },
   },
-  {slug: "Amit Garg",
+  {slug: "Amit_Garg",
     name: "Amit Garg",
     designation: "Professor",
     category: "IIM-A Faculty",
     image: "../assets/images/faculty/faculty-details/IIM-A Faculty/Amit Garg.webp",
-
-    summary: "",
 
     academicAffiliation: [
       "Professor (Higher Administrative Grade), Public Systems Group, Indian Institute of Management Ahmedabad, India (September 2018 – current)",
@@ -1021,24 +890,11 @@ const facultyData = [
       "Executive, Indian Railways (IRSSE), Government of India, in various capacities (1987 – 1996)",
     ],
 
-    consulting: [],
-
-    thoughts: "",
-
     education: [
       { degree: "Fellow of IIMA (Ph.D.)", institution: "Indian Institute of Management Ahmedabad, India (IIMA)", year: "2001" },
       { degree: "Master of Technology (Computer Science & Technology)", institution: "Indian Institute of Technology Roorkee, India (IITR)", year: "1987" },
       { degree: "Bachelor of Engineering (Electronics & Communication)", institution: "Indian Institute of Technology Roorkee, India (IITR)", year: "1985" },
     ],
-
-    professionalAffiliation: [],
-
-    teaching: [],
-
-    areaOfResearch: {
-      areas: [],
-      currentResearch: [],
-    },
 
     contact: {
       website: "https://www.iima.ac.in",
@@ -1046,13 +902,11 @@ const facultyData = [
       phone: "(91) 79-6632 4936",
     },
   },
-  {slug: "Abhiman Das",
+  {slug: "Abhiman_Das",
     name: "Abhiman Das",
     designation: "Professor",
     category: "IIM-A Faculty",
     image: "../assets/images/faculty/faculty-details/IIM-A Faculty/Abhiman Das.webp",
-
-    summary: "",
 
     academicAffiliation: [
       "Chairperson, Doctoral (Ph.D.) Programme in Management, IIM Ahmedabad (from March 2018)",
@@ -1064,10 +918,6 @@ const facultyData = [
       "Certified Associate of Indian Institute of Bankers (CAIIB), 2006",
       "CSIR-UGC NET Lecturer Fellowship, 1992",
     ],
-
-    consulting: [],
-
-    thoughts: "",
 
     education: [
       { degree: "Post-Doctoral Research Fellow", institution: "Massachusetts Institute of Technology (MIT), Department of Economics, Cambridge, US", year: "" },
@@ -1087,20 +937,13 @@ const facultyData = [
       "Member, Editorial Committee, Reserve Bank of India Occasional Papers, 2010-12",
     ],
 
-    teaching: [],
-
-    areaOfResearch: {
-      areas: [],
-      currentResearch: [],
-    },
-
     contact: {
       website: "https://www.iima.ac.in",
       email: "abhiman@iima.ac.in",
       phone: "(91) 79-6632 4936",
     },
   },
-  {slug: "Anurag K Agarwal",
+  {slug: "Anurag_K_Agarwal",
     name: "Anurag K Agarwal",
     designation: "Faculty",
     category: "IIM-A Faculty",
@@ -1119,8 +962,6 @@ const facultyData = [
       "Executive education sessions for clients including: Armed Forces, Aviva Insurance, Bank of India, Bennett Coleman & Co. Ltd. (BCCL), Canara Bank, Central Electricity Regulatory Commission (CERC), Central Warehousing Corporation, Comptroller and Auditor General (CAG), Cummins, Food Corporation of India (FCI), Godrej & Boyce, Hindustan Aeronautics Limited, Hindustan Construction Company, IOT Infrastructure and Energy Services, Indian Academy of Highway Engineers, Indian Administrative Service (IAS), Indian Audit & Accounts Service (IA&AS), Indian Economic Service (IES), Indian Oil Corporation, Indian Police Service (IPS), Indian Railways, Indian Revenue Service (IRS), Indian Trade Service (ITS), Labour Commissioners, Larsen & Toubro (L&T), Madhya Pradesh Electricity, Madhya Pradesh Government Officers, Metals and Minerals Trading Corporation of India (MMTC), National Entrepreneurship Network, National Informatics Centre (NIC), Pepsi, Planning Commission (erstwhile), Rajasthan Electricity, South Asia Forum for Infrastructure Regulation, Steel Authority of India Limited, Tata Management Training Centre, Tata Steel, Tata Motors, Torrent, Welspun Energy, Zydus Cadila, and others",
     ],
 
-    thoughts: "",
-
     education: [
       { degree: "LL.D. (Doctor of Laws) – Intellectual Property", institution: "Lucknow University", year: "" },
       { degree: "LL.M. – Intellectual Property, International Commercial Arbitration, Corporate Law", institution: "Harvard Law School", year: "" },
@@ -1136,8 +977,6 @@ const facultyData = [
       "Member, Oudh Bar Association (1995 – 2004)",
       "Member, Central Bar Association (1994 – 2004)",
     ],
-
-    teaching: [],
 
     areaOfResearch: {
       areas: [
@@ -1161,31 +1000,21 @@ const facultyData = [
     },
   },
   {
-    slug: "Akhileshwar Pathak",
+    slug: "Akhileshwar_Pathak",
     name: "Akhileshwar Pathak",
     designation: "Professor",
     category: "IIM-A Faculty",
     image: "../assets/images/faculty/faculty-details/IIM-A Faculty/Akhileshwar Pathak.webp",
 
-    summary: "",
-
     academicAffiliation: [
       "Professor, Indian Institute of Management Ahmedabad (Business Policy)",
     ],
-
-    consulting: [],
-
-    thoughts: "",
 
     education: [
       { degree: "Ph.D. (Law)", institution: "Centre for Law and Society, Department of Law, University of Edinburgh, U.K.", year: "1996 – 99" },
       { degree: "M.Sc. (Physics)", institution: "St. Stephen's College, Delhi University", year: "1979 – 81" },
       { degree: "B.Sc. (Physics)", institution: "St. Stephen's College, Delhi University", year: "1976 – 79" },
     ],
-
-    professionalAffiliation: [],
-
-    teaching: [],
 
     areaOfResearch: {
       areas: [
@@ -1202,7 +1031,7 @@ const facultyData = [
       phone: "(91) 120-2416803",
     },
   },
-  {slug: "Prof. Manipadma Datta",
+  {slug: "Manipadma_Datta",
     name: "Prof. Manipadma Datta",
     designation: "Professor",
     category: "Adjunct Faculty",
@@ -1248,8 +1077,6 @@ const facultyData = [
       "Standing Chair, International Conference of Business, Economics and Sustainable Development (ICBESD), TSAS (since 2018)",
     ],
 
-    teaching: [],
-
     areaOfResearch: {
       areas: [
         "Sustainable Development",
@@ -1262,7 +1089,6 @@ const facultyData = [
         "ESG Financing",
         "Public Policy and Management",
       ],
-      currentResearch: [],
     },
 
     contact: {
@@ -1277,26 +1103,9 @@ const facultyData = [
     category: "IIM-A Faculty",
     image: "../assets/images/faculty/faculty-details/IIM-A Faculty/Chetan Soman.webp",
 
-    summary: "",
-
-    academicAffiliation: [],
-
-    consulting: [],
-
-    thoughts: "",
-
     education: [
       { degree: "Ph.D.", institution: "Groningen, The Netherlands", year: "" },
     ],
-
-    professionalAffiliation: [],
-
-    teaching: [],
-
-    areaOfResearch: {
-      areas: [],
-      currentResearch: [],
-    },
 
     contact: {
       website: "https://www.iima.ac.in",
@@ -1325,8 +1134,6 @@ const facultyData = [
       "Consultant to industry, the banking sector, UNDP, ILO, and Government",
     ],
 
-    thoughts: "",
-
     education: [
       { degree: "Ph.D.", institution: "Jawaharlal Nehru University, New Delhi", year: "" },
     ],
@@ -1342,20 +1149,13 @@ const facultyData = [
       "Currently on the Board, India Gold Policy Centre",
     ],
 
-    teaching: [],
-
-    areaOfResearch: {
-      areas: [],
-      currentResearch: [],
-    },
-
     contact: {
       website: "https://www.iima.ac.in",
       email: "errol@iima.ac.in",
       phone: "(91) 79-6632 4848",
     },
   },
-  {slug: "Dr. Rajiv Kumar",
+  {slug: "Dr.Rajiv_Kumar",
     name: "Dr. Rajiv Kumar",
     designation: "Faculty",
     category: "Adjunct Faculty",
@@ -1368,14 +1168,6 @@ const facultyData = [
       "Teaching faculty at 2 German Universities, covering Project Management, Strategic Management, Purchasing Management, and Electrical Power Systems",
     ],
 
-    consulting: [],
-
-    thoughts: "",
-
-    education: [],
-
-    professionalAffiliation: [],
-
     teaching: [
       "Project Management",
       "Strategic Management",
@@ -1383,18 +1175,13 @@ const facultyData = [
       "Electrical Power Systems",
     ],
 
-    areaOfResearch: {
-      areas: [],
-      currentResearch: [],
-    },
-
     contact: {
       website: "https://www.nsb.ac.in",
       email: "rajiv.kumar@nsb.ac.in",
       phone: "+49 152 09069676",
     },
   },
-  {slug: "usha chandar",
+  {slug: "usha_chandar",
     name: "Dr. Usha Chandar",
     designation: "Faculty",
     category: "Adjunct Faculty",
@@ -1413,20 +1200,11 @@ const facultyData = [
       "Research studies for Bharatiya Gyan Vigyan Jatha (BGVS), for UNICEF, NACO (WHO), UNFPA, UNESCO, etc.",
     ],
 
-    thoughts: "",
-
-    education: [],
-
-    professionalAffiliation: [],
-
-    teaching: [],
-
     areaOfResearch: {
       areas: [
         "Communication research and development communication",
         "Feedback research on Education and Communication, especially use of information communication technologies (ICT)",
       ],
-      currentResearch: [],
     },
 
     contact: {
@@ -1435,7 +1213,7 @@ const facultyData = [
       phone: "011-29572104",
     },
   },
-  {slug: "Dr. Murali janakaraj",
+  {slug: "Murali_janakaraj",
     name: "Dr. Murali Janakaraj",
     designation: "Faculty",
     category: "Adjunct Faculty",
@@ -1444,13 +1222,9 @@ const facultyData = [
     summary:
       "Dr. Janakaraj is a competent professional with over 25 years of experience in Project Planning, Monitoring, Management, Implementation, and Resource Management. His last assignment was as Director of Environmental Solutions and Consultancy, a consulting company based out of Dubai in the United Arab Emirates. He has expertise in programme management, documentation, and liaising with government departments at all levels across geographies, donor agencies, and NGOs, and is adept at assessing project proposals, especially in the fields of environment, health and safety, energy, and natural resources management. He has demonstrated strong organizing skills, and is a public speaker, motivator, team player, and decisive leader with a successful track record in handling a large team of professionals. He possesses strong research, analytical, problem-solving, and interpersonal communication skills.",
 
-    academicAffiliation: [],
-
     consulting: [
       "Director, Environmental Solutions and Consultancy, Dubai, United Arab Emirates",
     ],
-
-    thoughts: "",
 
     education: [
       { degree: "Ph.D. in Ecology and Environmental Sciences", institution: "Pondicherry Central University, Puducherry, India", year: "" },
@@ -1460,17 +1234,12 @@ const facultyData = [
       { degree: "Bachelor of Science in Biology", institution: "Bharathidasan University, Trichy, Tamil Nadu, India", year: "" },
     ],
 
-    professionalAffiliation: [],
-
-    teaching: [],
-
     areaOfResearch: {
       areas: [
         "Environment, health and safety",
         "Energy",
         "Natural resources management",
       ],
-      currentResearch: [],
     },
 
     contact: {
@@ -1479,7 +1248,7 @@ const facultyData = [
       phone: "8610507447",
     },
   },
-  {slug: "Dr. Diwakar Sukul",
+  {slug: "Diwakar_Sukul",
     name: "Dr. Diwakar Sukul",
     designation: "Adjunct Professor",
     category: "Adjunct Faculty",
@@ -1522,7 +1291,6 @@ const facultyData = [
         "Eastern Psychotherapy and Mind, Body Connective Therapy",
         "Stress, anxiety, emotional health, personal development, and spiritual well-being",
       ],
-      currentResearch: [],
     },
 
     contact: {
@@ -1531,7 +1299,7 @@ const facultyData = [
       phone: "7808779253",
     },
   },
-  {slug: "Dr. Shalini Lal",
+  {slug: "Shalini_Lal",
     name: "Dr. Shalini Lal",
     designation: "Faculty",
     category: "Adjunct Faculty",
@@ -1572,7 +1340,6 @@ const facultyData = [
       areas: [
         "Organizational Development & Change",
       ],
-      currentResearch: [],
     },
 
     contact: {
@@ -1581,7 +1348,7 @@ const facultyData = [
       phone: "0120-2416803",
     },
   },
-  {slug: "DR. Shashi Ratnaker Singh",
+  {slug: "Shashi_Ratnaker_Singh",
     name: "Dr. Shashi Ratnaker Singh",
     designation: "Research Fellow",
     category: "Adjunct Faculty",
@@ -1602,16 +1369,10 @@ const facultyData = [
       "Land acquisition and rehabilitation training programs for the Indian government, the World Bank, and corporations involved with large-scale land acquisitions and mining",
     ],
 
-    thoughts: "",
-
-    education: [],
-
     professionalAffiliation: [
       "Associate Fellow and Convenor, Land and R&R Area, Social Transformation Division, The Energy and Resources Institute (TERI), Delhi",
       "Member, 'Subject Expert Group' on land acquisitions constituted by the Indian government (2011), contributing to the drafting of the Right to Fair Compensation and Transparency in Land Acquisition Resettlement and Rehabilitation Act of 2013",
     ],
-
-    teaching: [],
 
     areaOfResearch: {
       areas: [
@@ -1643,15 +1404,9 @@ const facultyData = [
     category: "Adjunct Faculty",
     image: "../assets/images/faculty/faculty-details/Adjunct Faculty/Shri Nikunj Shukla.webp",
 
-    summary: "",
-
     academicAffiliation: [
       "Adjunct Professor, NTPC School of Business",
     ],
-
-    consulting: [],
-
-    thoughts: "",
 
     education: [
       { degree: "Post Graduation in Management (with Basic Engineering)", institution: "Premier Management Institute", year: "" },
@@ -1670,13 +1425,6 @@ const facultyData = [
       "Exposed to various management tools like Lean Management, QMS, EMS & OHSAS, KANBAN, Kaizen",
     ],
 
-    teaching: [],
-
-    areaOfResearch: {
-      areas: [],
-      currentResearch: [],
-    },
-
     contact: {
       website: "https://www.nsb.ac.in",
       email: "nikunjshukla@waaree.com",
@@ -1688,29 +1436,14 @@ const facultyData = [
     category: "Adjunct Faculty",
     image: "../assets/images/faculty/faculty-details/Adjunct Faculty/Shri N.N. Misra.webp",
 
-    summary: "",
-
     academicAffiliation: [
       "Electrical Engineer",
     ],
-
-    consulting: [],
-
-    thoughts: "",
-
-    education: [],
 
     professionalAffiliation: [
       "Adjunct Professor, NTPC School of Business",
       "Former Director (Operations), NTPC Ltd",
     ],
-
-    teaching: [],
-
-    areaOfResearch: {
-      areas: [],
-      currentResearch: [],
-    },
 
     contact: {
       website: "https://www.nsb.ac.in",
@@ -1740,8 +1473,6 @@ const facultyData = [
       "Advisor, Asian Development Bank, on energy policy, planning, portfolio management, investments, ICT infrastructure development, long-term strategy, private sector operations, and public-private partnerships (8 July 1992 – 6 April 2015)",
     ],
 
-    thoughts: "",
-
     education: [
       { degree: "B.Tech. (Electrical)", institution: "IIT, Delhi", year: "" },
       { degree: "Specialist Diploma in Business Management in Human Resources", institution: "", year: "" },
@@ -1752,34 +1483,21 @@ const facultyData = [
       "First Technical Assistant to the then CMD of NTPC",
     ],
 
-    teaching: [],
-
-    areaOfResearch: {
-      areas: [],
-      currentResearch: [],
-    },
-
     contact: {
       website: "https://www.nsb.ac.in",
       email: "seethapathy.chander@gmail.com",
       phone: "0120-2416803",
     },
   },
-  {slug: "Shri Narendra Taneja",
+  {slug: "Shri_Narendra_Taneja",
     name: "Shri Narendra Taneja",
     designation: "Adjunct Professor",
     category: "Adjunct Faculty",
     image: "../assets/images/faculty/faculty-details/Adjunct Faculty/Shri Narendra Taneja.webp",
 
-    summary: "",
-
     academicAffiliation: [
       "Adjunct Professor, NTPC School of Business",
     ],
-
-    consulting: [],
-
-    thoughts: "",
 
     education: [
       { degree: "Studied Economics, Business, Commerce, Policy, Leadership, Diplomacy and International Affairs", institution: "St John's College, Agra, India", year: "" },
@@ -1793,13 +1511,6 @@ const facultyData = [
       "Head – Energy, India Section, BRICS Business Council",
     ],
 
-    teaching: [],
-
-    areaOfResearch: {
-      areas: [],
-      currentResearch: [],
-    },
-
     contact: {
       website: "https://www.nsb.ac.in",
       email: "naren.taneja@gmail.com",
@@ -1807,13 +1518,11 @@ const facultyData = [
     },
   },
   
-  {slug: "Dr. Pradip Chanda",
+  {slug: "Pradip_Chanda",
     name: "Dr. Pradip Chanda",
     designation: "Faculty",
     category: "Adjunct Faculty",
     image: "../assets/images/faculty/faculty-details/Adjunct Faculty/Dr. Pradip Chanda.webp",
-
-    summary: "",
 
     academicAffiliation: [
       "IIST Shibpur",
@@ -1867,30 +1576,11 @@ const facultyData = [
     },
   },
   {
-    slug: "S K Soonee",
+    slug: "SK_Soonee",
     name: "S K Soonee",
     designation: "Faculty",
     category: "Visiting Faculty",
     image: "../assets/images/faculty/faculty-details/Visiting Faculty/S K Soonee.webp",
-
-    summary: "",
-
-    academicAffiliation: [],
-
-    consulting: [],
-
-    thoughts: "",
-
-    education: [],
-
-    professionalAffiliation: [],
-
-    teaching: [],
-
-    areaOfResearch: {
-      areas: [],
-      currentResearch: [],
-    },
 
     contact: {
       website: "https://www.nsb.ac.in",
@@ -1898,30 +1588,11 @@ const facultyData = [
       phone: "",
     },
   },
-  {slug: "J K Mitra",
+  {slug: "JK_Mitra",
     name: "J K Mitra",
     designation: "Faculty",
     category: "Visiting Faculty",
     image: "../assets/images/faculty/faculty-details/Visiting Faculty/J K Mitra.webp",
-
-    summary: "",
-
-    academicAffiliation: [],
-
-    consulting: [],
-
-    thoughts: "",
-
-    education: [],
-
-    professionalAffiliation: [],
-
-    teaching: [],
-
-    areaOfResearch: {
-      areas: [],
-      currentResearch: [],
-    },
 
     contact: {
       website: "https://www.nsb.ac.in",
@@ -1929,7 +1600,7 @@ const facultyData = [
       phone: "",
     },
   },
-  {slug: "P R Jaishankar",
+  {slug: "PR_Jaishankar",
     name: "P R Jaishankar",
     designation: "Faculty",
     category: "Visiting Faculty",
@@ -1966,25 +1637,6 @@ const facultyData = [
     category: "Visiting Faculty",
     image: "../assets/images/faculty/faculty-details/Visiting Faculty/Ashok Sethi.webp",
 
-    summary: "",
-
-    academicAffiliation: [],
-
-    consulting: [],
-
-    thoughts: "",
-
-    education: [],
-
-    professionalAffiliation: [],
-
-    teaching: [],
-
-    areaOfResearch: {
-      areas: [],
-      currentResearch: [],
-    },
-
     contact: {
       website: "https://www.nsb.ac.in",
       email: "asethi@tatapower.com",
@@ -1997,55 +1649,17 @@ const facultyData = [
     category: "Visiting Faculty",
     image: "../assets/images/faculty/faculty-details/Visiting Faculty/Sanjay Kumar Kar.webp",
 
-    summary: "",
-
-    academicAffiliation: [],
-
-    consulting: [],
-
-    thoughts: "",
-
-    education: [],
-
-    professionalAffiliation: [],
-
-    teaching: [],
-
-    areaOfResearch: {
-      areas: [],
-      currentResearch: [],
-    },
-
     contact: {
       website: "https://www.nsb.ac.in",
       email: "skar@rgipt.ac.in",
       phone: "",
     },
   },
-  {slug: "Sanjay Rastogi",
+  {slug: "Sanjay_Rastogi",
     name: "Sanjay Rastogi",
     designation: "Faculty",
     category: "Visiting Faculty",
     image: "../assets/images/faculty/faculty-details/Visiting Faculty/Sanjay Rastogi.webp",
-
-    summary: "",
-
-    academicAffiliation: [],
-
-    consulting: [],
-
-    thoughts: "",
-
-    education: [],
-
-    professionalAffiliation: [],
-
-    teaching: [],
-
-    areaOfResearch: {
-      areas: [],
-      currentResearch: [],
-    },
 
     contact: {
       website: "https://www.nsb.ac.in",
@@ -2058,25 +1672,6 @@ const facultyData = [
     designation: "Faculty",
     category: "Visiting Faculty",
     image: "../assets/images/faculty/faculty-details/Visiting Faculty/Naresh Kumar Sinha.webp",
-
-    summary: "",
-
-    academicAffiliation: [],
-
-    consulting: [],
-
-    thoughts: "",
-
-    education: [],
-
-    professionalAffiliation: [],
-
-    teaching: [],
-
-    areaOfResearch: {
-      areas: [],
-      currentResearch: [],
-    },
 
     contact: {
       website: "https://www.nsb.ac.in",
