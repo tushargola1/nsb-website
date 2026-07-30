@@ -18,7 +18,7 @@ const NAV_ITEMS = [
         label: "Leader's Message",
         href: "#",
         children: [
-          { label: "Message from CMD Desk", href: "/about/message-cmd" },
+          { label: "Message from CMD Desk", href: "/about/message-from-cmd-desk" },
           { label: "Director's Message", href: "/about/message-director" },
         ],
       },

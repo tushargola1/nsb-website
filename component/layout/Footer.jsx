@@ -98,7 +98,7 @@ export default function Footer() {
                     </div>
                   </div>
                   <div className="rs-footer-widget footer-1-col-4">
-                    <h5 className="rs-footer-widget-title">Newsletter</h5>
+                    <h5 className="rs-footer-widget-title">Quick Enquiry</h5>
                     <div className="rs-cta-input d-flex flex-column gap-3">
                       <input
                         id="name"
@@ -165,7 +165,7 @@ export default function Footer() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i class="fa-brands fa-whatsapp fs-2"></i>
+                        <i className="fa-brands fa-whatsapp fs-2"></i>
                       </a>
                       <a
                         href="https://www.facebook.com/NSB.NTPC"

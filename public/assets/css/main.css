@@ -745,19 +745,19 @@ textarea:focus {
 	1.1 Default Spacing SCSS
 ---------------------------------*/
 .section-space {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 @media only screen and (max-width: 1199px) {
   .section-space {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 @media only screen and (max-width: 991px) {
   .section-space {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
 
@@ -19714,7 +19714,7 @@ html.lenis body {
   gap: 30px;
 }
 .rs-team-four .rs-team-item {
-  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 4px 30px rgb(0 0 0 / 28%);
   border-radius: 16px;
   background: var(--rs-white);
   padding-top: 12px;
@@ -19735,7 +19735,7 @@ html.lenis body {
   color: var(--rs-white);
 }
 .rs-team-four .rs-team-item:hover .rs-team-title a:hover {
-  color: var(--rs-white);
+  color: var(--rs-white); 
 }
 .rs-team-four .rs-team-item:hover .rs-team-designation {
   color: var(--rs-white);
@@ -19748,7 +19748,7 @@ html.lenis body {
   width: 100%;
   transform: scale(1.02);
   transition: all 0.8s ease;
-  height: 346px;
+  height: 100%;
   aspect-ratio: 1/1;
   object-fit: cover;
   object-position: top center;
@@ -21859,4 +21859,13 @@ html.lenis body {
 .swiper-navigation-icon{
   display: none !important;
 }
+.cursor-pointer{
+  cursor: pointer;
+}
 
+.yellow-color{
+   color: var(--rs-theme-yellow);
+}
+.blue-color{
+ color: var(--rs-theme-green-two); 
+}

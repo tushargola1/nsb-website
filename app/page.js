@@ -5,7 +5,6 @@ import Programs from "@/component/home/Programs";
 import Faculty from "@/component/home/Faculty";
 import TextSlider from "@/component/home/TextSlider";
 import Events from "@/component/home/Events";
-import Testimonials from "@/component/home/Testimonials";
 import Experience from "@/component/home/Experience";
 import Team from "@/component/home/Team";
 import ContactForm from "@/component/home/ContactForm";
@@ -18,6 +17,9 @@ import EventsCalendar from "@/component/events-calendar/EventsCalendar";
 import ProgramCard from "@/component/Cards/ProgramCard";
 import {programData} from "@/component/data/programData";
 import StatsSection from "@/component/home/StatsSection";
+import Placement from "@/component/home/Placement";
+import Recruiters from "@/component/common/recruiters/Recruiters";
+import Testimonials from "@/component/common/testimonials/Testimonials";
 
 export default function Home() {
   return (
@@ -30,6 +32,9 @@ export default function Home() {
       <ProgramCard programData = {programData} />
       <Gallery limit={6} />
       <StatsSection/>
+      <Placement/>
+        <Recruiters/>
+        <Testimonials/>
        {/* <Programs />
       <AboutTwo />
       <Faculty />

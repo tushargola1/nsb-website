@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 
 const stats = [
   {
@@ -33,29 +33,29 @@ const stats = [
   },
 ];
 
-function Counter({ end, suffix }) {
+function Counter({ end, suffix, start }) {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    let start = 0;
+    if (!start) return;
 
+    let current = 0;
     const duration = 2000;
-
     const increment = Math.ceil(end / (duration / 20));
 
     const timer = setInterval(() => {
-      start += increment;
+      current += increment;
 
-      if (start >= end) {
-        start = end;
+      if (current >= end) {
+        current = end;
         clearInterval(timer);
       }
 
-      setCount(start);
+      setCount(current);
     }, 20);
 
     return () => clearInterval(timer);
-  }, [end]);
+  }, [start, end]);
 
   return (
     <>
@@ -64,24 +64,38 @@ function Counter({ end, suffix }) {
     </>
   );
 }
-
 export default function StatsSection() {
+  const sectionRef = useRef(null);
+  const [startCounter, setStartCounter] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setStartCounter(true);
+          observer.disconnect();
+        }
+      },
+      {
+        threshold: 0.35,
+      },
+    );
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => observer.disconnect();
+  }, []);
   return (
-    <section className="py-5 bg-light">
+    <section className="py-5 bg-light" ref={sectionRef}>
       <div className="container">
-        <div className="text-center mb-5">
-          <span className="badge bg-primary px-3 py-2 mb-3">
-            Our Achievements
-          </span>
-
-          <h2 className="fw-bold display-5">
-            Numbers That Speak For Themselves
-          </h2>
-
-          <p className="text-muted mx-auto" style={{ maxWidth: 650 }}>
-            Empowering students through industry-focused education, expert
-            faculty, and outstanding placement opportunities.
-          </p>
+        <div className=" section-space-bottom">
+          <div className="section-title-wrapper text-center">
+            <h2 className="section-title rs-split-text-enable split-in-left has-theme-blue mb-1">
+              WHY NSB
+            </h2>
+          </div>
         </div>
         <div className="row g-4">
           {stats.map((item, index) => (
@@ -97,7 +111,11 @@ export default function StatsSection() {
                 </div>
 
                 <h2 style={{ color: item.color }}>
-                  <Counter end={item.number} suffix={item.suffix} />
+                  <Counter
+                    end={item.number}
+                    suffix={item.suffix}
+                    start={startCounter}
+                  />
                 </h2>
 
                 <p>{item.title}</p>
@@ -139,64 +157,97 @@ export default function StatsSection() {
         .stat-card {
           position: relative;
           overflow: hidden;
-          background: rgba(255, 255, 255, 0.75);
-          backdrop-filter: blur(15px);
+          background: #fff;
           border-radius: 24px;
-          padding: 45px 25px;
+          padding: 20px 25px;
           text-align: center;
-          transition: 0.45s;
-          box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
-          border: 1px solid rgba(255, 255, 255, 0.4);
+          transition: 0.45s ease;
+          box-shadow:
+            0 8px 25px rgba(0, 0, 0, 0.05),
+            0 20px 45px rgba(0, 0, 0, 0.08);
+          border: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .stat-card:hover {
+          transform: translateY(-12px);
+          box-shadow:
+            0 20px 40px rgba(0, 0, 0, 0.08),
+            0 35px 70px rgba(0, 0, 0, 0.12);
         }
 
         .stat-card::before {
           content: "";
           position: absolute;
-          left: 0;
-          top: 0;
-          width: 100%;
-          height: 5px;
-          background: linear-gradient(90deg, #0d6efd, #6610f2, #20c997);
-        }
-
-        .stat-card:hover {
-          transform: translateY(-14px);
-          box-shadow: 0 30px 60px rgba(0, 0, 0, 0.15);
-        }
-
-        .icon-box {
-          width: 90px;
-          height: 90px;
+          top: -70px;
+          right: -70px;
+          width: 160px;
+          height: 160px;
           border-radius: 50%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-size: 42px;
-          color: #fff;
-          margin: auto auto 25px;
-          box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+          background: rgba(13, 110, 253, 0.06);
           transition: 0.4s;
         }
 
+        .stat-card:hover::before {
+          transform: scale(1.2);
+        }
+
+        .stat-card::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: 5px;
+          background: linear-gradient(90deg, transparent, #ffca08, transparent);
+          transform: scaleX(0);
+          transition: 0.4s;
+        }
+
+        .stat-card:hover::after {
+          transform: scaleX(1);
+        }
+
+        .icon-box {
+          width: 88px;
+          height: 88px;
+          border-radius: 22px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 40px;
+          color: #fff;
+          margin: auto auto 28px;
+          box-shadow: 0 18px 35px rgba(0, 0, 0, 0.18);
+          transition: 0.45s;
+        }
+
         .stat-card:hover .icon-box {
-          transform: rotate(12deg) scale(1.12);
+          transform: rotate(-8deg) scale(1.08);
         }
 
         h2 {
-          font-size: 58px;
-          font-weight: 800;
-          margin-bottom: 12px;
-          line-height: 1;
-          text-shadow: 0 8px 20px rgba(13, 110, 253, 0.15);
+          margin-bottom: 10px;
+
+          letter-spacing: -2px;
         }
 
         p {
-          font-size: 18px;
-          color: #6c757d;
+          font-size: 17px;
+          color: #5b6572;
           font-weight: 600;
           margin: 0;
         }
 
+        .stat-card .bg-number {
+          position: absolute;
+          right: 15px;
+          bottom: 0;
+          font-size: 90px;
+          font-weight: 900;
+          color: rgba(0, 0, 0, 0.03);
+          line-height: 1;
+          pointer-events: none;
+        }
         @media (max-width: 768px) {
           .stat-card {
             padding: 35px 20px;
