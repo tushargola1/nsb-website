@@ -383,7 +383,7 @@ const facultyData = [
     name: "Dr. Sandeep Kumar",
     designation: "Faculty",
     category: "NSB Faculty",
-    image: "/assets/images/team/sandeep-kumar.webp",
+    image: "../assets/images/faculty/faculty-details/NSB Faculty/Sandeep Kumar.png",
 
     summary:
       "Dr Sandeep Kumar is an Assistant Professor at NTPC School of Business (NSB), Noida, Uttar Pradesh. Before joining NSB, he was working as a Research Associate (Post-doctoral fellow) at the Centre for Nano Science and Engineering (CeNSE), Indian Institute of Science (IISc) Bangalore, where he worked on flexible organic and perovskite solar cells, and in parallel on Ge-on-Si based near infrared photodetectors. He obtained his Master of Technology degree in Microelectronics from Panjab University Chandigarh in 2009, and his Ph.D. from the Department of Electrical Engineering at the Indian Institute of Technology Kanpur (IIT Kanpur) in 2017, where he worked on organic devices with a special emphasis on organic solar cells. He has hands-on experience with device fabrication and characterization, with practical exposure to state-of-the-art clean room facilities at IIT Kanpur and IISc Bangalore. His current research is focused on flexible organic and perovskite solar cells, near infrared photodetectors, and techno-economics of photovoltaics.",
@@ -506,7 +506,7 @@ const facultyData = [
     name: "Dr. Shiv Ratan Agarwal",
     designation: "Associate Professor",
     category: "NSB Faculty",
-    image: "/assets/images/team/shiv-ratan-agarwal.webp",
+    image: "../assets/images/faculty/faculty-details/NSB Faculty/Shiv Ratan Agrawal.png",
 
     summary:
       "Dr. Shiv Ratan Agarwal is an Associate Professor in the Marketing area at NTPC School of Business (NSB), Noida. Overall, he has around 12 years of teaching and 3 years of industry experience. Before joining NSB, he worked at ICFAI Business School, Hyderabad and IIM, Bangalore. He has obtained his Ph.D. in Management from Maulana Azad National Institute of Technology, Bhopal (MP) as a full-time research scholar. He qualified NET examination in Management from UGC. He teaches Marketing Management, Marketing Research, Services Marketing and Brand Management. His research interests are in services marketing, customer relationship management, text mining and sentiment analysis. He has several international publications published in ABDC, SSCI, SCI and Scopus indexed journals. Importantly, he has 6 research papers published in A-category journals as per ABDC journal list.",
@@ -605,7 +605,7 @@ const facultyData = [
     name: "Prof. K. S. Bandyopadhyay",
     designation: "Faculty",
     category: "NSB Faculty",
-    image: "/assets/images/team/k-s-bandyopadhyay.webp",
+    image: "../assets/images/faculty/faculty-details/NSB Faculty/Dr-KSB.png",
 
     summary:
       "Prof. K.S. Bandyopadhyay is a faculty member in Energy Market & Policy.",
@@ -639,8 +639,8 @@ const facultyData = [
     slug: "sanjay-verma",
     name: "Sanjay Verma",
     designation: "Faculty",
-    category: "NSB Faculty",
-    image: "/assets/images/team/sanjay-verma.webp",
+    category: "IIM-A Faculty",
+    image: "../assets/images/faculty/faculty-details/IIM-A Faculty/Sanjay Verma.webp",
 
     summary: "",
 
@@ -682,8 +682,8 @@ const facultyData = [
   {slug: "amit-karna",
     name: "Amit Karna",
     designation: "Faculty",
-    category: "NSB Faculty",
-    image: "/assets/images/team/amit-karna.webp",
+    category: "IIM-A Faculty",
+    image: "../assets/images/faculty/faculty-details/IIM-A Faculty/Amit Karna.webp",
 
     summary: "",
 
@@ -719,8 +719,8 @@ const facultyData = [
   {slug: "ajay-pandey",
     name: "Ajay Pandey",
     designation: "Faculty",
-    category: "NSB Faculty",
-    image: "/assets/images/team/ajay-pandey.webp",
+    category: "IIM-A Faculty",
+    image: "../assets/images/faculty/faculty-details/IIM-A Faculty/Ajay Pandey.webp",
 
     summary: "",
 
@@ -756,11 +756,11 @@ const facultyData = [
     },
   },
   
-  {slug: "Sunil Maheshwari",
+  {slug: "sunil-maheshwari",
     name: "Sunil Maheshwari",
     designation: "Faculty",
     category: "IIM-A Faculty",
-    image: "/assets/images/team/sunil-maheshwari.webp",
+    image: "../assets/images/faculty/faculty-details/IIM-A Faculty/Sunil Maheshwari.webp",
 
     summary: "",
 
@@ -802,7 +802,7 @@ const facultyData = [
     name: "Arnab Laha",
     designation: "Faculty",
     category: "IIM-A Faculty",
-    image: "/assets/images/team/arnab-laha.webp",
+    image: "../assets/images/faculty/faculty-details/IIM-A Faculty/Arnab Laha.webp",
 
     summary: "",
 
@@ -848,7 +848,7 @@ const facultyData = [
     name: "Diptesh Ghosh",
     designation: "Faculty",
     category: "IIM-A Faculty",
-    image: "/assets/images/team/diptesh-ghosh.webp",
+    image: "../assets/images/faculty/faculty-details/IIM-A Faculty/Diptesh Ghosh.webp",
 
     summary: "",
 
@@ -886,7 +886,7 @@ const facultyData = [
     name: "Arvind Sahay",
     designation: "Professor",
     category: "IIM-A Faculty",
-    image: "/assets/images/team/arvind-sahay.webp",
+    image: "../assets/images/faculty/faculty-details/IIM-A Faculty/Arvind Sahay.webp",
 
     summary: "",
 
@@ -925,7 +925,7 @@ const facultyData = [
     name: "Vaibhavi Kulkarni",
     designation: "Assistant Professor",
     category: "IIM-A Faculty",
-    image: "/assets/images/team/vaibhavi-kulkarni.webp",
+    image: "../assets/images/faculty/faculty-details/IIM-A Faculty/Vaibhavi Kulkarni.webp",
 
     summary: "",
 
@@ -966,7 +966,7 @@ const facultyData = [
     name: "Sobhesh Kumar Agarwalla",
     designation: "Associate Professor",
     category: "IIM-A Faculty",
-    image: "/assets/images/team/sobhesh-kumar-agarwalla.webp",
+    image: "../assets/images/faculty/faculty-details/IIM-A Faculty/Sobhesh Kumar Agarwalla.webp",
 
     summary: "",
 
@@ -1006,7 +1006,7 @@ const facultyData = [
     name: "Amit Garg",
     designation: "Professor",
     category: "IIM-A Faculty",
-    image: "/assets/images/team/amit-garg.webp",
+    image: "../assets/images/faculty/faculty-details/IIM-A Faculty/Amit Garg.webp",
 
     summary: "",
 
@@ -1050,7 +1050,7 @@ const facultyData = [
     name: "Abhiman Das",
     designation: "Professor",
     category: "IIM-A Faculty",
-    image: "/assets/images/team/abhiman-das.webp",
+    image: "../assets/images/faculty/faculty-details/IIM-A Faculty/Abhiman Das.webp",
 
     summary: "",
 
@@ -1104,7 +1104,7 @@ const facultyData = [
     name: "Anurag K Agarwal",
     designation: "Faculty",
     category: "IIM-A Faculty",
-    image: "/assets/images/team/anurag-k-agarwal.webp",
+    image: "../assets/images/faculty/faculty-details/IIM-A Faculty/Anurag K Agarwal.webp",
 
     summary:
       "A Harvard Law School graduate, Anurag K. Agarwal has been the first recipient of the Marti Mannariah Gurunath Outstanding Teacher Award at the Indian Institute of Management Ahmedabad. His teaching, consulting, and research interests include business leadership, negotiation, strategy & law, infrastructure & PPPs, contracts & arbitration, banking, intellectual property, medico-legal issues in healthcare and related issues. He has authored four books: \"Business Law for Managers: Kaleidoscopic Tales\" (Penguin Random House, 2018), \"Business Leadership and Law\" (Springer, 2017), \"Contracts and Arbitration for Managers\" (Sage, 2016) and \"Business and Intellectual Property\" (Penguin Random House, 2010). He writes a weekly column \"Lawfully Yours\", for DNA Ahmedabad. He graduated as a Mechanical Engineer in 1990 from Motilal Nehru Regional Engineering College, Allahabad (now Motilal Nehru National Institute of Technology), and started his career with Bharat Petroleum Corporation Limited. He then studied law at Lucknow University, completing his LL.B. (Gold Medallist at the college), LL.M. (Gold Medallist at the University), and LL.D. He went to Harvard Law School for a second LL.M. He practised as an Advocate at Lucknow for about seven years and at Delhi for about a year and a half, before switching to full-time teaching in 2004, with a brief stint at Management Development Institute, Gurgaon, and joining IIMA in October 2004. He has conducted sessions in several executive education programmes, both open enrolment and customised, for a wide range of prominent organisations. He has been Chairperson of the One Year Post-Graduate Programme in Management for Executives (PGPX), Business Policy Area, and the Post Graduate Programme in Public Management and Policy (PGP-PMP). He is a visiting faculty at National Judicial Academy Bhopal, Gujarat State Judicial Academy Ahmedabad, Gujarat National Law University Gandhinagar, and ESSEC Paris.",
@@ -1165,7 +1165,7 @@ const facultyData = [
     name: "Akhileshwar Pathak",
     designation: "Professor",
     category: "IIM-A Faculty",
-    image: "/assets/images/team/akhileshwar-pathak.webp",
+    image: "../assets/images/faculty/faculty-details/IIM-A Faculty/Akhileshwar Pathak.webp",
 
     summary: "",
 
@@ -1206,7 +1206,7 @@ const facultyData = [
     name: "Prof. Manipadma Datta",
     designation: "Professor",
     category: "Adjunct Faculty",
-    image: "/assets/images/team/manipadma-datta.webp",
+    image: "../assets/images/faculty/faculty-details/Adjunct Faculty/Prof. Manipadma Datta.webp",
 
     summary:
       "Professor Manipadma Datta is in academics for the last four decades. He is the former Vice Chancellor of the TERI Institute of Advanced Studies (TSAS), New Delhi, a deemed university under UGC and a premium institution of higher education and research in the country. He is now the senior-most Professor of the University and belongs to the Department of Policy and Management Studies. Before joining TSAS in 2011, Prof. Datta served as a Professor, Dean and Research Centre Chairman, Visiting Professor and Area Head in institutions of eminence like University of Calcutta, Vidyasagar University, Nirma University, Institute of Management Technology Ghaziabad, Indian Institute of Management Lucknow, International Institute of Management Delhi, JK Lakshmipat University, Jaipur in India and Vrije University at Brussels, Belgium. Professor Datta's areas of interest include Sustainable Development, Corporate Social Responsibility (CSR), Corporate Finance, Accounting Information System, Strategic Leadership, Corporate Governance, Life Cycle Cost Analysis, ESG Financing, Public Policy and Management and the like. He is the standing Chair of the International Conference of Business, Economics and Sustainable Development (ICBESD), an annual international event of TSAS since 2018. Prof. Datta has an outstanding track record of supervising and evaluating PhD theses, having successfully guided seven PhD scholars to date, and remains a thesis evaluator for many eminent institutions in India and abroad. He is a regular contributor to national and international refereed journals and serves on their editorial boards. He has more than fifty research papers to his credit in refereed journals and international anthologies published by Springer, Routledge, Bloomberg, Palgrave Macmillan and IGI Global. Bloomberg published his edited title in 2020, 'Business, Economics and Sustainable Development', an edited volume with contributions from India and abroad. He is also a regular speaker on Sustainable Development, CSR, Corporate Finance, Public Management, Accounting Information System, Strategic Leadership, and Corporate Governance. Professor Datta is a well-traveled academician, having been invited as a speaker by the International Association of Accounting Education and Research (IAAER) at Mexico and Nevada University, Las Vegas USA, and as the keynote speaker at a conference organized by Szczecin University in Poland. A regular expert advisor to IFC, World Bank, and Government of India-sponsored research projects, he has developed housing finance models for the poor in Bangladesh and Nepal and a business model for utilizing biodiversity of the Cooperative Republic of Guyana, South America. He is also an EU expert on circular economy finance and recently conducted a workshop on the same at Bangkok's Chulalongkorn University. He is also on the UGC Bangladesh panel of experts for university accreditation, and on the Executive Committee of the Integrating Spirituality and Organizational Leadership Foundation (ISOL Foundation), a premier international think-tank. He is also the founding Chairman of the Executive Committee of the Center for Business and Social Research (www.cbsr.in), a not-for-profit research initiative for development through value sharing. Prof. Datta did his Ph.D. from the University of Calcutta and is a Fellow Member (FCS) of the Institute of Company Secretaries of India, the highest body for the company secretaries' profession in India. He was also trained at Harvard Business School, Boston MA, USA, and in Shanghai, China, completing the Global Colloquium Participant Centered Learning (GCPCL) program.",
@@ -1271,11 +1271,95 @@ const facultyData = [
       phone: "(91) 9711157651, 9350185545",
     },
   },
+  {slug: "chetan-soman",
+    name: "Chetan Soman",
+    designation: "Faculty",
+    category: "IIM-A Faculty",
+    image: "../assets/images/faculty/faculty-details/IIM-A Faculty/Chetan Soman.webp",
+
+    summary: "",
+
+    academicAffiliation: [],
+
+    consulting: [],
+
+    thoughts: "",
+
+    education: [
+      { degree: "Ph.D.", institution: "Groningen, The Netherlands", year: "" },
+    ],
+
+    professionalAffiliation: [],
+
+    teaching: [],
+
+    areaOfResearch: {
+      areas: [],
+      currentResearch: [],
+    },
+
+    contact: {
+      website: "https://www.iima.ac.in",
+      email: "chetan@iima.ac.in",
+      phone: "(91) 79-6632 4839",
+    },
+  },{slug: "errol-dsouza",
+    name: "Errol D'Souza",
+    designation: "Professor",
+    category: "IIM-A Faculty",
+    image: "../assets/images/faculty/faculty-details/IIM-A Faculty/Errol D’Souza.webp",
+
+    summary:
+      "Errol D'Souza is a Professor of Economics and the Director at the Indian Institute of Management Ahmedabad.",
+
+    academicAffiliation: [
+      "IFCI Chair Professor, Department of Economics, University of Mumbai (prior to joining IIMA in 2001)",
+      "Visiting Scholar, Columbia University, New York",
+      "Visiting Senior Fellow, Institute of South Asian Studies, National University of Singapore",
+      "India Chair Professor, Sciences Po, Paris (2009)",
+      "Visiting Professor, Institute for Advanced Study, Shimla (2009)",
+      "Visiting Professor, Turin School of Development",
+    ],
+
+    consulting: [
+      "Consultant to industry, the banking sector, UNDP, ILO, and Government",
+    ],
+
+    thoughts: "",
+
+    education: [
+      { degree: "Ph.D.", institution: "Jawaharlal Nehru University, New Delhi", year: "" },
+    ],
+
+    professionalAffiliation: [
+      "Member, Indian Econometric Society",
+      "Member, Indian Society of Labour Economics",
+      "Member, Econometric Society",
+      "Has worked on academic committees of the University Grants Commission and the Indian Council of Social Science Research; associated with the Planning Commission and the Reserve Bank of India",
+      "Former Director, Board of the National Housing Bank",
+      "Currently on the Board of Governors, National Institute of Public Finance and Policy",
+      "Currently on the Board, Rajasthan Shram Sarathi Association",
+      "Currently on the Board, India Gold Policy Centre",
+    ],
+
+    teaching: [],
+
+    areaOfResearch: {
+      areas: [],
+      currentResearch: [],
+    },
+
+    contact: {
+      website: "https://www.iima.ac.in",
+      email: "errol@iima.ac.in",
+      phone: "(91) 79-6632 4848",
+    },
+  },
   {slug: "Dr. Rajiv Kumar",
     name: "Dr. Rajiv Kumar",
     designation: "Faculty",
     category: "Adjunct Faculty",
-    image: "/assets/images/team/rajiv-kumar.webp",
+    image: "../assets/images/faculty/faculty-details/Adjunct Faculty/Dr. Rajiv Kumar.webp",
 
     summary:
       "With 22 years of experience working for National Thermal Power Corporation (NTPC) and 17 years in Siemens / Energy Germany, delivering successful projects to international customers, Dr. Kumar has a determined mission to create future generation project leaders. Utilising strengths in project management, creating innovative execution concepts, building strategic partners, developing new suppliers, collaboration, building and leading multicultural teams, and contract and claim management, he has consistently delivered successful projects bringing strategic benefits to Siemens and producing customer delight. Examples of his successful projects are Zandvliet & Ineos in Belgium, Dadri in India, Al Mussaib in Iraq, and AFAM in Nigeria.",
@@ -1314,7 +1398,7 @@ const facultyData = [
     name: "Dr. Usha Chandar",
     designation: "Faculty",
     category: "Adjunct Faculty",
-    image: "/assets/images/team/usha-chandar.webp",
+    image: "../assets/images/faculty/faculty-details/Adjunct Faculty/Dr. Usha Chandar.webp",
 
     summary:
       "Dr. Usha Chandar has overall 33 years of experience in communication research and development communication. She has conducted research studies for AJK Mass Communication Research Centre, Jamia Millia Islamia (JMI), State Resource Centre, JMI, Bharatiya Gyan Vigyan Jatha (BGVS) for UNICEF, NACO (WHO), UNFPA, UNESCO, etc. Dr. Chandar joined IGNOU in 1991 and conducted feedback research pertaining to Education and Communication, especially the use of information communication technologies (ICT). At IGNOU, she was posted at the Centre for Extension Education (CEE) and Electronic Media Production Centre (EMPC), prior to SOJNMS.",
@@ -1355,7 +1439,7 @@ const facultyData = [
     name: "Dr. Murali Janakaraj",
     designation: "Faculty",
     category: "Adjunct Faculty",
-    image: "/assets/images/team/murali-janakaraj.webp",
+    image: "../assets/images/faculty/faculty-details/Adjunct Faculty/Dr. Murali Janakaraj.webp",
 
     summary:
       "Dr. Janakaraj is a competent professional with over 25 years of experience in Project Planning, Monitoring, Management, Implementation, and Resource Management. His last assignment was as Director of Environmental Solutions and Consultancy, a consulting company based out of Dubai in the United Arab Emirates. He has expertise in programme management, documentation, and liaising with government departments at all levels across geographies, donor agencies, and NGOs, and is adept at assessing project proposals, especially in the fields of environment, health and safety, energy, and natural resources management. He has demonstrated strong organizing skills, and is a public speaker, motivator, team player, and decisive leader with a successful track record in handling a large team of professionals. He possesses strong research, analytical, problem-solving, and interpersonal communication skills.",
@@ -1399,7 +1483,7 @@ const facultyData = [
     name: "Dr. Diwakar Sukul",
     designation: "Adjunct Professor",
     category: "Adjunct Faculty",
-    image: "/assets/images/team/diwakar-sukul.webp",
+    image: "../assets/images/faculty/faculty-details/Adjunct Faculty/Dr. Diwakar Sukul.webp",
 
     summary:
       "Professor Diwakar Sukul is the founder and director of the KAMKUS Clinics, in London. He is also the developer of the concept of Multi-Dimensional Healthcare, Body Mind Energy (BME) Assessment, Eastern Psychotherapy and Mind, Body Connective Therapy™. The creation of Kamkus reflects a lifelong vision inspired by his belief that holistic and traditional medicine should work together, addressing all aspects of the person in an integrated way. Dr. Sukul possesses a Ph.D. in Psychology, and has a background in clinical psychology and psychotherapy, Ericksonian Hypnotherapy, and NLP. He established Kamkus in 1998 as the first Multidimensional healthcare clinic in Harley Street. At Kamkus, the key to success is a holistic approach, where each patient is seen as a whole. He introduced a multidimensional assessment carried out by a medical doctor, psychologist, and complementary medicine practitioner to provide the client with a holistic understanding of their health. After the healthcare assessment, he and his team choose the most suitable treatment from a range of conventional, complementary, and alternative medicine to give holistic recovery to clients. Professor Diwakar is committed to expanding his approach to other like-minded clinics around the world and welcomes joint collaboration. He is an acknowledged expert on stress, anxiety, emotional health, personal development, and spiritual well-being through integrating Eastern/Vedic approaches. He is also trained as a Field Traumatologist, Compassion Fatigue Educator, and Thought Field Therapist. He has received international recognition for his work with alcohol and drug addiction at Turning Point UK, which he treated with a unique blend of Eastern and Western approaches. He has conducted several national and international seminars and workshops on stress management, multidimensional healthcare, addiction, and other health-related problems.",
@@ -1451,7 +1535,7 @@ const facultyData = [
     name: "Dr. Shalini Lal",
     designation: "Faculty",
     category: "Adjunct Faculty",
-    image: "/assets/images/team/shalini-lal.webp",
+    image: "../assets/images/faculty/faculty-details/Adjunct Faculty/Dr Shalini Lal.webp",
 
     summary:
       "Dr. Shalini Lal is the Founder of Infinity Organizational Development, a boutique OD consulting firm specializing in Organizational Development & Change. She is a graduate of IIM Ahmedabad, holds a Ph.D. from UCLA, and is a Global Fellow at the Wharton School. Her work focuses on helping organizations build the internal culture and capabilities they need for their business vision and strategy. She believes in combining research insights with the wisdom of practice in her work, and believes that a sense of playfulness and humor is always a wonderful thing. Her last corporate assignment was as Director HR at Deutsche Bank. Before that she was Chief Human Resource Officer at Escorts Agri-Machinery, and Head of Organizational Development at Airtel. She has been on the jury of many of India's HR Awards committees (such as CII, NHRD, People Matters) for several years. She is also a frequent speaker at leading business schools and an avid writer on topics of Management and Leadership. Her book \"The Secret Life of Organizations\", published by Hachette, will come out later this year.",
@@ -1501,7 +1585,7 @@ const facultyData = [
     name: "Dr. Shashi Ratnaker Singh",
     designation: "Research Fellow",
     category: "Adjunct Faculty",
-    image: "/assets/images/team/shashi-ratnaker-singh.webp",
+    image: "../assets/images/faculty/faculty-details/Adjunct Faculty/Dr Shashi Ratnaker Singh.webp",
 
     summary:
       "Dr. Singh is a Dr. Manmohan Singh Fellow at St. John's College, University of Cambridge, and is currently positioned as a Research Fellow at the Department of Geography. He is additionally affiliated with the UK-India Education and Research Initiative as a Visiting Fellow on India's Political Economy at King's College, London. In India, he is affiliated with the Centre for Public Policy at the Tata Institute of Social Sciences, and the NTPC School of Business. Dr. Singh is a Human Geographer with inter-disciplinary academic training in Environmental Sciences, Environmental Law, Development Studies, and Human Geography. His research interests pertain to the Political Economy of Land Acquisition and Resource Development, Public Policies, Environmental Laws, and Indigenous People Development. His journal publications are on land acquisitions, displacement, compensation frameworks, mining and resource revenue sharing, public sphere, and justice. Dr. Singh works at the intersection of environment and development issues. Prior to Cambridge, Dr. Singh was associated with The Energy and Resources Institute (TERI), Delhi, as an Associate Fellow and Convenor of the Land and R&R Area under the Social Transformation Division. During his professional tenure, he worked on eight green field projects in mineral rich states of India, where his role was to design compensation and rehabilitation policies for the project's displaced households. He was also part of a 'subject expert group' on land acquisitions constituted by the Indian government in 2011, contributing towards the drafting of new legislation titled the 'Right to Fair Compensation and Transparency in Land Acquisition Resettlement and Rehabilitation Act of 2013', which repealed the colonial-era 'Land Acquisition Act of 1894'. In the last 10 years, Dr. Singh has conducted several land acquisition and rehabilitation training programs for the Indian government, the World Bank, and corporations involved with large-scale land acquisitions and mining. He is also interested in the comparative study of resource rich economies in Asia, Africa and Latin America.",
@@ -1552,12 +1636,12 @@ const facultyData = [
       email: "srsingh.cam@gmail.com",
       phone: "0120-2416803",
     },
-  },
-  {slug: "Shri Narendra Taneja",
-    name: "Shri Narendra Taneja",
+  },{
+    slug: "nikunj-shukla",
+    name: "Shri Nikunj Shukla",
     designation: "Adjunct Professor",
     category: "Adjunct Faculty",
-    image: "/assets/images/team/narendra-taneja.webp",
+    image: "../assets/images/faculty/faculty-details/Adjunct Faculty/Shri Nikunj Shukla.webp",
 
     summary: "",
 
@@ -1570,15 +1654,20 @@ const facultyData = [
     thoughts: "",
 
     education: [
-      { degree: "Studied Economics, Business, Commerce, Policy, Leadership, Diplomacy and International Affairs", institution: "St John's College, Agra, India", year: "" },
-      { degree: "Studied Economics, Business, Commerce, Policy, Leadership, Diplomacy and International Affairs", institution: "University of Oslo", year: "" },
-      { degree: "Studied Economics, Business, Commerce, Policy, Leadership, Diplomacy and International Affairs", institution: "University of Oxford", year: "" },
+      { degree: "Post Graduation in Management (with Basic Engineering)", institution: "Premier Management Institute", year: "" },
     ],
 
     professionalAffiliation: [
-      "Chairman, Energy Security Group, FICCI",
-      "President, World Energy Policy Summit",
-      "Head – Energy, India Section, BRICS Business Council",
+      "Head, Waaree Energies Ltd",
+      "Diversified working experience of 21 years in various segments",
+      "Profit Centre Head since 11+ years",
+      "Worked at various levels in different functions with professional organizations like Videocon, Piramal Group, Waaree Group, etc.",
+      "Man management skill with leadership acumen",
+      "Self starter and believes in setting examples by practice",
+      "Strategic planning and detailed implementation planning",
+      "Cross functional team leader: SAP R/3 Implementation core team",
+      "TOC Champion, Master Black Belt in Six Sigma",
+      "Exposed to various management tools like Lean Management, QMS, EMS & OHSAS, KANBAN, Kaizen",
     ],
 
     teaching: [],
@@ -1590,15 +1679,50 @@ const facultyData = [
 
     contact: {
       website: "https://www.nsb.ac.in",
-      email: "naren.taneja@gmail.com",
+      email: "nikunjshukla@waaree.com",
+      phone: "0120-2416803",
+    },
+  },{slug: "n-n-misra",
+    name: "Shri N.N. Misra",
+    designation: "Adjunct Professor",
+    category: "Adjunct Faculty",
+    image: "../assets/images/faculty/faculty-details/Adjunct Faculty/Shri N.N. Misra.webp",
+
+    summary: "",
+
+    academicAffiliation: [
+      "Electrical Engineer",
+    ],
+
+    consulting: [],
+
+    thoughts: "",
+
+    education: [],
+
+    professionalAffiliation: [
+      "Adjunct Professor, NTPC School of Business",
+      "Former Director (Operations), NTPC Ltd",
+    ],
+
+    teaching: [],
+
+    areaOfResearch: {
+      areas: [],
+      currentResearch: [],
+    },
+
+    contact: {
+      website: "https://www.nsb.ac.in",
+      email: "nnmisra@rediffmail.com",
       phone: "(91) 0120-2416803",
     },
-  },
-  {slug: "seethapathy chander",
+  },{
+    slug: "seethapathy-chander",
     name: "Shri Seethapathy Chander",
-    designation: "Faculty",
+    designation: "Ajunct Faculty",
     category: "Adjunct Faculty",
-    image: "/assets/images/team/seethapathy-chander.webp",
+    image: "../assets/images/faculty/faculty-details/Adjunct Faculty/Shri Seethapathy Chander.webp",
 
     summary:
       "He started his career as an Executive Trainee at NTPC in February 1977 (first batch best trainee), and worked in transmission systems. He was responsible for the commissioning of NTPC's first 400kV installations and the introduction of new High Voltage Direct Current transmission technology in India. He was the first Technical Assistant to the then CMD of NTPC. During this tenure, the NTPC Consultancy Wing was established, the transmission business of NTPC was transferred to the newly incorporated Govt. Co. Powergrid Corporation of India Limited, and the Unchahar Thermal Power Plant was transferred from UPSEB to NTPC in a debt asset swap — a first for the sector. He served at the Asian Development Bank from 8th July 1992 to 6th April 2015, advising on energy policy, planning, portfolio management, investments, ICT infrastructure development, ADB's long-term strategy, private sector operations, public-private partnerships, etc. He has travelled extensively world over for his project works and has published 63 papers. He is currently a Senior Advisor to the President of Asian Infrastructure Investment Bank, an Independent Director on the Boards of Tata Power Solar Company Limited and Tata Power Trading Company Limited, and an honorary Senior Advisor to the Secretary General, World Energy Council.",
@@ -1638,14 +1762,56 @@ const facultyData = [
     contact: {
       website: "https://www.nsb.ac.in",
       email: "seethapathy.chander@gmail.com",
-      phone : "0120-2416803",
+      phone: "0120-2416803",
     },
   },
+  {slug: "Shri Narendra Taneja",
+    name: "Shri Narendra Taneja",
+    designation: "Adjunct Professor",
+    category: "Adjunct Faculty",
+    image: "../assets/images/faculty/faculty-details/Adjunct Faculty/Shri Narendra Taneja.webp",
+
+    summary: "",
+
+    academicAffiliation: [
+      "Adjunct Professor, NTPC School of Business",
+    ],
+
+    consulting: [],
+
+    thoughts: "",
+
+    education: [
+      { degree: "Studied Economics, Business, Commerce, Policy, Leadership, Diplomacy and International Affairs", institution: "St John's College, Agra, India", year: "" },
+      { degree: "Studied Economics, Business, Commerce, Policy, Leadership, Diplomacy and International Affairs", institution: "University of Oslo", year: "" },
+      { degree: "Studied Economics, Business, Commerce, Policy, Leadership, Diplomacy and International Affairs", institution: "University of Oxford", year: "" },
+    ],
+
+    professionalAffiliation: [
+      "Chairman, Energy Security Group, FICCI",
+      "President, World Energy Policy Summit",
+      "Head – Energy, India Section, BRICS Business Council",
+    ],
+
+    teaching: [],
+
+    areaOfResearch: {
+      areas: [],
+      currentResearch: [],
+    },
+
+    contact: {
+      website: "https://www.nsb.ac.in",
+      email: "naren.taneja@gmail.com",
+      phone: "(91) 0120-2416803",
+    },
+  },
+  
   {slug: "Dr. Pradip Chanda",
     name: "Dr. Pradip Chanda",
     designation: "Faculty",
     category: "Adjunct Faculty",
-    image: "/assets/images/team/pradip-chanda.webp",
+    image: "../assets/images/faculty/faculty-details/Adjunct Faculty/Dr. Pradip Chanda.webp",
 
     summary: "",
 
@@ -1705,7 +1871,7 @@ const facultyData = [
     name: "S K Soonee",
     designation: "Faculty",
     category: "Visiting Faculty",
-    image: "/assets/images/team/s-k-soonee.webp",
+    image: "../assets/images/faculty/faculty-details/Visiting Faculty/S K Soonee.webp",
 
     summary: "",
 
@@ -1736,7 +1902,7 @@ const facultyData = [
     name: "J K Mitra",
     designation: "Faculty",
     category: "Visiting Faculty",
-    image: "/assets/images/team/j-k-mitra.webp",
+    image: "../assets/images/faculty/faculty-details/Visiting Faculty/J K Mitra.webp",
 
     summary: "",
 
@@ -1767,7 +1933,7 @@ const facultyData = [
     name: "P R Jaishankar",
     designation: "Faculty",
     category: "Visiting Faculty",
-    image: "/assets/images/team/p-r-jaishankar.webp",
+    image: "../assets/images/faculty/faculty-details/Visiting Faculty/P R Jaishankar.webp",
 
     summary: "",
 
@@ -1798,7 +1964,7 @@ const facultyData = [
     name: "Ashok Sethi",
     designation: "Faculty",
     category: "Visiting Faculty",
-    image: "/assets/images/team/ashok-sethi.webp",
+    image: "../assets/images/faculty/faculty-details/Visiting Faculty/Ashok Sethi.webp",
 
     summary: "",
 
@@ -1825,11 +1991,42 @@ const facultyData = [
       phone: "",
     },
   },
+  {slug: "sanjay-kumar-kar",
+    name: "Sanjay Kumar Kar",
+    designation: "Visitng Faculty",
+    category: "Visiting Faculty",
+    image: "../assets/images/faculty/faculty-details/Visiting Faculty/Sanjay Kumar Kar.webp",
+
+    summary: "",
+
+    academicAffiliation: [],
+
+    consulting: [],
+
+    thoughts: "",
+
+    education: [],
+
+    professionalAffiliation: [],
+
+    teaching: [],
+
+    areaOfResearch: {
+      areas: [],
+      currentResearch: [],
+    },
+
+    contact: {
+      website: "https://www.nsb.ac.in",
+      email: "skar@rgipt.ac.in",
+      phone: "",
+    },
+  },
   {slug: "Sanjay Rastogi",
     name: "Sanjay Rastogi",
     designation: "Faculty",
     category: "Visiting Faculty",
-    image: "/assets/images/team/sanjay-rastogi.webp",
+    image: "../assets/images/faculty/faculty-details/Visiting Faculty/Sanjay Rastogi.webp",
 
     summary: "",
 
@@ -1856,7 +2053,37 @@ const facultyData = [
       phone: "",
     },
   },
-  {}
+  {slug: "naresh-kumar-sinha",
+    name: "Naresh Kumar Sinha",
+    designation: "Faculty",
+    category: "Visiting Faculty",
+    image: "../assets/images/faculty/faculty-details/Visiting Faculty/Naresh Kumar Sinha.webp",
+
+    summary: "",
+
+    academicAffiliation: [],
+
+    consulting: [],
+
+    thoughts: "",
+
+    education: [],
+
+    professionalAffiliation: [],
+
+    teaching: [],
+
+    areaOfResearch: {
+      areas: [],
+      currentResearch: [],
+    },
+
+    contact: {
+      website: "https://www.nsb.ac.in",
+      email: "cnareshsinha@gmail.com",
+      phone: "",
+    },
+  },
   // ...rest of the members from the HTML
 ];
 
