@@ -13,7 +13,7 @@ export default function FacultyMembersPage() {
   activeCategory === "All"
     ? facultyData
     : facultyData.filter((member) => member.category === activeCategory);
-
+  console.log(filteredFaculty)
   return (
     <main>
       {/* Breadcrumb */}
