@@ -1,0 +1,28 @@
+.facultyPillBar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;   /* 👈 add this line */
+  gap: 12px;
+  padding: 16px 0;
+}
+
+.facultyPill {
+  padding: 10px 22px;
+  border-radius: 999px;
+  border: none;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #0d5c9e;
+  color: #ffffff;
+  transition: background-color 0.2s ease;
+}
+
+.facultyPillActive {
+  background-color: #f5c518;
+  color: #1a1a2e;
+}
+
+.facultyPill:hover:not(.facultyPillActive) {
+  background-color: #0a4a7d;
+}
