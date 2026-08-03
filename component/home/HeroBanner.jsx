@@ -67,13 +67,13 @@ export default function HeroBanner() {
             }}
             style={{ cursor: "pointer" }}
           >
-            <div className="video-slidej">
+          <div className="video-slidej video-slide-glass">
               <Image
                 src={item.src}
                 alt={item.title || ""}
                 width={500}
                 height={400}
-                style={{ objectFit: "cover" }}
+                style={{ objectFit: "contain" }}
               />
 
               {/* <video

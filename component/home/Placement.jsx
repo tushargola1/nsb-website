@@ -32,19 +32,19 @@ export default function Placement() {
         breakpoints={{
           0: {
             slidesPerView: 1,
-            spaceBetween: 10,
+            // spaceBetween: 10,
           },
           576: {
             slidesPerView: 1,
-            spaceBetween: 10,
+            // spaceBetween: 10,
           },
           768: {
-            slidesPerView: 2,
-            spaceBetween: 10,
+            slidesPerView: 1,
+            // spaceBetween: 10,
           },
           992: {
-            slidesPerView: 3,
-            spaceBetween: 15,
+            slidesPerView: 1,
+            // spaceBetween: 15,
           },
           1200: {
             slidesPerView: 1,
@@ -63,20 +63,15 @@ export default function Placement() {
             style={{ cursor: "pointer" }}
           >
             <div
-              className="video-slidej"
-              style={{
-                position: "relative",
-                width: "100%",
-                height: "500px" /* required */,
-                overflow: "hidden",
-              }}
+              className="video-slidej placement-banners "
+           
             >
               <Image
                 src={item.image}
                 alt="Placement"
                 fill
-                sizes="100vw"
-                style={{ objectFit: "cover" }}
+                sizes="0vw"
+                style={{ objectFit: "contain" }}
               />
               {/* <video
                 autoPlay

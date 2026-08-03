@@ -1,9 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-   basePath: "/nsb",
+  output: "export",
+  // basePath: "/nsb",
+  // assetPrefix: "/nsb/",
   images: {
     unoptimized: true,
   },
+    // trailingSlash: true,
 };
 
 export default nextConfig;

@@ -1,25 +1,46 @@
 // component/Cards/TeamCard.jsx
+import Image from "next/image";
 import Link from "next/link";
 
 export default function TeamCard({ member }) {
   return (
-    <div className="rs-team-item">
+    <div className="rs-team-item h-100 d-flex flex-column">
       <div className="rs-team-shape-one">
-        <img src="/assets/images/shape/three-line-shape.webp" alt="shape" />
+        <Image
+          src="/assets/images/shape/three-line-shape.webp"
+          width={100}
+          height={100}
+          alt="Shape"
+        />
       </div>
+
       <div className="rs-team-shape-two">
-        <img src="/assets/images/shape/circle-shape.webp" alt="shape" />
+        <Image
+          src="/assets/images/shape/circle-shape.webp"
+          width={100}
+          height={100}
+          alt="Shape"
+        />
       </div>
+
       <div className="rs-team-thumb">
         <Link href={`/faculty/${member.slug}`}>
-          <img src={member.image} alt={member.name} />
+          <Image
+            src={member.image}
+            alt={member.name}
+            width={400}
+            height={450}
+            className="team-img"
+          />
         </Link>
       </div>
-      <div className="rs-team-content-wrapper">
-        <div className="rs-team-content-info">
+
+      <div className="rs-team-content-wrapper flex-grow-1 d-flex align-items-center">
+        <div className="rs-team-content-info w-100">
           <h5 className="rs-team-title underline">
             <Link href={`/faculty/${member.slug}`}>{member.name}</Link>
           </h5>
+
           <span className="rs-team-designation">{member.designation}</span>
         </div>
       </div>

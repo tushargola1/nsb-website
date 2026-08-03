@@ -3,55 +3,9 @@
 import React, { useState, useMemo } from "react";
 import styles from "./EventsCalendar.module.css";
 import Link from "next/link";
-
+import { usePathname } from "next/navigation";
+import { allEventsData } from "@/data/AllEventsData";
 // Mock data spanning multiple years
-const allEventsData = [
-  {
-    id: 1,
-    date: "2025-10-12",
-    title: "Annual Technical Symposium",
-    location: "NSB Auditorium",
-    category: "Symposium",
-    color: "#3b82f6",
-    time: "10:00 AM - 04:00 PM",
-  },
-  {
-    id: 2,
-    date: "2025-12-05",
-    title: "Winter Tech Bootcamp",
-    location: "Lab 2",
-    category: "Bootcamp",
-    color: "#10b981",
-    time: "09:00 AM - 05:00 PM",
-  },
-  {
-    id: 3,
-    date: "2026-01-15",
-    title: "New Year Alumni Meet",
-    location: "Main Campus",
-    category: "Networking",
-    color: "#f59e0b",
-    time: "11:00 AM - 02:00 PM",
-  },
-  {
-    id: 4,
-    date: "2026-03-20",
-    title: "Spring Innovation Fair",
-    location: "Exhibition Hall",
-    category: "Fair",
-    color: "#8b5cf6",
-    time: "10:00 AM - 06:00 PM",
-  },
-  {
-    id: 5,
-    date: "2027-05-10",
-    title: "Guest Lecture on AI",
-    location: "Room 304",
-    category: "Lecture",
-    color: "#ef4444",
-    time: "02:00 PM - 04:00 PM",
-  },
-];
 
 export default function EventsCalendar() {
   const [selectedEvent, setSelectedEvent] = useState(null);
@@ -59,7 +13,7 @@ export default function EventsCalendar() {
   const [filterYear, setFilterYear] = useState("All");
   const [filterMonth, setFilterMonth] = useState("All");
   const [filterDay, setFilterDay] = useState("All");
-
+  const pathname = usePathname();
   const handleEventClick = (event) => {
     setSelectedEvent(event);
   };
@@ -82,23 +36,30 @@ export default function EventsCalendar() {
     setFilterDay("All");
   };
 
-  const filteredEvents = useMemo(() => {
-    return allEventsData
-      .filter((event) => {
-        const [year, month, day] = event.date.split("-");
+ const filteredEvents = useMemo(() => {
+  return allEventsData
+    .filter((event) => {
+      const [year, month, day] = event.date.split("-");
 
-        const yearMatch = filterYear === "All" || year === filterYear;
-        const monthMatch = filterMonth === "All" || month === filterMonth;
-        const dayMatch = filterDay === "All" || day === filterDay;
-
-        return yearMatch && monthMatch && dayMatch;
-      })
-      .sort((a, b) => new Date(a.date) - new Date(b.date));
-  }, [filterYear, filterMonth, filterDay]);
+      return (
+        (filterYear === "All" || year === filterYear) &&
+        (filterMonth === "All" || month === filterMonth) &&
+        (filterDay === "All" || day === filterDay)
+      );
+    })
+    .sort((a, b) => new Date(a.date) - new Date(b.date));
+}, [filterYear, filterMonth, filterDay]);
 
   // Max 10 events to display
-  const displayedEvents = filteredEvents.slice(0, 10);
-  const hasMore = filteredEvents.length > 10;
+const isHomePage = pathname === "/";
+
+const displayedEvents = useMemo(() => {
+  return isHomePage
+    ? filteredEvents.slice(0, 5)
+    : filteredEvents;
+}, [filteredEvents, isHomePage]);
+
+const hasMore = isHomePage && filteredEvents.length > 5;
 
   // Format date helper for modal
   const formatModalDate = (dateStr) => {
@@ -252,13 +213,13 @@ export default function EventsCalendar() {
         )}
       </div>
 
-      {hasMore && (
-        <div className={styles.viewMoreWrapper}>
-          <Link href="/event" className={styles.viewMoreBtn}>
-            View All Events <i className="ri-arrow-right-line"></i>
-          </Link>
-        </div>
-      )}
+    {hasMore && (
+  <div className={styles.viewMoreWrapper}>
+    <Link href="/event" className={styles.viewMoreBtn}>
+      View All Events <i className="ri-arrow-right-line"></i>
+    </Link>
+  </div>
+)}
 
       {/* Beautiful Modal Popup */}
       {selectedEvent && (

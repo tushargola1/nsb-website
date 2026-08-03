@@ -1,0 +1,236 @@
+/* WhatsappChat.module.css */
+
+.chatBox {
+  box-sizing: border-box;
+  outline: none;
+  position: fixed;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 1px 15px rgba(32, 33, 36, 0.28);
+  bottom: 90px;
+  left: 30px;
+  overflow: hidden;
+  z-index: 99;
+  animation: showChat 0.5s;
+  transform: scale(1);
+}
+
+.showChat {
+  background: #fff;
+  color: #404040;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  z-index: 98;
+  bottom: 25px;
+  left: 30px;
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 1px 15px rgba(32, 33, 36, 0.28);
+}
+
+
+.headerChat {
+  background: #095e54;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headHome {
+  display: flex;
+  align-items: center;
+}
+
+.avatar img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+
+.whatsappName {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 0.5;
+  color:#fff
+}
+
+.headerChat small {
+  font-size: 12px;
+  color: #ddd;
+}
+
+
+.closeChat {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: #fff;
+  background: transparent;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+
+.chatBody {
+  padding: 20px 20px 20px 10px;
+  background-color: rgb(230,221,212);
+  min-height: 180px;
+  position: relative;
+}
+
+
+.chatBody::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.08;
+  background-image: url("https://elfsight.com/assets/chats/patterns/whatsapp.png");
+  background-size: contain;
+}
+
+
+.message {
+  background: #fff;
+  padding: 7px 14px 6px;
+  border-radius: 0 8px 8px;
+  position: relative;
+  max-width: calc(100% - 40px);
+  box-shadow: rgba(0,0,0,.13) 0 1px .5px;
+  z-index: 2;
+}
+
+
+.author {
+  font-size: 13px;
+  font-weight: 700;
+  color: rgba(0,0,0,.4);
+  line-height: 18px;
+}
+
+
+.text {
+  font-size: 14px;
+  line-height: 19px;
+  margin-top: 4px;
+  color: #111;
+}
+
+
+.time {
+  text-align: right;
+  margin-top: 4px;
+  font-size: 12px;
+  color: rgba(17,17,17,.5);
+}
+
+
+.messageBox {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 8px;
+}
+
+
+.messageBox textarea {
+  border: none;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  height: 35px;
+  outline: none;
+  resize: none;
+  padding: 10px;
+  font-size: 14px;
+
+  overflow-y: auto;
+}
+
+
+.sendBtn {
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  background:#ababab;
+  border-radius:10px;
+  color:#fff;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+
+.sendBtn svg {
+  fill:#a6a6a6;
+  height:24px;
+  width:24px;
+}
+
+
+@keyframes showChat {
+  from {
+    transform: scale(0);
+    opacity:0;
+  }
+}
+
+
+@media screen and (max-width:480px){
+
+  .chatBox {
+    width:auto;
+    left:5%;
+    right:5%;
+  }
+
+  .showChat {
+    right:20px;
+    bottom:20px;
+  }
+
+}
+.show {
+  animation: showChat .5s;
+}
+.messageBox textarea {
+  resize: none;
+  overflow-y: auto;
+  scrollbar-width: thin; /* Firefox */
+}
+
+/* Chrome, Edge, Safari */
+.messageBox textarea::-webkit-scrollbar {
+  width: 6px;
+}
+
+.messageBox textarea::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.messageBox textarea::-webkit-scrollbar-thumb {
+  background: #bdbdbd;
+  border-radius: 10px;
+}
+
+.messageBox textarea::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+/* Hide scrollbar buttons (up/down arrows) */
+.messageBox textarea::-webkit-scrollbar-button {
+  display: none;
+  width: 0;
+  height: 0;
+}

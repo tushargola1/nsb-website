@@ -11,7 +11,7 @@ const NAV_ITEMS = [
     label: "About Us",
     href: "#",
     children: [
-      { label: "Director NSB", href: "/about/director-nsb" },
+      { label: "Director NSB", href: "/about/officiating-director-nsb" },
       { label: "Governing Board", href: "/about/governing-board" },
       { label: "About NEARS", href: "/about/about-nears" },
       {
@@ -65,7 +65,7 @@ const NAV_ITEMS = [
       { label: "Placements", href: "/corporate/placements" },
     ],
   },
-  { label: "Admissions", href: "/admissions" },
+  { label: "Admissions", href: "/admission" },
   { label: "Contact", href: "/contact" },
 ];
 

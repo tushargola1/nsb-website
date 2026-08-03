@@ -4,11 +4,12 @@ import React from "react";
 const Breadcrump = ({ parentPage, currentPage }) => {
   return (
     <section
-      className="rs-breadcrumb-area rs-breadcrumb-one p-relative"
+      className="rs-breadcrumb-area rs-breadcrumb-one p-relative "
       style={{ padding: "30px" }}
     >
-      <div
-        className="rs-breadcrumb-bg-thumb include-bg"
+     <div className="container">
+       <div
+        className="rs-breadcrumb-bg-thumb include-bg "
         data-background="assets/images/bg/breadcrumb-bg-thumb-01.webp"
       ></div>
       <div className="container-fluid g-0">
@@ -42,6 +43,7 @@ const Breadcrump = ({ parentPage, currentPage }) => {
           </div>
         </div>
       </div>
+     </div>
     </section>
   );
 };

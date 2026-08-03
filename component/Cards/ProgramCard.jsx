@@ -45,7 +45,7 @@ const ProgramCard = ({ programData }) => {
                   <div className="rs-program-btn">
                     <a
                       className="rs-btn has-icon has-theme-cyan hover-cyan"
-                      href="program-details.html"
+                      href=""
                     >
                       <span className="btn-text-wrap">
                         <span className="text-default">View Program</span>

@@ -6,7 +6,7 @@ const categories = ["All", "NSB Faculty", "IIM-A Faculty", "Adjunct Faculty", "V
 
 export default function FacultyTabs({ activeCategory, onSelect }) {
   return (
-    <div className={styles.facultyPillBar}>
+    <div className={styles.facultyPillBar} >
       {categories.map((cat) => (
         <button
           key={cat}

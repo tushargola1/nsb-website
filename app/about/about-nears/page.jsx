@@ -1,8 +1,23 @@
+import TeamCard2 from "@/component/Cards/TeamCard2";
 import Breadcrump from "@/component/common/breadcrump/Breadcrump";
 import Image from "next/image";
 import React from "react";
 
 const page = () => {
+  const governingBodyData = [
+    {
+      id: 1,
+      image: "/assets/images/about/nears/shri-anil.jpeg",
+      name: "Shri Anil Kumar Jadli",
+      position: "President (NEARS)",
+    },
+    {
+      id: 2,
+      image: "/assets/images/about/nears/gireesh.webp",
+      name: "Dr. Gireesh Chandra Tripathi",
+      position: "President (NEARS)",
+    },
+  ];
   return (
     <>
       <Breadcrump currentPage={"About Nears"} parentPage={"About"} />
@@ -88,7 +103,7 @@ const page = () => {
                 <h2 className="section-title has-theme-blue mb-20 ps-0 mt-30">
                   <span className="blue-color">Govering</span> Body
                 </h2>
-                <div className="rs-team-four row align-items-center justify-content-center gap-lg-5 gy-3">
+                <div className=" row align-items-center justify-content-center gap-lg-5 gy-3">
                   {/* <div className="rs-team-details-thumb-wrapper">
                                 <div className="rs-team-details-author-thumb">
                                        <Image
@@ -119,61 +134,21 @@ const page = () => {
                                     <span className="rs-team-details-author-desig">Teaching Assistant (TA)</span>
                                 </div>
                             </div> */}
+                  {governingBodyData.map((item, id) => {
+                    return (
+                      <>
+                        <div className="col-md-6 col-lg-3 col-12" key={id}>
+                          <TeamCard2 data={item} />
+                        </div>
+                      </>
+                    );
+                  })}
 
-                  <div className="rs-team-item col-md-6 col-lg-3 col-12">
-                    <div className="rs-team-thumb">
-                      <a href="team-details.html">
-                        <Image
-                          src="/assets/images/about/nears/shri-anil.jpeg"
-                          width={200}
-                          height={50}
-                          alt="NSB Logo"
-                          priority
-                        />
-                      </a>
-                    </div>
-                    <div className="rs-team-content-wrapper">
-                      <div className="rs-team-content-info">
-                        <h5 className="rs-team-title underline">
-                          <a href="team-details.html">Shri Anil Kumar Jadli</a>
-                        </h5>
-                        <span className="rs-team-designation">
-                          President (NEARS)
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="rs-team-item col-md-6 col-lg-3 col-12">
-                    <div className="rs-team-thumb">
-                      <a href="team-details.html">
-                        <Image
-                          src="/assets/images/about/nears/gireesh.webp"
-                          width={200}
-                          height={70}
-                          alt="NSB Logo"
-                          priority
-                        />
-                      </a>
-                    </div>
-                    <div className="rs-team-content-wrapper">
-                      <div className="rs-team-content-info">
-                        <h5 className="rs-team-title underline">
-                          <a href="team-details.html">
-                            Dr. Gireesh Chandra Tripathi
-                          </a>
-                        </h5>
-                        <span className="rs-team-designation">
-                          President (NEARS)
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <h2 className="section-title has-theme-blue mb-20 ps-0 mt-30">
+                  <h2 className="section-title has-theme-blue mb-20  mt-30">
                     Important <span className="blue-color">Documents</span>
                   </h2>
                   <div className="rs-program-details-wrapper">
-                    <div className="rs-program-details-tab-wrapper d-flex">
+                    <div className="rs-program-details-tab-wrapper d-flex flex-lg-row flex-md-row flex-column gap-4">
                       <div className="rs-program-btn text-center w-100">
                         <a
                           className="rs-btn has-icon has-theme-cyan hover-cyan"

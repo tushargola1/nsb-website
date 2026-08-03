@@ -33,13 +33,13 @@ export default function Testimonials() {
         </div>
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
-          spaceBetween={20}
+          // spaceBetween={20}
           loop
           speed={1000}
           navigation
           // pagination={{ clickable: true }}
           autoplay={{
-            delay: 6000,
+            delay: 600000000,
             disableOnInteraction: false,
           }}
           breakpoints={{

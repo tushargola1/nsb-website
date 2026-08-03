@@ -4,6 +4,7 @@ import Navbar from "@/component/layout/Navbar";
 import Footer from "@/component/layout/Footer";
 import Preloader from "@/component/layout/Preloader";
 import BackToTop from "@/component/layout/BackToTop";
+import WhatsappChat from "@/component/whatsapp/WhatsappChat";
 
 export const metadata = {
   title: "Best Energy Management College in India - NSB Noida",
@@ -46,7 +47,7 @@ export default function RootLayout({ children }) {
 
         <Navbar />
         <main>{children}</main>
-
+    <WhatsappChat/>
         <Footer />
         <BackToTop />
 

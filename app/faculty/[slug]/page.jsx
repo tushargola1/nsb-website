@@ -3,12 +3,22 @@
 import facultyData from "@/component/data/facultyData";
 import styles from "./faculty_detail.module.css";
 import Link from "next/link";
-
+import Breadcrump from "@/component/common/breadcrump/Breadcrump";
+import Image from "next/image";
 export async function generateStaticParams() {
   return facultyData.map((member) => ({ slug: member.slug }));
 }
 
-const EXCLUDED_KEYS = ["slug", "name", "designation", "category", "image", "contact", "summary", "publications"];
+const EXCLUDED_KEYS = [
+  "slug",
+  "name",
+  "designation",
+  "category",
+  "image",
+  "contact",
+  "summary",
+  "publications",
+];
 
 function humanizeKey(key) {
   const withSpaces = key.replace(/([a-z0-9])([A-Z])/g, "$1 $2");
@@ -74,7 +84,14 @@ function renderPublicationValue(value) {
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" strokeWidth="1.5" />
+              <circle
+                cx="12"
+                cy="12"
+                r="10"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.5"
+              />
               <path
                 d="M8 12.5l2.5 2.5L16 9"
                 fill="none"
@@ -98,7 +115,12 @@ function renderPublicationValue(value) {
   if (typeof value === "string" && value) {
     if (isUrl(value)) {
       return (
-        <a href={value} target="_blank" rel="noopener noreferrer" className={styles.pubLink}>
+        <a
+          href={value}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.pubLink}
+        >
           {value}
         </a>
       );
@@ -117,7 +139,7 @@ function PublicationsSection({ publications }) {
       value !== null &&
       value !== undefined &&
       value !== "" &&
-      !(Array.isArray(value) && value.length === 0)
+      !(Array.isArray(value) && value.length === 0),
   );
 
   if (entries.length === 0) return null;
@@ -162,46 +184,14 @@ export default async function FacultyDetailPage({ params }) {
       !EXCLUDED_KEYS.includes(key) &&
       value !== null &&
       value !== undefined &&
-      value !== ""
+      value !== "",
   );
 
   const fieldRows = chunk(dynamicFields, 2);
 
   return (
     <main>
-      {/* Breadcrumb */}
-      <section className="rs-breadcrumb-area rs-breadcrumb-one p-relative section-space">
-        <div
-          className="rs-breadcrumb-bg-thumb include-bg"
-          style={{ backgroundImage: "url(/assets/images/bg/breadcrumb-bg-thumb-05.webp)" }}
-        ></div>
-        <div className="container-fluid g-0">
-          <div className="row">
-            <div className="col-xl-6 col-lg-6">
-              <div className="rs-breadcrumb-wrapper">
-                <div className="rs-breadcrumb-menu">
-                  <nav>
-                    <ul>
-                      <li className="rs-breadcumb-item">
-                        <Link href="/">Home</Link>
-                      </li>
-                      <li className="rs-breadcumb-item">
-                        <Link href="/faculty">Faculty</Link>
-                      </li>
-                      <li className="rs-breadcumb-item">{member.name}</li>
-                    </ul>
-                  </nav>
-                </div>
-                <div className="rs-breadcrumb-title-wrapper">
-                  <h1 className="rs-breadcrumb-title">{member.name}</h1>
-                  <span className="rs-breadcrumb-line"></span>
-                </div>
-                <p className="rs-breadcrumb-desc">{member.designation}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Breadcrump currentPage={member.name} parentPage={"Faculty Members"} />
 
       {/* Team details */}
       <section className="rs-team-details-details-area rs-team-details section-space-top">
@@ -209,27 +199,41 @@ export default async function FacultyDetailPage({ params }) {
           <div className="row align-items-center">
             <div className="col-xl-12">
               <div className="rs-team-details-wrapper">
-
                 {/* Left sidebar: photo + name */}
                 <div className="rs-team-details-thumb-wrapper">
                   <div className="rs-team-details-author-thumb">
-                    <img src={member.image} alt={member.name} />
+                    <Image
+                      src={member.image}
+                      alt={member.name}
+                      width={500}
+                      height={500}
+                      style={{
+                        width: "100%",
+                        height: "auto",
+                        objectFit: "cover",
+                      }}
+                      priority
+                    />
                   </div>
                   <div className="rs-team-details-author-info text-center">
-                    <h5 className="rs-team-details-author-name">{member.name}</h5>
-                    <span className="rs-team-details-author-desig">{member.designation}</span>
+                    <h5 className="rs-team-details-author-name">
+                      {member.name}
+                    </h5>
+                    <span className="rs-team-details-author-desig">
+                      {member.designation}
+                    </span>
                   </div>
                 </div>
 
                 {/* Right content */}
                 <div className="rs-team-details-content-wrapper">
-
                   {member.summary && (
                     <>
-                    <h3 className="rs-team-details-title">About: Introduction</h3>
-                    <p className="rs-team-details-desc">{member.summary}</p>   
+                      <h3 className="rs-team-details-title">
+                        About: Introduction
+                      </h3>
+                      <p className="rs-team-details-desc">{member.summary}</p>
                     </>
-
                   )}
                   {/* Dynamic fields in the two-column info grid, divided every 2 fields.
                       Inline styles override the site's default multi-column CSS on
@@ -251,8 +255,13 @@ export default async function FacultyDetailPage({ params }) {
                           }}
                         >
                           {row.map(([key, value]) => (
-                            <div className="rs-team-details-info-item" key={key}>
-                              <h5 className="rs-team-details-info-title">{humanizeKey(key)}</h5>
+                            <div
+                              className="rs-team-details-info-item"
+                              key={key}
+                            >
+                              <h5 className="rs-team-details-info-title">
+                                {humanizeKey(key)}
+                              </h5>
                               <FieldValue value={value} />
                             </div>
                           ))}
@@ -274,15 +283,23 @@ export default async function FacultyDetailPage({ params }) {
                   {/* Contact info */}
                   {member.contact && (
                     <div className="rs-team-details-contact-info">
-                      <h5 className="rs-team-details-contact-title">Contact Information's</h5>
+                      <h5 className="rs-team-details-contact-title">
+                        Contact Information's
+                      </h5>
                       <div className="rs-contact-wrapper">
                         {member.contact.email && (
-                          <a className="rs-contact-info-item" href={`mailto:${member.contact.email}`}>
+                          <a
+                            className="rs-contact-info-item"
+                            href={`mailto:${member.contact.email}`}
+                          >
                             {member.contact.email}
                           </a>
                         )}
                         {member.contact.phone && (
-                          <a className="rs-contact-info-item" href={`tel:${member.contact.phone.replace(/[^0-9+]/g, "")}`}>
+                          <a
+                            className="rs-contact-info-item"
+                            href={`tel:${member.contact.phone.replace(/[^0-9+]/g, "")}`}
+                          >
                             {member.contact.phone}
                           </a>
                         )}
@@ -311,7 +328,10 @@ export default async function FacultyDetailPage({ params }) {
               className="col-xl-12 text-center"
               style={{ marginTop: "30px", paddingBottom: "60px" }}
             >
-              <Link className="rs-btn has-icon has-theme-blue hover-yellow" href="/faculty">
+              <Link
+                className="rs-btn has-icon has-theme-blue hover-yellow"
+                href="/faculty"
+              >
                 <span className="btn-text-wrap">
                   <span className="text-default">← Back to Faculty</span>
                   <span className="text-hover">← Back to Faculty</span>

@@ -1,9 +1,47 @@
+import TeamCard2 from "@/component/Cards/TeamCard2";
 import Breadcrump from "@/component/common/breadcrump/Breadcrump";
 import ChairmenMessage from "@/component/common/message/ChairmenMessage";
 import Image from "next/image";
 import React from "react";
 
 const page = () => {
+  const governingBodyData = [
+    {
+      id: 1,
+      image: "/assets/images/about/gurdeep.webp",
+      name: "Shri Gurdeep Singh",
+      position: "Chairman and Managing Director",
+      organization: "NTPC Limited",
+    },
+    {
+      id: 2,
+      image: "/assets/images/about/governingBoard/gauri.jpg",
+      name: "Dr Gauri Trivedi",
+      position: "Former Independent Director",
+      organization: "NTPC Limited IAS",
+    },
+    {
+      id: 3,
+      image: "/assets/images/about/governingBoard/dillip.jpg",
+      name: "Shri Dilip Kumar Patel",
+      position: "Former Director (HR)",
+      organization: "NTPC Limited",
+    },
+    {
+      id: 4,
+      image: "/assets/images/about/nears/shri-anil.jpeg",
+      name: "Shri Anil Kumar Jadli",
+      position: "Director (HR)",
+      organization: "NTPC Limited",
+    },
+    {
+      id: 5,
+      image: "/assets/images/about/governingBoard/sunil.jpg",
+      name: "Prof Sunil Maheshwari",
+      position: "Professor",
+      organization: "IIM Ahmedabad",
+    },
+  ];
   return (
     <>
       <Breadcrump currentPage={"Governing Board"} parentPage={"About"} />
@@ -37,6 +75,14 @@ const page = () => {
                 <h2 className="section-title has-theme-blue mb-20 ps-0">
                   Governing Board
                 </h2>
+                <div className="row align-items-center justify-content-center gap-5">
+                  {governingBodyData.map((item, id) => {
+                    return (                  <div className="col-lg-3 col-md-5 col-12" key={id}>
+                       <TeamCard2 data={item}/>
+                  </div>
+                 )
+                  })}
+                </div>
               </div>
             </div>
           </div>

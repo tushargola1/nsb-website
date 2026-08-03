@@ -1,11 +1,35 @@
 export const HomeBannerData = [
-  // Events (3)
-  {
-    id: 1,
-    src: "/assets/images/gallery/Event6.webp",
-    title: "VYAAKHYA Guest Lecture Series",
+    {
+    id: 13,
+    src: "/assets/images/homebanner/1.png",
+    title: "",
     description: "",
   },
+  {
+    id: 14,
+    src: "/assets/images/homebanner/2.png",
+    title: "",
+    description: "",
+  },
+  {
+    id: 15,
+    src: "/assets/images/homebanner/3.png",
+    title: "",
+    description: "",
+  },
+  {
+    id: 16,
+    src: "/assets/images/homebanner/4.png",
+    title: "",
+    description: "",
+  },
+  // Events (3)
+  // {
+  //   id: 1,
+  //   src: "/assets/images/gallery/Event6.webp",
+  //   title: "VYAAKHYA Guest Lecture Series",
+  //   description: "",
+  // },
   {
     id: 2,
     src: "/assets/images/gallery/Event2.jpg",
@@ -48,18 +72,7 @@ export const HomeBannerData = [
     title: "NSB - IIT Roorkee MoU",
     description: "NSB signed a MoU with IIT Roorkee",
   },
-  {
-    id: 8,
-    src: "/assets/images/gallery/MOU2.webp",
-    title: "NSB - CPI (India) MoU",
-    description: "NTPC School Of Business signed MoU with Climate Policy Initiative (India)",
-  },
-  {
-    id: 9,
-    src: "/assets/images/gallery/MOU3.webp",
-    title: "MoU with National Skill Development Corp.",
-    description: "NTPC School Of Business signed MoU with National Skill Development Corp.",
-  },
+
 
   // Student Activities (3)
   {
@@ -69,17 +82,6 @@ export const HomeBannerData = [
     description:
       "NSB PGDM EM students joined the Run for Unity at JLN Stadium, a tribute to National Unity Day organized by the Ministry of Power, India.",
   },
-  {
-    id: 11,
-    src: "/assets/images/gallery/STUDENT2.webp",
-    title: "Blood Donation Drive at NSB",
-    description:
-      "On the occasion of the 77th Independence Day, the SADAYA club of NSB organized a blood donation drive at the NSB campus.",
-  },
-  {
-    id: 12,
-    src: "/assets/images/gallery/STUDENT3.webp",
-    title: "NSB Welcomes our PGDM EM Batch 6 in the World of Energy.",
-    description: "One Step Closer to reach the ⭐Star..",
-  },
+
+
 ];
