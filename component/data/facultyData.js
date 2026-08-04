@@ -1,9 +1,87 @@
 // component/data/facultyData.js
 const facultyData = [
+   {
+    slug: "R_Gopichandran",
+    name: "Dr. R Gopichandran",
+    designation: "Professor & Officiating Director",
+    category: "NSB Faculty",
+    image: "../assets/images/faculty/faculty-details/NSB Faculty/R Gopichandran.webp",
+
+    summary:
+      "The School's academic and research framework on aspects of environment and sustainability centres on mitigation, adaptation and related preventive management strategies. Multilateral environmental agreements and industry-led stewardship are two major strands.",
+
+    academicAffiliation: [
+      "Alumnus, International Visitors Leadership Program, Department of State, United States of America",
+      "Fellow, Indian Geophysical Union",
+      "Fellow, Andhra Pradesh Akademi of Sciences",
+      "Fellow, National Academy of Environmental Sciences",
+    ],
+
+    consulting: [
+      "Sr. Consultant, Montreal Protocol & Climate Change, EESL New Delhi, working out of the Ozone Cell of the MoEFCC, Government of India (January 2018 to July 2018)",
+      "Director, Vigyan Prasar — an Autonomous Organization under the Department of Science & Technology, Government of India (October 2012 to October 2017)",
+      "Principal Research Scientist (Scientist SH): Environment & Climate Change Wing, and Director In Charge – Gujarat Energy Research & Management Institute (GERMI) Research, Innovation & Incubation Centre (GRIIC), Gandhinagar, Gujarat, India (September 2009 – October 2012)",
+      "Scientist G (Programme Director – Environment Management), Centre for Environment Education (CEE: A Centre of Excellence of the Ministry of Environment, Forests & Climate Change, Govt. of India) (June 1993 – September 2009)",
+      "Senior Research Associate, Entomology Research Institute, Loyola College, Chennai (till June 1993)",
+    ],
+
+    thoughts:
+      "There is significant scope to enhance Integrated Environmental Performance of the power sector. This is especially through a specific focus on: 1) Eco-system resilience to enhance services through preventive management and amelioration, and 2) Assessment and implementation of energy efficiency enhancement and emission reduction opportunities in energy end-use sectors as part of national missions that target integrated national and global environmental/climate gains.",
+
+    education: [
+      { degree: "Ph.D. (Biological Sciences / Microbial Ecology)", institution: "Sri Sathya Sai Institute of Higher Learning, Andhra Pradesh", year: "" },
+      { degree: "Ph.D. (Interdisciplinary Biosciences / Chemical Ecology)", institution: "University of Madras", year: "" },
+      { degree: "LLB", institution: "Gujarat University", year: "" },
+    ],
+
+    professionalAffiliation: [
+      "Member, Inter Ministerial Empowered Steering Committee, Ministry of Environment, Forest & Climate Change, Government of India — on aspects of India's commitments to and compliance with the Montreal Protocol",
+      "Member, Environmental Appraisal Committee for Mineral-based Industries for grant of environmental clearances, Ministry of Environment, Forest & Climate Change, Government of India",
+    ],
+
+    teaching: [
+      "Industry Led Sustainability",
+      "Spoken Business Communication",
+      "Multilateral Environmental Agreements",
+    ],
+
+    areaOfResearch: {
+      areas: [
+        "Environmental performance enhancement opportunities and adaptation support",
+        "Integrated climate and ozone layer protection industry stewardship",
+        "Energy efficiency enhancement & emission reduction initiatives in industry",
+      ],
+      currentResearch: [
+        "Environmental performance benchmarks including science-based targets for mitigation and adaptation outcomes",
+        "Disaster risk reduction opportunities in power transmission: a climate change impacts management imperative for the power sector",
+        "Waste minimization and cleaner production as essential elements of policies for preventive environmental management",
+      ],
+    },
+
+    contact: {
+      website: "https://www.nsb.ac.in",
+      email: "gopichandran@nsb.ac.in",
+      phone: "(91) 9650754567",
+    },
+    publications: {
+      link: "https://nsb.ac.in/r-gopichandran/#",
+
+      bookChapters: [
+        "Behnassi, M., Ataur Rahman, M., D'Silva, J., Gopichandran, R., Gupta, H., Pollmann, O., and Ramachandran, N. (2020). Enhancing Resilience for Food and Nutrition Security within a Changing Climate. (Peer-reviewed, final stages of publication through Springer)",
+        "Behnassi, M., Gupta, H., Ramachandran, N., Matsa, W., Gopichandran, R. and Ashfaq, M. (2020). Effectiveness of Disaster Risk Governance and Resilience Building: Linkages, Knowledge, Inclusiveness, and Regulation. (Peer-reviewed, final stages of publication through Springer)",
+        "Gopichandran, R. (2020). Some Important Knowledge Gaps at the Interface of Chemical Ecology and Ecosystem Based Adaptation Planning: A Public Policy Perspective. NTPC School of Business, Noida, Uttar Pradesh, India. (Peer-reviewed, final stages of publication through Springer)",
+      ],
+
+      researchInputsToGlobalReports: [
+        "Contributed to and technically edited the chapter on Asia Pacific in the United Cities & Local Governments Asia-Pacific (UCLG ASPAC) GOLD Global Observatory on Local Democracy and Decentralization, 2019: https://www.uclg.org/sites/default/files/goldv_en.pdf",
+        "Provided review inputs to the First Order Draft of the 6th Assessment Report of the IPCC, 2019",
+      ],
+    },
+  },
   {
     slug: "ap-dash",
     name: "Dr. Ambika Prasad Dash",
-    designation: "Former Dean, NTPC School of Business",
+    designation: "Professor",
     category: "NSB Faculty",
     image: "../assets/images/faculty/faculty-details/NSB Faculty/ap-dash.png",
 
@@ -305,88 +383,11 @@ const facultyData = [
       ],
     },
   },
-  {
-    slug: "R_Gopichandran",
-    name: "Dr. R Gopichandran",
-    designation: "Faculty",
-    category: "NSB Faculty",
-    image: "../assets/images/faculty/faculty-details/NSB Faculty/R Gopichandran.webp",
-
-    summary:
-      "The School's academic and research framework on aspects of environment and sustainability centres on mitigation, adaptation and related preventive management strategies. Multilateral environmental agreements and industry-led stewardship are two major strands.",
-
-    academicAffiliation: [
-      "Alumnus, International Visitors Leadership Program, Department of State, United States of America",
-      "Fellow, Indian Geophysical Union",
-      "Fellow, Andhra Pradesh Akademi of Sciences",
-      "Fellow, National Academy of Environmental Sciences",
-    ],
-
-    consulting: [
-      "Sr. Consultant, Montreal Protocol & Climate Change, EESL New Delhi, working out of the Ozone Cell of the MoEFCC, Government of India (January 2018 to July 2018)",
-      "Director, Vigyan Prasar — an Autonomous Organization under the Department of Science & Technology, Government of India (October 2012 to October 2017)",
-      "Principal Research Scientist (Scientist SH): Environment & Climate Change Wing, and Director In Charge – Gujarat Energy Research & Management Institute (GERMI) Research, Innovation & Incubation Centre (GRIIC), Gandhinagar, Gujarat, India (September 2009 – October 2012)",
-      "Scientist G (Programme Director – Environment Management), Centre for Environment Education (CEE: A Centre of Excellence of the Ministry of Environment, Forests & Climate Change, Govt. of India) (June 1993 – September 2009)",
-      "Senior Research Associate, Entomology Research Institute, Loyola College, Chennai (till June 1993)",
-    ],
-
-    thoughts:
-      "There is significant scope to enhance Integrated Environmental Performance of the power sector. This is especially through a specific focus on: 1) Eco-system resilience to enhance services through preventive management and amelioration, and 2) Assessment and implementation of energy efficiency enhancement and emission reduction opportunities in energy end-use sectors as part of national missions that target integrated national and global environmental/climate gains.",
-
-    education: [
-      { degree: "Ph.D. (Biological Sciences / Microbial Ecology)", institution: "Sri Sathya Sai Institute of Higher Learning, Andhra Pradesh", year: "" },
-      { degree: "Ph.D. (Interdisciplinary Biosciences / Chemical Ecology)", institution: "University of Madras", year: "" },
-      { degree: "LLB", institution: "Gujarat University", year: "" },
-    ],
-
-    professionalAffiliation: [
-      "Member, Inter Ministerial Empowered Steering Committee, Ministry of Environment, Forest & Climate Change, Government of India — on aspects of India's commitments to and compliance with the Montreal Protocol",
-      "Member, Environmental Appraisal Committee for Mineral-based Industries for grant of environmental clearances, Ministry of Environment, Forest & Climate Change, Government of India",
-    ],
-
-    teaching: [
-      "Industry Led Sustainability",
-      "Spoken Business Communication",
-      "Multilateral Environmental Agreements",
-    ],
-
-    areaOfResearch: {
-      areas: [
-        "Environmental performance enhancement opportunities and adaptation support",
-        "Integrated climate and ozone layer protection industry stewardship",
-        "Energy efficiency enhancement & emission reduction initiatives in industry",
-      ],
-      currentResearch: [
-        "Environmental performance benchmarks including science-based targets for mitigation and adaptation outcomes",
-        "Disaster risk reduction opportunities in power transmission: a climate change impacts management imperative for the power sector",
-        "Waste minimization and cleaner production as essential elements of policies for preventive environmental management",
-      ],
-    },
-
-    contact: {
-      website: "https://www.nsb.ac.in",
-      email: "gopichandran@nsb.ac.in",
-      phone: "(91) 9650754567",
-    },
-    publications: {
-      link: "https://nsb.ac.in/r-gopichandran/#",
-
-      bookChapters: [
-        "Behnassi, M., Ataur Rahman, M., D'Silva, J., Gopichandran, R., Gupta, H., Pollmann, O., and Ramachandran, N. (2020). Enhancing Resilience for Food and Nutrition Security within a Changing Climate. (Peer-reviewed, final stages of publication through Springer)",
-        "Behnassi, M., Gupta, H., Ramachandran, N., Matsa, W., Gopichandran, R. and Ashfaq, M. (2020). Effectiveness of Disaster Risk Governance and Resilience Building: Linkages, Knowledge, Inclusiveness, and Regulation. (Peer-reviewed, final stages of publication through Springer)",
-        "Gopichandran, R. (2020). Some Important Knowledge Gaps at the Interface of Chemical Ecology and Ecosystem Based Adaptation Planning: A Public Policy Perspective. NTPC School of Business, Noida, Uttar Pradesh, India. (Peer-reviewed, final stages of publication through Springer)",
-      ],
-
-      researchInputsToGlobalReports: [
-        "Contributed to and technically edited the chapter on Asia Pacific in the United Cities & Local Governments Asia-Pacific (UCLG ASPAC) GOLD Global Observatory on Local Democracy and Decentralization, 2019: https://www.uclg.org/sites/default/files/goldv_en.pdf",
-        "Provided review inputs to the First Order Draft of the 6th Assessment Report of the IPCC, 2019",
-      ],
-    },
-  },
+ 
   {
     slug: "Sandeep_Kumar",
     name: "Dr. Sandeep Kumar",
-    designation: "Faculty",
+    designation: "Assistant Professor",
     category: "NSB Faculty",
     image: "../assets/images/faculty/faculty-details/NSB Faculty/Sandeep Kumar.png",
 
@@ -604,28 +605,28 @@ const facultyData = [
       ],
     },
   },
-  {
-  slug: "Dr-KSB",
-    name: "Prof. K. S. Bandyopadhyay",
-    designation: "Faculty",
-    category: "NSB Faculty",
-    image: "../assets/images/faculty/faculty-details/NSB Faculty/Dr-KSB.png",
+  // {
+  // slug: "Dr-KSB",
+  //   name: "Prof. K. S. Bandyopadhyay",
+  //   designation: "Faculty",
+  //   category: "NSB Faculty",
+  //   image: "../assets/images/faculty/faculty-details/NSB Faculty/Dr-KSB.png",
 
-    summary:
-      "Prof. K.S. Bandyopadhyay is a faculty member in Energy Market & Policy.",
+  //   summary:
+  //     "Prof. K.S. Bandyopadhyay is a faculty member in Energy Market & Policy.",
 
-    areaOfResearch: {
-      areas: [
-        "Energy Market & Policy",
-      ],
-    },
+  //   areaOfResearch: {
+  //     areas: [
+  //       "Energy Market & Policy",
+  //     ],
+  //   },
 
-    contact: {
-      website: "https://www.nsb.ac.in",
-      email: "ksbandyopadhyay@nsb.ac.in",
-      phone: "(91) 9650990833",
-    },
-  },
+  //   contact: {
+  //     website: "https://www.nsb.ac.in",
+  //     email: "ksbandyopadhyay@nsb.ac.in",
+  //     phone: "(91) 9650990833",
+  //   },
+  // },
   {
     slug: "sanjay-verma",
     name: "Sanjay Verma",

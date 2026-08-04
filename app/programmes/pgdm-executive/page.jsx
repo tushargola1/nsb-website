@@ -1,4 +1,5 @@
 import Breadcrump from "@/component/common/breadcrump/Breadcrump";
+import Image from "next/image";
 import React from "react";
 
 const page = () => {
@@ -13,8 +14,38 @@ const page = () => {
                 <h2 className="section-title has-theme-blue mb-20">
                   PGDM (Executive)
                 </h2>
+                <div
+                  className="position-relative overflow-hidden rounded-4"
+                  style={{
+                    height: "450px",
+                  }}
+                >
+                  {/* Blurry Background Image */}
+                  <Image
+                    src="/assets/images/program/executive.jpeg"
+                    alt="background"
+                    fill
+                    style={{
+                      objectFit: "cover",
+                      filter: "blur(20px)",
+                      transform: "scale(1.1)",
+                      opacity: 0.7,
+                    }}
+                  />
 
-                <div className="rs-faq-wrapper">
+                  {/* Main Full Image */}
+                  <div className="position-relative w-100 h-100 d-flex align-items-center justify-content-center">
+                    <Image
+                      src="/assets/images/program/executive.jpeg"
+                      alt="PGDM Executive"
+                      fill
+                      style={{
+                        objectFit: "contain",
+                      }}
+                    />
+                  </div>
+                </div>
+                <div className="rs-faq-wrapper mt-40">
                   <div className="rs-faq-content rs-accordion-two">
                     <div className="accordion-wrapper ">
                       <div className="accordion row" id="accordionExampleOne">
@@ -79,9 +110,9 @@ const page = () => {
                               className="accordion-button"
                               type="button"
                               data-bs-toggle="collapse"
-                              data-bs-target="#collapseOne"
+                              data-bs-target="#collapseTwo"
                               aria-expanded="true"
-                              aria-controls="collapseOne"
+                              aria-controls="collapseTwo"
                             >
                               Pedagogy
                               <span className="accordion-icon">
@@ -95,7 +126,7 @@ const page = () => {
                             </button>
                           </h5>
                           <div
-                            id="collapseOne"
+                            id="collapseTwo"
                             className="accordion-collapse collapse show"
                             data-bs-parent="#accordionExampleOne"
                           >
@@ -121,6 +152,332 @@ const page = () => {
                                   and practical scenarios and bridge the gap
                                   between classroom learning and real business
                                   challenges.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="rs-accordion-item col-lg-6 col-md-12 col-12">
+                          <h5 className="accordion-header" id="headingOne">
+                            <button
+                              className="accordion-button"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#collapseThree"
+                              aria-expanded="true"
+                              aria-controls="collapseThree"
+                            >
+                              Eligibility Critcria and Admission Process
+                              <span className="accordion-icon">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 11 15"
+                                >
+                                  <path d="M0.0175781 9.56403V8.72934C2.97994 8.56955 4.53369 10.3852 4.98798 11.3026V0.54895H5.89635V11.3026C7.11473 9.10081 9.47347 8.55811 10.907 8.73049V9.55706C7.3714 9.19949 5.90086 12.8809 5.89635 14.4554H4.99641C4.46504 9.88737 1.14729 9.38262 0.0175781 9.56403Z"></path>
+                                </svg>
+                              </span>
+                            </button>
+                          </h5>
+                          <div
+                            id="collapseThree"
+                            className="accordion-collapse collapse "
+                            data-bs-parent="#accordionExampleOne"
+                          >
+                            <div className="accordion-body">
+                              <div className="rs-history-list-wrapperr row">
+                                <ul
+                                  style={{ listStyleType: "none" }}
+                                  className="mb-20"
+                                >
+                                  <li>
+                                    <p className="rs-history-desc">
+                                      NSB accepts company & self-sponsored
+                                      applicants with a minimum of 3 years of
+                                      work experience.
+                                    </p>
+                                  </li>
+                                  <li>
+                                    <p className="rs-history-desc">
+                                      The candidates must have graduation in any
+                                      discipline with 50% and above marks (or an
+                                      equivalent CGPA) by any recognized
+                                      university (5% relaxation for SC/ST/DAP*).
+                                    </p>
+                                  </li>
+                                  <li>
+                                    <p className="rs-history-desc">
+                                      For self-sponsored candidates, the
+                                      applicant must have a valid
+                                      CAT/XAT/GMAT/Other Management Score.
+                                    </p>
+                                  </li>
+                                </ul>
+                                <p className="rs-history-desc mb-0">
+                                  Scheduled Castes (SC), Scheduled Tribes (ST),
+                                  Differently-Abled Persons (DAP).
+                                </p>
+                                <p className="rs-history-desc">
+                                  For more details:{" "}
+                                  <a
+                                    href="https://nsbac.in/admission-pgem?tab=procedure"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="blue-color"
+                                  >
+                                    https://nsbac.in/admission-pgem?tab=procedure
+                                  </a>
+                                </p>
+                                <h6>For Admission related queries, contact:</h6>
+
+                                <address className="mb-0 text-muted lh-lg">
+                                  <strong>Chairperson Admission</strong>
+                                  <br />
+                                  NTPC School of Business Plot No. 5-14, Sector
+                                  16-A,
+                                  <br />
+                                  Noida – 201301 (U.P.)
+                                  <br />
+                                  <div className="mt-3">
+                                    <strong>Phone:</strong>{" "}
+                                    <a
+                                      href="tel:+919958880671"
+                                      className="text-decoration-none"
+                                    >
+                                      +91-9958880671
+                                    </a>
+                                  </div>
+                                  <div>
+                                    <strong>Email:</strong>{" "}
+                                    <a
+                                      href="mailto:admission@nsb.ac.in"
+                                      className="text-decoration-none"
+                                    >
+                                      admission@nsb.ac.in
+                                    </a>
+                                  </div>
+                                </address>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="rs-accordion-item col-lg-6 col-md-12 col-12">
+                          <h5 className="accordion-header" id="headingOne">
+                            <button
+                              className="accordion-button"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#collapseFour"
+                              aria-expanded="true"
+                              aria-controls="collapseFour"
+                            >
+                              Global Immersion Programme
+                              <span className="accordion-icon">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 11 15"
+                                >
+                                  <path d="M0.0175781 9.56403V8.72934C2.97994 8.56955 4.53369 10.3852 4.98798 11.3026V0.54895H5.89635V11.3026C7.11473 9.10081 9.47347 8.55811 10.907 8.73049V9.55706C7.3714 9.19949 5.90086 12.8809 5.89635 14.4554H4.99641C4.46504 9.88737 1.14729 9.38262 0.0175781 9.56403Z"></path>
+                                </svg>
+                              </span>
+                            </button>
+                          </h5>
+                          <div
+                            id="collapseFour"
+                            className="accordion-collapse collapse "
+                            data-bs-parent="#accordionExampleOne"
+                          >
+                            <div className="accordion-body">
+                              <div className="rs-history-list-wrapper">
+                                <p>
+                                  The PGDM (Executive) program includes a two
+                                  week international immersion program. It
+                                  leverages the opportunity to learn from
+                                  culturally diverse contexts and enhances
+                                  competitive advantage to deliver in a
+                                  globalized inter- dependent business
+                                  environment. Past destinations included such
+                                  renowned institutions as the Nanyang Technical
+                                  University in Singapore, Judge Business
+                                  School, Cambridge University, Lappeenranta
+                                  university of technology (LUT), Finland,
+                                  University of Maribor, Slovenia, and ESCP in
+                                  Madrid and Paris; RMIT University, Melbourne;
+                                  University of Melbourne; La Trobe University
+                                  and Monash University, Australia. Interaction
+                                  on site and with experts provide for an
+                                  enriching experience.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="rs-accordion-item col-lg-12 col-md-12 col-12">
+                          <h5 className="accordion-header" id="headingTwo">
+                            <button
+                              className="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#collapseFive"
+                              aria-expanded="false"
+                              aria-controls="collapseFive"
+                            >
+                              Program Fee and Financial Assistance
+                              <span className="accordion-icon">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 11 15"
+                                >
+                                  <path d="M0.0175781 9.56403V8.72934C2.97994 8.56955 4.53369 10.3852 4.98798 11.3026V0.54895H5.89635V11.3026C7.11473 9.10081 9.47347 8.55811 10.907 8.73049V9.55706C7.3714 9.19949 5.90086 12.8809 5.89635 14.4554H4.99641C4.46504 9.88737 1.14729 9.38262 0.0175781 9.56403Z"></path>
+                                </svg>
+                              </span>
+                            </button>
+                          </h5>
+
+                          <div
+                            id="collapseFive"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionExampleOne"
+                          >
+                            <div className="accordion-body">
+                              {/* Table */}
+                              <div className="rs-deadline-table-wrapper table-responsive mb-30 rs-deadline-one">
+                                <div className="rs-deadline-table-item">
+                                  <table className="rs-deadline-table-inner">
+                                    <thead>
+                                      <tr>
+                                        <th>Program Details</th>
+                                        <th>Indian Students</th>
+                                        <th>NRI / Foreign Students</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>
+                                          Application Form (Non-Refundable)
+                                        </td>
+                                        <td>
+                                          INR 1,500/- <br />
+                                          INR 750/- (For SC/ST & PH Category
+                                          Only)
+                                        </td>
+                                        <td>US$ 50</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Total Programme Fee</td>
+                                        <td>INR 18,30,000/-*</td>
+                                        <td>US$ 30,000*</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+
+                              <p className="rs-history-desc mb-10">
+                                <strong>
+                                  *Exclusive of Rs. 30,000 security amount
+                                </strong>{" "}
+                                (refundable after successful completion of the
+                                course).
+                              </p>
+
+                              <p className="rs-history-desc mb-10">
+                                The fees are payable directly to NTPC School of
+                                Business via ICICI payment gateway or through
+                                bank transfer to the following account:
+                              </p>
+
+                              <div className="mb-4">
+                                <p className="mb-1">
+                                  <strong>A/C No.:</strong> 62348556744
+                                </p>
+                                <p className="mb-1">
+                                  <strong>Bank:</strong> State Bank of India
+                                </p>
+                                <p className="mb-0">
+                                  <strong>IFSC Code:</strong> SBIN0031811
+                                </p>
+                              </div>
+
+                              <h6 className="mb-3">Bank Loan Facility</h6>
+                              <p className="rs-history-desc mb-10">
+                                NSB aims to provide equal opportunity to all the
+                                eligible candidates for pursuing PGDM
+                                (Executive) program. The assistance is provided
+                                to the candidates in availing loans from banks.
+                              </p>
+
+                              <h6 className="mb-3">Scholarship</h6>
+                              <p className="rs-history-desc mb-10">
+                                NSB offers financial assistance to the students
+                                through scholarship schemes. The scholarship is
+                                provided to the students under the following
+                                categories:
+                              </p>
+
+                              <ul className="ps-3 mb-0">
+                                <li className="mb-2">
+                                  NSB Top Ranker in Admission Scholarship
+                                </li>
+                                <li className="mb-2">
+                                  NSB Merit Based Scholarship
+                                </li>
+                                <li className="mb-2">
+                                  NSB Scholarship for Defence Services Children
+                                </li>
+                                <li className="mb-2">
+                                  Tuition Fee Waiver for Candidates from BPL
+                                  Section
+                                </li>
+                                <li>
+                                  Tuition Fee Waiver for Candidates from EWS
+                                  Category
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="rs-accordion-item col-lg-6 col-md-12 col-12">
+                          <h5 className="accordion-header" id="headingOne">
+                            <button
+                              className="accordion-button"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#collapseSix"
+                              aria-expanded="true"
+                              aria-controls="collapseSix"
+                            >
+                              Course Curriculum
+                              <span className="accordion-icon">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 11 15"
+                                >
+                                  <path d="M0.0175781 9.56403V8.72934C2.97994 8.56955 4.53369 10.3852 4.98798 11.3026V0.54895H5.89635V11.3026C7.11473 9.10081 9.47347 8.55811 10.907 8.73049V9.55706C7.3714 9.19949 5.90086 12.8809 5.89635 14.4554H4.99641C4.46504 9.88737 1.14729 9.38262 0.0175781 9.56403Z"></path>
+                                </svg>
+                              </span>
+                            </button>
+                          </h5>
+                          <div
+                            id="collapseSix"
+                            className="accordion-collapse collapse "
+                            data-bs-parent="#accordionExampleOne"
+                          >
+                            <div className="accordion-body">
+                              <div className="rs-history-list-wrapper">
+                                <p>
+                                  The course curriculum comprises both core and
+                                  elective courses, with a strong focus on the
+                                  rapidly growing energy sector and management
+                                  disciplines. It has been designed by
+                                  experienced faculty from NTPC School of
+                                  Business, industry practitioners, subject
+                                  matter experts from reputed institutions, and
+                                  professionals associated with leading global
+                                  energy organizations. The elective courses
+                                  have been carefully selected to align with
+                                  current industry requirements and emerging
+                                  trends, ensuring students acquire relevant and
+                                  contemporary knowledge and skills.
                                 </p>
                               </div>
                             </div>

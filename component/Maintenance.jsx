@@ -1,34 +1,57 @@
-import Image from "next/image";
+"use client";
 
-export default function Maintenance() {
+import Lottie from "lottie-react";
+import { useEffect, useState } from "react";
+
+const Maintenance = () => {
+  const [maintenanceAnimation, setMaintenanceAnimation] = useState(null);
+
+  useEffect(() => {
+    const loadAnimation = async () => {
+      try {
+        const response = await fetch(
+          "/assets/images/maintainance/under-maintainance.json"
+        );
+        const data = await response.json();
+        setMaintenanceAnimation(data);
+      } catch (error) {
+        console.error("Lottie loading error:", error);
+      }
+    };
+
+    loadAnimation();
+  }, []);
+
   return (
     <div
+      className="d-flex justify-content-center align-items-center min-vh-100"
       style={{
-        minHeight: "100vh",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        textAlign: "center",
-        padding: "20px",
-        background: "#f8f9fa",
+        width: "100%",
+        overflow: "hidden",
       }}
     >
-      <div>
-        <Image
-          src="/assets/images/logo/nsblogo.png"
-          alt="NSB"
-          width={180}
-          height={80}
-        />
-
-        <h1 style={{ marginTop: 20 }}>🚧 Website Under Maintenance</h1>
-
-        <p style={{ marginTop: 10 }}>
-          We are currently improving our website.
-          <br />
-          Please visit again shortly.
-        </p>
+      <div
+        style={{
+          width: "100%",
+          maxWidth: "500px",
+          height: "100%",
+        }}
+      >
+        {maintenanceAnimation && (
+          <Lottie
+            animationData={maintenanceAnimation}
+            loop
+            autoplay
+            renderer="svg"
+            style={{
+              width: "100%",
+              height: "100%",
+            }}
+          />
+        )}
       </div>
     </div>
   );
-}
+};
+
+export default Maintenance;

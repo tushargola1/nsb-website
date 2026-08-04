@@ -103,7 +103,7 @@ const Mission = () => {
               </div>
               <div className="rs-overview-thumb col-md-6">
                 <Image
-                  src="/assets/images/overview/overview-thumb-02.webp"
+                  src="/assets/images/vission.jpeg"
                   width={650}
                   height={300}
                   alt="About"

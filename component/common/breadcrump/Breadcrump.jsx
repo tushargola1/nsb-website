@@ -10,7 +10,7 @@ const Breadcrump = ({ parentPage, currentPage }) => {
      <div className="container">
        <div
         className="rs-breadcrumb-bg-thumb include-bg "
-        data-background="assets/images/bg/breadcrumb-bg-thumb-01.webp"
+        data-background="/assets/images/breadcrump/breadcrump.jpeg"
       ></div>
       <div className="container-fluid g-0">
         <div className="row">

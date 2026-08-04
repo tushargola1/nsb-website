@@ -27,7 +27,7 @@ export default function FacultyMembersPage() {
       {/* Team grid */}
       <section className="rs-team-area section-space-bottom rs-team-one has-theme-blue">
         <div className="container">
-          <div className="row gy-4">
+          <div className="row gy-4 align-items-center justify-content-center">
             {/* <div className="rs-team-wrapper"> */}
             {filteredFaculty.map((member) => (
               <div className="col-lg-3" key={member.slug}>

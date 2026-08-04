@@ -18,14 +18,14 @@ const stats = [
     icon: "🏢",
   },
   {
-    number: 500,
+    number: 16,
     suffix: "+",
-    title: "Students Trained",
+    title: "Batches Trained",
     color: "#198754",
     icon: "🎓",
   },
   {
-    number: 15,
+    number: 12,
     suffix: "+",
     title: "Years Experience",
     color: "#fd7e14",
@@ -97,7 +97,7 @@ export default function StatsSection() {
             </h2>
           </div>
         </div>
-        <div className="row g-4">
+        <div className="row g-4 align-items-center justify-content-center">
           {stats.map((item, index) => (
             <div className="col-lg-3 col-md-6" key={index}>
               <div className="stat-card h-100">

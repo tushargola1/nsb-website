@@ -926,7 +926,7 @@ textarea:focus {
   padding-inline-start: 25px;
   padding-inline-end: 25px;
   border-radius: 6px;
-  background: var(--rs-white);
+  background: lightgray;
   transition: 0.3s;
 }
 .rs-accordion-two .accordion-button:hover {
@@ -2696,6 +2696,14 @@ textarea:focus {
   left: 0px;
   z-index: -1;
 }
+.rs-breadcrumb-one .rs-breadcrumb-bg-thumb {
+  position: absolute;
+  background-image: url("/assets/images/breadcrump/breadcrump.jpeg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
 .rs-breadcrumb-one .rs-breadcrumb-bg-thumb::before {
   position: absolute;
   content: "";
@@ -2705,7 +2713,7 @@ textarea:focus {
   left: 0;
   background-image: linear-gradient(
     180deg,
-    rgba(0, 25, 44, 0) -3%,
+    rgba(0, 25, 44, 0) -60%,
     #00192c 133.75%
   );
 }
@@ -22550,4 +22558,7 @@ html.lenis body {
 
 .bg-whitesmoke{
   background: whitesmoke !important;
+}  
+.energy-management-li li{
+  display:block !important;
 }
