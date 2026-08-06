@@ -56,7 +56,7 @@ export default function HeroBanner() {
             spaceBetween: 20,
           },
         }}
-        className="heroSwiperd"
+        className="heroSwiperd homebanner-swiper"
       >
         {HomeBannerData.map((item, index) => (
           <SwiperSlide
@@ -67,7 +67,7 @@ export default function HeroBanner() {
             }}
             style={{ cursor: "pointer" }}
           >
-          <div className="video-slidej video-slide-glass">
+          <div className="video-slidej video-slide-glass ">
               <Image
                 src={item.src}
                 alt={item.title || ""}

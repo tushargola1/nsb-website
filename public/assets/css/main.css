@@ -16805,6 +16805,9 @@ html.lenis body {
   top: 10px;
   inset-inline-start: 0px;
 }
+.rs-history-one.disc-remove .rs-history-desc::before {
+  display: none;
+}
 .rs-history-one .rs-history-list-wrapper {
   display: flex;
   gap: 10px;
@@ -22561,4 +22564,30 @@ html.lenis body {
 }  
 .energy-management-li li{
   display:block !important;
+}
+
+.heroSwiperd.homebanner-swiper .swiper-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.rs-deadline-table-inner.responsive-table-code {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.rs-deadline-table-inner.responsive-table-code th,
+.rs-deadline-table-inner.responsive-table-code td {
+  word-break: break-word;
+  white-space: normal;
+  vertical-align: top;
+}
+
+@media (max-width: 992px) {
+  .rs-deadline-table-inner.responsive-table-code {
+    min-width: 1200px;
+  }
 }

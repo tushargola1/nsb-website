@@ -4,7 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 
 const ProgramCard = ({ programData }) => {
-  console.log(programData);
   return (
     <div className="container section-spaced pt-0">
       <div className="row justify-content-center ">
@@ -45,7 +44,7 @@ const ProgramCard = ({ programData }) => {
                   <div className="rs-program-btn">
                     <a
                       className="rs-btn has-icon has-theme-cyan hover-cyan"
-                      href=""
+                      href={item.url}
                     >
                       <span className="btn-text-wrap">
                         <span className="text-default">View Program</span>

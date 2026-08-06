@@ -2,12 +2,11 @@
 
 import styles from "./tabs.module.css";
 
-const categories = ["All", "NSB Faculty", "IIM-A Faculty", "Adjunct Faculty", "Visiting Faculty"];
 
-export default function FacultyTabs({ activeCategory, onSelect }) {
+export default function FacultyTabs({ activeCategory, onSelect , category }) {
   return (
     <div className={styles.facultyPillBar} >
-      {categories.map((cat) => (
+      {category.map((cat) => (
         <button
           key={cat}
           className={`${styles.facultyPill} ${activeCategory === cat ? styles.facultyPillActive : ""}`}

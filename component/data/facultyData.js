@@ -3,7 +3,7 @@ const facultyData = [
    {
     slug: "R_Gopichandran",
     name: "Dr. R Gopichandran",
-    designation: "Professor & Officiating Director",
+    designation: "Professor & Director NTPC School of Business",
     category: "NSB Faculty",
     image: "../assets/images/faculty/faculty-details/NSB Faculty/R Gopichandran.webp",
 

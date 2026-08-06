@@ -8,6 +8,7 @@ import Breadcrump from "@/component/common/breadcrump/Breadcrump";
 
 export default function FacultyMembersPage() {
   const [activeCategory, setActiveCategory] = useState("NSB Faculty");
+const categories = ["All", "NSB Faculty", "IIM-A Faculty", "Adjunct Faculty", "Visiting Faculty"];
 
   const filteredFaculty =
     activeCategory === "All"
@@ -21,6 +22,7 @@ export default function FacultyMembersPage() {
         <FacultyTabs
           activeCategory={activeCategory}
           onSelect={setActiveCategory}
+          category={categories}
         />
       </div>
 
