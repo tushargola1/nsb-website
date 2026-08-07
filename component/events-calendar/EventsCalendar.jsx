@@ -192,12 +192,12 @@ const hasMore = isHomePage && filteredEvents.length > 5;
 
                 <div className={styles.eventInfo}>
                   <h4 className={styles.eventTitle}>{event.title}</h4>
-                  <div className={styles.eventMeta}>
+                  {/* <div className={styles.eventMeta}>
                     <span>
                       <i className="ri-time-line"></i>
                       {event.time}
                     </span>
-                  </div>
+                  </div> */}
                 </div>
                 <div className={styles.eventAction}>
                   <i className="ri-arrow-right-line fs-2"></i>
@@ -261,7 +261,7 @@ const hasMore = isHomePage && filteredEvents.length > 5;
                   <i className="ri-map-pin-line"></i>
                 </div>
                 <div className={styles.detailContent}>
-                  <h6>Location</h6>
+                  <h6>Mode</h6>
                   <p>{selectedEvent.location}</p>
                 </div>
               </div>

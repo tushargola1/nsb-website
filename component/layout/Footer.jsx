@@ -67,7 +67,7 @@ export default function Footer() {
                           <Link href="/about">Faculty Publications</Link>
                         </li>
                         <li>
-                          <Link href="/alumni">Centres Of Excellence</Link>
+                          <Link href="/research/centres-of-excellence">Centres Of Excellence</Link>
                         </li>
                         <li>
                           <Link href="/libraries">Administrative Staff</Link>
@@ -86,13 +86,13 @@ export default function Footer() {
                     <div className="rs-footer-widget-link has-theme-yellow">
                       <ul>
                         <li>
-                          <Link href="/faculty">PGDM (Energy Management)</Link>
+                          <Link href="/programmes/pgdm-energy-management">PGDM (Energy Management)</Link>
                         </li>
                         <li>
-                          <Link href="/program">PGDM (Executive)</Link>
+                          <Link href="/programmes/pgdm-executive">PGDM (Executive)</Link>
                         </li>
                         <li>
-                          <Link href="/event">PGDM (PH.D.)</Link>
+                          <Link href="/programmes/doctoral-phd">PGDM (PH.D.)</Link>
                         </li>
                       </ul>
                     </div>

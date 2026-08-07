@@ -19,7 +19,11 @@ export default function RootLayout({ children }) {
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="shortcut icon" type="image/x-icon" href="/assets/images/logo/nsblogoshort.jpg" />
+        <link
+          rel="shortcut icon"
+          type="image/x-icon"
+          href="/assets/images/logo/nsblogoshort.jpg"
+        />
         {/* CSS */}
         <link rel="stylesheet" href="/assets/css/vendor/bootstrap.min.css" />
         <link rel="stylesheet" href="/assets/css/vendor/animate.min.css" />
@@ -32,12 +36,18 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="/assets/css/vendor/spacing.css" />
         <link rel="stylesheet" href="/assets/css/vendor/remixicon.css" />
         <link rel="stylesheet" href="/assets/css/main.css" />
-        
+
         {/* {font awesome} */}
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+          integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+          crossOrigin="anonymous"
+          referrerPolicy="no-referrer"
+        />
       </head>
       {/* <body className="rs-smoother-yes"> */}
-      <body >
+      <body>
         {/* <Preloader /> */}
 
         {/* Cursor */}
@@ -47,31 +57,88 @@ export default function RootLayout({ children }) {
 
         <Navbar />
         <main>{children}</main>
-    <WhatsappChat/>
+        <WhatsappChat />
         <Footer />
         <BackToTop />
 
         {/* JS — must load in order */}
-        <Script src="/assets/js/vendor/jquery-3.7.1.min.js" strategy="beforeInteractive" />
-        <Script src="/assets/js/vendor/bootstrap.bundle.min.js" strategy="beforeInteractive" />
-        <Script src="/assets/js/plugins/meanmenu.min.js" strategy="afterInteractive" />
-        <Script src="/assets/js/plugins/swiper.min.js" strategy="afterInteractive" />
-        <Script src="/assets/js/plugins/wow.min.js" strategy="afterInteractive" />
-        <Script src="/assets/js/plugins/jarallax.min.js" strategy="afterInteractive" />
-        <Script src="/assets/js/vendor/magnific-popup.min.js" strategy="afterInteractive" />
-        <Script src="/assets/js/vendor/isotope.pkgd.min.js" strategy="afterInteractive" />
-        <Script src="/assets/js/vendor/imagesloaded.pkgd.min.js" strategy="afterInteractive" />
-        <Script src="/assets/js/vendor/ajax-form.js" strategy="afterInteractive" />
+        <Script
+          src="/assets/js/vendor/jquery-3.7.1.min.js"
+          strategy="beforeInteractive"
+        />
+        <Script
+          src="/assets/js/vendor/bootstrap.bundle.min.js"
+          strategy="beforeInteractive"
+        />
+        <Script
+          src="/assets/js/plugins/meanmenu.min.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="/assets/js/plugins/swiper.min.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="/assets/js/plugins/wow.min.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="/assets/js/plugins/jarallax.min.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="/assets/js/vendor/magnific-popup.min.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="/assets/js/vendor/isotope.pkgd.min.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="/assets/js/vendor/imagesloaded.pkgd.min.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="/assets/js/vendor/ajax-form.js"
+          strategy="afterInteractive"
+        />
         {/* <Script src="/assets/js/plugins/lenis.min.js" strategy="afterInteractive" /> */}
-        <Script src="/assets/js/plugins/gsap.min.js" strategy="afterInteractive" />
-        <Script src="/assets/js/plugins/rs-anim-int.js" strategy="afterInteractive" />
-        <Script src="/assets/js/plugins/rs-scroll-trigger.min.js" strategy="afterInteractive" />
-        <Script src="/assets/js/plugins/rs-splitText.min.js" strategy="afterInteractive" />
-        <Script src="/assets/js/plugins/jquery.appear.min.js" strategy="afterInteractive" />
-        <Script src="/assets/js/plugins/nice-select.min.js" strategy="afterInteractive" />
-        <Script src="/assets/js/plugins/flatpickr.min.js" strategy="afterInteractive" />
-        <Script src="/assets/js/plugins/nouislider.min.js" strategy="afterInteractive" />
-        <Script src="/assets/js/vendor/odometer.min.js" strategy="afterInteractive" />
+        <Script
+          src="/assets/js/plugins/gsap.min.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="/assets/js/plugins/rs-anim-int.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="/assets/js/plugins/rs-scroll-trigger.min.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="/assets/js/plugins/rs-splitText.min.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="/assets/js/plugins/jquery.appear.min.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="/assets/js/plugins/nice-select.min.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="/assets/js/plugins/flatpickr.min.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="/assets/js/plugins/nouislider.min.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="/assets/js/vendor/odometer.min.js"
+          strategy="afterInteractive"
+        />
         <Script src="/assets/js/main.js" strategy="afterInteractive" />
       </body>
     </html>

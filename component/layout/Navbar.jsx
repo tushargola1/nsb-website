@@ -57,12 +57,12 @@ const NAV_ITEMS = [
     label: "Corporate Relations",
     href: "#",
     children: [
-      { label: "Townhall Series", href: "/corporate/townhall-series" },
+      { label: "Townhall Series", href: "/corporate-relations/townhall-series" },
       {
         label: "Guest Lecture Series",
-        href: "/corporate/guest-lecture-series",
+        href: "/corporate-relations/guest-lecture-series",
       },
-      { label: "Placements", href: "/corporate/placements" },
+      { label: "Placements", href: "/corporate-relations/placements" },
     ],
   },
   { label: "Admissions", href: "/admission" },
@@ -224,7 +224,7 @@ export default function Navbar() {
           <div className="nsb-topbar-links fw-semibold">
             <Link href="#">Important Links</Link>
             <Link href="#">Learning Resource Centre</Link>
-            <Link href="#">Testimonials</Link>
+            <Link href="/testimonials">Testimonials</Link>
             <Link href="#">ERP Login</Link>
           </div>
         </div>

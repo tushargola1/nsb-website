@@ -14005,7 +14005,7 @@ html.lenis body {
 }
 .rs-contact-five .rs-contact-wrapper {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
 @media only screen and (max-width: 991px) {
@@ -14024,7 +14024,7 @@ html.lenis body {
   }
 }
 .rs-contact-five .rs-contact-item {
-  background: var(--rs-white);
+  background: whitesmoke;
   border-radius: 12px;
   padding-top: 40px;
   padding-inline: 40px;
@@ -22572,7 +22572,12 @@ html.lenis body {
   justify-content: center;
 }
 
-
+@media (max-width: 545px) {
+  .heroSwiperd.homebanner-swiper .swiper-wrapper{
+   
+    justify-content: unset;
+  }
+}
 
 .rs-deadline-table-inner.responsive-table-code {
   table-layout: fixed;
@@ -22590,4 +22595,15 @@ html.lenis body {
   .rs-deadline-table-inner.responsive-table-code {
     min-width: 1200px;
   }
+}
+
+.rs-contact-four .rs-contact-input .nice-select {
+      height: 50px !important;
+    border-radius: 3px !important;
+    padding-inline-start: 20px !important;
+    padding-inline-end: 20px !important ;
+    background-color: #003359 !important;
+    border-color: #003359 !important;
+    color: var(--rs-white) !important;
+    width: 100% !important;
 }

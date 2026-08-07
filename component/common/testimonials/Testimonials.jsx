@@ -75,7 +75,7 @@ export default function Testimonials() {
               }}
               style={{ cursor: "pointer" }}
             >
-              <div style={{ width:"500px" , height:"400px"}}>
+              <div style={{ width:"100%" , height:"400px"}}>
                <Image
                     src={item.image}
                     alt="Placement"
