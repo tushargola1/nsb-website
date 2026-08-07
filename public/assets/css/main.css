@@ -3862,7 +3862,7 @@ input[type="checkbox"] ~ label:hover {
   transform: translate(-50%, -50%);
   width: 100px;
   height: 100px;
-  border: 3px solid #ebebec;
+  /* border: 3px solid #ebebec; */
   border-radius: 50%;
 }
 .loader .loader-container.has-theme-cyan::before {
@@ -3885,8 +3885,8 @@ input[type="checkbox"] ~ label:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-top: 3px solid var(--rs-theme-blue);
   border-radius: 50%;
   animation: loaderspin 1.8s infinite ease-in-out;
@@ -3904,7 +3904,7 @@ input[type="checkbox"] ~ label:hover {
 
 .loader .loader-icon img {
   animation: loaderpulse alternate 900ms infinite;
-  width: 40px;
+  /* width: 40px; */
 }
 
 @keyframes loaderspin {
@@ -22607,3 +22607,5 @@ html.lenis body {
     color: var(--rs-white) !important;
     width: 100% !important;
 }
+
+

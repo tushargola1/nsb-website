@@ -5,6 +5,7 @@ import Footer from "@/component/layout/Footer";
 import Preloader from "@/component/layout/Preloader";
 import BackToTop from "@/component/layout/BackToTop";
 import WhatsappChat from "@/component/whatsapp/WhatsappChat";
+import Image from "next/image";
 
 export const metadata = {
   title: "Best Energy Management College in India - NSB Noida",
@@ -13,6 +14,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  
   return (
     <html lang="en" className="no-js">
       <head>
@@ -48,8 +50,8 @@ export default function RootLayout({ children }) {
       </head>
       {/* <body className="rs-smoother-yes"> */}
       <body>
-        {/* <Preloader /> */}
-
+        <Preloader />
+   
         {/* Cursor */}
         <div id="rs-mouse">
           <div id="cursor-ball"></div>
