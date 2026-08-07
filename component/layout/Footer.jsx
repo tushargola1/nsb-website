@@ -199,8 +199,8 @@ export default function Footer() {
                   <div className="rs-footer-copyright-item">
                     <div className="rs-footer-copyright">
                       <p className="underline">
-                        Copyright © <span id="year">2026</span> | NTPC School Of
-                        Business
+                         © <span id="year">2026</span>NTPC School of Business (NSB). All Rights Reserved.
+
                       </p>
                     </div>
                   </div>
@@ -208,14 +208,14 @@ export default function Footer() {
                 <div className="rs-footer-copyright-left">
                   <div className="rs-footer-copyright-item">
                     <div className="rs-footer-copyright-link">
-                      <Link href="/terms-conditions">Terms & Agreements</Link>
+                      <Link href="/copyright-policy">Copyright Policy</Link>
                     </div>
                   </div>
-                  <div className="rs-footer-copyright-item">
+                  {/* <div className="rs-footer-copyright-item">
                     <div className="rs-footer-copyright-link">
                       <Link href="/privacy-policy">Privacy policy</Link>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

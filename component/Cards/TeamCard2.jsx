@@ -32,6 +32,17 @@ const TeamCard2 = ({ data }) => {
             ) : (
               <></>
             )}
+            {
+              data.about ?(
+                <>
+                
+                 <div className="rs-postbox-text mt-10">
+                         <p>{data.about}</p>
+                      </div></>
+              ):(<>
+              </>)
+
+            }
           </div>
         </div>
       </div>

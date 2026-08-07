@@ -33,10 +33,10 @@ const page = () => {
               <div className="rs-postbox-wrapper d-flex">
                 <article className="rs-postbox-item col-md-6 px-0">
                   <div className="rs-postbox-thumb">
-                    <a href="blog-details.html">
+                    <a href="">
                       <Image
                         src="/assets/images/townhall/1.webp"
-                        alt="Univet Scholars"
+                        alt="NTPC school of buisness"
                         width={800}
                         height={400}
                       />
@@ -71,10 +71,10 @@ const page = () => {
                 </article>
                 <article className="rs-postbox-item col-md-6 ">
                   <div className="rs-postbox-thumb">
-                    <a href="blog-details.html">
+                    <a href="">
                       <Image
                         src="/assets/images/townhall/2.webp"
-                        alt="Univet Scholars"
+                        alt="NTPC school of buisness"
                         width={800}
                         height={400}
                       />

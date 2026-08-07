@@ -28,7 +28,7 @@ export default function WhatsappChat() {
 
     return () => clearInterval(interval);
   }, []);
-  const phoneNumber = "9319888448";
+  const phoneNumber = "9958880671";
 
   const sendMessage = () => {
     if (!message.trim()) return;

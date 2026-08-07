@@ -74,7 +74,7 @@ export default function Blog() {
                     </span>
                   </div>
                   <h5 className="rs-blog-title">
-                    <Link href="/blog-details">Univet Scholars Making Remarkable Research</Link>
+                    <Link href="/blog-details">NTPC school of buisness Making Remarkable Research</Link>
                   </h5>
                   <div className=" rs-blog-meta-author">
                     <div className="rs-blog-meta-author-thumb">

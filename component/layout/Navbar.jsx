@@ -69,6 +69,86 @@ const NAV_ITEMS = [
   { label: "Contact", href: "/contact" },
 ];
 
+const IMPORTANT_LINKS = [
+  {
+    label: "Academic Calendar",
+    href: "/academic-calendar",
+  },
+  {
+    label: "Academic Holidays",
+    href: "/academic-holidays",
+  },
+  {
+    label: "Program Structure & Course Outlines",
+    href: "/program-structure-course-outlines",
+  },
+  {
+    label: "SIP Guidelines (PGDM-EM)",
+    href: "/sip-guidelines-pgdm-em",
+  },
+  {
+    label: "AICTE LOA / EOAs",
+    href: "#",
+    children: [
+      {
+        label: "LOA 2014",
+        href: "/important-links/loa-2014",
+      },
+      {
+        label: "EOA Report 2021-22",
+        href: "/important-links/eoa-report-2021-22",
+      },
+      {
+        label: "EOA Report 2022-23",
+        href: "/important-links/eoa-report-2022-23",
+      },
+      {
+        label: "EOA Report 2023-24",
+        href: "/important-links/eoa-report-2023-24",
+      },
+      {
+        label: "EOA Report 2024-25",
+        href: "/important-links/eoa-report-2024-25",
+      },
+      {
+        label: "EOA Report 2026-27",
+        href: "/important-links/eoa-report-2026-27",
+      },
+    ],
+  },
+  {
+    label: "Mandatory Disclosures",
+    href: "/mandatory-disclosures",
+  },
+  {
+    label: "Disclosures",
+    href: "/disclosures",
+  },
+  {
+    label: "Financials",
+    href: "/financials",
+  },
+  {
+    label: "Media Coverage",
+    href: "/media-coverage",
+  },
+  {
+    label: "Student Feedback",
+    href: "/student-feedback",
+  },
+  {
+    label: "Students Grievance Form",
+    href: "/students-grievance-form",
+  },
+  {
+    label: "Tenders",
+    href: "/tenders",
+  },
+  {
+    label: "Archives",
+    href: "/archives",
+  },
+];
 /* ─── Desktop Dropdown Item ───────────────────────────────── */
 function DropdownItem({ item, level = 0 }) {
   const [open, setOpen] = useState(false);
@@ -127,6 +207,30 @@ function DropdownItem({ item, level = 0 }) {
   );
 }
 
+function TopDropdown() {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <div
+      className="top-dropdown"
+      onMouseEnter={() => setOpen(true)}
+      onMouseLeave={() => setOpen(false)}
+    >
+      <span className="top-dropdown-title">
+        Important Links
+        <i className="fa-solid fa-chevron-down ms-1"></i>
+      </span>
+
+      {open && (
+        <ul className="top-dropdown-menu">
+          {IMPORTANT_LINKS.map((item) => (
+            <DropdownItem key={item.label} item={item} level={0} />
+          ))}
+        </ul>
+      )}
+    </div>
+  );
+}
 /* ─── Mobile Accordion Item ───────────────────────────────── */
 function MobileItem({ item, depth = 0 }) {
   const [open, setOpen] = useState(false);
@@ -222,10 +326,10 @@ export default function Navbar() {
             </a>
           </div>
           <div className="nsb-topbar-links fw-semibold">
-            <Link href="#">Important Links</Link>
+           <TopDropdown />
             <Link href="#">Learning Resource Centre</Link>
             <Link href="/testimonials">Testimonials</Link>
-            <Link href="#">ERP Login</Link>
+            <Link href="https://nsb.nurecampus.com/dashboard-login" target="_blank">ERP Login</Link>
           </div>
         </div>
       </div>
