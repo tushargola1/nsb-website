@@ -7,7 +7,7 @@ const page = () => {
   const governingBodyData = [
     {
       id: 1,
-      image: "/assets/images/about/nears/shri-anil.jpeg",
+      image: "/assets/images/faculty/anil.png",
       name: "Shri Anil Kumar Jadli",
       position: "President (NEARS)",
     },
@@ -15,6 +15,12 @@ const page = () => {
       id: 2,
       image: "/assets/images/about/nears/gireesh.webp",
       name: "Dr. Gireesh Chandra Tripathi",
+      position: "President (NEARS)",
+    },
+    {
+      id: 3,
+      image: "/assets/images/about/nears/gireesh.webp",
+      name: "Shri Rajeev Choudhary",
       position: "President (NEARS)",
     },
   ];

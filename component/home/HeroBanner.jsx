@@ -15,18 +15,14 @@ import { useState } from "react";
 export default function HeroBanner() {
   const [open, setOpen] = useState(false);
   const [index, setIndex] = useState(0);
-  const videos = [
-    "/assets/video/NSB.mp4",
-    // "/assets/video/NSB.mp4",
-    // "/assets/video/NSB.mp4",
-  ];
 
   return (
     <section className="hero-banner">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={5}
-        loop
+        loop={true}
+        initialSlide={0}
         speed={1000}
         navigation
         pagination={{ clickable: true }}

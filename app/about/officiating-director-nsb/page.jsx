@@ -43,7 +43,7 @@ export default function About() {
                  Director NTPC School of Business
                   </h3>
                   <p className="">
-                    Dr. R Gopichandran’s work over 34 years has been on
+                    Dr. R Gopichandran’s work over 37 years has been on
                     principles and practice of preventive management including
                     mitigation and chemical ecology-centered adaptation
                     strategies. His most important contributions pertain to
@@ -52,8 +52,8 @@ export default function About() {
                   </p>
                   <p className="">
                     He holds two doctoral degrees in the areas of microbial and
-                    chemical ecology, and a degree in law & is a Fellow of the
-                    Indian Geophysical Union and the Andhra Pradesh Akademi of
+                    chemical ecology, and a degree in law, and is a Fellow of the
+                    Indian Geophysical Union, the National Environmntal Science Academy and the Andhra Pradesh Akademi of
                     Sciences.
                   </p>
                   <p className="">

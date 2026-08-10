@@ -53,9 +53,9 @@ export default function RootLayout({ children }) {
         <Preloader />
    
         {/* Cursor */}
-        <div id="rs-mouse">
+        {/* <div id="rs-mouse">
           <div id="cursor-ball"></div>
-        </div>
+        </div> */}
 
         <Navbar />
         <main>{children}</main>
