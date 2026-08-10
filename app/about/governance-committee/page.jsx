@@ -1,0 +1,61 @@
+import TeamCard2 from "@/component/Cards/TeamCard2";
+import Breadcrump from "@/component/common/breadcrump/Breadcrump";
+import React from "react";
+
+const page = () => {
+  const governingBodyData = [
+ 
+    {
+      id: 1,
+      image: "/assets/images/faculty/rachana.png",
+      name: "Ms. Rachana Singh Bhal",
+      position: "Chairperson, Governing Commitee, NSB & ED, PMI",
+      organization: "NTPC Limited ",
+    },
+ 
+    {
+      id: 2,
+      image: "/assets/images/faculty/faculty-details/NSB Faculty/R Gopichandran.webp",
+      name: "Prof. R. Gopichandran",
+      position: "Professor & Director NTPC School of Business",
+      // organization: "NTPC Limited",
+    },
+    {
+      id: 3,
+      image: "/assets/images/faculty/abhinav.png",
+      name: "Dr. Abhinav Jinadal",
+      position: "Member, Governing Committee, NSB & AGM, PMI",
+      organization: "NTPC Limited",
+    },
+
+  ];
+  return (
+    <>
+      <Breadcrump currentPage={"Governing Committee"} parentPage={"About"} />
+      <section className="rs-about-area section-space bg-primary rs-about-seven">
+        <div className="container">
+          <div className="row g-5">
+            <div className="col-xl-12 col-lg-12">
+              <div className="rs-about-wrapper margin-15">
+              
+                <h2 className="section-title has-theme-blue mb-20 ps-0">
+                  Governance Committee
+                </h2>
+                <div className="row align-items-center justify-content-center gap-5">
+                  {governingBodyData.map((item, id) => {
+                    return (                  <div className="col-lg-3 col-md-5 col-12" key={id}>
+                       <TeamCard2 data={item}/>
+                  </div>
+                 )
+                  })}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default page;

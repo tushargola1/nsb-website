@@ -24,10 +24,7 @@ export default function FacultyMembersPage() {
 
   return (
     <main>
-      <Breadcrump
-        currentPage="Acedemic Calender"
-        parentPage="Important Links"
-      />
+      <Breadcrump currentPage="Acedemic Calender" parentPage="Academics" />
 
       <div className="mt-40 mb-40">
         <FacultyTabs

@@ -13,12 +13,16 @@ const NAV_ITEMS = [
     children: [
       { label: "Director NSB", href: "/about/officiating-director-nsb" },
       { label: "Governing Board", href: "/about/governing-board" },
+      { label: "Governance Committee", href: "/about/governance-committee" },
       { label: "About NEARS", href: "/about/about-nears" },
       {
         label: "Leader's Message",
         href: "#",
         children: [
-          { label: "Message from CMD Desk", href: "/about/message-from-cmd-desk" },
+          {
+            label: "Message from CMD Desk",
+            href: "/about/message-from-cmd-desk",
+          },
           { label: "Director's Message", href: "/about/director-message" },
         ],
       },
@@ -57,7 +61,10 @@ const NAV_ITEMS = [
     label: "Corporate Relations",
     href: "#",
     children: [
-      { label: "Townhall Series", href: "/corporate-relations/townhall-series" },
+      {
+        label: "Townhall Series",
+        href: "/corporate-relations/townhall-series",
+      },
       {
         label: "Guest Lecture Series",
         href: "/corporate-relations/guest-lecture-series",
@@ -80,11 +87,15 @@ const IMPORTANT_LINKS = [
   },
   {
     label: "Program Structure & Course Outlines",
-    href: "/program-structure-course-outlines",
+    href: "https://drive.google.com/drive/folders/1Hn4LY5Ex7u7BaqAKlp8icKJfz2Nfxip9?usp=sharing",
+    redirectUrl:
+      "https://drive.google.com/drive/folders/1Hn4LY5Ex7u7BaqAKlp8icKJfz2Nfxip9?usp=sharing",
   },
   {
     label: "SIP Guidelines (PGDM-EM)",
-    href: "/sip-guidelines-pgdm-em",
+    href: "https://drive.google.com/file/d/1XmVrvpoz6ml6UpVfOckldRA2kLxVJTb9/view?usp=share_link",
+    redirectUrl:
+      "https://drive.google.com/file/d/1XmVrvpoz6ml6UpVfOckldRA2kLxVJTb9/view?usp=share_link",
   },
   {
     label: "AICTE LOA / EOAs",
@@ -92,27 +103,40 @@ const IMPORTANT_LINKS = [
     children: [
       {
         label: "LOA 2014",
-        href: "/important-links/loa-2014",
+        href: "https://drive.google.com/file/d/1I_AKkQSO-lvjkD3Qwa_gslqhQvnNpp5x/view?usp=share_link",
+        redirectUrl:
+          "https://drive.google.com/file/d/1I_AKkQSO-lvjkD3Qwa_gslqhQvnNpp5x/view?usp=share_link",
       },
       {
         label: "EOA Report 2021-22",
-        href: "/important-links/eoa-report-2021-22",
+        href: "https://drive.google.com/file/d/1wXvzjJaqa0f1pMhwOBUSQYgsTqfwXPlN/view?usp=share_link",
+        redirectUrl:
+          "https://drive.google.com/file/d/1wXvzjJaqa0f1pMhwOBUSQYgsTqfwXPlN/view?usp=share_link",
       },
       {
         label: "EOA Report 2022-23",
-        href: "/important-links/eoa-report-2022-23",
+        href: "https://drive.google.com/file/d/1gOTCvzEarE-BFX2CgRgXa4G9OTCsBD3G/view?usp=share_link",
+        redirectUrl:
+          "https://drive.google.com/file/d/1gOTCvzEarE-BFX2CgRgXa4G9OTCsBD3G/view?usp=share_link",
       },
       {
         label: "EOA Report 2023-24",
-        href: "/important-links/eoa-report-2023-24",
+        href: "https://drive.google.com/file/d/1D07281Co1C2yqB_BKNm1m9hSdN0bDkiN/view?usp=sharing",
+        redirectUrl:
+          "https://drive.google.com/file/d/1D07281Co1C2yqB_BKNm1m9hSdN0bDkiN/view?usp=sharing",
       },
       {
         label: "EOA Report 2024-25",
-        href: "/important-links/eoa-report-2024-25",
+        href: "https://drive.google.com/file/d/1PMbia2eawqDY7EI-4AEoc1qWMd99SXKT/view?usp=sharing",
+        redirectUrl:
+          "https://drive.google.com/file/d/1PMbia2eawqDY7EI-4AEoc1qWMd99SXKT/view?usp=sharing",
       },
       {
         label: "EOA Report 2026-27",
-        href: "/important-links/eoa-report-2026-27",
+        href: "https://drive.google.com/file/d/1cceBwMubuX0MzShfleExaYa7dLx_5xOB/view?usp=sharing",
+
+        redirectUrl:
+          "https://drive.google.com/file/d/1cceBwMubuX0MzShfleExaYa7dLx_5xOB/view?usp=sharing",
       },
     ],
   },
@@ -278,11 +302,11 @@ export default function Navbar() {
   const [offcanvasOpen, setOffcanvasOpen] = useState(false);
 
   useEffect(() => {
-   const onScroll = () => {
-  const shouldStick = window.scrollY > 100;
+    const onScroll = () => {
+      const shouldStick = window.scrollY > 100;
 
-  setSticky(prev => prev !== shouldStick ? shouldStick : prev);
-};
+      setSticky((prev) => (prev !== shouldStick ? shouldStick : prev));
+    };
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
@@ -326,10 +350,15 @@ export default function Navbar() {
             </a>
           </div>
           <div className="nsb-topbar-links fw-semibold">
-           <TopDropdown />
+            <TopDropdown />
             <Link href="#">Learning Resource Centre</Link>
             <Link href="/testimonials">Testimonials</Link>
-            <Link href="https://nsb.nurecampus.com/dashboard-login" target="_blank">ERP Login</Link>
+            <Link
+              href="https://nsb.nurecampus.com/dashboard-login"
+              target="_blank"
+            >
+              ERP Login
+            </Link>
           </div>
         </div>
       </div>
@@ -364,7 +393,6 @@ export default function Navbar() {
               priority
             />
           </Link>
-          
         </div>
       </div>
 
@@ -416,7 +444,7 @@ export default function Navbar() {
               {/* <span />
               <span />
               <span /> */}
-        <i className="fa-solid fa-bars"></i>
+              <i className="fa-solid fa-bars"></i>
             </button>
           </div>
         </div>
@@ -432,7 +460,6 @@ export default function Navbar() {
                 <MobileItem key={item.label} item={item} depth={0} />
               ))}
             </ul>
-          
           </div>
         </div>
       </header>

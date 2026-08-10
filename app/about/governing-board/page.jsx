@@ -8,7 +8,7 @@ const page = () => {
   const governingBodyData = [
     {
       id: 1,
-      image: "/assets/images/about/gurdeep.webp",
+      image: "/assets/images/faculty/gurdeep.png",
       name: "Shri Gurdeep Singh",
       position: "Chairman and Managing Director",
       organization: "NTPC Limited",
@@ -20,27 +20,22 @@ const page = () => {
       position: "Former Independent Director",
       organization: "NTPC Limited IAS",
     },
+    
     {
       id: 3,
-      image: "/assets/images/about/governingBoard/dillip.jpg",
-      name: "Shri Dilip Kumar Patel",
-      position: "Former Director (HR)",
-      organization: "NTPC Limited",
-    },
-    {
-      id: 4,
-      image: "/assets/images/about/nears/shri-anil.jpeg",
+      image: "/assets/images/faculty/anil.png",
       name: "Shri Anil Kumar Jadli",
       position: "Director (HR)",
       organization: "NTPC Limited",
     },
     {
-      id: 5,
-      image: "/assets/images/about/governingBoard/sunil.jpg",
-      name: "Prof Sunil Maheshwari",
-      position: "Professor",
-      organization: "IIM Ahmedabad",
+      id: 4,
+      image: "/assets/images/faculty/faculty-details/NSB Faculty/R Gopichandran.webp",
+      name: "Prof. R. Gopichandran",
+      position: "Professor & Director NTPC School of Business",
+      // organization: "NTPC Limited",
     },
+
   ];
   return (
     <>

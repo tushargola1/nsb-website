@@ -51,7 +51,7 @@ export default function EventsCalendar() {
 }, [filterYear, filterMonth, filterDay]);
 
   // Max 10 events to display
-const isHomePage = pathname === "/";
+const isHomePage = ["/", "/executive-education"].includes(pathname);
 
 const displayedEvents = useMemo(() => {
   return isHomePage
