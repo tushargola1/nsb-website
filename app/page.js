@@ -34,7 +34,7 @@ export default function Home() {
       <StatsSection/>
       <Placement/>
         <Recruiters/>
-        <Testimonials/>
+        <Testimonials isShow={true}/>
        {/* <Programs />
       <AboutTwo />
       <Faculty />

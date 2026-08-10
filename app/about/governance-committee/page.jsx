@@ -9,7 +9,8 @@ const page = () => {
       id: 1,
       image: "/assets/images/faculty/rachana.png",
       name: "Ms. Rachana Singh Bhal",
-      position: "Chairperson, Governing Commitee, NSB & ED, PMI",
+      position1: "Chairperson",
+      position2: "Governing Commitee, NSB & ED, PMI",
       organization: "NTPC Limited ",
     },
  
@@ -17,14 +18,16 @@ const page = () => {
       id: 2,
       image: "/assets/images/faculty/faculty-details/NSB Faculty/R Gopichandran.webp",
       name: "Prof. R. Gopichandran",
-      position: "Professor & Director NTPC School of Business",
+      position1: "Professor",
+      organization: "Director NTPC School of Business",
       // organization: "NTPC Limited",
     },
     {
       id: 3,
       image: "/assets/images/faculty/abhinav.png",
       name: "Dr. Abhinav Jinadal",
-      position: "Member, Governing Committee, NSB & AGM, PMI",
+      position1: "Member",
+      position2: "Governing Committee, NSB & AGM, PMI",
       organization: "NTPC Limited",
     },
 

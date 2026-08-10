@@ -19,10 +19,31 @@ const TeamCard2 = ({ data }) => {
         </div>
         <div className="rs-team-content-wrapper">
           <div className="rs-team-content-info">
-            <h6 className="rs-team-title underline">
+            <h6
+              className={`rs-team-title underline ${!data.position2 ? "" : "h-60"}`}
+            >
               <a href="team-details.html">{data.name}</a>
             </h6>
-            <span className="rs-team-designation">{data.position}</span>
+
+            {data.position && (
+              <span className="rs-team-designation">{data.position}</span>
+            )}
+
+            {data.position1 && (
+              <span className="rs-team-designation">{data.position1}</span>
+            )}
+            {data.position2 ? (
+              <div className="mt-10">
+                <span
+                  className="rs-team-designation "
+                  style={{ fontSize: "14px" }}
+                >
+                  {data.position2}
+                </span>
+              </div>
+            ) : (
+              <></>
+            )}
             {data.organization ? (
               <div className="mt-10">
                 <span className="rs-team-designation blue-color">
@@ -32,17 +53,15 @@ const TeamCard2 = ({ data }) => {
             ) : (
               <></>
             )}
-            {
-              data.about ?(
-                <>
-                
-                 <div className="rs-postbox-text mt-10">
-                         <p>{data.about}</p>
-                      </div></>
-              ):(<>
-              </>)
-
-            }
+            {data.about ? (
+              <>
+                <div className="rs-postbox-text mt-10">
+                  <p>{data.about}</p>
+                </div>
+              </>
+            ) : (
+              <></>
+            )}
           </div>
         </div>
       </div>

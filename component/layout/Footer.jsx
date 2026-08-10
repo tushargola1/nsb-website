@@ -64,16 +64,16 @@ export default function Footer() {
                     <div className="rs-footer-widget-link has-theme-yellow">
                       <ul>
                         <li>
-                          <Link href="/about">Faculty Publications</Link>
+                          <Link href="/research/faculty-publications">Faculty Publications</Link>
                         </li>
                         <li>
                           <Link href="/research/centres-of-excellence">Centres Of Excellence</Link>
                         </li>
                         <li>
-                          <Link href="/libraries">Administrative Staff</Link>
+                          <Link href="/administrative-staff">Administrative Staff</Link>
                         </li>
                         <li>
-                          <Link href="/campus-life">NewsLetter</Link>
+                          <Link href="/newsletter">NewsLetter</Link>
                         </li>
                         <li>
                           <Link href="/campus-life">Careers</Link>

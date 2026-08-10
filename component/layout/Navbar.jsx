@@ -162,7 +162,7 @@ const IMPORTANT_LINKS = [
   },
   {
     label: "Students Grievance Form",
-    href: "/students-grievance-form",
+    href: "/grievance-redressal",
   },
   {
     label: "Tenders",

@@ -18,7 +18,7 @@ const ChairmenMessage = ({ isReadMore }) => {
     >
       <div className="col-md-12 col-lg-3 col-12">
         <Image
-          src="/assets/images/about/gurdeep.webp"
+          src="/assets/images/faculty/gurdeep.png"
           width={300}
           height={400}
           alt="NSB Logo"

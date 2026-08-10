@@ -7,30 +7,39 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 // import "./css/HeroBanner.css";
-import {TestimonialData } from "../../../data/TestimonialData";
+import { TestimonialData } from "../../../data/TestimonialData";
 import Image from "next/image";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import { useState } from "react";
 import styles from "./recruiters.module.css";
 
-export default function Testimonials() {
+export default function Testimonials({ isShow }) {
   const [open, setOpen] = useState(false);
   const [index, setIndex] = useState(0);
-
+  const testimonials = Array.from({ length: 14 }, (_, index) => {
+    let id = index + 102;
+    let extension = "webp";
+    return {
+      id,
+      img: `/assets/images/testimonials/${id}.${extension}`,
+    };
+  });
   return (
     <section
       className="hero-banner section-space pt-0"
       style={{ background: "#f7f9fb" }}
     >
-      <div className="">
-        <div className=" section-space-bottom">
-          <div className="section-title-wrapper text-center">
-            <h2 className="section-title rs-split-text-enable split-in-left has-theme-blue mb-1">
-              Testimonials
-            </h2>
+      <div className={isShow ? "" :"pt-50"}>
+        {isShow && (
+          <div className="section-space-bottom">
+            <div className="section-title-wrapper text-center">
+              <h2 className="section-title rs-split-text-enable split-in-left has-theme-blue mb-1">
+                Testimonials
+              </h2>
+            </div>
           </div>
-        </div>
+        )}
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
           // spaceBetween={20}
@@ -66,7 +75,7 @@ export default function Testimonials() {
           }}
           className="heroSwiperd"
         >
-          {TestimonialData.map((item, index) => (
+          {testimonials.map((item, index) => (
             <SwiperSlide
               key={index}
               onClick={() => {
@@ -75,14 +84,14 @@ export default function Testimonials() {
               }}
               style={{ cursor: "pointer" }}
             >
-              <div style={{ width:"100%" , height:"400px"}}>
-               <Image
-                    src={item.image}
-                    alt="Placement"
-                    width={500}
-                    height={400}
-                    style={{ objectFit: "contain"  }}
-                  />
+              <div style={{ width: "100%", height: "400px" }}>
+                <Image
+                  src={item.img}
+                  alt="Placement"
+                  width={500}
+                  height={400}
+                  style={{ objectFit: "contain" }}
+                />
                 {/* <video
                 autoPlay
                 muted
@@ -111,8 +120,8 @@ export default function Testimonials() {
           open={open}
           close={() => setOpen(false)}
           index={index}
-          slides={TestimonialData.map((item) => ({
-            src: item.image,
+          slides={testimonials.map((item) => ({
+            src: item.img,
             //   title: item.title,
             //   description: item.description,
           }))}

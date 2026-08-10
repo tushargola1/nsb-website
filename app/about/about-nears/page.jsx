@@ -19,9 +19,9 @@ const page = () => {
     },
     {
       id: 3,
-      image: "/assets/images/about/nears/gireesh.webp",
+      image: "/assets/images/faculty/Rajeev.jpeg",
       name: "Shri Rajeev Choudhary",
-      position: "President (NEARS)",
+      position: "Treasurer",
     },
   ];
   return (
