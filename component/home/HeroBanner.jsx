@@ -1,110 +1,97 @@
 "use client";
 
+import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import Image from "next/image";
+import Lightbox from "yet-another-react-lightbox";
 
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "./css/HeroBanner.css";
-import { HomeBannerData } from "../data/HomeBannerData";
-import Image from "next/image";
-import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
-import { useState } from "react";
+import "./css/HeroBanner.css";
+
+import { HomeBannerData } from "../data/HomeBannerData";
+
 export default function HeroBanner() {
   const [open, setOpen] = useState(false);
   const [index, setIndex] = useState(0);
+
+  const lightboxSlides = HomeBannerData.map((item) => ({
+    src: item.src,
+    title: item.title,
+    description: item.description,
+  }));
 
   return (
     <section className="hero-banner">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
-        spaceBetween={5}
+        className="homebanner-swiper"
+        slidesPerView={1}
         loop={true}
-        initialSlide={0}
+        spaceBetween={0}
         speed={1000}
         navigation
-        pagination={{ clickable: true }}
+        pagination={{
+          clickable: true,
+        }}
         autoplay={{
           delay: 6000,
           disableOnInteraction: false,
-        }}
+          pauseOnMouseEnter: true,
+        }}  
         breakpoints={{
-          0: {
-            slidesPerView: 1,
-            spaceBetween: 10,
-          },
           576: {
             slidesPerView: 1,
-            spaceBetween: 10,
+            spaceBetween: 0,
           },
           768: {
             slidesPerView: 2,
-            spaceBetween: 10,
+            spaceBetween: 0,
           },
           992: {
             slidesPerView: 3,
-            spaceBetween: 15,
+            spaceBetween: 0,
           },
           1200: {
             slidesPerView: 4,
             spaceBetween: 20,
           },
         }}
-        className="heroSwiperd homebanner-swiper"
       >
-        {HomeBannerData.map((item, index) => (
-          <SwiperSlide
-            key={index}
-            onClick={() => {
-              setIndex(index);
-              setOpen(true);
-            }}
-            style={{ cursor: "pointer" }}
-          >
-          <div className="video-slidej video-slide-glass ">
+        {HomeBannerData.map((item, slideIndex) => (
+          <SwiperSlide key={item.src || slideIndex}>
+            <div
+              className="video-slidej video-slide-glass"
+              onClick={() => {
+                setIndex(slideIndex);
+                setOpen(true);
+              }}
+      >
               <Image
                 src={item.src}
-                alt={item.title || ""}
-                width={500}
-                height={400}
-                style={{ objectFit: "contain" }}
+                alt={item.title || `Banner ${slideIndex + 1}`}
+                fill
+                sizes="
+                  (max-width: 767px) 100vw,
+                  (max-width: 991px) 50vw,
+                  (max-width: 1199px) 33vw,
+                  25vw
+                "
+                className="hero-banner-image"
               />
-
-              {/* <video
-                autoPlay
-                muted
-                loop
-                playsInline
-                className="banner-video"
-              >
-                <source src={video} type="video/mp4" />
-              </video> */}
-
-              {/* <div className="overlay"></div>
-
-              <div className="content">
-                <h1>National School of Business</h1>
-                <p>Empowering Future Business Leaders</p>
-
-                <button className="hero-btn">
-                  Explore Programs
-                </button>
-              </div> */}
             </div>
           </SwiperSlide>
         ))}
       </Swiper>
+
       <Lightbox
         open={open}
         close={() => setOpen(false)}
         index={index}
-        slides={HomeBannerData.map((item) => ({
-          src: item.src,
-          title: item.title,
-          description: item.description,
-        }))}
+        slides={lightboxSlides}
       />
     </section>
   );

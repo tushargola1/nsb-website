@@ -12,7 +12,6 @@ const page = () => {
         currentPage="Vyapti Newsletter"
         parentPage="Research"
       />
-
       <section className="rs-history-area section-space bg-primary">
         <div className="container">
           <div className="row g-4 align-items-center justify-content-center">

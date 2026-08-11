@@ -351,7 +351,7 @@ export default function Navbar() {
           </div>
           <div className="nsb-topbar-links fw-semibold">
             <TopDropdown />
-            <Link href="#">Learning Resource Centre</Link>
+            <Link href="/learning-resource-centre">Learning Resource Centre</Link>
             <Link href="/testimonials">Testimonials</Link>
             <Link
               href="https://nsb.nurecampus.com/dashboard-login"

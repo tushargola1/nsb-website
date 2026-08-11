@@ -22664,3 +22664,9 @@ html.lenis body {
 .h-60{
   height: 60px ;
 }
+
+.swiper-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
