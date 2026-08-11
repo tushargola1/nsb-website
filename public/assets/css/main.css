@@ -22497,23 +22497,9 @@ html.lenis body {
 }
 
 .video-slide-glass {
-  position: relative;
-  /* padding: 18px; */
-  /* border-radius: 24px; */
-
-  /* Glass effect */
-  background: rgba(0, 77, 153, 0.15);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-
-  border: 1px solid rgba(255, 255, 255, 0.15);
-
-  /* Soft shadow */
-  box-shadow:
-    0 8px 32px rgba(31, 38, 135, 0.18),
-    inset 0 1px 1px rgba(255, 255, 255, 0.25);
-
-  overflow: hidden;
+position: relative;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
 }
 
 .video-slide-glass::before {
@@ -22534,8 +22520,7 @@ html.lenis body {
 .video-slide-img {
   width: 100%;
   height: auto;
-  object-fit: contain;
-  border-radius: 16px;
+  object-fit: contain; 
   position: relative;
   z-index: 1;
 }
