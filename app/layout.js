@@ -6,7 +6,7 @@ import Preloader from "@/component/layout/Preloader";
 import BackToTop from "@/component/layout/BackToTop";
 import WhatsappChat from "@/component/whatsapp/WhatsappChat";
 import Image from "next/image";
-
+import HomePopup from "@/component/home/modal/HomePopup";
 export const metadata = {
   title: "Best Energy Management College in India - NSB Noida",
   description:
@@ -48,17 +48,12 @@ export default function RootLayout({ children }) {
           referrerPolicy="no-referrer"
         />
       </head>
-      {/* <body className="rs-smoother-yes"> */}
       <body>
         <Preloader />
-   
-        {/* Cursor */}
-        {/* <div id="rs-mouse">
-          <div id="cursor-ball"></div>
-        </div> */}
-
         <Navbar />
         <main>{children}</main>
+          <HomePopup />
+
         <WhatsappChat />
         <Footer />
         <BackToTop />
