@@ -34,9 +34,9 @@ export default function HeroBanner() {
         spaceBetween={0}
         speed={1000}
         navigation
-        // pagination={{
-        //   clickable: true,
-        // }}
+        pagination={{
+          clickable: true,
+        }}
         autoplay={{
           delay: 6000000,
           disableOnInteraction: false,

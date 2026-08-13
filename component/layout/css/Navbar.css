@@ -231,12 +231,12 @@
   left: 100%;
   border-top: 3px solid var(--nsb-gold);
 }
-.nsb-nested > a::after {
+/* .nsb-nested > a::after {
   content: "›";
   margin-left: auto;
   font-size: 16px;
   opacity: 0.6;
-}
+} */
 
 /* ─── Navbar Actions ────────────────────── */
 .nsb-navbar-actions {

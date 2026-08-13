@@ -22665,10 +22665,10 @@ html.lenis body {
   height: 60px ;
 }
 
-.swiper-wrapper{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.homebanner-swiper .swiper-wrapper{
+   display: flex; 
+   align-items: center;
+  justify-content: center; 
 }
 
 

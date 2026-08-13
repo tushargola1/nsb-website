@@ -22,7 +22,7 @@ const TeamCard2 = ({ data }) => {
             <h6
               className={`rs-team-title underline ${!data.position2 ? "" : "h-60"}`}
             >
-              <a href="team-details.html">{data.name}</a>
+              <Link href={""}>{data.name}</Link>
             </h6>
 
             {data.position && (

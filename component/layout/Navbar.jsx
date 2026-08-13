@@ -29,11 +29,18 @@ const NAV_ITEMS = [
     ],
   },
   { label: "Our Faculty", href: "/faculty" },
-  {
+{
     label: "Programmes",
     href: "#",
     children: [
-      { label: "PGDM (Executive)", href: "/programmes/pgdm-executive" },
+      { label: "PGDM (Executive)", href: "/programmes/pgdm-executive" ,
+          children: [
+          {
+            label: "Batch Our Current Batch",
+            href: "/students",
+          },
+        ],
+      },
       {
         label: "PGDM (Energy Management)",
         href: "/programmes/pgdm-energy-management",
@@ -205,7 +212,7 @@ function DropdownItem({ item, level = 0 }) {
       <Link href={item.href}>
         {item.label}
         <svg
-          className="nsb-arrow"
+          className="nsb-arrow ms-1"
           viewBox="0 0 10 6"
           width="10"
           height="6"

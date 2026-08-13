@@ -14,7 +14,6 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  
   return (
     <html lang="en" className="no-js">
       <head>
@@ -52,7 +51,7 @@ export default function RootLayout({ children }) {
         <Preloader />
         <Navbar />
         <main>{children}</main>
-          <HomePopup />
+        <HomePopup />
 
         <WhatsappChat />
         <Footer />

@@ -4,19 +4,19 @@ import React from "react";
 
 const page = () => {
   const governingBodyData = [
- 
     {
       id: 1,
       image: "/assets/images/faculty/rachana.png",
       name: "Ms. Rachana Singh Bhal",
       position1: "Chairperson",
-      position2: "Governing Commitee, NSB & ED, PMI",
+      position2: "Governance Commitee, NSB & ED, PMI",
       organization: "NTPC Limited ",
     },
- 
+
     {
       id: 2,
-      image: "/assets/images/faculty/faculty-details/NSB Faculty/R Gopichandran.webp",
+      image:
+        "/assets/images/faculty/faculty-details/NSB Faculty/R Gopichandran.webp",
       name: "Prof. R. Gopichandran",
       position1: "Professor",
       organization: "Director NTPC School of Business",
@@ -27,29 +27,36 @@ const page = () => {
       image: "/assets/images/faculty/abhinav.png",
       name: "Dr. Abhinav Jinadal",
       position1: "Member",
-      position2: "Governing Committee, NSB & AGM, PMI",
+      position2: "Governance Committee, NSB & DGM, PMI",
       organization: "NTPC Limited",
     },
-
+    {
+      id: 4,
+      image: "/assets/images/faculty/Rajeev.jpeg",
+      name: "Shri Rajeev Choudhary",
+      position1: "Member",
+      position2: "Governance Committee, NSB & DGM, Dadri",
+      organization: "NTPC Limited",
+    },
   ];
   return (
     <>
-      <Breadcrump currentPage={"Governing Committee"} parentPage={"About"} />
+      <Breadcrump currentPage={"Governance Committee"} parentPage={"About"} />
       <section className="rs-about-area section-space bg-primary rs-about-seven">
         <div className="container">
           <div className="row g-5">
             <div className="col-xl-12 col-lg-12">
               <div className="rs-about-wrapper margin-15">
-              
                 <h2 className="section-title has-theme-blue mb-20 ps-0">
                   Governance Committee
                 </h2>
                 <div className="row align-items-center justify-content-center gap-5">
                   {governingBodyData.map((item, id) => {
-                    return (                  <div className="col-lg-3 col-md-5 col-12" key={id}>
-                       <TeamCard2 data={item}/>
-                  </div>
-                 )
+                    return (
+                      <div className="col-lg-3 col-md-5 col-12" key={id}>
+                        <TeamCard2 data={item} />
+                      </div>
+                    );
                   })}
                 </div>
               </div>

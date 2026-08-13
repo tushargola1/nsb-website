@@ -92,7 +92,7 @@ export default function Footer() {
                           <Link href="/programmes/pgdm-executive">PGDM (Executive)</Link>
                         </li>
                         <li>
-                          <Link href="/programmes/doctoral-phd">PGDM (PH.D.)</Link>
+                          <Link href="/programmes/doctoral-phd">PGDM (Ph.D.)</Link>
                         </li>
                       </ul>
                     </div>
@@ -125,9 +125,9 @@ export default function Footer() {
                         <option value="PHD">PHD</option>
                       </select>
                       <div className="rs-program-btn text-center w-100">
-                        <a
+                        <Link
                           className="rs-btn has-icon has-theme-cyan hover-cyan"
-                          href="program-details.html"
+                          href=""
                         >
                           <span className="btn-text-wrap">
                             <span className="text-default">Submit</span>
@@ -145,7 +145,7 @@ export default function Footer() {
                               <path d="M10.5 1.5C10.5 2.32843 9.82843 3 9 3C8.17157 3 7.5 2.32843 7.5 1.5C7.5 0.671573 8.17157 0 9 0C9.82843 0 10.5 0.671573 10.5 1.5Z"></path>
                             </svg>
                           </span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>

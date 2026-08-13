@@ -23,7 +23,7 @@ const ProgramCard = ({ programData }) => {
           return (
             <div className="rs-program-item col" key={item.id}>
               <div className="rs-program-thumb">
-                <a href="program-details.html">
+                <Link href={item.url}>
                   <Image
                     src={item.image}
                     width={44}
@@ -31,18 +31,20 @@ const ProgramCard = ({ programData }) => {
                     alt="Announcement"
                     // className={styles.updateImg}
                   />
-                </a>
+                </Link>
               </div>
               <div className="rs-program-content">
                 <div className="rs-program-info">
                   <h5 className="rs-program-title">
-                    <a href="program-details.html">{item.title}</a>
+                <Link href={item.url}>{item.title}
+                </Link>
+
                   </h5>
                   <p className="rs-program-desc">
                     {item.description.slice(0, 265)}...
                   </p>
                   <div className="rs-program-btn">
-                    <a
+                    <Link
                       className="rs-btn has-icon has-theme-cyan hover-cyan"
                       href={item.url}
                     >
@@ -62,7 +64,7 @@ const ProgramCard = ({ programData }) => {
                           <path d="M10.5 1.5C10.5 2.32843 9.82843 3 9 3C8.17157 3 7.5 2.32843 7.5 1.5C7.5 0.671573 8.17157 0 9 0C9.82843 0 10.5 0.671573 10.5 1.5Z"></path>
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
