@@ -23,12 +23,12 @@ export const HomeBannerData = [
       title: "",
       description: "",
     },
-    {
-      id: 5,
-      src: "/assets/images/homebanner/4.png",
-      title: "",
-      description: "",
-    },
+    // {
+    //   id: 5,
+    //   src: "/assets/images/homebanner/4.png",
+    //   title: "",
+    //   description: "",
+    // },
     // Events (3)
     // {
     //   id: 1,
