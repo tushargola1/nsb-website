@@ -34,11 +34,11 @@ export default function HeroBanner() {
         spaceBetween={0}
         speed={1000}
         navigation
-        pagination={{
-          clickable: true,
-        }}
+        // pagination={{
+        //   clickable: true,
+        // }}
         autoplay={{
-          delay: 6000,
+          delay: 6000000,
           disableOnInteraction: false,
           pauseOnMouseEnter: true,
         }}  
@@ -62,7 +62,7 @@ export default function HeroBanner() {
         }}
       >
         {HomeBannerData.map((item, slideIndex) => (
-          <SwiperSlide key={item.src || slideIndex}>
+          <SwiperSlide key={item.id || slideIndex}>
             <div
               className="video-slidej video-slide-glass"
               onClick={() => {
