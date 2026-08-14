@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const ChairmenMessage = ({ isReadMore }) => {
@@ -39,12 +40,12 @@ const ChairmenMessage = ({ isReadMore }) => {
           {isReadMore ? shortMessage : fullMessage}
 
           {isReadMore && (
-            <span
+            <Link href="/about/message-from-cmd-desk"
               className="position-absolute text-danger cursor-pointer"
               style={{ right: 0 }}
             >
               Read More..
-            </span>
+            </Link>
           )}
         </p>
 
