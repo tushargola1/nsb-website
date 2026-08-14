@@ -20,7 +20,7 @@ const TeamCard2 = ({ data }) => {
         <div className="rs-team-content-wrapper">
           <div className="rs-team-content-info">
             <h6
-              className={`rs-team-title underline ${!data.position2 ? "" : "h-60"}`}
+              className={`rs-team-title underline `}
             >
               <Link href={""}>{data.name}</Link>
             </h6>

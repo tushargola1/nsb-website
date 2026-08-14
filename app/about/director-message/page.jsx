@@ -5,7 +5,7 @@ import React from "react";
 const page = () => {
   return (
     <div>
-      <Breadcrump currentPage="Doctoral (PhD)" parentPage="Programmes" />
+      <Breadcrump currentPage="Director's Message" parentPage="About" />
       <Maintenance />
     </div>
   );

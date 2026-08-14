@@ -9,7 +9,7 @@ const NAV_ITEMS = [
   { label: "Home", href: "/" },
   {
     label: "About Us",
-    href: "#",
+    href: "/about/about-us",
     children: [
       { label: "Director NSB", href: "/about/officiating-director-nsb" },
       { label: "Governing Board", href: "/about/governing-board" },
@@ -382,7 +382,7 @@ export default function Navbar() {
               priority
             />
           </Link>
-          <Link href="/" className="nsb-logo-wrap nsb-logo-center">
+          <div className="nsb-logo-wrap nsb-logo-center">
             <Image
               src="/assets/images/logo/midlogo.webp"
               width={300}
@@ -390,8 +390,8 @@ export default function Navbar() {
               alt="NSB Mid Logo"
               priority
             />
-          </Link>
-          <Link href="/" className="nsb-logo-wrap">
+          </div>
+          <div className="nsb-logo-wrap">
             <Image
               src="/assets/images/logo/ntpclogo.webp"
               width={90}
@@ -399,7 +399,7 @@ export default function Navbar() {
               alt="NTPC Logo"
               priority
             />
-          </Link>
+          </div>
         </div>
       </div>
 

@@ -15,7 +15,7 @@ const page = () => {
       id: 2,
       image: "/assets/images/about/nears/gireesh.webp",
       name: "Dr. Gireesh Chandra Tripathi",
-      position: "President (NEARS)",
+      position: "secretary",
     },
     {
       id: 3,
@@ -26,7 +26,7 @@ const page = () => {
   ];
   return (
     <>
-      <Breadcrump currentPage={"About Nears"} parentPage={"About"} />
+      <Breadcrump currentPage={"About NEARS"} parentPage={"About"} />
       <section className="rs-about-area section-space bg-primary rs-about-seven">
         <div className="container">
           <div className="row g-5">

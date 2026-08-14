@@ -9,21 +9,28 @@ import "yet-another-react-lightbox/styles.css";
 const page = () => {
   const [open, setOpen] = useState(false);
   const [index, setIndex] = useState(0);
-const GuestLectureGallery = Array.from({ length: 42 }, (_, index) => {
-  let id = index + 1;
+  const GuestLectureGallery = Array.from({ length: 42 }, (_, index) => {
+    let id = index + 1;
 
-  if (id >= 11) id += 1; // Skip 11
-  if (id >= 33) id += 1; // Skip 33
+    if (id >= 11) id += 1; // Skip 11
+    if (id >= 33) id += 1; // Skip 33
 
-  let extension = "webp";
+    let extension = "webp";
 
-  if (id === 38) extension = "jpg";
+    if (id === 38) extension = "jpg";
 
-  return {
-    id,
-    img: `/assets/images/guestlecture/${id}.${extension}`,
-  };
-});
+    return {
+      id,
+      img: `/assets/images/guestlecture/${id}.${extension}`,
+    };
+  });
+
+  const firstIndex = GuestLectureGallery.findIndex((item) => item.id === 16);
+
+  if (firstIndex !== -1) {
+    const [first] = GuestLectureGallery.splice(firstIndex, 1);
+    GuestLectureGallery.unshift(first);
+  }
   return (
     <div>
       <Breadcrump
@@ -43,7 +50,7 @@ const GuestLectureGallery = Array.from({ length: 42 }, (_, index) => {
             in the class with the practical experiences of the industry.
           </p>
         </div>
-        <div
+        {/* <div
           className="rs-quote-wrapper row align-items-center flex-lg-row flex-md-column flex-column gap-lg-0 gap-md-4 gap-4 mt-40"
           style={{ background: "#ffdead" }}
         >
@@ -93,7 +100,7 @@ const GuestLectureGallery = Array.from({ length: 42 }, (_, index) => {
               <strong> October 20, 2023</strong>.
             </p>
           </div>
-        </div>
+        </div> */}
         <div className="container py-5">
           <div className="row g-4 align-items-center justify-content-center">
             {GuestLectureGallery.map((item, i) => (
