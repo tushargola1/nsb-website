@@ -6,7 +6,7 @@ const page = () => {
   return (
     <div>
       <Breadcrump
-        currentPage="Townhall Series"
+        currentPage="A Snapshot of Townhall Series"
         parentPage={"Corporate Relations"}
       />
       <div className="container mt-50">

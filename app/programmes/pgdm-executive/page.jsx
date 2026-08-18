@@ -59,7 +59,7 @@ const page = () => {
                               aria-expanded="true"
                               aria-controls="collapseOne"
                             >
-                              Program Overview
+                              Programme Overview
                               <span className="accordion-icon">
                                 <svg
                                   xmlns="http://www.w3.org/2000/svg"
@@ -78,9 +78,9 @@ const page = () => {
                             <div className="accordion-body">
                               <div className="rs-history-list-wrapper">
                                 <p>
-                                  PGDM (Executive) program includes twelve
+                                  PGDM (Executive) Programme includes twelve
                                   months of classroom learning and six months of
-                                  project work. The PGDM (Executive) program is
+                                  project work. The PGDM (Executive) Programme is
                                   best suited for working professionals to add
                                   value to their career and prepare visionary
                                   leaders for the energy sector. Experience
@@ -89,7 +89,7 @@ const page = () => {
                                   enhance learning outcomes. These activities
                                   help analyze situations and apply skills to
                                   real business situations. PGDM (Executive)
-                                  program enhances awareness and skill levels to
+                                  Programme enhances awareness and skill levels to
                                   comprehend enactments, related market and
                                   institutional dynamics, and devise
                                   interventions related to the energy sector.
@@ -289,7 +289,7 @@ const page = () => {
                             <div className="accordion-body">
                               <div className="rs-history-list-wrapper">
                                 <p>
-                                  The PGDM (Executive) program includes a two
+                                  The PGDM (Executive) Programme includes a two
                                   week international immersion program. It
                                   leverages the opportunity to learn from
                                   culturally diverse contexts and enhances
@@ -321,7 +321,7 @@ const page = () => {
                               aria-expanded="false"
                               aria-controls="collapseFive"
                             >
-                              Program Fee and Financial Assistance
+                              Programme Fee and Financial Assistance
                               <span className="accordion-icon">
                                 <svg
                                   xmlns="http://www.w3.org/2000/svg"
@@ -345,9 +345,8 @@ const page = () => {
                                   <table className="rs-deadline-table-inner">
                                     <thead>
                                       <tr>
-                                        <th>Program Details</th>
+                                        <th>Programme Details</th>
                                         <th>Indian Students</th>
-                                        <th>NRI / Foreign Students</th>
                                       </tr>
                                     </thead>
                                     <tbody>
@@ -360,12 +359,10 @@ const page = () => {
                                           INR 750/- (For SC/ST & PH Category
                                           Only)
                                         </td>
-                                        <td>US$ 50</td>
                                       </tr>
                                       <tr>
                                         <td>Total Programme Fee</td>
                                         <td>INR 18,30,000/-*</td>
-                                        <td>US$ 30,000*</td>
                                       </tr>
                                     </tbody>
                                   </table>

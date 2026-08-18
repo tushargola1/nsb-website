@@ -8,7 +8,13 @@ import Breadcrump from "@/component/common/breadcrump/Breadcrump";
 
 export default function FacultyMembersPage() {
   const [activeCategory, setActiveCategory] = useState("NSB Faculty");
-const categories = ["All", "NSB Faculty", "IIM-A Faculty", "Adjunct Faculty", "Visiting Faculty"];
+  const categories = [
+    "All",
+    "NSB Faculty",
+    "IIM-A Faculty",
+    "Adjunct Faculty",
+    "Visiting Faculty",
+  ];
 
   const filteredFaculty =
     activeCategory === "All"
@@ -25,7 +31,17 @@ const categories = ["All", "NSB Faculty", "IIM-A Faculty", "Adjunct Faculty", "V
           category={categories}
         />
       </div>
-
+      {activeCategory === "IIM-A Faculty" && (
+        <>
+          <div className="container mb-30">
+            <div className="rs-team-content-info w-100 text-center">
+              <h4 className="rs-team-designation">
+                IIM-A Faculty, who have taught at NSB
+              </h4>
+            </div>
+          </div>
+        </>
+      )}
       {/* Team grid */}
       <section className="rs-team-area section-space-bottom rs-team-one has-theme-blue">
         <div className="container">

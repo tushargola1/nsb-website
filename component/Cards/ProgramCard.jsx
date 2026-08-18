@@ -13,7 +13,7 @@ const ProgramCard = ({ programData }) => {
               className="section-title rs-split-text-enable split-in-left has-theme-blue "
               style={{ marginBottom: "40px" }}
             >
-              Program Pedagogy
+              Programme Pedagogy
             </h2>
           </div>
         </div>

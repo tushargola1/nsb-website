@@ -96,7 +96,7 @@ const page = () => {
                           Executive Education at NSB includes both short and
                           long term programs. The aim of executive education is
                           to provide specific tailor made programs to the
-                          corporate and government officials. Each program is
+                          corporate and government officials. Each Programme is
                           designed considering the changing trends of the
                           industry as well as specific needs of the executives
                           at different levels of their careers.

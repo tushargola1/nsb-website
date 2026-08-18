@@ -129,7 +129,7 @@ const facultyData = [
       "He has been invited by institutes like MDI Gurgaon, IMT Ghaziabad, Fore School of Management, FMS and IMI New Delhi to take guest lectures and develop curriculum. Previously, at Pune, he also taught at Pune University (MBA Dept.), IMDR and Symbiosis.",
 
     globalMDPs:
-      "In 2006, he conducted an International Conference on Strategic Management for Global Competitiveness at Singapore, an international program at Geneva, Switzerland on Corporate Governance in 2008, and an international conference on Data Analytics in Dubai in 2014. He has also conducted a customized MDP for REC at France and Italy with ESCP, Paris.",
+      "In 2006, he conducted an International Conference on Strategic Management for Global Competitiveness at Singapore, an international Programme at Geneva, Switzerland on Corporate Governance in 2008, and an international conference on Data Analytics in Dubai in 2014. He has also conducted a customized MDP for REC at France and Italy with ESCP, Paris.",
 
     aicteAndUGC:
       "He has been an expert with AICTE for AICTE recognition of institutes and a member of the Standing Complaint Scrutiny Committee of AICTE as well. Earlier, he was a National Expert in Management for UGC for UGC-NET.",
@@ -529,18 +529,18 @@ const facultyData = [
       ],
 
       capacityBuildingProgramsCoordinated: [
-        "2-week capacity building program for Power Professionals from Ceylon Electricity Board, Sri Lanka, on 'Solar Energy and Photovoltaic Systems', March 09–20, 2026",
-        "5-day ITEC (Indian Technical and Economic Cooperation) training program of the Ministry of External Affairs (MEA), Govt. of India, for Power Professionals from multiple countries on 'Electric Vehicles, Batteries and Charging Stations', Feb 2–6, 2026",
-        "5-day ITEC training program of the MEA, Govt. of India, for Power Professionals from multiple countries on 'Microgrids & Renewables', Jan 19–23, 2026",
-        "5-day ITEC training program of the MEA, Govt. of India, for Power Professionals from QUAD countries on 'Electric Vehicles, Batteries and Charging Stations', Feb 17–21, 2025",
-        "5-day ITEC training program of the MEA, Govt. of India, for officials from Morocco on 'Green Hydrogen', Feb 3–8, 2025",
-        "5-day ITEC training program of the MEA, Govt. of India, for Power Professionals from QUAD countries on 'Microgrids & Renewables', Jan 20–24, 2025",
-        "5-day capacity building program on 'Solar Photovoltaics Systems, Rooftop Solar PV Technology' for professionals from NSPCL, Aug 5–9, 2024",
-        "5-day ITEC training program of the MEA, Govt. of India, for Power Professionals from QUAD countries on 'Electric Vehicles, Batteries and Charging Stations', May 20–24, 2024",
-        "5-day ITEC training program of the MEA, Govt. of India, for Power Professionals from the Republic of Uganda on 'Electric Vehicles, Batteries and Charging Stations', Mar 18–22, 2024",
-        "5-day ITEC training program of the MEA, Govt. of India, for Power Professionals from the Republic of Uganda on 'O&M of Hydro Power Plant', Mar 4–8, 2024",
-        "5-day ITEC training program of the MEA, Govt. of India, for Power Professionals from Indo-Pacific Nations (Sri Lanka, Cambodia, Guyana and Maldives) on 'Infrastructure for Electric Vehicles Deployment', Nov 6–10, 2023",
-        "5-day ITEC training program of the MEA, Govt. of India, for Power Professionals from Myanmar on 'Electric Vehicles, Batteries, and Charging Stations', June 5–9, 2023",
+        "2-week capacity building Programme e e e e for Power Professionals from Ceylon Electricity Board, Sri Lanka, on 'Solar Energy and Photovoltaic Systems', March 09–20, 2026",
+        "5-day ITEC (Indian Technical and Economic Cooperation) training Programme e e e of the Ministry of External Affairs (MEA), Govt. of India, for Power Professionals from multiple countries on 'Electric Vehicles, Batteries and Charging Stations', Feb 2–6, 2026",
+        "5-day ITEC training Programme of the MEA, Govt. of India, for Power Professionals from multiple countries on 'Microgrids & Renewables', Jan 19–23, 2026",
+        "5-day ITEC training Programme of the MEA, Govt. of India, for Power Professionals from QUAD countries on 'Electric Vehicles, Batteries and Charging Stations', Feb 17–21, 2025",
+        "5-day ITEC training Programme of the MEA, Govt. of India, for officials from Morocco on 'Green Hydrogen', Feb 3–8, 2025",
+        "5-day ITEC training Programme of the MEA, Govt. of India, for Power Professionals from QUAD countries on 'Microgrids & Renewables', Jan 20–24, 2025",
+        "5-day capacity building Programme on 'Solar Photovoltaics Systems, Rooftop Solar PV Technology' for professionals from NSPCL, Aug 5–9, 2024",
+        "5-day ITEC training Programme of the MEA, Govt. of India, for Power Professionals from QUAD countries on 'Electric Vehicles, Batteries and Charging Stations', May 20–24, 2024",
+        "5-day ITEC training Programme of the MEA, Govt. of India, for Power Professionals from the Republic of Uganda on 'Electric Vehicles, Batteries and Charging Stations', Mar 18–22, 2024",
+        "5-day ITEC training Programme of the MEA, Govt. of India, for Power Professionals from the Republic of Uganda on 'O&M of Hydro Power Plant', Mar 4–8, 2024",
+        "5-day ITEC training Programme of the MEA, Govt. of India, for Power Professionals from Indo-Pacific Nations (Sri Lanka, Cambodia, Guyana and Maldives) on 'Infrastructure for Electric Vehicles Deployment', Nov 6–10, 2023",
+        "5-day ITEC training Programme of the MEA, Govt. of India, for Power Professionals from Myanmar on 'Electric Vehicles, Batteries, and Charging Stations', June 5–9, 2023",
         "A series of 10 ISA-sponsored 3-day capacity building programs titled 'Developing training modules and conducting trainings promoting solar energy through government led development schemes' for participants from Sub-Saharan African countries, Nov 2022 to July 2023",
       ],
     },
@@ -643,8 +643,8 @@ const facultyData = [
         "A case study on 'Video Banking' presented and awarded 2nd cash prize at the International Conference on Management Cases – 2023, organized by ICBM-SBE, Hyderabad",
         "A case titled 'Emphasizing mere promotion and overlooking other P's of marketing doesn't lead to success: Learn from Ola Electric' published and awarded 2nd cash prize at the International Conference on Management Cases – 2022, organized by ICBM-SBE, Hyderabad",
         "Attended five days' 'Case Teaching Workshop' organized by IBS, Hyderabad, 26th-30th April 2021",
-        "Attended five days' short-term training program on 'Research Methodology and Applications of SPSS in Multidisciplinary Research', organized by the Department of Civil Engineering, Maulana Azad National Institute of Technology (MANIT), Bhopal, 4th-8th Jan 2015",
-        "Attended one-week staff development program on 'Induction Training Program' organized by the National Institute of Technical Teachers' Training & Research (NITTTR), Bhopal, held 15-20 June 2009 at Peoples College of Research & Technology, Bhopal",
+        "Attended five days' short-term training Programme on 'Research Methodology and Applications of SPSS in Multidisciplinary Research', organized by the Department of Civil Engineering, Maulana Azad National Institute of Technology (MANIT), Bhopal, 4th-8th Jan 2015",
+        "Attended one-week staff development Programme on 'Induction Training Program' organized by the National Institute of Technical Teachers' Training & Research (NITTTR), Bhopal, held 15-20 June 2009 at Peoples College of Research & Technology, Bhopal",
       ],
     },
   },
@@ -1217,86 +1217,7 @@ const facultyData = [
       phone: "(91) 120-2416803",
     },
   },
-  {
-    slug: "Manipadma_Datta",
-    name: "Prof. Manipadma Datta",
-    designation: "Professor",
-    category: "Adjunct Faculty",
-    image:
-      "../assets/images/faculty/faculty-details/Adjunct Faculty/Prof. Manipadma Datta.webp",
 
-    summary:
-      "Professor Manipadma Datta is in academics for the last four decades. He is the former Vice Chancellor of the TERI Institute of Advanced Studies (TSAS), New Delhi, a deemed university under UGC and a premium institution of higher education and research in the country. He is now the senior-most Professor of the University and belongs to the Department of Policy and Management Studies. Before joining TSAS in 2011, Prof. Datta served as a Professor, Dean and Research Centre Chairman, Visiting Professor and Area Head in institutions of eminence like University of Calcutta, Vidyasagar University, Nirma University, Institute of Management Technology Ghaziabad, Indian Institute of Management Lucknow, International Institute of Management Delhi, JK Lakshmipat University, Jaipur in India and Vrije University at Brussels, Belgium. Professor Datta's areas of interest include Sustainable Development, Corporate Social Responsibility (CSR), Corporate Finance, Accounting Information System, Strategic Leadership, Corporate Governance, Life Cycle Cost Analysis, ESG Financing, Public Policy and Management and the like. He is the standing Chair of the International Conference of Business, Economics and Sustainable Development (ICBESD), an annual international event of TSAS since 2018. Prof. Datta has an outstanding track record of supervising and evaluating PhD theses, having successfully guided seven PhD scholars to date, and remains a thesis evaluator for many eminent institutions in India and abroad. He is a regular contributor to national and international refereed journals and serves on their editorial boards. He has more than fifty research papers to his credit in refereed journals and international anthologies published by Springer, Routledge, Bloomberg, Palgrave Macmillan and IGI Global. Bloomberg published his edited title in 2020, 'Business, Economics and Sustainable Development', an edited volume with contributions from India and abroad. He is also a regular speaker on Sustainable Development, CSR, Corporate Finance, Public Management, Accounting Information System, Strategic Leadership, and Corporate Governance. Professor Datta is a well-traveled academician, having been invited as a speaker by the International Association of Accounting Education and Research (IAAER) at Mexico and Nevada University, Las Vegas USA, and as the keynote speaker at a conference organized by Szczecin University in Poland. A regular expert advisor to IFC, World Bank, and Government of India-sponsored research projects, he has developed housing finance models for the poor in Bangladesh and Nepal and a business model for utilizing biodiversity of the Cooperative Republic of Guyana, South America. He is also an EU expert on circular economy finance and recently conducted a workshop on the same at Bangkok's Chulalongkorn University. He is also on the UGC Bangladesh panel of experts for university accreditation, and on the Executive Committee of the Integrating Spirituality and Organizational Leadership Foundation (ISOL Foundation), a premier international think-tank. He is also the founding Chairman of the Executive Committee of the Center for Business and Social Research (www.cbsr.in), a not-for-profit research initiative for development through value sharing. Prof. Datta did his Ph.D. from the University of Calcutta and is a Fellow Member (FCS) of the Institute of Company Secretaries of India, the highest body for the company secretaries' profession in India. He was also trained at Harvard Business School, Boston MA, USA, and in Shanghai, China, completing the Global Colloquium Participant Centered Learning (GCPCL) program.",
-
-    academicAffiliation: [
-      "Former Vice Chancellor, TERI Institute of Advanced Studies (TSAS), New Delhi",
-      "Senior-most Professor, Department of Policy and Management Studies, TSAS, New Delhi",
-      "Professor, Dean, Research Centre Chairman, Visiting Professor and Area Head, University of Calcutta",
-      "Professor, Dean, Research Centre Chairman, Visiting Professor and Area Head, Vidyasagar University",
-      "Professor, Dean, Research Centre Chairman, Visiting Professor and Area Head, Nirma University",
-      "Professor, Dean, Research Centre Chairman, Visiting Professor and Area Head, Institute of Management Technology Ghaziabad",
-      "Professor, Dean, Research Centre Chairman, Visiting Professor and Area Head, Indian Institute of Management Lucknow",
-      "Professor, Dean, Research Centre Chairman, Visiting Professor and Area Head, International Institute of Management Delhi",
-      "Professor, Dean, Research Centre Chairman, Visiting Professor and Area Head, JK Lakshmipat University, Jaipur",
-      "Professor, Dean, Research Centre Chairman, Visiting Professor and Area Head, Vrije University, Brussels, Belgium",
-    ],
-
-    consulting: [
-      "Expert Advisor, IFC, World Bank, and Government of India-sponsored research projects; developed housing finance models for the poor in Bangladesh and Nepal and a business model for utilizing biodiversity of the Cooperative Republic of Guyana, South America",
-      "EU Expert on Circular Economy Finance; conducted a workshop at Chulalongkorn University, Bangkok",
-      "Panel Expert, UGC Bangladesh, for university accreditation",
-      "Member, Executive Committee, Integrating Spirituality and Organizational Leadership Foundation (ISOL Foundation)",
-      "Founding Chairman, Executive Committee, Center for Business and Social Research (www.cbsr.in)",
-    ],
-
-    thoughts:
-      "His areas of interest include Sustainable Development, Corporate Social Responsibility (CSR), Corporate Finance, Accounting Information System, Strategic Leadership, Corporate Governance, Life Cycle Cost Analysis, ESG Financing, and Public Policy and Management.",
-
-    education: [
-      {
-        degree: "GCPCL (Global Colloquium Participant Centered Learning)",
-        institution: "Harvard Business School, Boston, MA",
-        year: "2009",
-      },
-      { degree: "Ph.D.", institution: "University of Calcutta", year: "2000" },
-      {
-        degree: "Company Secretaryship",
-        institution: "Institute of Company Secretaries of India",
-        year: "1990",
-      },
-      { degree: "M.Com", institution: "University of Calcutta", year: "1979" },
-      {
-        degree: "B.Com (Hons)",
-        institution: "University of Calcutta",
-        year: "1977",
-      },
-    ],
-
-    professionalAffiliation: [
-      "Fellow Member (FCS), Institute of Company Secretaries of India",
-      "Standing Chair, International Conference of Business, Economics and Sustainable Development (ICBESD), TSAS (since 2018)",
-    ],
-
-    areaOfResearch: {
-      areas: [
-        "Sustainable Development",
-        "Corporate Social Responsibility (CSR)",
-        "Corporate Finance",
-        "Accounting Information System",
-        "Strategic Leadership",
-        "Corporate Governance",
-        "Life Cycle Cost Analysis",
-        "ESG Financing",
-        "Public Policy and Management",
-      ],
-    },
-
-    contact: {
-      website: "https://www.nsb.ac.in",
-      email: "manipadma2384@gmail.com",
-      phone: "(91) 9711157651, 9350185545",
-    },
-  },
   {
     slug: "chetan-soman",
     name: "Chetan Soman",
@@ -1426,64 +1347,7 @@ const facultyData = [
       phone: "011-29572104",
     },
   },
-  {
-    slug: "Murali_janakaraj",
-    name: "Dr. Murali Janakaraj",
-    designation: "Faculty",
-    category: "Adjunct Faculty",
-    image:
-      "../assets/images/faculty/faculty-details/Adjunct Faculty/Dr. Murali Janakaraj.webp",
 
-    summary:
-      "Dr. Janakaraj is a competent professional with over 25 years of experience in Project Planning, Monitoring, Management, Implementation, and Resource Management. His last assignment was as Director of Environmental Solutions and Consultancy, a consulting company based out of Dubai in the United Arab Emirates. He has expertise in programme management, documentation, and liaising with government departments at all levels across geographies, donor agencies, and NGOs, and is adept at assessing project proposals, especially in the fields of environment, health and safety, energy, and natural resources management. He has demonstrated strong organizing skills, and is a public speaker, motivator, team player, and decisive leader with a successful track record in handling a large team of professionals. He possesses strong research, analytical, problem-solving, and interpersonal communication skills.",
-
-    consulting: [
-      "Director, Environmental Solutions and Consultancy, Dubai, United Arab Emirates",
-    ],
-
-    education: [
-      {
-        degree: "Ph.D. in Ecology and Environmental Sciences",
-        institution: "Pondicherry Central University, Puducherry, India",
-        year: "",
-      },
-      {
-        degree:
-          "Diploma in Environmental Education Processes in Formal Education",
-        institution: "Uppsala University, Uppsala, Sweden",
-        year: "",
-      },
-      {
-        degree: "Post Graduate Diploma in Journalism and Mass Communication",
-        institution: "Madurai Kamaraj University, Tamil Nadu, India",
-        year: "",
-      },
-      {
-        degree: "Master of Science in Biology",
-        institution: "Annamalai University, Chidambaram, Tamil Nadu, India",
-        year: "",
-      },
-      {
-        degree: "Bachelor of Science in Biology",
-        institution: "Bharathidasan University, Trichy, Tamil Nadu, India",
-        year: "",
-      },
-    ],
-
-    areaOfResearch: {
-      areas: [
-        "Environment, health and safety",
-        "Energy",
-        "Natural resources management",
-      ],
-    },
-
-    contact: {
-      website: "https://www.nsb.ac.in",
-      email: "muralijana@gmail.com",
-      phone: "8610507447",
-    },
-  },
   {
     slug: "Diwakar_Sukul",
     name: "Dr. Diwakar Sukul",
@@ -1687,47 +1551,7 @@ const facultyData = [
       phone: "(91) 0120-2416803",
     },
   },
-  {
-    slug: "seethapathy-chander",
-    name: "Shri Seethapathy Chander",
-    designation: "Ajunct Faculty",
-    category: "Adjunct Faculty",
-    image:
-      "../assets/images/faculty/faculty-details/Adjunct Faculty/Shri Seethapathy Chander.webp",
-
-    summary:
-      "He started his career as an Executive Trainee at NTPC in February 1977 (first batch best trainee), and worked in transmission systems. He was responsible for the commissioning of NTPC's first 400kV installations and the introduction of new High Voltage Direct Current transmission technology in India. He was the first Technical Assistant to the then CMD of NTPC. During this tenure, the NTPC Consultancy Wing was established, the transmission business of NTPC was transferred to the newly incorporated Govt. Co. Powergrid Corporation of India Limited, and the Unchahar Thermal Power Plant was transferred from UPSEB to NTPC in a debt asset swap — a first for the sector. He served at the Asian Development Bank from 8th July 1992 to 6th April 2015, advising on energy policy, planning, portfolio management, investments, ICT infrastructure development, ADB's long-term strategy, private sector operations, public-private partnerships, etc. He has travelled extensively world over for his project works and has published 63 papers. He is currently a Senior Advisor to the President of Asian Infrastructure Investment Bank, an Independent Director on the Boards of Tata Power Solar Company Limited and Tata Power Trading Company Limited, and an honorary Senior Advisor to the Secretary General, World Energy Council.",
-
-    academicAffiliation: ["IIST Shibpur", "IIT Delhi"],
-
-    consulting: [
-      "Senior Advisor to the President, Asian Infrastructure Investment Bank",
-      "Independent Director, Tata Power Solar Company Limited",
-      "Independent Director, Tata Power Trading Company Limited",
-      "Honorary Senior Advisor to the Secretary General, World Energy Council",
-      "Advisor, Asian Development Bank, on energy policy, planning, portfolio management, investments, ICT infrastructure development, long-term strategy, private sector operations, and public-private partnerships (8 July 1992 – 6 April 2015)",
-    ],
-
-    education: [
-      { degree: "B.Tech. (Electrical)", institution: "IIT, Delhi", year: "" },
-      {
-        degree: "Specialist Diploma in Business Management in Human Resources",
-        institution: "",
-        year: "",
-      },
-    ],
-
-    professionalAffiliation: [
-      "Executive Trainee, NTPC (from February 1977; first batch best trainee)",
-      "First Technical Assistant to the then CMD of NTPC",
-    ],
-
-    contact: {
-      website: "https://www.nsb.ac.in",
-      email: "seethapathy.chander@gmail.com",
-      phone: "0120-2416803",
-    },
-  },
+ 
   {
     slug: "Shri_Narendra_Taneja",
     name: "Shri Narendra Taneja",
@@ -1851,20 +1675,7 @@ const facultyData = [
       phone: "",
     },
   },
-  {
-    slug: "JK_Mitra",
-    name: "J K Mitra",
-    designation: "Faculty",
-    category: "Visiting Faculty",
-    image:
-      "../assets/images/faculty/faculty-details/Visiting Faculty/J K Mitra.webp",
-
-    contact: {
-      website: "https://www.nsb.ac.in",
-      email: "jkmitra@fms.edu",
-      phone: "",
-    },
-  },
+  
   {
     slug: "PR_Jaishankar",
     name: "P R Jaishankar",
@@ -1898,20 +1709,7 @@ const facultyData = [
       phone: "",
     },
   },
-  {
-    slug: "Ashok Sethi",
-    name: "Ashok Sethi",
-    designation: "Faculty",
-    category: "Visiting Faculty",
-    image:
-      "../assets/images/faculty/faculty-details/Visiting Faculty/Ashok Sethi.webp",
 
-    contact: {
-      website: "https://www.nsb.ac.in",
-      email: "asethi@tatapower.com",
-      phone: "",
-    },
-  },
   {
     slug: "sanjay-kumar-kar",
     name: "Sanjay Kumar Kar",

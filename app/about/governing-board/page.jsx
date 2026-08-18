@@ -27,6 +27,12 @@ const page = () => {
     },
     {
       id: 4,
+      image: "/assets/images/faculty/sunil.jpeg",
+      name: "Prof. Sunil Maheshwari",
+      position: "Member",
+    },
+    {
+      id: 5,
       image: "/assets/images/faculty/faculty-details/NSB Faculty/R Gopichandran.webp",
       name: "Prof. R. Gopichandran",
       position: "Member",
@@ -45,7 +51,7 @@ const page = () => {
                 <h2 className="section-title has-theme-blue mb-20 ps-0" id="governing-board-section">
                   Governing Board
                 </h2>
-                <div className="row align-items-center justify-content-center gap-lg-0 gap-md-2 gap-4">
+                <div className="row align-items-center justify-content-center gap-lg-5 gap-md-2 gap-4">
                   {governingBodyData.map((item, id) => {
                     return (                  <div className="col-lg-3 col-md-5 col-12" key={id}>
                        <TeamCard2 data={item}/>

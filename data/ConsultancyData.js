@@ -69,7 +69,7 @@ export const ConsultancyData = {
 
     {
       id: 4,
-      title: "Capacity Building Program on CBET for SAARC Countries",
+      title: "Capacity Building Programme on CBET for SAARC Countries",
       projectDetail:
         "Building capabilities and understanding on multiple dynamics of CBET, ranging from the techno-economic aspects to the stakeholder engagement strategies to socialize the benefits among the regional entities.",
       fundingAgency:
@@ -92,7 +92,7 @@ export const ConsultancyData = {
       title:
         "DISCOM Transformation by Knowledge Sharing and Strengthening Governance (DTKSSG)",
       projectDetail: [
-        "Capacity building program for distribution utilities at state/regional levels.",
+        "Capacity building Programme for distribution utilities at state/regional levels.",
         "Conduct research/case studies with distribution utilities.",
       ],
       fundingAgency: "NTPC Limited",
@@ -152,7 +152,7 @@ export const ConsultancyData = {
       id: 3,
       title: "Training for Bhutan on Concept of Project Finance",
       projectDetail:
-        "The program aimed to equip participants from both non-finance and finance backgrounds to enable better business decisions and develop the skills to interpret financial analysis for appraisal of opportunities, quantify risks, and compare business models and different types of financing instruments and approaches for structuring a project.",
+        "The Programme aimed to equip participants from both non-finance and finance backgrounds to enable better business decisions and develop the skills to interpret financial analysis for appraisal of opportunities, quantify risks, and compare business models and different types of financing instruments and approaches for structuring a project.",
       fundingAgency: "USAID's South Asia Regional Energy Hub (SAREH)",
       investigators: [
         {
@@ -170,9 +170,9 @@ export const ConsultancyData = {
     {
       id: 4,
       title:
-        "Capacity Building Program on HVDC Transmission for SAARC Countries",
+        "Capacity Building Programme on HVDC Transmission for SAARC Countries",
       projectDetail:
-        "The program was attended by 32 participants from seven SAARC countries namely Bangladesh, Bhutan, India, Nepal, Pakistan and Sri Lanka. The program's objective was to enhance participants' understanding of HVDC transmission technology and discuss key learnings from successful HVDC projects in the region.",
+        "The Programme was attended by 32 participants from seven SAARC countries namely Bangladesh, Bhutan, India, Nepal, Pakistan and Sri Lanka. The program's objective was to enhance participants' understanding of HVDC transmission technology and discuss key learnings from successful HVDC projects in the region.",
       fundingAgency:
         "Asian Development Bank (ADB) in cooperation with the South Asian Association for Regional Cooperation (SAARC) Secretariat.",
       investigators: [
@@ -191,7 +191,7 @@ export const ConsultancyData = {
     {
       id: 5,
       title:
-        "Managerial Development Program for Mid-level to Top-level Executives",
+        "Managerial Development Programme for Mid-level to Top-level Executives",
       projectDetail: [
         "Lecture sessions, case studies and discussions.",
         "Key note speeches.",

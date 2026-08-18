@@ -5,7 +5,7 @@ import { mainImg } from "@/public/assets/images/program/energy-management.jpeg";
 import Maintenance from "@/component/Maintenance";
 
 const page = () => {
-  const isShow = false;
+  const isShow = true;
 
   if (!isShow) {
     return (
@@ -133,7 +133,7 @@ const page = () => {
                                   aria-expanded="true"
                                   aria-controls="collapseOne"
                                 >
-                                  Program Overview
+                                  Programme Overview
                                   <span className="accordion-icon">
                                     <svg
                                       xmlns="http://www.w3.org/2000/svg"
@@ -357,7 +357,7 @@ const page = () => {
                                   aria-expanded="false"
                                   aria-controls="collapseFive"
                                 >
-                                  Program Fee and Financial Assistance
+                                  Programme Fee and Financial Assistance
                                   <span className="accordion-icon">
                                     <svg
                                       xmlns="http://www.w3.org/2000/svg"
@@ -381,9 +381,9 @@ const page = () => {
                                       <table className="rs-deadline-table-inner">
                                         <thead>
                                           <tr>
-                                            <th>Program Details</th>
+                                            <th>Programme Details</th>
                                             <th>Indian Students</th>
-                                            <th>NRI / Foreign Students</th>
+                                          
                                           </tr>
                                         </thead>
                                         <tbody>
@@ -396,12 +396,11 @@ const page = () => {
                                               INR 750/- (For SC/ST & PH Category
                                               Only)
                                             </td>
-                                            <td>US$ 50</td>
                                           </tr>
                                           <tr>
                                             <td>Total Programme Fee</td>
                                             <td>INR 16,00,000/-*</td>
-                                            <td>US$ 30,000*</td>
+                                            
                                           </tr>
                                         </tbody>
                                       </table>

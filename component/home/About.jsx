@@ -17,7 +17,7 @@ export default function About() {
               >
                 {/* Blurry Background Image */}
                 <Image
-                  src="/assets/images/breadcrump/breadcrump.jpeg"
+                  src="/assets/images/breadcrump/1.jpeg"
                   alt="background"
                   fill
                   style={{
@@ -31,7 +31,7 @@ export default function About() {
                 {/* Main Full Image */}
                 <div className="position-relative w-100 h-100 d-flex align-items-center justify-content-center">
                   <Image
-                    src="/assets/images/breadcrump/breadcrump.jpeg"
+                    src="/assets/images/breadcrump/1.jpeg"
                     alt="PGDM Energy Management"
                     fill
                     style={{
@@ -57,7 +57,7 @@ export default function About() {
                     ABOUT NSB
                   </span>
                   <h2 className="section-title rs-split-text-enable split-in-left mb-3 fs-1">
-                    Best Energy Management College in India
+                    A Center of Learning in Energy Management Domain
                   </h2>
                 </div>
                 <div className="rs-aobut-tab-content-wrapper">
@@ -105,7 +105,7 @@ export default function About() {
                   <div className="rs-about-btn">
                     <Link
                       className="rs-btn has-icon has-theme-red"
-                      href="/about"
+                      href="/about/about-us"
                     >
                       <span className="btn-text-wrap">
                         <span className="text-default">More About Us</span>
@@ -126,26 +126,26 @@ export default function About() {
                     </Link>
                   </div>
                   <div className="rs-about-counter-wrapper">
-                    <div className="rs-about-counter-icon">
+                    {/* <div className="rs-about-counter-icon">
                       <Image
                         src="/assets/images/logo/nsblogoshort.jpg"
-                        width={80}
-                        height={70}
+                        width={50}
+                        height={50}
                         alt="About"
                       />
-                    </div>
+                    </div> */}
                     <div className="rs-about-counter">
                       <div className="rs-counter-number-wrapper">
                         <span
                           className="rs-counter-number odometer"
                           data-count="12"
                         >
-                          12
+                          12 
                         </span>
-                        <span className="prefix">+</span>
+                        {/* <span className="prefix">+</span> */}
                       </div>
-                      <span className="rs-counter-title">
-                        Years of Education
+                      <span className="rs-counter-title fs-4">
+                      Years of Higher Education, Research, Advocacy & Capacity Building.
                       </span>
                     </div>
                   </div>

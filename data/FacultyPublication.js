@@ -775,7 +775,7 @@ export const FacultyPublication = [
         authors: "Kumar, R., & Singh, S. P.",
         year: 2017,
         title:
-          "Optimal Selection of Multi-Criteria Unequal Area Facility Layout Problem: An Integer Linear Program and Borda-Kendall-Based Method",
+          "Optimal Selection of Multi-Criteria Unequal Area Facility Layout Problem: An Integer Linear Programme and Borda-Kendall-Based Method",
         journal: "International Journal of Business and Systems Research",
         volume: "11(1-2)",
         pages: "62-81",

@@ -4,13 +4,13 @@ export const Programmers = [
     image: "",
     faqData: [
       {
-        heading: "Program Overview",
+        heading: "Programme Overview",
         listing: false,
-        content: `PGDM (Executive) program includes twelve months of classroom learning and six months of project work. The PGDM (Executive) program is best suited for working professionals to add value to their career and prepare visionary leaders for the energy sector.
+        content: `PGDM (Executive) Programme includes twelve months of classroom learning and six months of project work. The PGDM (Executive) Programme is best suited for working professionals to add value to their career and prepare visionary leaders for the energy sector.
 
 Experience sharing seminars for peer learning and live industry projects under expert guidance enhance learning outcomes. These activities help analyze situations and apply skills to real business situations.
 
-PGDM (Executive) program enhances awareness and skill levels to comprehend enactments, related market and institutional dynamics, and devise interventions related to the energy sector.
+PGDM (Executive) Programme enhances awareness and skill levels to comprehend enactments, related market and institutional dynamics, and devise interventions related to the energy sector.
 
 Advantages of learning theoretical and practical aspects of management from professors of IIMA and NSB, experienced professionals and peer group learning.
 
@@ -49,7 +49,7 @@ At the end, students are prepared to reflect on the alignment between theoretica
       {
         heading: "Pedagogy",
         listing: false,
-        content: `The PGDM (Executive) program includes a two
+        content: `The PGDM (Executive) Programme includes a two
 week international immersion program. It
 leverages the opportunity to learn from culturally
 diverse contexts and enhances competitive

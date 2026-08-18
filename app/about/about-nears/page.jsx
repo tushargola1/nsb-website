@@ -15,7 +15,7 @@ const page = () => {
       id: 2,
       image: "/assets/images/about/nears/gireesh.webp",
       name: "Dr. Gireesh Chandra Tripathi",
-      position: "secretary",
+      position: "Secretary",
     },
     {
       id: 3,
@@ -107,7 +107,7 @@ const page = () => {
                   </li>
                 </ul>
                 <h2 className="section-title has-theme-blue mb-20 ps-0 mt-30">
-                  <span className="blue-color">Govering</span> Body
+                  <span className="blue-color">Governing</span> Body
                 </h2>
                 <div className=" row align-items-center justify-content-center gap-lg-5 gy-3">
                   {/* <div className="rs-team-details-thumb-wrapper">

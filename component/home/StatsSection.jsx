@@ -17,20 +17,20 @@ const stats = [
     color: "#6610f2",
     icon: "🏢",
   },
-  {
-    number: 16,
-    suffix: "+",
-    title: "Batches Trained",
-    color: "#198754",
-    icon: "🎓",
-  },
-  {
-    number: 12,
-    suffix: "+",
-    title: "Years Experience",
-    color: "#fd7e14",
-    icon: "⭐",
-  },
+  // {
+  //   number: 16,
+  //   suffix: "+",
+  //   title: "Batches Trained",
+  //   color: "#198754",
+  //   icon: "🎓",
+  // },
+  // {
+  //   number: 12,
+  //   suffix: "+",
+  //   title: "Years Experience",
+  //   color: "#fd7e14",
+  //   icon: "⭐",
+  // },
 ];
 
 function Counter({ end, suffix, start }) {

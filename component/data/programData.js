@@ -9,7 +9,7 @@ export const programData = [
    {
     id: 2,
     title: "PGDM (Executive)",
-    description: "PGDM (Executive) program includes twelve months of classroom learning and six months of project work. The PGDM (Executive) program is best suited for working professionals to add value to their career and prepare visionary leaders for the energy sector. Experience sharing seminars for peer learning and live industry project under expert guidance to enhance learning outcomes. These activities help analyze situations and apply skills to real business situations.",
+    description: "PGDM (Executive) Programme includes twelve months of classroom learning and six months of project work. The PGDM (Executive) Programme is best suited for working professionals to add value to their career and prepare visionary leaders for the energy sector. Experience sharing seminars for peer learning and live industry project under expert guidance to enhance learning outcomes. These activities help analyze situations and apply skills to real business situations.",
     image: "/assets/images/program/executive.jpeg",
     url:'/programmes/pgdm-executive'
   },

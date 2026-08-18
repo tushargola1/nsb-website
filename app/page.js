@@ -30,7 +30,7 @@ export default function Home() {
       <About />
       <Mission/>
       <ProgramCard programData = {programData} />
-      <Gallery limit={6} />
+      <Gallery limit={6} showEvent={true} />
       <StatsSection/>
       <Placement/>
         <Recruiters/>

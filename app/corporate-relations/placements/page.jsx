@@ -67,7 +67,7 @@ const page = () => {
           </p>
         </div>
 
-        <div className="rs-program-details-tab-wrapper d-flex flex-lg-row flex-md-row flex-column gap-4 align-items-center mt-40">
+        {/* <div className="rs-program-details-tab-wrapper d-flex flex-lg-row flex-md-row flex-column gap-4 align-items-center mt-40">
           <div className="rs-program-btn  w-100">
             <h4 className="section-title has-theme-blue fs-1">
               Placement <span className="blue-color">Brochures</span>
@@ -96,7 +96,7 @@ const page = () => {
               </span>
             </a>
           </div>
-        </div>
+        </div> */}
 
         <div>
           {/* <div>
@@ -130,7 +130,7 @@ const page = () => {
             </h2>
             <LogoCarousel data={recruiters} />
           </div>
-          <div className="rs-program-details-tab-wrapper d-flex flex-lg-row flex-md-row flex-column gap-4 align-items-center mt-40">
+          {/* <div className="rs-program-details-tab-wrapper d-flex flex-lg-row flex-md-row flex-column gap-4 align-items-center mt-40">
             <div className="rs-program-btn  w-100">
               <h4 className="section-title has-theme-blue fs-1">
                 Placement <span className="blue-color">Flyer</span>
@@ -157,7 +157,7 @@ const page = () => {
                 </span>
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

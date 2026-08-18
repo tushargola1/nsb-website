@@ -61,7 +61,7 @@ export const HomeBannerData = [
       src: "/assets/images/gallery/MDP2.webp",
       title: "Socio-Economic Challenges",
       description:
-        "NSB organized Employee Development Program during 25-29 May, 2026 for the senior officials of Eskom & GSB South Africa.",
+        "NSB organized Employee Development Programme during 25-29 May, 2026 for the senior officials of Eskom & GSB South Africa.",
     },
     {
       id: 10,
@@ -138,7 +138,7 @@ export const HomeBannerData = [
       src: "/assets/images/gallery/MDP2.webp",
       title: "Socio-Economic Challenges",
       description:
-        "NSB organized Employee Development Program during 25-29 May, 2026 for the senior officials of Eskom & GSB South Africa.",
+        "NSB organized Employee Development Programme during 25-29 May, 2026 for the senior officials of Eskom & GSB South Africa.",
     },
     {
       id: 21,

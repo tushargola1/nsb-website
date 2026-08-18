@@ -34,7 +34,7 @@ const page = () => {
   return (
     <div>
       <Breadcrump
-        currentPage="Guest Lecture Series"
+        currentPage="A Snapshot of Guest Lecture Series"
         parentPage={"Corporate Relations"}
       />
       <div className="container mt-50">

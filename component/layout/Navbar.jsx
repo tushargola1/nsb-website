@@ -36,7 +36,7 @@ const NAV_ITEMS = [
       { label: "PGDM (Executive)", href: "/programmes/pgdm-executive" ,
           children: [
           {
-            label: "Batch Our Current Batch",
+            label: "Meet Our Current Batch",
             href: "/students",
           },
         ],
@@ -93,7 +93,7 @@ const IMPORTANT_LINKS = [
     href: "/academic-holidays",
   },
   {
-    label: "Program Structure & Course Outlines",
+    label: "Programme Structure & Course Outlines",
     href: "https://drive.google.com/drive/folders/1Hn4LY5Ex7u7BaqAKlp8icKJfz2Nfxip9?usp=sharing",
     redirectUrl:
       "https://drive.google.com/drive/folders/1Hn4LY5Ex7u7BaqAKlp8icKJfz2Nfxip9?usp=sharing",
