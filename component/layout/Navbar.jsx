@@ -380,7 +380,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* ── Logo band ─────────────────────────────────────── */}
+      {/*  Logo band */}
       <div className="nsb-logoband ">
         <div className="nsb-logoband-inner container px-0">
           <Link href="/" className="nsb-logo-wrap">
@@ -394,7 +394,7 @@ export default function Navbar() {
           </Link>
           <div className="nsb-logo-wrap nsb-logo-center">
             <Image
-              src="/assets/images/logo/midlogo.webp"
+              src="/assets/images/logo/midlogo.jpg"
               width={300}
               height={70}
               alt="NSB Mid Logo"
