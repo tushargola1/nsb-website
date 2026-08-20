@@ -13,7 +13,7 @@ const page = () => {
           <div className="row">
             <div className="col-xl-12">
               <h3 className="section-title text has-theme-blue mb-30">
-                Admission Procedure PGDM EXECUTIVE
+                Admission Procedure PGDM (Executive)
               </h3>
               <div className="rs-scholarships-wrapper bg-whitesmoke">
                 <div className="rs-scholarships-item-wrapper">
@@ -21,20 +21,14 @@ const page = () => {
                     <h6 className="rs-scholarships-title">1. How to Apply</h6>
                     <div className="rs-scholarships-list-wrapper">
                       <div className="rs-scholarships-list">
-                        Application form is available at the link here and must
-                        be submitted online. NSB does not accept admission
-                        applications offline.
-                      </div>
-                      <div className="rs-scholarships-list">
+                        The Application form is available at the link here and
+                        the duly filled application must be submitted online.
+                        NSB does not accept admission - applications offline.
                         Applicant should complete the online registration &
                         application form; submit the same along with the
-                        application fee and applicable taxes only
-                        (non-refundable) using payment gateway.
-                      </div>
-                      <div className="rs-scholarships-list">
-                        After the submission of the application form
-                        successfully, the applicant will receive confirmation
-                        email.
+                        application fee and relevant taxes only (non-refundable)
+                        using payment gateway. Applicants will receive a
+                        confirmation email after successful submission.
                       </div>
                     </div>
                   </div>
@@ -48,25 +42,28 @@ const page = () => {
                     </p>
                     <div className="rs-scholarships-list-wrapper">
                       <div className="rs-scholarships-list">
-                        The candidate must have scored 50% marks or equivalent
-                        CGPA in both X and XII classes.
+                        Candidates must have scored 50% marks or equivalent CGPA
+                        in both X and XII classes.
                       </div>
                       <div className="rs-scholarships-list">
-                        The candidate must hold a bachelor’s degree, with at
-                        least 50% marks or equivalent CGPA from a recognized
+                        Candidates must hold a bachelor’s degree, with at least
+                        50% marks or equivalent CGPA from a recognized
                         university (Candidates belonging to Scheduled Caste
                         (SC)/Scheduled tribe (ST)/Differently Abled Persons
-                        (DAP) to 45%. The bachelor’s degree or equivalent
-                        qualification obtained by the candidate must be based on
-                        a minimum of three years of education after completing
-                        higher secondary schooling (10+2) or equivalent.
+                        (DAP) must have secured 45%).
+                      </div>
+                      <div className="rs-scholarships-list">
+                        The bachelor’s degree or equivalent qualification
+                        obtained by the candidate must be based on a minimum of
+                        three years of education after completing higher
+                        secondary schooling (10+2) or equivalent.
                       </div>
                       <div className="rs-scholarships-list">
                         Working professionals should have a minimum 3 years work
                         experience.
                       </div>
                       <div className="rs-scholarships-list">
-                        Self sponsored candidates must have a valid CAT / XAT /
+                        Self-sponsored candidates must have a valid CAT / XAT /
                         GMAT/ OTHER MANAGEMENT SCORE
                       </div>
                     </div>
@@ -75,65 +72,33 @@ const page = () => {
                     <h6 className="rs-scholarships-title">
                       3. Selection Process
                     </h6>
-                    <p className="rs-scholarships-description mb-3">
-                      The selection of the candidates for admission to the PGDM-
-                      Energy Management and PGDM-Executive (self-sponsored) at
-                      NTPC School of Business is a two-step process.
-                    </p>
-                    <p className="rs-scholarships-description mb-3">
-                      In the first step, candidates are short-listed for
-                      Personal Assessment (PA) from among the candidates who
-                      applied to the programme and who satisfy the eligibility
-                      criteria for the programme.
-                    </p>
-                    <p className="rs-scholarships-description mb-3">
-                      The next step of final selection is based on the merit of
-                      Final Composite Scores (FCS). The more detail about the
-                      computation of the scores and selection process is as
-                      follows.
+
+                    <p className="rs-scholarships-description mb-0 ">
+                 <a href="/assets/flyer/executive.pdf" target="_blank" className="fw-bold"> Click here</a> to view the PGDM (Executive) FLyer.
                     </p>
 
-                    <div className="rs-scholarships-list-wrapper">
-                      <div className="rs-scholarships-list">
-                        For both PGDM (Energy Management) and self-sponsored
-                        PGDM (Executive) programme, the candidates are
-                        shortlisted for the Personal Assessment (PA) based on of
-                        the Composite Score (CS).
-                      </div>
-                      <div className="rs-scholarships-list">
-                        The Composite Score (CS) is calculated by computing CAT
-                        / XAT / GMAT/ OTHER MANAGEMENT SCORE, Academic
-                        Performance (Xth, XIIth, Graduation) and diversity
-                        factors (both Academic Diversity & Gender Diversity)
-                      </div>
-                      <div className="rs-scholarships-list">
-                        The applicants shortlisted for Personal Assessment (PA)
-                        on the basis of CS. The cut-off for shortlisting
-                        candidates Personal Assessment (PA) is decided by NSB.
-                      </div>
-                      <div className="rs-scholarships-list">
-                        The Final selection is based on Final Composite Scores
-                        (FCS) that is calculated by using CS, Work Experience
-                        and PA scores.
-                      </div>
-                    </div>
+                 
+                 
                   </div>
+
                   <div className="rs-scholarships-item">
                     <h6 className="rs-scholarships-title">Note:</h6>
                     <div className="rs-scholarships-list-wrapper">
-                      <div className="rs-scholarships-list">
+                     <div className="rs-scholarships-list">
                         Applicants are advised to check their registered emails
-                        regularly and visit NSB website for updates on admission
-                        related activities.
+                        regularly and visit the NSB website for updates on
+                        admission-related activities.
                       </div>
+
                       <div className="rs-scholarships-list">
-                        Selection will be based on merit from pool of
+                        Selection will be based on merit from the pool of
                         applicants.
                       </div>
+
                       <div className="rs-scholarships-list">
-                        PA of Short-listed applicants might be conducted online
-                        due to COVID pandemic. The detail guideline in this
-                        regard, will be updated in due course.
+                        PA of shortlisted applicants might be conducted online
+                        due to the COVID pandemic. The detailed guidelines in
+                        this regard will be updated in due course.
                       </div>
                     </div>
                   </div>
@@ -208,48 +173,11 @@ const page = () => {
                     <h6 className="rs-scholarships-title">
                       3. Selection Process
                     </h6>
-                    <p className="rs-scholarships-description mb-3">
-                      The selection of the candidates for admission to the PGDM-
-                      Energy Management and PGDM-Executive (self-sponsored) at
-                      NTPC School of Business is a two-step process.
-                    </p>
-                    <p className="rs-scholarships-description mb-3">
-                      In the first step, candidates are short-listed for
-                      Personal Assessment (PA) from among the candidates who
-                      applied to the programme and who satisfy the eligibility
-                      criteria for the programme.
-                    </p>
-                    <p className="rs-scholarships-description mb-3">
-                      The next step of final selection is based on the merit of
-                      Final Composite Scores (FCS). The more detail about the
-                      computation of the scores and selection process is as
-                      follows.
+                      <p className="rs-scholarships-description mb-0 ">
+                 <a href="/assets/flyer/emflyer.pdf" target="_blank" className="fw-bold"> Click here</a> to view the PGDM Energy Management FLyer.
                     </p>
 
-                    <div className="rs-scholarships-list-wrapper">
-                      <div className="rs-scholarships-list">
-                        For both PGDM (Energy Management) and self-sponsored
-                        PGDM (Executive) programme, the candidates are
-                        shortlisted for the Personal Assessment (PA) based on of
-                        the Composite Score (CS).
-                      </div>
-                      <div className="rs-scholarships-list">
-                        The Composite Score (CS) is calculated by computing CAT
-                        / XAT / GMAT/ OTHER MANAGEMENT SCORE, Academic
-                        Performance (Xth, XIIth, Graduation), and diversity
-                        factors (both Academic Diversity & Gender Diversity)
-                      </div>
-                      <div className="rs-scholarships-list">
-                        The applicants shortlisted for Personal Assessment (PA)
-                        on the basis of CS. The cut-off for shortlisting
-                        candidates Personal Assessment (PA) is decided by NSB.
-                      </div>
-                      <div className="rs-scholarships-list">
-                        The Final selection is based on Final Composite Scores
-                        (FCS) that is calculated by using CS, Work Experience
-                        and PA scores.
-                      </div>
-                    </div>
+                  
                   </div>
                   <div className="rs-scholarships-item">
                     <h6 className="rs-scholarships-title">Note:</h6>
@@ -513,7 +441,10 @@ const page = () => {
                   (9958880671)
                 </a>
                 or email
-                <a href="mailto:admission@nsb.ac.in" className="blue-color fw-bold mx-2">
+                <a
+                  href="mailto:admission@nsb.ac.in"
+                  className="blue-color fw-bold mx-2"
+                >
                   admission@nsb.ac.in
                 </a>
                 -
@@ -525,7 +456,6 @@ const page = () => {
                   Download Prospectus
                 </a>
               </p>
-             
             </div>
           </div>
         </div>

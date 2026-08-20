@@ -9,7 +9,7 @@ const NAV_ITEMS = [
   { label: "Home", href: "/" },
   {
     label: "About Us",
-    href: "/about/about-us",
+    href: "/about-us",
     children: [
       { label: "Director NSB", href: "/about/officiating-director-nsb" },
       { label: "Governing Board", href: "/about/governing-board" },
@@ -29,12 +29,14 @@ const NAV_ITEMS = [
     ],
   },
   { label: "Our Faculty", href: "/faculty" },
-{
+  {
     label: "Programmes",
     href: "#",
     children: [
-      { label: "PGDM (Executive)", href: "/programmes/pgdm-executive" ,
-          children: [
+      {
+        label: "PGDM (Executive)",
+        href: "/programmes/pgdm-executive",
+        children: [
           {
             label: "Meet Our Current Batch",
             href: "/students",
@@ -197,7 +199,13 @@ function DropdownItem({ item, level = 0 }) {
   if (!hasChildren) {
     return (
       <li>
-        <Link href={item.href}>{item.label}</Link>
+        <Link
+          href={item.redirectUrl || item.href}
+          target={item.redirectUrl ? "_blank" : undefined}
+          rel={item.redirectUrl ? "noopener noreferrer" : undefined}
+        >
+          {item.label}
+        </Link>
       </li>
     );
   }
@@ -358,7 +366,9 @@ export default function Navbar() {
           </div>
           <div className="nsb-topbar-links fw-semibold">
             <TopDropdown />
-            <Link href="/learning-resource-centre">Learning Resource Centre</Link>
+            <Link href="/learning-resource-centre">
+              Learning Resource Centre
+            </Link>
             <Link href="/testimonials">Testimonials</Link>
             <Link
               href="https://nsb.nurecampus.com/dashboard-login"

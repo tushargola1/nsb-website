@@ -19,10 +19,11 @@ const page = () => {
                   Management Development Programme
                 </h2>
                 <p className="rs-scholarships-description mb-3">
-                  NTPC School of Business conducts faculty development program
-                  for the faculty members of the management institutions. The
-                  areas of these programmes varies from subject specific to
-                  research specific needs of the education industry.
+                  Executive Education at NSB includes both short- and long-term
+                  programmes. The aim of executive education is to deliver
+                  tailor-made modules for the benefit of businesses and decision
+                  makers in the government and other institutions. State of art
+                  content and engagement processes ensure success.
                 </p>
               </div>
             </div>

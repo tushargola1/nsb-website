@@ -51,19 +51,7 @@ const page = () => {
         </div>
         <div className="rs-postbox-text mt-40">
           <p className="mb-10">
-            In line to create future leaders in the field of the energy sector,
-            NTPC School of Business offers its students 100 percent placement
-            assistance. NSB works with a cohort-based system. This system is
-            designed to provide a better student-recruiter fit. The process
-            allows recruiters to evaluate students over a longer duration while
-            giving them more time to delve into their desired career options.
-          </p>
-          <p>
-            In the past, many firms of domestic and international repute have
-            visited the NSB campus. Many of our students have gone on to work
-            for formidable organizations such as Deloitte, KPMG, EY, and many
-            more. They have been offered and are working in a variety of roles,
-            ranging from analysts to consultants as well as executives.
+           The School is at best an enabler of placements. It therefore assists placement processes that enable a student – recruiter fit. All students of the School have been placed successfully over the years in a large number of domestic and international energy / power domain entities. 
           </p>
         </div>
 

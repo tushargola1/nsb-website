@@ -37,6 +37,13 @@ const page = () => {
                   <span className="blue-color">NEARS</span>
                 </h2>
                 <p className="section-desc mb-0">
+         <span className="fw-bold">The NTPC Education & Research Society (NEARS) is</span> promoted by NTPC Ltd. The energy leader is a permanent member, of the Society; inspired by its outlook to foster high orders of techno – managerial efficiency and excellence through energy centric higher education and research. NEARS fulfils this mission through its School i.e. NSB to promote development and dissemination of knowledge relevant to power and energy domains. 
+                </p>
+                {/* <h2 className="section-title has-theme-blue mb-20">
+                  NTPC Education & Research Society{" "}
+                  <span className="blue-color">NEARS</span>
+                </h2>
+                <p className="section-desc mb-0">
                   NTPC Education & Research Society (NEARS) has been promoted by
                   NTPC Ltd, as its permanent member, the leading power utility
                   in the country: with the purpose of promoting efficiency and
@@ -105,7 +112,7 @@ const page = () => {
                     management problems through lectures, conferences, plant
                     visits, in-plant training, and training courses.
                   </li>
-                </ul>
+                </ul> */}
                 <h2 className="section-title has-theme-blue mb-20 ps-0 mt-30">
                   <span className="blue-color">Governing</span> Body
                 </h2>

@@ -73,28 +73,25 @@ export default function About() {
                       tabIndex={0}
                     >
                       <div className="rs-about-tab-content">
-                        <p className="">
-                          NTPC Limited, a Maharatna company of Government of
-                          India, is India’s largest energy conglomerate with an
-                          installed capacity of more than 90,000+ MW (including
-                          ~30,000 MW through JVs/Subsidiaries). NTPC Limited is
-                          instrumental in promoting NTPC Education and Research
-                          Society (NEARS). Under the aegis of NEARS, NTPC School
-                          of Business (NSB) was set up in the year 2014 with the
-                          aim to nurture human capital for the entire energy
-                          sector.
+                        <p className="pb-10 mb-0">
+                          The NTPC School of Business (NSB) functions under the
+                          aegis of the NTPC Education and Research Society
+                          (NEARS). The Society was established by NTPC Limited,
+                          India’s largest energy conglomerate; a Maharatna
+                          company of the Government of India. NTPC accordingly
+                          consolidated its mission to enrich knowledge capital
+                          that serves humanity’s energy centric developmental
+                          aspirations.
                         </p>
                         <p>
-                          NTPC School of Business (NSB) has two AICTE approved
-                          programmes, namely, Post Graduate Diploma in
+                          The NSB delivers through two AICTE approved higher
+                          education programmes, specializing in energy
+                          management. These are the, Post Graduate Diploma in
                           Management – Executive (PGDM-E) and Post Graduate
-                          Diploma in Energy Management (PGDM-EM). These courses
-                          are designed to enrich management learning and
-                          practice at all levels of decision making in the area
-                          of energy management. The focus on energy management
-                          consolidates to deliver knowledge and value-added
-                          academic and research enrichment services for
-                          sustainable development of the Indian economy.
+                          Diploma in Energy Management (PGDM-EM). These
+                          programmes are designed to enrich management learning
+                          and practice at all levels of decision making within
+                          the energy landscape.
                         </p>
                       </div>
                     </div>
@@ -105,7 +102,7 @@ export default function About() {
                   <div className="rs-about-btn">
                     <Link
                       className="rs-btn has-icon has-theme-red"
-                      href="/about/about-us"
+                      href="/about-us"
                     >
                       <span className="btn-text-wrap">
                         <span className="text-default">More About Us</span>
@@ -140,12 +137,13 @@ export default function About() {
                           className="rs-counter-number odometer"
                           data-count="12"
                         >
-                          12 
+                          12
                         </span>
                         {/* <span className="prefix">+</span> */}
                       </div>
                       <span className="rs-counter-title fs-4">
-                      Years of Higher Education, Research, Advocacy & Capacity Building.
+                        Years of Higher Education, Research, Advocacy & Capacity
+                        Building.
                       </span>
                     </div>
                   </div>

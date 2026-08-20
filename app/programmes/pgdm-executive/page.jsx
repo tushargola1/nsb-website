@@ -1,5 +1,6 @@
 import Breadcrump from "@/component/common/breadcrump/Breadcrump";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const page = () => {
@@ -78,27 +79,12 @@ const page = () => {
                             <div className="accordion-body">
                               <div className="rs-history-list-wrapper">
                                 <p>
-                                  PGDM (Executive) Programme includes twelve
-                                  months of classroom learning and six months of
-                                  project work. The PGDM (Executive) Programme is
-                                  best suited for working professionals to add
-                                  value to their career and prepare visionary
-                                  leaders for the energy sector. Experience
-                                  sharing seminars for peer learning and live
-                                  industry projects under expert guidance
-                                  enhance learning outcomes. These activities
-                                  help analyze situations and apply skills to
-                                  real business situations. PGDM (Executive)
-                                  Programme enhances awareness and skill levels to
-                                  comprehend enactments, related market and
-                                  institutional dynamics, and devise
-                                  interventions related to the energy sector.
-                                  Advantages of learning theoretical and
-                                  practical aspects of management from
-                                  professors of IIMA and NSB, experienced
-                                  professionals and peer group learning. The
-                                  programme includes rigorous course work and
-                                  enriches learning through project work.
+                                  The 18-month PGDM (Executive) programme
+                                  includes classroom learning and project work;
+                                  designed for working professionals. The PGDM
+                                  (Executive) programme is meant for people
+                                  fresh out of graduation; with industry-based
+                                  internships for hands on learning.
                                 </p>
                               </div>
                             </div>
@@ -133,31 +119,19 @@ const page = () => {
                             <div className="accordion-body">
                               <div className="rs-history-list-wrapper row">
                                 <p className="mb-0">
-                                  The major part of the course is delivered
-                                  through case-based pedagogy. This pedagogy
-                                  enables students to understand the contextual
-                                  insights of business scenarios and the
-                                  appropriate application of theoretical
-                                  knowledge to real business situations.
-                                </p>
-                                <p className="mb-0">
-                                  Case discussions are supplemented with guest
-                                  lectures, seminars, management games, role
-                                  plays, industrial visits, group exercises,
-                                  live research projects, and simulations.
-                                </p>
-                                <p className="mb-0">
-                                  At the end, students are prepared to reflect
-                                  on the alignment between theoretical knowledge
-                                  and practical scenarios and bridge the gap
-                                  between classroom learning and real business
-                                  challenges.
+                                  A case – oriented pedagogy and other logical
+                                  frameworks enhance awareness application
+                                  perspectives. Lectures, seminars, management
+                                  games, role plays, industrial visits, group
+                                  exercises, live research projects, and
+                                  simulations are part of the repertoire to
+                                  build capacities.
                                 </p>
                               </div>
                             </div>
                           </div>
                         </div>
-                        <div className="rs-accordion-item col-lg-6 col-md-12 col-12">
+                        <div className="rs-accordion-item col-lg-12 col-md-12 col-12">
                           <h5 className="accordion-header" id="headingOne">
                             <button
                               className="accordion-button"
@@ -167,7 +141,7 @@ const page = () => {
                               aria-expanded="true"
                               aria-controls="collapseThree"
                             >
-                              Eligibility Critcria and Admission Process
+                              Eligibility Criteria and Admission Process
                               <span className="accordion-icon">
                                 <svg
                                   xmlns="http://www.w3.org/2000/svg"
@@ -180,52 +154,35 @@ const page = () => {
                           </h5>
                           <div
                             id="collapseThree"
-                            className="accordion-collapse collapse "
+                            className="accordion-collapse collapse show"
                             data-bs-parent="#accordionExampleOne"
                           >
                             <div className="accordion-body">
                               <div className="rs-history-list-wrapperr row">
-                                <ul
-                                  style={{ listStyleType: "none" }}
-                                  className="mb-20"
-                                >
-                                  <li>
-                                    <p className="rs-history-desc">
-                                      NSB accepts company & self-sponsored
-                                      applicants with a minimum of 3 years of
-                                      work experience.
-                                    </p>
-                                  </li>
-                                  <li>
-                                    <p className="rs-history-desc">
-                                      The candidates must have graduation in any
-                                      discipline with 50% and above marks (or an
-                                      equivalent CGPA) by any recognized
-                                      university (5% relaxation for SC/ST/DAP*).
-                                    </p>
-                                  </li>
-                                  <li>
-                                    <p className="rs-history-desc">
-                                      For self-sponsored candidates, the
-                                      applicant must have a valid
-                                      CAT/XAT/GMAT/Other Management Score.
-                                    </p>
-                                  </li>
-                                </ul>
-                                <p className="rs-history-desc mb-0">
-                                  Scheduled Castes (SC), Scheduled Tribes (ST),
-                                  Differently-Abled Persons (DAP).
-                                </p>
                                 <p className="rs-history-desc">
                                   For more details:{" "}
-                                  <a
-                                    href="https://nsbac.in/admission-pgem?tab=procedure"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
+                                  <Link
+                                    href="/admission"
                                     className="blue-color"
                                   >
-                                    https://nsbac.in/admission-pgem?tab=procedure
-                                  </a>
+                                    here
+                                  </Link>
+                                </p>
+                                <p className="">
+                                  The two – week <span className="fw-bold">Global Immersion Programme</span> as
+                                  part of the PGDM Executive programme provides
+                                  the opportunity to learn in culturally diverse
+                                  contexts within a globalized inter- dependent
+                                  business environment. Past destinations
+                                  included such renowned institutions as the
+                                  Nanyang Technical University in Singapore,
+                                  Judge Business School, Cambridge University,
+                                  University of Maribor, Slovenia, ESCP in
+                                  Madrid and Paris; the RMIT University,
+                                  Melbourne; University of Melbourne; La Trobe
+                                  University and Monash University, Australia.
+                                  Interaction on site and with experts provide
+                                  for an enriching experience.
                                 </p>
                                 <h6>For Admission related queries, contact:</h6>
 
@@ -260,57 +217,7 @@ const page = () => {
                             </div>
                           </div>
                         </div>
-                        <div className="rs-accordion-item col-lg-6 col-md-12 col-12">
-                          <h5 className="accordion-header" id="headingOne">
-                            <button
-                              className="accordion-button"
-                              type="button"
-                              data-bs-toggle="collapse"
-                              data-bs-target="#collapseFour"
-                              aria-expanded="true"
-                              aria-controls="collapseFour"
-                            >
-                              Global Immersion Programme
-                              <span className="accordion-icon">
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 11 15"
-                                >
-                                  <path d="M0.0175781 9.56403V8.72934C2.97994 8.56955 4.53369 10.3852 4.98798 11.3026V0.54895H5.89635V11.3026C7.11473 9.10081 9.47347 8.55811 10.907 8.73049V9.55706C7.3714 9.19949 5.90086 12.8809 5.89635 14.4554H4.99641C4.46504 9.88737 1.14729 9.38262 0.0175781 9.56403Z"></path>
-                                </svg>
-                              </span>
-                            </button>
-                          </h5>
-                          <div
-                            id="collapseFour"
-                            className="accordion-collapse collapse "
-                            data-bs-parent="#accordionExampleOne"
-                          >
-                            <div className="accordion-body">
-                              <div className="rs-history-list-wrapper">
-                                <p>
-                                  The PGDM (Executive) Programme includes a two
-                                  week international immersion program. It
-                                  leverages the opportunity to learn from
-                                  culturally diverse contexts and enhances
-                                  competitive advantage to deliver in a
-                                  globalized inter- dependent business
-                                  environment. Past destinations included such
-                                  renowned institutions as the Nanyang Technical
-                                  University in Singapore, Judge Business
-                                  School, Cambridge University, Lappeenranta
-                                  university of technology (LUT), Finland,
-                                  University of Maribor, Slovenia, and ESCP in
-                                  Madrid and Paris; RMIT University, Melbourne;
-                                  University of Melbourne; La Trobe University
-                                  and Monash University, Australia. Interaction
-                                  on site and with experts provide for an
-                                  enriching experience.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+
                         <div className="rs-accordion-item col-lg-12 col-md-12 col-12">
                           <h5 className="accordion-header" id="headingTwo">
                             <button
@@ -433,10 +340,10 @@ const page = () => {
                             </div>
                           </div>
                         </div>
-                        <div className="rs-accordion-item col-lg-6 col-md-12 col-12">
+                        <div className="rs-accordion-item col-lg-12 col-md-12 col-12">
                           <h5 className="accordion-header" id="headingOne">
                             <button
-                              className="accordion-button"
+                              className="accordion-button "
                               type="button"
                               data-bs-toggle="collapse"
                               data-bs-target="#collapseSix"
@@ -456,25 +363,22 @@ const page = () => {
                           </h5>
                           <div
                             id="collapseSix"
-                            className="accordion-collapse collapse "
+                            className="accordion-collapse collapse"
                             data-bs-parent="#accordionExampleOne"
                           >
                             <div className="accordion-body">
                               <div className="rs-history-list-wrapper">
                                 <p>
-                                  The course curriculum comprises both core and
-                                  elective courses, with a strong focus on the
-                                  rapidly growing energy sector and management
-                                  disciplines. It has been designed by
-                                  experienced faculty from NTPC School of
-                                  Business, industry practitioners, subject
-                                  matter experts from reputed institutions, and
-                                  professionals associated with leading global
-                                  energy organizations. The elective courses
-                                  have been carefully selected to align with
-                                  current industry requirements and emerging
-                                  trends, ensuring students acquire relevant and
-                                  contemporary knowledge and skills.
+                                  The Course Curriculum comprises core and
+                                  elective courses focused on the rapidly
+                                  evolving energy sector and management
+                                  disciplines that interface with it.
+                                  Appropriate spread and depth of contents are
+                                  ensured by NSB faculty, industry
+                                  practitioners, subject matter experts from
+                                  other reputed institutions, and professionals
+                                  associated with leading global energy
+                                  organizations.
                                 </p>
                               </div>
                             </div>

@@ -237,7 +237,7 @@ const page = () => {
                                   aria-expanded="true"
                                   aria-controls="collapseThree"
                                 >
-                                  Eligibility Critcria and Admission Process
+                                  Eligibility Criteria and Admission Process
                                   <span className="accordion-icon">
                                     <svg
                                       xmlns="http://www.w3.org/2000/svg"

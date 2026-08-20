@@ -48,7 +48,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
-        <Preloader />
+        {/* <Preloader /> */}
         <Navbar />
         <main>{children}</main>
         <HomePopup />

@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const ProgramCard = ({ programData }) => {
   return (
-    <div className="container section-spaced pt-0">
+    <div className="container section-spaced mt-80">
       <div className="row justify-content-center ">
         <div className="">
           <div className="section-title-wrapper text-center">
@@ -36,14 +36,21 @@ const ProgramCard = ({ programData }) => {
               <div className="rs-program-content">
                 <div className="rs-program-info">
                   <h5 className="rs-program-title">
-                <Link href={item.url}>{item.title}
-                </Link>
-
+                    <Link href={item.url}>{item.title}</Link>
                   </h5>
-                  <p className="rs-program-desc">
-                    {item.description.slice(0, 265)}...
-                  </p>
-                  <div className="rs-program-btn">
+                  {item.id !== 3 ? (
+                    <>
+                      <p className="rs-program-desc">
+                        {item.description.slice(0, 265)}...
+                      </p>
+                    </>
+                  ) : (
+                    <p className="rs-program-desc">
+                      {item.description}
+                    </p>
+                  )}
+
+                  <div className={`rs-program-btn ${item.id !==3 ? "" :"mt-110"}`}>
                     <Link
                       className="rs-btn has-icon has-theme-cyan hover-cyan"
                       href={item.url}
