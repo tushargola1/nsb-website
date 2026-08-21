@@ -67,10 +67,10 @@ const page = () => {
                       </div>
                     </div>
                     <div className="mt-20">
-                      <h6 class="page-sidebar-title mb-20">
+                      <h6 className="page-sidebar-title mb-20">
                         About PGDM (Energy Management)
                       </h6>
-                      <p class="section-desc mb-10">
+                      <p className="section-desc mb-10">
                         NSB’s energy management courses are designed to enrich
                         management learning and practice at all levels of
                         decision making in the energy domain with implications
@@ -79,7 +79,7 @@ const page = () => {
                         skills to pursue a career in the continually evolving
                         energy sector.
                       </p>
-                      <p class="section-desc">
+                      <p className="section-desc">
                         It is accordingly committed to the advancement of
                         management education, research, training and consultancy
                         for the energy sector. NSB runs two AICTE approved
@@ -89,10 +89,10 @@ const page = () => {
                       </p>
                     </div>
                     <div className="mt-20">
-                      <h6 class="page-sidebar-title mb-20">
+                      <h6 className="page-sidebar-title mb-20">
                         WHY PGDM (Energy Management)
                       </h6>
-                      <p class="section-desc mb-10">
+                      <p className="section-desc mb-10">
                         It recognizes the centrality of energy for inclusive
                         growth driven through interplay of regulations, market
                         instruments and institutional mechanisms. An equally
@@ -105,7 +105,7 @@ const page = () => {
                         and communication systems and community interfaces duly
                         building capacities of all related stakeholders.{" "}
                       </p>
-                      <p class="section-desc">
+                      <p className="section-desc">
                         The course embeds well defined and emerging learnings on
                         these and related facets of management relevant at the
                         regional, national, and global levels. It helps emerging

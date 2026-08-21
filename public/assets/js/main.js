@@ -8,8 +8,6 @@
         $("#pre-load").delay(600).fadeOut(500);
         $(".pre-loader").delay(600).fadeOut(500);
 
-        // Wow Animation Init
-        wowAnimation();
     });
 
       /* Button scroll up js */

@@ -56,8 +56,8 @@ export default function HeroBanner() {
             spaceBetween: 0,
           },
           1200: {
-            slidesPerView: 4,
-            spaceBetween: 20,
+            slidesPerView: 5,
+            spaceBetween:5,
           },
         }}
       >

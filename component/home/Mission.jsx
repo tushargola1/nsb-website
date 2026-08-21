@@ -80,7 +80,7 @@ const Mission = () => {
               </div>
               <div className="rs-overview-thumb col-md-6">
                 <Image
-                  src="/assets/images/vission.jpeg"
+                  src="/assets/images/breadcrump/4.jpeg"
                   width={650}
                   height={300}
                   alt="About"

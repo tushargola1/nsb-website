@@ -651,7 +651,8 @@ const facultyData = [
   {
     slug: "Dr-KSB",
     name: "Prof. K. S. Bandyopadhyay",
-    designation: "Faculty",
+    designation: "Visiting Faculty",
+
     category: "Visiting Faculty",
     image: "../assets/images/faculty/faculty-details/NSB Faculty/Dr-KSB.png",
 
@@ -1551,7 +1552,7 @@ const facultyData = [
       phone: "(91) 0120-2416803",
     },
   },
- 
+
   {
     slug: "Shri_Narendra_Taneja",
     name: "Shri Narendra Taneja",
@@ -1664,7 +1665,7 @@ const facultyData = [
   {
     slug: "SK_Soonee",
     name: "S K Soonee",
-    designation: "Faculty",
+    designation: "Visiting Faculty",
     category: "Visiting Faculty",
     image:
       "../assets/images/faculty/faculty-details/Visiting Faculty/S K Soonee.webp",
@@ -1675,11 +1676,12 @@ const facultyData = [
       phone: "",
     },
   },
-  
+
   {
     slug: "PR_Jaishankar",
     name: "P R Jaishankar",
-    designation: "Faculty",
+    designation: "Visiting Faculty",
+
     category: "Visiting Faculty",
     image:
       "../assets/images/faculty/faculty-details/Visiting Faculty/P R Jaishankar.webp",
@@ -1709,11 +1711,30 @@ const facultyData = [
       phone: "",
     },
   },
+  {
+    slug: "dr-abhinav-jinadal",
+    name: "Dr. Abhinav Jinadal",
+    designation: "Visiting Faculty",
 
+    category: "Visiting Faculty",
+    image: "/assets/images/faculty/abhinav.png",
+    summary:
+      "Dr. Abhinav Jindal is a senior Faculty at Power Management Institute (PMI). He has a PhD in Economics from IIM Indore with Bachelor's Degree in Mechanical Engineering.  ",
+
+    areaOfResearch: {
+      areas: ["Energy Economics, Efficiancy and Productivity analysis, Energy policy, Energy Finance, & Transition Finance"],
+    },
+
+    contact: {
+      email: "abhinavjindal@ntpc.co.in",
+      phone: "(91) 9650994550",
+    },
+  },
   {
     slug: "sanjay-kumar-kar",
     name: "Sanjay Kumar Kar",
-    designation: "Visitng Faculty",
+    designation: "Visiting Faculty",
+
     category: "Visiting Faculty",
     image:
       "../assets/images/faculty/faculty-details/Visiting Faculty/Sanjay Kumar Kar.webp",
@@ -1724,10 +1745,12 @@ const facultyData = [
       phone: "",
     },
   },
+
   {
     slug: "Sanjay_Rastogi",
     name: "Sanjay Rastogi",
-    designation: "Faculty",
+    designation: "Visiting Faculty",
+
     category: "Visiting Faculty",
     image:
       "../assets/images/faculty/faculty-details/Visiting Faculty/Sanjay Rastogi.webp",
@@ -1741,7 +1764,8 @@ const facultyData = [
   {
     slug: "naresh-kumar-sinha",
     name: "Naresh Kumar Sinha",
-    designation: "Faculty",
+    designation: "Visiting Faculty",
+
     category: "Visiting Faculty",
     image:
       "../assets/images/faculty/faculty-details/Visiting Faculty/Naresh Kumar Sinha.webp",
@@ -1752,7 +1776,6 @@ const facultyData = [
       phone: "",
     },
   },
-  // ...rest of the members from the HTML
 ];
 
 export default facultyData;

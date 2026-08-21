@@ -17,21 +17,21 @@ const page = () => {
       image:
         "/assets/images/faculty/faculty-details/NSB Faculty/R Gopichandran.webp",
       name: "Prof. R. Gopichandran",
-      position1: "Director",
+      position1: "Member",
     
     },
     {
       id: 3,
       image: "/assets/images/faculty/abhinav.png",
       name: "Dr. Abhinav Jinadal",
-      position1: "Member",
+      position1: "Member (Academic)",
 
     },
     {
       id: 4,
       image: "/assets/images/faculty/Rajeev.jpeg",
       name: "Shri Rajeev Choudhary",
-      position1: "Member",
+      position1: "Member (Finance)",
      
     },
   ];

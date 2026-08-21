@@ -5,7 +5,9 @@ import Maintenance from "@/component/Maintenance";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { ExecutiveEventsData } from "@/data/ExecutiveEventsData";
 
+import SwiperEventCard from "@/component/Cards/SwiperEventCard";
 const page = () => {
   return (
     <div>
@@ -15,9 +17,9 @@ const page = () => {
           <div className="container">
             <div className="row">
               <div className="col-xl-12">
-                <h2 className="section-title text has-theme-blue mb-10">
+                {/* <h2 className="section-title text has-theme-blue mb-10">
                   Management Development Programme
-                </h2>
+                </h2> */}
                 <p className="rs-scholarships-description mb-3">
                   Executive Education at NSB includes both short- and long-term
                   programmes. The aim of executive education is to deliver
@@ -27,7 +29,7 @@ const page = () => {
                 </p>
               </div>
             </div>
-
+            <SwiperEventCard programData={ExecutiveEventsData} />
             <div className="text-center mt-40 mb-50">
               <a
                 className="rs-btn has-icon has-theme-cyan hover-cyan"
@@ -109,7 +111,7 @@ const page = () => {
 
                 <div className="col-md-12 col-lg-6 col-12">
                   <h3 className="section-title text has-theme-blue mb-10">
-                    <span className="blue-color">MDP</span> Calender
+                    <span className="blue-color">MDP</span> Calendar
                   </h3>
                   <EventsCalendar />
                 </div>

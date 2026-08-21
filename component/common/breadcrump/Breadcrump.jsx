@@ -14,7 +14,7 @@ const Breadcrump = ({ parentPage, currentPage }) => {
       ></div>
       <div className="container-fluid g-0">
         <div className="row">
-          <div className="col-xxl-8 col-xl-9 col-lg-10">
+          <div className="col-xxl-12 col-xl-12 col-lg-12">
             <div className="rs-breadcrumb-wrapper">
               <div className="rs-breadcrumb-menu">
                 <nav>

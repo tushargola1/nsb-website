@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function About() {
   return (
     <>
-      <Breadcrump currentPage="Director NTPC School of Business" parentPage="About" />
+      <Breadcrump currentPage="Director, NTPC School of Business" parentPage="About" />
       <section className="rs-team-details-details-area rs-team-details section-space">
         <div className="container">
           <div className="row align-items-center">
@@ -40,7 +40,7 @@ export default function About() {
                 {/* Right content */}
                 <div className="rs-team-details-content-wrapper">
                   <h3 className="rs-team-details-title">
-                 Director NTPC School of Business
+                 Director, NTPC School of Business
                   </h3>
                   <p className="">
                     Dr. R Gopichandran’s work over 37 years has been on

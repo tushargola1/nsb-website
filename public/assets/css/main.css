@@ -22666,9 +22666,9 @@ html.lenis body {
 }
 
 .homebanner-swiper .swiper-wrapper{
-   display: flex; 
+   /* display: flex; 
    align-items: center;
-  justify-content: center; 
+  justify-content: center;  */
 }
 
 
@@ -22743,5 +22743,157 @@ html.lenis body {
 
   .student-modal-details h4 {
     font-size: 20px;
+  }
+}
+
+.rs-contact-input select{
+height: 50px;
+    border-radius: 3px;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+    background-color: #003359;
+    border-color: #003359;
+    color: var(--rs-white);
+}
+
+/* .executive-cards .swiper .swiper-button-next , .executive-cards .swiper .swiper-button-next{
+  width: 30px !important;
+  width: 30px !important;
+} */
+
+
+.executive-cards {
+  position: relative;
+  overflow: hidden;
+}
+
+.executive-cards .swiper {
+  position: relative;
+}
+
+/* Previous / Next buttons */
+.swiper-custom-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+
+  width: 32px;
+  height: 32px;
+
+  border: none;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0;
+  margin: 0;
+
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+
+  cursor: pointer;
+
+  transition: all 0.25s ease;
+}
+
+/* Icon */
+.swiper-custom-btn i {
+  font-size: 20px;
+  line-height: 1;
+}
+
+/* Positions */
+.swiper-custom-prev {
+  left: 10px;
+}
+
+.swiper-custom-next {
+  right: 10px;
+}
+
+/* Hover */
+.swiper-custom-btn:hover {
+  background: #ffffff;
+  color: #111111;
+  transform: translateY(-50%) scale(1.08);
+}
+
+/* Disabled */
+.swiper-custom-btn.swiper-button-disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+/* ================================
+   Pagination
+================================ */
+
+.executive-cards .swiper-pagination {
+  bottom: 8px !important;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 5px;
+}
+
+.executive-cards .swiper-pagination-bullet {
+  width: 6px;
+  height: 6px;
+
+  margin: 0 !important;
+
+  opacity: 1;
+
+  background: black:
+  transition: all 0.25s ease;
+}
+
+.executive-cards
+  .swiper-pagination-bullet-active {
+  width: 18px;
+  border-radius: 10px;
+
+  background: #0098ff;
+}
+
+/* ================================
+   Mobile
+================================ */
+
+@media (max-width: 575px) {
+  .swiper-custom-btn {
+    width: 28px;
+    height: 28px;
+  }
+
+  .swiper-custom-btn i {
+    font-size: 18px;
+  }
+
+  .swiper-custom-prev {
+    left: 7px;
+  }
+
+  .swiper-custom-next {
+    right: 7px;
+  }
+
+  .executive-cards .swiper-pagination {
+    bottom: 6px !important;
+  }
+
+  .executive-cards .swiper-pagination-bullet {
+    width: 5px;
+    height: 5px;
+  }
+
+  .executive-cards
+    .swiper-pagination-bullet-active {
+    width: 15px;
   }
 }
