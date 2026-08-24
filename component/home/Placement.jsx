@@ -47,8 +47,8 @@ export default function Placement() {
             // spaceBetween: 15,
           },
           1200: {
-            slidesPerView: 1,
-            spaceBetween: 0,
+            slidesPerView: 2,
+            spaceBetween: 2,
           },
         }}
         className="heroSwiperd"

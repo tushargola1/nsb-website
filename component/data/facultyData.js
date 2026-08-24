@@ -151,7 +151,25 @@ const facultyData = [
       ],
     },
   },
+ {
+    slug: "dr-abhinav-jinadal",
+    name: "Dr. Abhinav Jinadal",
+    designation: "Senior Faculty",
 
+    category: "NSB Faculty",
+    image: "/assets/images/faculty/abhinav.png",
+    summary:
+      "Dr. Abhinav Jindal is a senior Faculty at Power Management Institute (PMI). He has a PhD in Economics from IIM Indore with Bachelor's Degree in Mechanical Engineering.  ",
+
+    areaOfResearch: {
+      areas: ["Energy Economics, Efficiancy and Productivity analysis, Energy policy, Energy Finance, & Transition Finance"],
+    },
+
+    contact: {
+      email: "abhinavjindal@ntpc.co.in",
+      phone: "(91) 9650994550",
+    },
+  },
   {
     slug: "alka-rai",
     name: "Dr. Alka Rai",
@@ -1711,25 +1729,7 @@ const facultyData = [
       phone: "",
     },
   },
-  {
-    slug: "dr-abhinav-jinadal",
-    name: "Dr. Abhinav Jinadal",
-    designation: "Visiting Faculty",
-
-    category: "Visiting Faculty",
-    image: "/assets/images/faculty/abhinav.png",
-    summary:
-      "Dr. Abhinav Jindal is a senior Faculty at Power Management Institute (PMI). He has a PhD in Economics from IIM Indore with Bachelor's Degree in Mechanical Engineering.  ",
-
-    areaOfResearch: {
-      areas: ["Energy Economics, Efficiancy and Productivity analysis, Energy policy, Energy Finance, & Transition Finance"],
-    },
-
-    contact: {
-      email: "abhinavjindal@ntpc.co.in",
-      phone: "(91) 9650994550",
-    },
-  },
+ 
   {
     slug: "sanjay-kumar-kar",
     name: "Sanjay Kumar Kar",

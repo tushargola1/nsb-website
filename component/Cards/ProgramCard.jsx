@@ -18,7 +18,7 @@ const ProgramCard = ({ programData }) => {
           </div>
         </div>
       </div>
-      <div className="rs-program-three has-theme-cyan program-cards d-flex align-items-center justify-content-center ">
+      <div className="rs-program-three has-theme-cyan program-cards row d-flex gap-0 align-items-center justify-content-center ">
         {programData.map((item, index) => {
           return (
             <div className="rs-program-item col-lg-4 col-md-6 col-12" key={item.id}>

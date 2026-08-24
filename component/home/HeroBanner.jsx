@@ -38,7 +38,7 @@ export default function HeroBanner() {
           clickable: true,
         }}
         autoplay={{
-          delay: 6000000,
+          delay: 6000,
           disableOnInteraction: false,
           pauseOnMouseEnter: true,
         }}  
