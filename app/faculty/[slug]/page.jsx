@@ -284,7 +284,7 @@ export default async function FacultyDetailPage({ params }) {
                   {member.contact && (
                     <div className="rs-team-details-contact-info">
                       <h5 className="rs-team-details-contact-title">
-                        Contact Information's
+                        Contact Information
                       </h5>
                       <div className="rs-contact-wrapper">
                         {member.contact.email && (

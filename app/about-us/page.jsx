@@ -16,7 +16,8 @@ const page = () => {
                 <h2 className="section-title has-theme-blue mb-20">
                   About NTPC School of Business (NSB)
                 </h2>
-                <p className="section-desc pb-10 mb-0">
+
+                <p className=" section-desc pb-10 mb-0">
                   The NTPC School of Business (NSB) functions under the aegis of
                   the NTPC Education and Research Society (NEARS). The Society
                   was established by NTPC Limited, India’s largest energy
@@ -25,14 +26,14 @@ const page = () => {
                   capital that serves humanity’s energy centric developmental
                   aspirations.
                 </p>
-                <p className="section-desc">
+                <p className="section-desc ">
                   The NSB delivers through two AICTE approved higher education
                   programmes, specializing in energy management. These are the,
                   Post Graduate Diploma in Management – Executive (PGDM-E) and
-                  Post Graduate Diploma in Energy Management (PGDM-EM). These
-                  programmes are designed to enrich management learning and
-                  practice at all levels of decision making within the energy
-                  landscape.
+                  Post Graduate Diploma in Management (Energy Management)
+                  (PGDM-EM). These programmes are designed to enrich management
+                  learning and practice at all levels of decision making within
+                  the energy landscape.
                 </p>
                 <h2 className="section-title has-theme-blue mb-20 ps-0">
                   Leader&apos;s Message

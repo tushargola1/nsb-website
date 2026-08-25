@@ -36,7 +36,7 @@ export default function FacultyMembersPage() {
           <div className="container mb-30">
             <div className="rs-team-content-info w-100 text-center">
               <h4 className="rs-team-designation">
-                IIM-A Faculty, who have taught at NSB
+                IIM-A Faculty Associted Extensively with NSB
               </h4>
             </div>
           </div>

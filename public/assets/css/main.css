@@ -11099,7 +11099,7 @@ html.lenis body {
 .rs-about-six .rs-about-info .rs-counter-number,
 .rs-about-six .rs-about-info .prefix {
   font-size: 46px;
-  font-weight: 700;
+  font-weight: 500;
   color: var(--rs-title-primary);
   line-height: 1;
   font-family: var(--rs-ff-title);

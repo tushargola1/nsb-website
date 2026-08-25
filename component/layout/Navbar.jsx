@@ -14,7 +14,7 @@ const NAV_ITEMS = [
       { label: "Director NSB", href: "/about/officiating-director-nsb" },
       { label: "Governing Board", href: "/about/governing-board" },
       { label: "Governance Committee", href: "/about/governance-committee" },
-      { label: "About NEARS", href: "/about/about-nears" },
+      { label: "NEARS", href: "/about/nears" },
       {
         label: "Leader's Message",
         href: "#",

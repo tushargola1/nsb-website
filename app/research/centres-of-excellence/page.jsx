@@ -6,7 +6,7 @@ import { CenterOfExcellence } from "@/data/CenterOfExcellence";
 const page = () => {
   return (
     <div>
-      <Breadcrump currentPage="Center of Excellence" parentPage="Research" />
+      <Breadcrump currentPage="Centres of Excellence" parentPage="Research" />
       <section className="rs-history-area section-space bg-primary rs-history-one">
         <div className="container">
           <div className="row g-5">
@@ -84,7 +84,12 @@ const page = () => {
                                         ))}
                                       </ul>
                                     )}
-
+                                       {item.contentOut && (
+                                      <p className="rs-hisdtory-desc mb-2">
+                                        {item.contentOut}
+                                      </p>
+                                    )}
+                                 
                                     {/* Contact */}
                                     {item.contact && (
                                       <div className="mt-3">

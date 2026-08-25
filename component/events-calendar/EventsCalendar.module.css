@@ -94,7 +94,7 @@
   border-radius: 8px;
   border: 1px solid #cbd5e1;
   background-color: #fff;
-  font-size: 0.9rem;
+  /* font-size: 0.9rem; */
   color: #475569;
   font-weight: 500;
   cursor: pointer;
@@ -104,8 +104,8 @@
   background-repeat: no-repeat;
   background-position: right 12px top 50%;
   background-size: 10px auto;
-  height: unset !important;
-  width: unset !important;
+  /* height: unset !important;
+  width: unset !important; */
   line-height: unset !important;
 }
 

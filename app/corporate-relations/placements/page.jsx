@@ -3,6 +3,7 @@ import TeamCard2 from "@/component/Cards/TeamCard2";
 import Breadcrump from "@/component/common/breadcrump/Breadcrump";
 import LogoCarousel from "@/component/common/logoCarousel/LogoCarousel";
 import PlacementStats from "@/component/common/placement/PlacementStats";
+import Placement from "@/component/home/Placement";
 import { StudentPlacementTeam } from "@/data/StudentPlacementTeam";
 import Image from "next/image";
 import React from "react";
@@ -110,6 +111,8 @@ const page = () => {
             <h3 className="mb-20 mt-40">
               Placement AY <span className="blue-color">2025-26</span>
             </h3>
+                  <Placement />
+            
             {/* <PlacementStats /> */}
           </div>
           <div>

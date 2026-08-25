@@ -57,7 +57,7 @@ export default function About() {
                     ABOUT NSB
                   </span>
                   <h2 className="section-title rs-split-text-enable split-in-left mb-3 fs-1">
-                    A Center of Learning in Energy Management Domain
+                    A centre of higher Learning in the Energy Management domain
                   </h2>
                 </div>
                 <div className="rs-aobut-tab-content-wrapper">
@@ -88,10 +88,10 @@ export default function About() {
                           education programmes, specializing in energy
                           management. These are the, Post Graduate Diploma in
                           Management – Executive (PGDM-E) and Post Graduate
-                          Diploma in Energy Management (PGDM-EM). These
-                          programmes are designed to enrich management learning
-                          and practice at all levels of decision making within
-                          the energy landscape.
+                          Diploma in Management (Energy Management) (PGDM-EM).
+                          These programmes are designed to enrich management
+                          learning and practice at all levels of decision making
+                          within the energy landscape.
                         </p>
                       </div>
                     </div>

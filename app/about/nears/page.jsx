@@ -9,24 +9,24 @@ const page = () => {
       id: 1,
       image: "/assets/images/faculty/anil.png",
       name: "Shri Anil Kumar Jadli",
-      position: "President (NEARS)",
+      position: "President, NEARS",
     },
     {
       id: 2,
       image: "/assets/images/about/nears/gireesh.webp",
       name: "Dr. Gireesh Chandra Tripathi",
-      position: "Secretary",
+      position: "Secretary, NEARS",
     },
     {
       id: 3,
       image: "/assets/images/faculty/Rajeev.jpeg",
       name: "Shri Rajeev Choudhary",
-      position: "Treasurer",
+      position: "Treasurer, NEARS",
     },
   ];
   return (
     <>
-      <Breadcrump currentPage={"About NEARS"} parentPage={"About"} />
+      <Breadcrump currentPage={"NEARS"} parentPage={"About"} />
       <section className="rs-about-area section-space bg-primary rs-about-seven">
         <div className="container">
           <div className="row g-5">
@@ -34,11 +34,11 @@ const page = () => {
               <div className="rs-about-wrapper margin-15">
                 <h2 className="section-title has-theme-blue mb-20">
                   NTPC Education & Research Society{" "}
-                  <span className="blue-color">NEARS</span>
+                  <span className="blue-color">(NEARS)</span>
                 </h2>
-                <p className="section-desc mb-0">
-         <span className="fw-bold">The NTPC Education & Research Society (NEARS) is</span> promoted by NTPC Ltd. The energy leader is a permanent member, of the Society; inspired by its outlook to foster high orders of techno – managerial efficiency and excellence through energy centric higher education and research. NEARS fulfils this mission through its School i.e. NSB to promote development and dissemination of knowledge relevant to power and energy domains. 
-                </p>
+                <span className="section-desc mb-0">
+                   <span className="fw-bold">NEARS</span> is promoted by NTPC Ltd. The energy leader is a permanent member, of the Society; inspired by its outlook to foster high orders of techno – managerial efficiency and excellence through energy centric higher education and research. NEARS fulfils this mission through its School i.e. NSB through knowledge products and related stakeholder initiatives for the benefit of the power and energy domains. 
+                </span>
                 {/* <h2 className="section-title has-theme-blue mb-20">
                   NTPC Education & Research Society{" "}
                   <span className="blue-color">NEARS</span>

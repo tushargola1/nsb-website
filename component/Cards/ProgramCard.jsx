@@ -56,8 +56,8 @@ const ProgramCard = ({ programData }) => {
                       href={item.url}
                     >
                       <span className="btn-text-wrap">
-                        <span className="text-default">View Program</span>
-                        <span className="text-hover">View Program</span>
+                        <span className="text-default">View Programme</span>
+                        <span className="text-hover">View Programme</span>
                       </span>
                       <span className="icon-box has-rotate">
                         <svg

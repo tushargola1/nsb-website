@@ -8,103 +8,6 @@ export const ConsultancyData = {
     "Duration",
   ],
 
-  ongoingProjects: [
-    {
-      id: 1,
-      title: "NEEPCO corporate restructuring",
-      projectDetail:
-        "Based on the existing business activities/practices, proposed growth plan during the next 5 years, re-grouping of similar activities, effective span of control, key/critical functions, expected role & responsibility, line of command, workload driver & other factors, proposing a corporate restructuring for NEEPCO.",
-      fundingAgency: "NEEPCO",
-      investigators: [
-        {
-          designation: "PI",
-          name: "Dr. A.P Dash",
-        },
-      ],
-      duration: "June 2022",
-    },
-
-    {
-      id: 2,
-      title: [
-        "Renewable Energy (RE) Market Integration (Together with BCG)",
-        "Development of Power Market in India (Together with Deloitte)",
-      ],
-      projectDetail:
-        "To suggest implementation mechanism, deliberate with various stakeholders, incorporate their inputs in the view of RE expansion and market integration.",
-      fundingAgency: "Ministry of Power (MoP), Government of India",
-      investigators: [
-        {
-          designation: "PI",
-          name: "Shri K.S Bandhopadhyay",
-        },
-        {
-          designation: "Co-PI",
-          name: "Dr. Brijesh Bhatt",
-        },
-      ],
-      duration: "July 2020 – July 2022 (Expected)",
-    },
-
-    {
-      id: 3,
-      title:
-        "Think Tanks for Creation of an Outreach and Dissemination Forum to Fast-track the Agenda of Cross-border Energy Trade (CBET) and Regional Energy Cooperation among South Asian Countries",
-      projectDetail:
-        "Aligned to the needs of India, specifically to cross-border electricity trade, the vision of the think tank project in India is: 'CBET, an enabler to enhance renewable energy deployment in South Asia (SA) region'.",
-      fundingAgency:
-        "United States Agency for International Development (USAID) for South Asian Regional Initiative for Energy Integration through IRADe/CII.",
-      investigators: [
-        {
-          designation: "PI",
-          name: "Dr. G.C. Tripathi",
-        },
-        {
-          designation: "Co-PI",
-          name: "Dr. Brijesh Bhatt",
-        },
-      ],
-      duration: "January 2022 – August 2022",
-    },
-
-    {
-      id: 4,
-      title: "Capacity Building Programme on CBET for SAARC Countries",
-      projectDetail:
-        "Building capabilities and understanding on multiple dynamics of CBET, ranging from the techno-economic aspects to the stakeholder engagement strategies to socialize the benefits among the regional entities.",
-      fundingAgency:
-        "Asian Development Bank (ADB) in cooperation with the South Asian Association for Regional Cooperation (SAARC) Secretariat.",
-      investigators: [
-        {
-          designation: "PI",
-          name: "Shri K.S Bandhopadhyay",
-        },
-        {
-          designation: "Co-PI",
-          name: "Dr. Brijesh Bhatt",
-        },
-      ],
-      duration: "December 2021 – April 2022",
-    },
-
-    {
-      id: 5,
-      title:
-        "DISCOM Transformation by Knowledge Sharing and Strengthening Governance (DTKSSG)",
-      projectDetail: [
-        "Capacity building Programme for distribution utilities at state/regional levels.",
-        "Conduct research/case studies with distribution utilities.",
-      ],
-      fundingAgency: "NTPC Limited",
-      investigators: [
-        {
-          designation: "PI",
-          name: "Dr. Brijesh Bhatt",
-        },
-      ],
-      duration: "2021",
-    },
-  ],
 
   completedProjects: [
     {
@@ -270,6 +173,101 @@ export const ConsultancyData = {
         },
       ],
       duration: "2020",
+    },
+      {
+      id: 10,
+      title: "NEEPCO corporate restructuring",
+      projectDetail:
+        "Based on the existing business activities/practices, proposed growth plan during the next 5 years, re-grouping of similar activities, effective span of control, key/critical functions, expected role & responsibility, line of command, workload driver & other factors, proposing a corporate restructuring for NEEPCO.",
+      fundingAgency: "NEEPCO",
+      investigators: [
+        {
+          designation: "PI",
+          name: "Dr. A.P Dash",
+        },
+      ],
+      duration: "June 2022",
+    },
+
+    {
+      id: 11,
+      title: [
+        "Renewable Energy (RE) Market Integration (Together with BCG)",
+        "Development of Power Market in India (Together with Deloitte)",
+      ],
+      projectDetail:
+        "To suggest implementation mechanism, deliberate with various stakeholders, incorporate their inputs in the view of RE expansion and market integration.",
+      fundingAgency: "Ministry of Power (MoP), Government of India",
+      investigators: [
+        {
+          designation: "PI",
+          name: "Shri K.S Bandhopadhyay",
+        },
+        {
+          designation: "Co-PI",
+          name: "Dr. Brijesh Bhatt",
+        },
+      ],
+      duration: "July 2020 – July 2022 (Expected)",
+    },
+
+    {
+      id: 12,
+      title:
+        "Think Tanks for Creation of an Outreach and Dissemination Forum to Fast-track the Agenda of Cross-border Energy Trade (CBET) and Regional Energy Cooperation among South Asian Countries",
+      projectDetail:
+        "Aligned to the needs of India, specifically to cross-border electricity trade, the vision of the think tank project in India is: 'CBET, an enabler to enhance renewable energy deployment in South Asia (SA) region'.",
+      fundingAgency:
+        "United States Agency for International Development (USAID) for South Asian Regional Initiative for Energy Integration through IRADe/CII.",
+      investigators: [
+        {
+          designation: "PI",
+          name: "Dr. G.C. Tripathi",
+        },
+        {
+          designation: "Co-PI",
+          name: "Dr. Brijesh Bhatt",
+        },
+      ],
+      duration: "January 2022 – August 2022",
+    },
+
+    {
+      id: 13,
+      title: "Capacity Building Programme on CBET for SAARC Countries",
+      projectDetail:
+        "Building capabilities and understanding on multiple dynamics of CBET, ranging from the techno-economic aspects to the stakeholder engagement strategies to socialize the benefits among the regional entities.",
+      fundingAgency:
+        "Asian Development Bank (ADB) in cooperation with the South Asian Association for Regional Cooperation (SAARC) Secretariat.",
+      investigators: [
+        {
+          designation: "PI",
+          name: "Shri K.S Bandhopadhyay",
+        },
+        {
+          designation: "Co-PI",
+          name: "Dr. Brijesh Bhatt",
+        },
+      ],
+      duration: "December 2021 – April 2022",
+    },
+
+    {
+      id: 14,
+      title:
+        "DISCOM Transformation by Knowledge Sharing and Strengthening Governance (DTKSSG)",
+      projectDetail: [
+        "Capacity building Programme for distribution utilities at state/regional levels.",
+        "Conduct research/case studies with distribution utilities.",
+      ],
+      fundingAgency: "NTPC Limited",
+      investigators: [
+        {
+          designation: "PI",
+          name: "Dr. Brijesh Bhatt",
+        },
+      ],
+      duration: "2021",
     },
   ],
 };

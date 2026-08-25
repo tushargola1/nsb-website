@@ -96,13 +96,28 @@ const page = () => {
                     <div className="rs-postbox-content px-2 pt-10">
                       <div className="rs-postbox-text mt-10">
                         <p>
-                          Executive Education at NSB includes both short and
-                          long term programs. The aim of executive education is
-                          to provide specific tailor made programs to the
-                          corporate and government officials. Each Programme is
-                          designed considering the changing trends of the
-                          industry as well as specific needs of the executives
-                          at different levels of their careers.
+                          Executive Education at NSB includes short- and
+                          long-term programmes. The aim of executive education
+                          is to deliver tailor-made modules for the benefit of
+                          businesses and decision makers in the government and
+                          other institutions. State of art content and
+                          engagement processes ensure success.
+                        </p>
+                        <p>
+                          The past academic year saw NSB successfully conducted
+                          more than a dozen International programmes. This was
+                          with NTPC IBD / ITEC; for the immediate benefit of
+                          hundreds of participants from many countries. Smart
+                          grids, microgrids, RE systems , batteries and charging
+                          stations and the CBET, along local, regional and
+                          global scale environmental impacts and related
+                          mitigation / adaptation strategies were important
+                          thrust areas covered. SAP S/4 & socio – economic
+                          challenges of the power sector, geo political
+                          engineering, transmission – distribution sector
+                          dynamics also featured in the menu of topics.
+                          Developing professional soft skills was the thrust of
+                          a major domestic programme.
                         </p>
                       </div>
                     </div>

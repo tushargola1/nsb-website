@@ -1,5 +1,4 @@
 import Breadcrump from "@/component/common/breadcrump/Breadcrump";
-import Maintenance from "@/component/Maintenance";
 import Image from "next/image";
 import React from "react";
 
@@ -7,6 +6,7 @@ const page = () => {
   return (
     <div>
       <Breadcrump currentPage="Director's Message" parentPage="About" />
+
       <section className="rs-about-area section-space bg-primary rs-about-seven">
         <div className="container">
           <div
@@ -18,7 +18,7 @@ const page = () => {
                 src="/assets/images/faculty/gopi.webp"
                 width={300}
                 height={400}
-                alt="NSB Logo"
+                alt="Prof. R. Gopichandran"
                 priority
                 style={{ objectFit: "cover" }}
               />
@@ -33,7 +33,7 @@ const page = () => {
               </div>
 
               <p
-                className="rs-quote-desc position-relative mb-0 pb-10 "
+                className="rs-quote-desc position-relative mb-0 pb-10"
                 style={{ fontSize: "16px" }}
               >
                 The NTPC School of Business is uniquely positioned to build
@@ -43,6 +43,7 @@ const page = () => {
                 multilateral agreements are some of the thrust areas in this
                 context.
               </p>
+
               <p
                 className="rs-quote-desc position-relative"
                 style={{ fontSize: "16px" }}
@@ -51,11 +52,12 @@ const page = () => {
                 gathered over 12 years of its service since 2014. Four important
                 considerations in this context are:
               </p>
+
               <div className="rs-history-list-wrapper">
                 <ul className="ps-3 mb-4 energy-management-li">
-                  <li className="mb-2 ">
+                  <li className="mb-2">
                     <p className="rs-history-desc mb-0">
-                      1. Its impacts across several geographies globally are
+                      1) Its impacts across several geographies globally are
                       growing; evident from the increasing number of bilateral
                       and multilateral initiatives with power / energy entities.
                       Sincere thanks especially to NTPC IBD for opportunities
@@ -65,24 +67,25 @@ const page = () => {
 
                   <li className="mb-2">
                     <p className="rs-history-desc mb-0">
-                      2. The School is able to assist capacity building
+                     2) The School is able to assist capacity building
                       initiatives that serve the Global South in particular and
                       capitalize on every chance to showcase the best this
                       segment has to offer for the rest of the world too.
                     </p>
                   </li>
 
-                  <li>
+                  <li className="mb-2">
                     <p className="rs-history-desc mb-0">
-                      3. We are keen to collaborate for long – term test beds;
+                     3) We are keen to collaborate for long – term test beds;
                       essential to go beyond evidence-based policy making to
-                      evidence – informed engagements. Value based options are
-                      critical in this context.
+                      evidence – informed engagements. Values based approaches
+                      are critical in this context.
                     </p>
                   </li>
+
                   <li>
                     <p className="rs-history-desc mb-0">
-                      4. Local level resilience planning is critical to tackle
+                     4) Local level resilience planning is critical to tackle
                       vagaries posed by inclement geo-political dynamics. This
                       is true of the whole energy / power sector value chain.
                     </p>
@@ -94,15 +97,16 @@ const page = () => {
                 className="rs-quote-desc position-relative"
                 style={{ fontSize: "16px" }}
               >
-                The School is inspired by India’s outlook to serve with purpose.
-                It is about welfare of humanity as a whole and is therefore
-                ready to enrich value-based learning and knowledge sharing
-                processes. Academic and research excellence for society’s
-                benefit will be a logical outcome of this integrated outlook.
+                The School is inspired by India’s outlook to serve with
+                purpose. It is about welfare of humanity as a whole and is
+                therefore ready to enrich values-based learning and knowledge
+                sharing processes. Academic and research excellence for
+                society’s benefit will be a logical outcome of this integrated
+                outlook.
               </p>
 
               <h5 className="rs-quote-author">
-                - Prof. R. Gopichandran - Director, NTPC School of Business.
+                Prof. R. Gopichandran - Director, NTPC School of Business.
               </h5>
             </div>
           </div>

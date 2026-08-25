@@ -5,7 +5,7 @@ import React from "react";
 const page = () => {
   return (
     <div>
-      <Breadcrump currentPage="Get In Touch" parentPage={"Contact"} />
+      <Breadcrump currentPage="Contact Us" parentPage={"Contact"} />
       <div className="rs-contact-area rs-contact-five section-space-top pb-30">
         <div className="container">
           <div className="row align-items-center justify-content-center">

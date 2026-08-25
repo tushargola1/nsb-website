@@ -64,7 +64,7 @@ const page = () => {
                       </div>
                       <div className="rs-scholarships-list">
                         Self-sponsored candidates must have a valid CAT / XAT /
-                        GMAT/ OTHER MANAGEMENT SCORE
+                        GMAT/  Other Management Entrance Exam Score
                       </div>
                     </div>
                   </div>
@@ -74,7 +74,7 @@ const page = () => {
                     </h6>
 
                     <p className="rs-scholarships-description mb-0 ">
-                 <a href="/assets/flyer/executive.pdf" target="_blank" className="fw-bold"> Click here</a> to view the PGDM (Executive) FLyer.
+                 <a href="/assets/flyer/executive.pdf" target="_blank" className="fw-bold text-danger"> Click here</a> to view the PGDM (Executive) FLyer.
                     </p>
 
                  
@@ -165,7 +165,7 @@ const page = () => {
                       </div>
                       <div className="rs-scholarships-list">
                         All candidates must also have a valid CAT / XAT / GMAT/
-                        OTHER MANAGEMENT SCORE.
+                        Other Management Entrance Exam Score.
                       </div>
                     </div>
                   </div>
@@ -174,7 +174,7 @@ const page = () => {
                       3. Selection Process
                     </h6>
                       <p className="rs-scholarships-description mb-0 ">
-                 <a href="/assets/flyer/emflyer.pdf" target="_blank" className="fw-bold"> Click here</a> to view the PGDM Energy Management FLyer.
+                 <a href="/assets/flyer/emflyer.pdf" target="_blank" className="fw-bold text-danger"> Click here</a> to view the PGDM Energy Management FLyer.
                     </p>
 
                   
@@ -210,11 +210,11 @@ const page = () => {
           <div className="row">
             <div className="col-xl-12">
               <div className="rs-deadline-wrapper">
-                <h3 className="rs-deadline-title mb-30">
+                {/* <h3 className="rs-deadline-title mb-30">
                   {" "}
                   Full-Time Residential Post Graduate Diploma in Management
                   Programmes
-                </h3>
+                </h3> */}
                 <div className="rs-deadline-table-wrapper table-responsive">
                   <div className="rs-deadline-table-item">
                     <table className="rs-deadline-table-inner">

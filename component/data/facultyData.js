@@ -55,7 +55,7 @@ const facultyData = [
       "Multilateral Environmental Agreements",
     ],
 
-    areaOfResearch: {
+    areasOfResearch: {
       areas: [
         "Environmental performance enhancement opportunities and adaptation support",
         "Integrated climate and ozone layer protection industry stewardship",
@@ -152,16 +152,16 @@ const facultyData = [
     },
   },
  {
-    slug: "dr-abhinav-jinadal",
-    name: "Dr. Abhinav Jinadal",
-    designation: "Senior Faculty",
+    slug: "dr-abhinav-jindal",
+    name: "Dr. Abhinav Jindal",
+    designation: "Professor",
 
     category: "NSB Faculty",
     image: "/assets/images/faculty/abhinav.png",
     summary:
-      "Dr. Abhinav Jindal is a senior Faculty at Power Management Institute (PMI). He has a PhD in Economics from IIM Indore with Bachelor's Degree in Mechanical Engineering.  ",
+      "Dr. Abhinav Jindal is a Professor of Energy Economics. He has a PhD in Economics from IIM Indore with Bachelor's Degree in Mechanical Engineering.  ",
 
-    areaOfResearch: {
+    areasOfResearch: {
       areas: ["Energy Economics, Efficiancy and Productivity analysis, Energy policy, Energy Finance, & Transition Finance"],
     },
 
@@ -292,7 +292,7 @@ const facultyData = [
       "Assistant Professor, NTPC School of Business (NSB), Noida",
     ],
 
-    areaOfResearch: {
+    areasOfResearch: {
       areas: [
         "Institutional analysis, governance and regulatory aspects",
         "Behavioral and influence of social norms",
@@ -386,7 +386,7 @@ const facultyData = [
       },
     ],
 
-    areaOfResearch: {
+    areasOfResearch: {
       areas: ["Nonparametric Regression"],
     },
 
@@ -481,7 +481,7 @@ const facultyData = [
       "Solar Photovoltaics and Energy Storage Systems",
     ],
 
-    areaOfResearch: {
+    areasOfResearch: {
       areas: [
         "Flexible organic & perovskite solar cells",
         "Ge-on-Si based near infrared photodetectors",
@@ -564,15 +564,15 @@ const facultyData = [
     },
   },
   {
-    slug: "Shiv_Ratan_Agarwal",
-    name: "Dr. Shiv Ratan Agarwal",
+    slug: "Shiv_Ratan_Agrawal",
+    name: "Dr. Shiv Ratan Agrawal",
     designation: "Associate Professor",
     category: "NSB Faculty",
     image:
       "../assets/images/faculty/faculty-details/NSB Faculty/Shiv Ratan Agrawal.png",
 
     summary:
-      "Dr. Shiv Ratan Agarwal is an Associate Professor in the Marketing area at NTPC School of Business (NSB), Noida. Overall, he has around 12 years of teaching and 3 years of industry experience. Before joining NSB, he worked at ICFAI Business School, Hyderabad and IIM, Bangalore. He has obtained his Ph.D. in Management from Maulana Azad National Institute of Technology, Bhopal (MP) as a full-time research scholar. He qualified NET examination in Management from UGC. He teaches Marketing Management, Marketing Research, Services Marketing and Brand Management. His research interests are in services marketing, customer relationship management, text mining and sentiment analysis. He has several international publications published in ABDC, SSCI, SCI and Scopus indexed journals. Importantly, he has 6 research papers published in A-category journals as per ABDC journal list.",
+      "Dr. Shiv Ratan Agrawal is an Associate Professor in the Marketing area at NTPC School of Business (NSB), Noida. Overall, he has around 12 years of teaching and 3 years of industry experience. Before joining NSB, he worked at ICFAI Business School, Hyderabad and IIM, Bangalore. He has obtained his Ph.D. in Management from Maulana Azad National Institute of Technology, Bhopal (MP) as a full-time research scholar. He qualified NET examination in Management from UGC. He teaches Marketing Management, Marketing Research, Services Marketing and Brand Management. His research interests are in services marketing, customer relationship management, text mining and sentiment analysis. He has several international publications published in ABDC, SSCI, SCI and Scopus indexed journals. Importantly, he has 6 research papers published in A-category journals as per ABDC journal list.",
 
     academicAffiliation: [
       "Associate Professor, NTPC School of Business (NSB), Noida",
@@ -607,7 +607,7 @@ const facultyData = [
       "Brand Management",
     ],
 
-    areaOfResearch: {
+    areasOfResearch: {
       areas: [
         "Services marketing",
         "Customer relationship management",
@@ -677,7 +677,7 @@ const facultyData = [
     summary:
       "Prof. K.S. Bandyopadhyay is a faculty member in Energy Market & Policy.",
 
-    areaOfResearch: {
+    areasOfResearch: {
       areas: ["Energy Market & Policy"],
     },
 
@@ -1173,7 +1173,7 @@ const facultyData = [
       "Member, Central Bar Association (1994 – 2004)",
     ],
 
-    areaOfResearch: {
+    areasOfResearch: {
       areas: [
         "International Business Dispute Resolution",
         "Arbitration",
@@ -1225,7 +1225,7 @@ const facultyData = [
       },
     ],
 
-    areaOfResearch: {
+    areasOfResearch: {
       areas: ["Law, Globalisation and Liberalisation in India"],
       currentResearch: ["Law, liberalisation and globalisation"],
     },
@@ -1353,7 +1353,7 @@ const facultyData = [
       "Research studies for Bharatiya Gyan Vigyan Jatha (BGVS), for UNICEF, NACO (WHO), UNFPA, UNESCO, etc.",
     ],
 
-    areaOfResearch: {
+    areasOfResearch: {
       areas: [
         "Communication research and development communication",
         "Feedback research on Education and Communication, especially use of information communication technologies (ICT)",
@@ -1401,7 +1401,7 @@ const facultyData = [
       "Addiction and other health-related problems",
     ],
 
-    areaOfResearch: {
+    areasOfResearch: {
       areas: [
         "Multi-Dimensional Healthcare",
         "Body Mind Energy (BME) Assessment",
@@ -1450,7 +1450,7 @@ const facultyData = [
 
     teaching: ["Management", "Leadership"],
 
-    areaOfResearch: {
+    areasOfResearch: {
       areas: ["Organizational Development & Change"],
     },
 
@@ -1488,7 +1488,7 @@ const facultyData = [
       "Member, 'Subject Expert Group' on land acquisitions constituted by the Indian government (2011), contributing to the drafting of the Right to Fair Compensation and Transparency in Land Acquisition Resettlement and Rehabilitation Act of 2013",
     ],
 
-    areaOfResearch: {
+    areasOfResearch: {
       areas: [
         "Political Economy of Land Acquisition and Resource Development",
         "Public Policies",
@@ -1660,7 +1660,7 @@ const facultyData = [
       "Quantitative Techniques in Management",
     ],
 
-    areaOfResearch: {
+    areasOfResearch: {
       areas: [
         "Power generation & controls",
         "Solar Thermal & PV",
@@ -1718,7 +1718,7 @@ const facultyData = [
 
     teaching: [],
 
-    areaOfResearch: {
+    areasOfResearch: {
       areas: [],
       currentResearch: [],
     },

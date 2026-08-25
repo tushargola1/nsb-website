@@ -9,9 +9,9 @@ import LogoCarousel from "@/component/common/logoCarousel/LogoCarousel";
 
 
 export default function FacultyMembersPage() {
-  const categories = ["Ongoing Projects", "Completed Projects"];
+  const categories = ["Completed Projects"];
 
-  const [activeCategory, setActiveCategory] = useState("Ongoing Projects");
+  const [activeCategory, setActiveCategory] = useState("Completed Projects");
 
   const filteredProjects =
     activeCategory === "Completed Projects"

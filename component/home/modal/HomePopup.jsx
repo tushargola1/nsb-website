@@ -11,7 +11,6 @@ const popupImages = [
     image: "/assets/images/modal/modal.webp",
     title: "NSB Announcement",
   },
- 
 ];
 
 export default function HomePopup() {
@@ -21,6 +20,13 @@ export default function HomePopup() {
 
   useEffect(() => {
     if (pathname !== "/") return;
+
+    // Check if popup has already been shown
+    const popupShown = localStorage.getItem("homePopupShown");
+
+    if (popupShown === "true") {
+      return;
+    }
 
     const timer = setTimeout(() => {
       const modalElement = document.getElementById("homePopupModal");
@@ -32,6 +38,9 @@ export default function HomePopup() {
         });
 
         modal.show();
+
+        // Mark popup as shown
+        localStorage.setItem("homePopupShown", "true");
       }
     }, 500);
 
@@ -54,13 +63,12 @@ export default function HomePopup() {
     <div
       className="modal fade"
       id="homePopupModal"
-      tabIndex="-1"
+      tabIndex={-1}
       aria-labelledby="homePopupModalLabel"
       aria-hidden="true"
     >
       <div className="modal-dialog modal-dialog-centered modal-lg">
         <div className="modal-content border-0">
-          {/* HEADER */}
           <div className="modal-header">
             <h5 className="modal-title" id="homePopupModalLabel">
               {currentImage.title}
@@ -71,10 +79,9 @@ export default function HomePopup() {
               className="btn-close"
               data-bs-dismiss="modal"
               aria-label="Close"
-            ></button>
+            />
           </div>
 
-          {/* BODY */}
           <div className="modal-body">
             <Image
               key={currentImage.id}
@@ -87,7 +94,6 @@ export default function HomePopup() {
             />
           </div>
 
-          {/* FOOTER */}
           <div className="modal-footer">
             {popupImages.length > 1 && (
               <button

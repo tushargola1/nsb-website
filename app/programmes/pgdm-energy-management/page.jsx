@@ -90,7 +90,7 @@ const page = () => {
                     </div>
                     <div className="mt-20">
                       <h6 className="page-sidebar-title mb-20">
-                        WHY PGDM (Energy Management)
+                        Why PGDM (Energy Management)
                       </h6>
                       <p className="section-desc mb-10">
                         It recognizes the centrality of energy for inclusive
