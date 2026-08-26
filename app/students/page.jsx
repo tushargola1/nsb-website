@@ -24,7 +24,7 @@ const page = () => {
                 {studentsDetails.map((item) => {
                   return (
                     <article
-                      className="rs-postbox-item col-xl-4 col-lg-4 col-md-6 col-12"
+                      className="rs-postbox-item col-xl-3 col-lg-3 col-md-6 col-12"
                       key={item.id}
                     >
                       {/* Image */}

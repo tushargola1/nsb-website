@@ -22897,3 +22897,7 @@ height: 50px;
     width: 15px;
   }
 }
+
+.nsb-has-children.nsb-nested .nsb-arrow , .top-dropdown-menu li.nsb-has-children a .nsb-arrow {
+  transform: rotate(-90deg);
+}

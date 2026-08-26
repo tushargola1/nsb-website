@@ -12,7 +12,7 @@ const Announcement = () => {
         alt="Announcement"
         className={styles.updateImg}
       />
-  
+
       <div className={styles.marquee}>
         <ul className={styles.track}>
           {/* Duplicate items for seamless scrolling */}
@@ -27,16 +27,19 @@ const Announcement = () => {
               Meet our new students of PGDM (E) 2026-27 Batch
             </Link>
           </li>
+
           <li className={styles.missionLiContent}>
-            <a
-              href="https://iirfranking.com/ranking/top-mba-colleges-in-india"
-              target="_blank"
-            >
-              The Power Management Institute is committed to be a leading
-              institute in developing world-class competencies by providing
-              state-of-the-art training.
+            <a href="#">
+              NTPC School of Business, Noida has ranked 38th in IIRF 2024, among
+              Top 50 B-School in India
             </a>
           </li>
+          <li className={styles.missionLiContent}>
+            <Link href="/students">
+              Meet our new students of PGDM (E) 2026-27 Batch
+            </Link>
+          </li>
+
           <li className={styles.missionLiContent}>
             <a href="#">
               NTPC School of Business, Noida has ranked 38th in IIRF 2024, among
@@ -49,16 +52,6 @@ const Announcement = () => {
             </Link>
           </li>
           <li className={styles.missionLiContent}>
-            <a
-              href="https://iirfranking.com/ranking/top-mba-colleges-in-india"
-              target="_blank"
-            >
-              The Power Management Institute is committed to be a leading
-              institute in developing world-class competencies by providing
-              state-of-the-art training.
-            </a>
-          </li>
-          <li className={styles.missionLiContent}>
             <a href="#">
               NTPC School of Business, Noida has ranked 38th in IIRF 2024, among
               Top 50 B-School in India
@@ -68,16 +61,6 @@ const Announcement = () => {
             <Link href="/students">
               Meet our new students of PGDM (E) 2026-27 Batch
             </Link>
-          </li>
-          <li className={styles.missionLiContent}>
-            <a
-              href="https://iirfranking.com/ranking/top-mba-colleges-in-india"
-              target="_blank"
-            >
-              The Power Management Institute is committed to be a leading
-              institute in developing world-class competencies by providing
-              state-of-the-art training.
-            </a>
           </li>
         </ul>
       </div>

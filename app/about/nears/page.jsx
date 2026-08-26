@@ -13,8 +13,8 @@ const page = () => {
     },
     {
       id: 2,
-      image: "/assets/images/about/nears/gireesh.webp",
-      name: "Dr. Gireesh Chandra Tripathi",
+        image: "/assets/images/faculty/abhinav.png",
+      name: "Dr. Abhinav Jindal",
       position: "Secretary, NEARS",
     },
     {

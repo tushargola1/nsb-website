@@ -24,7 +24,7 @@ const page = () => {
       id: 3,
       image: "/assets/images/faculty/abhinav.png",
       name: "Dr. Abhinav Jindal",
-      position1: "Member (Academic)",
+      position1: "Member (Academic and Administration)",
 
     },
     {

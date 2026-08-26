@@ -159,7 +159,7 @@ const facultyData = [
     category: "NSB Faculty",
     image: "/assets/images/faculty/abhinav.png",
     summary:
-      "Dr. Abhinav Jindal is a Professor of Energy Economics. He has a PhD in Economics from IIM Indore with Bachelor's Degree in Mechanical Engineering.  ",
+      "Dr. Abhinav Jindal is a Professor of Economics with specialisation in Energy Economics. He has a PhD in Economics from IIM Indore with Bachelor's Degree in Mechanical Engineering.  ",
 
     areasOfResearch: {
       areas: ["Energy Economics, Efficiancy and Productivity analysis, Energy policy, Energy Finance, & Transition Finance"],
