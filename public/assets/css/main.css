@@ -398,13 +398,23 @@ h6 {
 html {
   font-size: 10px;
 }
-
+/* @font-face {
+  font-family: 'Corbel';
+  src: url('/fonts/Corbel.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} */
 /*---------------------------------
     Typography css start 
 ---------------------------------*/
+/* * {
+  font-family: 'Corbel', Arial, sans-serif;
+} */
 body {
   color: var(--rs-text-primary);
   font-family: "Bitter", sans-serif;
+  /* font-family: "Corbel", sans-serif; */
   font-size: var(--rs-fs-body);
   font-weight: normal;
   line-height: 1.5;
@@ -14005,12 +14015,12 @@ html.lenis body {
 }
 .rs-contact-five .rs-contact-wrapper {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 30px;
 }
 @media only screen and (max-width: 991px) {
   .rs-contact-five .rs-contact-wrapper {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media only screen and (max-width: 767px) {

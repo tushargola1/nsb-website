@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const ProgramCard = ({ programData }) => {
   return (
-    <div className="container section-spaced mt-80">
+    <div className="container section-spaced mt-150">
       <div className="row justify-content-center ">
         <div className="">
           <div className="section-title-wrapper text-center">
@@ -13,7 +13,7 @@ const ProgramCard = ({ programData }) => {
               className="section-title rs-split-text-enable split-in-left has-theme-blue "
               style={{ marginBottom: "40px" }}
             >
-              Programme Pedagogy
+              Programmes
             </h2>
           </div>
         </div>
@@ -21,7 +21,10 @@ const ProgramCard = ({ programData }) => {
       <div className="rs-program-three has-theme-cyan program-cards row d-flex gap-0 align-items-center justify-content-center ">
         {programData.map((item, index) => {
           return (
-            <div className="rs-program-item col-lg-4 col-md-6 col-12" key={item.id}>
+            <div
+              className="rs-program-item col-lg-4 col-md-6 col-12"
+              key={item.id}
+            >
               <div className="rs-program-thumb">
                 <Link href={item.url}>
                   <Image
@@ -45,12 +48,12 @@ const ProgramCard = ({ programData }) => {
                       </p>
                     </>
                   ) : (
-                    <p className="rs-program-desc">
-                      {item.description}
-                    </p>
+                    <p className="rs-program-desc">{item.description}</p>
                   )}
 
-                  <div className={`rs-program-btn ${item.id !==3 ? "" :"mt-110"}`}>
+                  <div
+                    className={`rs-program-btn ${item.id !== 3 ? "" : "mt-110"}`}
+                  >
                     <Link
                       className="rs-btn has-icon has-theme-cyan hover-cyan"
                       href={item.url}

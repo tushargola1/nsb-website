@@ -35,11 +35,46 @@ export default function EventsCalendar() {
     setFilterMonth("All");
     setFilterDay("All");
   };
+const getEndDateFromFullData = (fullData) => {
+  if (!fullData) return null;
 
- const filteredEvents = useMemo(() => {
+  // Example:
+  // "18 - 22 August 2026"
+  // "09 - 11 September 2026"
+
+  const match = fullData.match(
+    /(\d{1,2})\s*(?:-\s*\d{1,2}\s+)?([A-Za-z]+)\s+(\d{4})$/
+  );
+
+  if (!match) return null;
+
+  const [, endDay, monthName, year] = match;
+
+  const month = new Date(`${monthName} 1, ${year}`).getMonth();
+
+  return new Date(
+    Number(year),
+    month,
+    Number(endDay)
+  );
+};
+const filteredEvents = useMemo(() => {
+  const today = new Date();
+
+  // Remove time so only date is compared
+  today.setHours(0, 0, 0, 0);
+
   return allEventsData
     .filter((event) => {
       const [year, month, day] = event.date.split("-");
+
+      // Get event ending date from fullData
+      const endDate = getEndDateFromFullData(event.fullData);
+
+      // Hide events which completely ended before today
+      if (endDate && endDate < today) {
+        return false;
+      }
 
       return (
         (filterYear === "All" || year === filterYear) &&
@@ -47,19 +82,21 @@ export default function EventsCalendar() {
         (filterDay === "All" || day === filterDay)
       );
     })
-    .sort((a, b) => new Date(a.date) - new Date(b.date));
+    .sort(
+      (a, b) =>
+        new Date(a.date).getTime() -
+        new Date(b.date).getTime()
+    );
 }, [filterYear, filterMonth, filterDay]);
 
   // Max 10 events to display
-const isHomePage = ["/", "/executive-education"].includes(pathname);
+  const isHomePage = ["/", "/executive-education"].includes(pathname);
 
-const displayedEvents = useMemo(() => {
-  return isHomePage
-    ? filteredEvents.slice(0, 5)
-    : filteredEvents;
-}, [filteredEvents, isHomePage]);
+  const displayedEvents = useMemo(() => {
+    return isHomePage ? filteredEvents.slice(0, 5) : filteredEvents;
+  }, [filteredEvents, isHomePage]);
 
-const hasMore = isHomePage && filteredEvents.length > 5;
+  const hasMore = isHomePage && filteredEvents.length > 5;
 
   // Format date helper for modal
   const formatModalDate = (dateStr) => {
@@ -82,6 +119,7 @@ const hasMore = isHomePage && filteredEvents.length > 5;
     filterDay,
     filteredEvents,
   });
+
   const years = [...new Set(allEventsData.map((e) => e.date.split("-")[0]))];
   const months = [
     "01",
@@ -213,13 +251,13 @@ const hasMore = isHomePage && filteredEvents.length > 5;
         )}
       </div>
 
-    {hasMore && (
-  <div className={styles.viewMoreWrapper}>
-    <Link href="/event" className={styles.viewMoreBtn}>
-      View All Events <i className="ri-arrow-right-line"></i>
-    </Link>
-  </div>
-)}
+      {hasMore && (
+        <div className={styles.viewMoreWrapper}>
+          <Link href="/events" className={styles.viewMoreBtn}>
+            View All Events <i className="ri-arrow-right-line"></i>
+          </Link>
+        </div>
+      )}
 
       {/* Beautiful Modal Popup */}
       {selectedEvent && (
@@ -249,7 +287,8 @@ const hasMore = isHomePage && filteredEvents.length > 5;
                 </div>
                 <div className={styles.detailContent}>
                   <h6>Date & Time</h6>
-                  <p>{formatModalDate(selectedEvent.date)}</p>
+                  {/* <p>{formatModalDate(selectedEvent.date)}</p> */}
+                  <p>{selectedEvent.fullData}</p>
                   <p className="text-muted fs-6 mb-0 mt-1">
                     {selectedEvent.time}
                   </p>
@@ -268,6 +307,16 @@ const hasMore = isHomePage && filteredEvents.length > 5;
             </div>
 
             <div className={styles.modalFooter}>
+              {selectedEvent.url && (
+                <button
+                  className={styles.btnPrimary}
+                  onclick={() => window.open(selectedEvent.url, "_blank")}
+                  style={{ backgroundColor: selectedEvent.color }}
+                >
+                  View Details <i className="ri-arrow-right-line"></i>
+                </button>
+              )}
+
               <button
                 className={styles.btnPrimary}
                 onClick={closeModal}

@@ -2,7 +2,7 @@ export const ExecutiveEventsData = [
   {
     id: 1,
     title: "Certificate Courses",
-    url: "",
+    url: "/executive-education/certificate-courses",
     description: "Your description...",
     images: [
       "/assets/images/executive/1.jpeg",
@@ -16,7 +16,7 @@ export const ExecutiveEventsData = [
   {
     id: 2,
     title: "Management Development Programme (MDP)",
-    url: "",
+    url: "/executive-education/management-development-programme",
     description: "Your description...",
     images: [
       "/assets/images/executive/mdp/1.jpeg",
@@ -31,7 +31,7 @@ export const ExecutiveEventsData = [
   {
     id: 3,
     title: "International Programmes",
-    url: "",
+    url: "/executive-education/international-programmes",
     description: "Your description...",
     images: [
          "/assets/images/executive/international/1.jpeg",

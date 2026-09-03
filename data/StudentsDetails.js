@@ -208,4 +208,28 @@ export const studentsDetails = [
     about:
       "Prior to joining NSB, I have been working as DGM at NTPC Kanti, having a total experience of 17 years, across various NTPC projects.",
   },
+  {
+    id: "26",
+    name: "Sunil Kumar Tiwari",
+    designation: "Manager",
+    image: "/assets/images/students/27.jpg",
+    about:
+      "I am a power engineer with expertise in power plant operations, commissioning, and project engineering.",
+  },
+  {
+    id: "27",
+    name: "Dipanjan Dutta Chowdhury",
+    designation: "Dy General Manager",
+    image: "/assets/images/students/28.jpg",
+    about:
+      "I currently serve as Deputy General Manager (Operation) at NTPC Limited, with expertise in the Operation, Electrical Maintenance, and Commissioning of thermal power plants. My areas of interest include mentoring new Executive Trainees (ETs) and other engineers on the O&M aspects of power stations, and exploring and venturing into quantitative techniques to enhance energy efficiency and reliability in thermal power stations.",
+  },
+  {
+    id: "28",
+    name: "ATUL SINGH",
+    designation: "Senior Manager",
+    image: "/assets/images/students/29.jpg",
+    about:
+      "With a Civil Engineering background and over 16 years of experience in the construction of new projects and FGD systems, I am keenly looking forward to realigning my knowledge and competencies to the goal of sustainability in the power sector.",
+  },
 ];

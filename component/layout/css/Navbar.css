@@ -42,13 +42,13 @@
   flex-wrap: wrap;
 }
 .nsb-topbar-links a {
-  color: var(--nsb-sub-text);
+  color: var(--nsb-sub-text) !important;
   text-decoration: none;
   font-size: 14px;
   transition: color 0.2s;
 }
 .nsb-topbar-links a:hover {
-  color: var(--nsb-sub-text);
+  color: var(--nsb-sub-text) !important;
 }
 
 /* ─── Logo Band ─────────────────────────── */

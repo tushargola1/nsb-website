@@ -14,7 +14,7 @@ export default function FacultyMembersPage() {
       <div className="rs-deadline-area rs-deadline-one bg-primary pb-40">
         <div className="container">
           <h3 className="section-title text has-theme-blue mb-30 mt-40">
-            For Academic Year 2022
+            For Academic Year 2026
           </h3>
           <div className="row">
             <div className="col-xl-12">

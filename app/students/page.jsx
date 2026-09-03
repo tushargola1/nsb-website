@@ -134,10 +134,7 @@ const page = () => {
           <div className="modal-content border-0 rounded-4 overflow-hidden">
             {/* Header */}
             <div className="modal-header">
-              <h5
-                className="modal-title"
-                id="studentDetailsModalLabel"
-              >
+              <h5 className="modal-title" id="studentDetailsModalLabel">
                 Student Details
               </h5>
 
@@ -176,9 +173,7 @@ const page = () => {
                   {/* Details */}
                   <div className="col-md-7 col-12">
                     <div className="student-modal-details">
-                      <h4 className="mb-15">
-                        {selectedStudent.name}
-                      </h4>
+                      <h4 className="mb-15">{selectedStudent.name}</h4>
 
                       <div className="mb-15">
                         <span className="d-block fw-bold mb-5">
@@ -186,19 +181,13 @@ const page = () => {
                           Designation
                         </span>
 
-                        <p className="mb-0">
-                          {selectedStudent.designation}
-                        </p>
+                        <p className="mb-0">{selectedStudent.designation}</p>
                       </div>
 
                       <div>
-                        <span className="d-block fw-bold mb-5">
-                          About
-                        </span>
+                        <span className="d-block fw-bold mb-5">About</span>
 
-                        <p className="mb-0">
-                          {selectedStudent.about}
-                        </p>
+                        <p className="mb-0">{selectedStudent.about}</p>
                       </div>
                     </div>
                   </div>

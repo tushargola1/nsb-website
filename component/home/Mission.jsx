@@ -43,36 +43,48 @@ const Mission = () => {
                             data-bs-parent="#accordionExampleOne"
                           >
                             <div className="accordion-body">
+                              <p>
+                                NSB’s vision and mission are inspired by NEARS’s
+                                sagacity infused by its founders.
+                              </p>
                               <div className="rs-overview-desc-wrapper">
                                 <p>
-                                  NSB’s vision and mission are inspired by
-                                  NEARS’s sagacity infused by its founders. NSB
-                                  accordingly envisions a society that is
+                                  NSB accordingly envisions a society that is
                                   knowledge and skill empowered on all aspects
-                                  of production and use of energy to secure a
-                                  sustainable future for humanity. The School’s
-                                  mission is to build capacities of all
-                                  concerned stakeholders to design, implement
-                                  and secure integrated benefits of energy –
-                                  centric development. Academic, research and
-                                  technical support for policies, plans,
-                                  programmes and projects will be the mainstays
-                                  of interventions on all thrust areas at the
-                                  interface of energy and development. Some
-                                  important thrust areas include business models
-                                  to define and propel transitions, mechanisms
-                                  to internalize externalities, regulations,
-                                  market and institutional mechanisms. The
-                                  School takes note also of such emerging areas
-                                  of management as geopolitics and the dynamics
-                                  of transitions that will also ensure equity
-                                  and nature stewardship.
+                                  of production and use of energy to propel
+                                  development that can be sustained.
+                                </p>
+                              </div>
+                              <div className="rs-overview-desc-wrapper">
+                                <p>
+                                  The School’s mission is to build capacities of
+                                  all concerned stakeholders to implement
+                                  strategies that secure integrated benefits of
+                                  energy – centric development.
+                                  <div className="rs-overview-desc-wrapper">
+                                    <p>
+                                      Academic, research and technical support
+                                      for policies, plans, programmes and
+                                      projects will be the mainstays of
+                                      interventions at the interface of energy,
+                                      transitions and development.
+                                    </p>
+                                  </div>
+                                  <div className="rs-overview-desc-wrapper">
+                                    <p>
+                                      Some important thrust areas include
+                                      technology and people centric business
+                                      models, equity, nature stewardship,
+                                      geopolitics, regulations, market and
+                                      institutional mechanisms to internalize
+                                      externalities.
+                                    </p>
+                                  </div>
                                 </p>
                               </div>
                             </div>
                           </div>
                         </div>
-                
                       </div>
                     </div>
                   </div>

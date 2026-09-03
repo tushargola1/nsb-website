@@ -54,6 +54,12 @@ export default function Footer() {
                         <a href="mailto:contact@nsb.ac.in">contact@nsb.ac.in</a>
                       </div>
                     </div>
+                     <div className="rs-footer-content-item">
+                        <span>Email for Document Verification:</span>
+                        <a href="mailto:coe@nsb.ac.in">
+                          coe@nsb.ac.in
+                        </a>
+                      </div>
                   </div>
                 </div>
               </div>

@@ -1,18 +1,21 @@
 export const allEventsData = [
   {
     id: 1,
-    date: "2026-08-05",
+    date: "2026-08-18",
+    fullData: "18 - 22 August 2026",
     title: "Policy and Regulatory Aspects of Electricity Distribution",
-    location: "Online",
+    location: "Offline",
     category: "Program",
     color: "#3b82f6",
     time: "All Day",
+    //  url:"dd"
   },
   {
     id: 2,
     date: "2026-09-09",
+    fullData: "09 - 11 September 2026",
     title: "Policy and Regulatory Aspects of Electricity Distribution",
-    location: "Online",
+    location: "Offline",
     category: "Program",
     color: "#10b981",
     time: "All Day",
@@ -20,8 +23,9 @@ export const allEventsData = [
   {
     id: 3,
     date: "2026-09-23",
+    fullData: "23 - 25 September 2026",
     title: "Policy and Regulatory Aspects of Electricity Distribution",
-    location: "Online",
+    location: "Offline",
     category: "Program",
     color: "#f59e0b",
     time: "All Day",
@@ -29,8 +33,9 @@ export const allEventsData = [
   {
     id: 4,
     date: "2026-10-12",
+    fullData: "12 - 14 October 2026",
     title: "Policy and Regulatory Aspects of Electricity Distribution",
-    location: "Online",
+    location: "Offline",
     category: "Program",
     color: "#8b5cf6",
     time: "All Day",
@@ -38,8 +43,9 @@ export const allEventsData = [
   {
     id: 5,
     date: "2026-10-28",
+    fullData: "28 - 30 October 2026",
     title: "Policy and Regulatory Aspects of Electricity Distribution",
-    location: "Online",
+    location: "Offline",
     category: "Program",
     color: "#ef4444",
     time: "All Day",
@@ -47,8 +53,9 @@ export const allEventsData = [
   {
     id: 6,
     date: "2026-11-02",
+    fullData: "02 - 04 November 2026",
     title: "Policy and Regulatory Aspects of Electricity Distribution",
-    location: "Online",
+    location: "Offline",
     category: "Program",
     color: "#06b6d4",
     time: "All Day",
@@ -56,8 +63,9 @@ export const allEventsData = [
   {
     id: 7,
     date: "2026-11-25",
+    fullData: "25 - 27 November 2026",
     title: "Policy and Regulatory Aspects of Electricity Distribution",
-    location: "Online",
+    location: "Offline",
     category: "Program",
     color: "#84cc16",
     time: "All Day",
@@ -65,8 +73,9 @@ export const allEventsData = [
   {
     id: 8,
     date: "2026-12-01",
+    fullData: "01 - 03 December 2026",
     title: "Policy and Regulatory Aspects of Electricity Distribution",
-    location: "Online",
+    location: "Offline",
     category: "Program",
     color: "#f97316",
     time: "All Day",
@@ -74,8 +83,9 @@ export const allEventsData = [
   {
     id: 9,
     date: "2026-12-08",
+    fullData: "08 - 10 December 2026",
     title: "Policy and Regulatory Aspects of Electricity Distribution",
-    location: "Online",
+    location: "Offline",
     category: "Program",
     color: "#6366f1",
     time: "All Day",
@@ -83,8 +93,9 @@ export const allEventsData = [
   {
     id: 10,
     date: "2026-12-15",
+    fullData: "15 - 17 December 2026",
     title: "Policy and Regulatory Aspects of Electricity Distribution",
-    location: "Online",
+    location: "Offline",
     category: "Program",
     color: "#14b8a6",
     time: "All Day",
@@ -92,8 +103,9 @@ export const allEventsData = [
   {
     id: 11,
     date: "2027-01-06",
+    fullData: "06 - 08 January 2026",
     title: "Policy and Regulatory Aspects of Electricity Distribution",
-    location: "Online",
+    location: "Offline",
     category: "Program",
     color: "#ec4899",
     time: "All Day",
@@ -101,8 +113,10 @@ export const allEventsData = [
   {
     id: 12,
     date: "2027-01-11",
+    fullData: "11 - 13 January 2026",
+
     title: "Policy and Regulatory Aspects of Electricity Distribution",
-    location: "Online",
+    location: "Offline",
     category: "Program",
     color: "#0ea5e9",
     time: "All Day",
@@ -110,8 +124,10 @@ export const allEventsData = [
   {
     id: 13,
     date: "2027-01-20",
+    fullData: "20 - 22 January 2026",
+
     title: "Policy and Regulatory Aspects of Electricity Distribution",
-    location: "Online",
+    location: "Offline",
     category: "Program",
     color: "#22c55e",
     time: "All Day",
@@ -119,8 +135,10 @@ export const allEventsData = [
   {
     id: 14,
     date: "2027-02-03",
+    fullData: "03 - 05 Feburary 2026",
+
     title: "Policy and Regulatory Aspects of Electricity Distribution",
-    location: "Online",
+    location: "Offline",
     category: "Program",
     color: "#eab308",
     time: "All Day",
@@ -128,8 +146,10 @@ export const allEventsData = [
   {
     id: 15,
     date: "2027-02-10",
+    fullData: "10 - 12 Feburary 2026",
+
     title: "Policy and Regulatory Aspects of Electricity Distribution",
-    location: "Online",
+    location: "Offline",
     category: "Program",
     color: "#a855f7",
     time: "All Day",
@@ -137,8 +157,10 @@ export const allEventsData = [
   {
     id: 16,
     date: "2027-02-24",
+    fullData: "24 - 26 Feburary 2026",
+
     title: "Policy and Regulatory Aspects of Electricity Distribution",
-    location: "Online",
+    location: "Offline",
     category: "Program",
     color: "#f43f5e",
     time: "All Day",
@@ -146,8 +168,10 @@ export const allEventsData = [
   {
     id: 17,
     date: "2027-03-03",
+    fullData: "03 - 05 March 2026",
+
     title: "Policy and Regulatory Aspects of Electricity Distribution",
-    location: "Online",
+    location: "Offline",
     category: "Program",
     color: "#3b82f6",
     time: "All Day",
@@ -155,8 +179,10 @@ export const allEventsData = [
   {
     id: 18,
     date: "2027-03-10",
+    fullData: "10 - 12 March 2026",
+
     title: "Policy and Regulatory Aspects of Electricity Distribution",
-    location: "Online",
+    location: "Offline",
     category: "Program",
     color: "#10b981",
     time: "All Day",
@@ -164,8 +190,10 @@ export const allEventsData = [
   {
     id: 19,
     date: "2027-03-15",
+    fullData: "15 - 17 March 2026",
+
     title: "Policy and Regulatory Aspects of Electricity Distribution",
-    location: "Online",
+    location: "Offline",
     category: "Program",
     color: "#f59e0b",
     time: "All Day",
@@ -173,8 +201,10 @@ export const allEventsData = [
   {
     id: 20,
     date: "2027-03-22",
+    fullData: "22 - 24 March 2026",
+
     title: "Policy and Regulatory Aspects of Electricity Distribution",
-    location: "Online",
+    location: "Offline",
     category: "Program",
     color: "#8b5cf6",
     time: "All Day",

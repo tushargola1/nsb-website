@@ -8,18 +8,18 @@ import LogoCarousel from "@/component/common/logoCarousel/LogoCarousel";
 
 export default function FacultyMembersPage() {
   const categories = [
-    "PGDM (EM) BATCH 3 - SESSION 2020 - 2022",
-    "PGDM (EM) BATCH 4 - SESSION 2021 - 2023",
-    "PGDM (E) BATCH 7 - SESSION 2021 - 2022",
+    "PGDM (E) BATCH 10 - SESSION 2026 - 2027",
+       "PGDM (EM) BATCH 8 - SESSION 2027 - 2029",
+    "PGDM (EM) BATCH 7 - SESSION 2024 - 2026",
   ];
 
   const [activeCategory, setActiveCategory] = useState(categories[0]);
 
   const filteredData =
     activeCategory === categories[0]
-      ? AcademicCalendarData.batch3
+      ? AcademicCalendarData.batch10
       : activeCategory === categories[1]
-        ? AcademicCalendarData.batch4
+        ? AcademicCalendarData.batch8
         : AcademicCalendarData.batch7;
 
   return (

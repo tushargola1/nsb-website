@@ -1,5 +1,5 @@
 // app/faculty/[slug]/page.jsx
-
+import { Fragment } from "react";
 import facultyData from "@/component/data/facultyData";
 import styles from "./faculty_detail.module.css";
 import Link from "next/link";
@@ -72,8 +72,48 @@ function isUrl(str) {
 }
 
 function renderPublicationValue(value) {
+  const renderTextWithLinks = (text) => {
+    if (typeof text !== "string") return text;
+
+    // Detect http://, https:// and www. URLs
+    const urlRegex = /(https?:\/\/[^\s]+|www\.[^\s]+)/g;
+
+    const parts = text.split(urlRegex);
+
+    return parts.map((part, index) => {
+      if (/^(https?:\/\/|www\.)/.test(part)) {
+        const href = part.startsWith("www.")
+          ? `https://${part}`
+          : part;
+
+        // Remove punctuation from the end of URL
+        const match = href.match(/^(.+?)([.,;:)\]}]+)?$/);
+
+        const cleanUrl = match ? match[1] : href;
+        const punctuation = match?.[2] || "";
+
+        return (
+          <Fragment key={index}>
+            <a
+              href={cleanUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.pubLink}
+            >
+              {cleanUrl}
+            </a>
+            {punctuation}
+          </Fragment>
+        );
+      }
+
+      return <Fragment key={index}>{part}</Fragment>;
+    });
+  };
+
   if (Array.isArray(value)) {
     if (value.length === 0) return null;
+
     return (
       <ul className={styles.pubList}>
         {value.map((item, i) => (
@@ -92,6 +132,7 @@ function renderPublicationValue(value) {
                 stroke="currentColor"
                 strokeWidth="1.5"
               />
+
               <path
                 d="M8 12.5l2.5 2.5L16 9"
                 fill="none"
@@ -101,10 +142,13 @@ function renderPublicationValue(value) {
                 strokeLinejoin="round"
               />
             </svg>
+
             <span className={styles.pubListText}>
               {typeof item === "string" || typeof item === "number"
-                ? item
-                : Object.values(item).filter(Boolean).join(" – ")}
+                ? renderTextWithLinks(String(item))
+                : Object.values(item)
+                    .filter(Boolean)
+                    .map((val) => renderTextWithLinks(String(val)))}
             </span>
           </li>
         ))}
@@ -113,19 +157,7 @@ function renderPublicationValue(value) {
   }
 
   if (typeof value === "string" && value) {
-    if (isUrl(value)) {
-      return (
-        <a
-          href={value}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.pubLink}
-        >
-          {value}
-        </a>
-      );
-    }
-    return <p className={styles.pubText}>{value}</p>;
+    return <p className={styles.pubText}>{renderTextWithLinks(value)}</p>;
   }
 
   return null;
@@ -313,7 +345,7 @@ export default async function FacultyDetailPage({ params }) {
                             {member.contact.website}
                           </a>
                         )}
-                      </div>
+                      </div>  
                     </div>
                   )}
 

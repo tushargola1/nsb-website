@@ -11,7 +11,7 @@ import SwiperEventCard from "@/component/Cards/SwiperEventCard";
 const page = () => {
   return (
     <div>
-      <Breadcrump currentPage="Executive education" parentPage="Education" />
+      <Breadcrump currentPage="Executive Education" parentPage="Executive Education" />
       <section className="rs-postbox-area section-space-top">
         <section className="rs-scholarships-area rs-scholarships-three">
           <div className="container">

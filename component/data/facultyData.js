@@ -151,7 +151,7 @@ const facultyData = [
       ],
     },
   },
- {
+  {
     slug: "dr-abhinav-jindal",
     name: "Dr. Abhinav Jindal",
     designation: "Professor",
@@ -162,7 +162,9 @@ const facultyData = [
       "Dr. Abhinav Jindal is a Professor of Economics with specialisation in Energy Economics. He has a PhD in Economics from IIM Indore with Bachelor's Degree in Mechanical Engineering.  ",
 
     areasOfResearch: {
-      areas: ["Energy Economics, Efficiancy and Productivity analysis, Energy policy, Energy Finance, & Transition Finance"],
+      areas: [
+        "Energy Economics, Efficiancy and Productivity analysis, Energy policy, Energy Finance, & Transition Finance",
+      ],
     },
 
     contact: {
@@ -351,63 +353,6 @@ const facultyData = [
       internationalConferences: [
         "Bhatt, B. (2011). Institutional Change and Technology Adoption in the Electricity Distribution Networks of Andhra Pradesh (India). Annual Conference on Competition and Regulation in Network Industries, 2011, Brussels, Belgium",
         "Bhatt, B. (2010). Energy Efficiency in Ground Water Irrigation Systems of Andhra Pradesh: Need of Institutional Analysis. In Proceedings of the Young Researchers' Symposium 'Future Megacities in Balance', 9-10 October 2010, Essen, Germany, DAAD (ed.): Vol. 66 'Dokumentationen & Materialien', pp. 169-174",
-      ],
-    },
-  },
-
-  {
-    slug: "Prashant_Jha",
-    name: "Dr. Prashant Jha",
-    designation: "Assistant Professor",
-    category: "NSB Faculty",
-    image:
-      "../assets/images/faculty/faculty-details/NSB Faculty/Prashant Jha.jpg",
-
-    summary:
-      'Dr. Prashant Jha has been employed at NTPC School of Business as an Assistant Professor since November 2023. Prior to this position, he served as an Assistant Professor at BIT Mesra, UPES Dehradun and NIT Sikkim for a total of more than three years. His teaching experience encompasses mathematics and statistics courses offered to B.Tech, B.Sc., M.Tech, M.Sc., Int. M.Sc., and Ph.D. students at BIT Mesra, NIT Sikkim, and UPES. Additionally, during his tenure at NIT Sikkim, he successfully organized an international conference called CONIAPS 27, focused on Statistics and Operations Research. He has worked under Prof. Shalabh (IIT Kanpur) in several NPTEL courses. He received his Ph.D. degree from IIT Kanpur on "New inferential toolkits for non-parametric regression" under the supervision of Prof. Subhra Sankar Dhar and Prof. Md. Arshad Rahman.',
-
-    academicAffiliation: [
-      "Assistant Professor – NTPC School of Business",
-      "Assistant Professor – BIT Mesra, Ranchi",
-      "Assistant Professor – UPES Dehradun",
-      "Assistant Professor (Temporary) – NIT Sikkim",
-    ],
-
-    education: [
-      { degree: "Ph.D. (Statistics)", institution: "IIT Kanpur", year: "2020" },
-      { degree: "M.Sc. Mathematics", institution: "IIT Kanpur", year: "2013" },
-      { degree: "NBHM (Ph.D. Fellowship)", institution: "", year: "2013" },
-      { degree: "CSIR NET", institution: "", year: "2013" },
-      { degree: "GATE", institution: "", year: "2013" },
-      {
-        degree: "B.Sc. (H) Mathematics",
-        institution: "University of Delhi",
-        year: "",
-      },
-    ],
-
-    areasOfResearch: {
-      areas: ["Nonparametric Regression"],
-    },
-
-    teaching: [
-      "Quantitative Techniques",
-      "Data Science",
-      "Research Methodology",
-    ],
-
-    contact: {
-      website: "https://www.nsb.ac.in",
-      email: "prashant.jha@nsb.ac.in",
-    },
-    publications: {
-      bookChapters: [
-        "Shalabh, Dhar, S. S., Chakraborty, C., and Jha, P. (2024). Goodness of Fit Based and Variable Selection in Non-parametric Measurement Error Model. Statistical Modeling and Applications on Real-Time Problems: Unraveling Insights through Advanced Analytical Techniques. CRC Press; Taylor and Francis (Edited by: Chandra Shekhar and Raghaw Raman Sinha)",
-        "Dhar, S. S., Shalabh, Jha, P., and Acharyya, A. (2023). Variable Selection in Multiple Nonparametric Regression Modelling. Advanced Mathematical Techniques Applicable in Computational and Intelligent Systems, ISBN 9781032398662. CRC Press; Taylor and Francis (Edited by: Sandeep Singh, Aliakbar Montazer Haghighi, Sandeep Dalal)",
-      ],
-
-      journals: [
-        "Dhar, S. S., Jha, P. and Rakshit, P. (2022). The Trimmed Mean in Non-parametric Regression Function Estimation. Theory of Probability and Mathematical Statistics, 107(2022), pp. 133-158. DOI: https://doi.org/10.1090/tpms/1174",
       ],
     },
   },
@@ -667,6 +612,62 @@ const facultyData = [
     },
   },
   {
+    slug: "Prashant_Jha",
+    name: "Dr. Prashant Jha",
+    designation: "Assistant Professor",
+    category: "NSB Faculty",
+    image:
+      "../assets/images/faculty/faculty-details/NSB Faculty/Prashant Jha.jpg",
+
+    summary:
+      'Dr. Prashant Jha has been employed at NTPC School of Business as an Assistant Professor since November 2023. Prior to this position, he served as an Assistant Professor at BIT Mesra, UPES Dehradun and NIT Sikkim for a total of more than three years. His teaching experience encompasses mathematics and statistics courses offered to B.Tech, B.Sc., M.Tech, M.Sc., Int. M.Sc., and Ph.D. students at BIT Mesra, NIT Sikkim, and UPES. Additionally, during his tenure at NIT Sikkim, he successfully organized an international conference called CONIAPS 27, focused on Statistics and Operations Research. He has worked under Prof. Shalabh (IIT Kanpur) in several NPTEL courses. He received his Ph.D. degree from IIT Kanpur on "New inferential toolkits for non-parametric regression" under the supervision of Prof. Subhra Sankar Dhar and Prof. Md. Arshad Rahman.',
+
+    academicAffiliation: [
+      "Assistant Professor – NTPC School of Business",
+      "Assistant Professor – BIT Mesra, Ranchi",
+      "Assistant Professor – UPES Dehradun",
+      "Assistant Professor (Temporary) – NIT Sikkim",
+    ],
+
+    education: [
+      { degree: "Ph.D. (Statistics)", institution: "IIT Kanpur", year: "2020" },
+      { degree: "M.Sc. Mathematics", institution: "IIT Kanpur", year: "2013" },
+      { degree: "NBHM (Ph.D. Fellowship)", institution: "", year: "2013" },
+      { degree: "CSIR NET", institution: "", year: "2013" },
+      { degree: "GATE", institution: "", year: "2013" },
+      {
+        degree: "B.Sc. (H) Mathematics",
+        institution: "University of Delhi",
+        year: "",
+      },
+    ],
+
+    areasOfResearch: {
+      areas: ["Nonparametric Regression"],
+    },
+
+    teaching: [
+      "Quantitative Techniques",
+      "Data Science",
+      "Research Methodology",
+    ],
+
+    contact: {
+      website: "https://www.nsb.ac.in",
+      email: "prashant.jha@nsb.ac.in",
+    },
+    publications: {
+      bookChapters: [
+        "Shalabh, Dhar, S. S., Chakraborty, C., and Jha, P. (2024). Goodness of Fit Based and Variable Selection in Non-parametric Measurement Error Model. Statistical Modeling and Applications on Real-Time Problems: Unraveling Insights through Advanced Analytical Techniques. CRC Press; Taylor and Francis (Edited by: Chandra Shekhar and Raghaw Raman Sinha)",
+        "Dhar, S. S., Shalabh, Jha, P., and Acharyya, A. (2023). Variable Selection in Multiple Nonparametric Regression Modelling. Advanced Mathematical Techniques Applicable in Computational and Intelligent Systems, ISBN 9781032398662. CRC Press; Taylor and Francis (Edited by: Sandeep Singh, Aliakbar Montazer Haghighi, Sandeep Dalal)",
+      ],
+
+      journals: [
+        "Dhar, S. S., Jha, P. and Rakshit, P. (2022). The Trimmed Mean in Non-parametric Regression Function Estimation. Theory of Probability and Mathematical Statistics, 107(2022), pp. 133-158. DOI: https://doi.org/10.1090/tpms/1174",
+      ],
+    },
+  },
+  {
     slug: "Dr-KSB",
     name: "Prof. K. S. Bandyopadhyay",
     designation: "Visiting Faculty",
@@ -687,18 +688,18 @@ const facultyData = [
       phone: "(91) 9650990833",
     },
   },
-  // {
-  //   slug: "Dr-santosh-behera",
-  //   name: "Dr Santosh K Behera",
-  //   designation: "Faculty",
-  //   category: "Visiting Faculty",
-  //   image: "../assets/images/faculty/faculty-details/NSB Faculty/Dr-KSB.png",
+  {
+    slug: "Dr-santosh-behera",
+    name: "Dr Santosh K Behera",
+    designation: "Visiting Faculty",
+    category: "Visiting Faculty",
+    image: "../assets/images/faculty/faculty-details/Visiting Faculty/santosh.png",
 
-  //   contact: {
-  //     website: "https://www.nsb.ac.in",
-  //     email: "santosh.behera@nsb.ac.in",
-  //   },
-  // },
+    contact: {
+      website: "https://www.nsb.ac.in",
+      email: "santosh.behera@nsb.ac.in",
+    },
+  },
   {
     slug: "sanjay-verma",
     name: "Sanjay Verma",
@@ -1729,7 +1730,7 @@ const facultyData = [
       phone: "",
     },
   },
- 
+
   {
     slug: "sanjay-kumar-kar",
     name: "Sanjay Kumar Kar",
@@ -1773,6 +1774,54 @@ const facultyData = [
     contact: {
       website: "https://www.nsb.ac.in",
       email: "cnareshsinha@gmail.com",
+      phone: "",
+    },
+  },
+  {
+    slug: "dr-bibhu-prasad-rath",
+    name: "Dr. Bibhu Prasad Rath",
+    designation: "Visiting Faculty",
+
+    category: "Visiting Faculty",
+    image:
+      "../assets/images/faculty/faculty-details/Visiting Faculty/bibhu.jpeg",
+    summary: "",
+
+    academicAffiliation: [],
+
+    consulting: [],
+
+    thoughts: "",
+
+    education: [
+        {
+        degree: "M.Tech,",
+        institution: "IIT Delhi",
+        year: "",
+      },
+        {
+        degree: "Ph.D.,",
+        institution: "AIMA-Aligarh Muslim University",
+        year: "",
+      },
+    
+    ],
+
+    professionalAffiliation: [],
+
+    teaching: [
+       "Project Financing & Capital Budgeting, Operations & Infrastructure Management, Sustainability & ESG",
+    ],
+
+    areasOfResearch: {
+  areas: [
+        "Sustainability, Climate Change, Leadership, and Decision-Makin",
+      ],
+  
+    },
+    contact: {
+      website: "https://www.nsb.ac.in",
+      email: "bprath65@gmail.com",
       phone: "",
     },
   },

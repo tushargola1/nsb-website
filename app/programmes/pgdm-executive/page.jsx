@@ -50,7 +50,7 @@ const page = () => {
                   <div className="rs-faq-content rs-accordion-two">
                     <div className="accordion-wrapper ">
                       <div className="accordion row" id="accordionExampleOne">
-                        <div className="rs-accordion-item col-lg-6 col-md-12 col-12">
+                        <div className="rs-accordion-item col-lg-12 col-md-12 col-12">
                           <h5 className="accordion-header" id="headingOne">
                             <button
                               className="accordion-button"
@@ -165,7 +165,7 @@ const page = () => {
                                     href="/admission"
                                     className="blue-color"
                                   >
-                                    here
+                                    Click here
                                   </Link>
                                 </p>
                                 <p className="">

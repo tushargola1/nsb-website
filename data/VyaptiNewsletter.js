@@ -177,4 +177,9 @@ export const VyaptiNewsletter = [
     name: "Vyapti Newsletter 2026; Vol 6 Issue-7",
     url: "https://drive.google.com/file/d/1t9EURN7DpKDxiEt8dbNF3ioMl9HQa92h/view?usp=sharing",
   },
+  {
+    id: 36,
+    name: "Vyapti Newsletter 2026; Vol 6 Issue-8",
+    url: "https://drive.google.com/file/d/1T5O-vnl30OYFRvXI0iPdO9ocUo4SERgK/view?usp=sharing",
+  },
 ];

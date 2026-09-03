@@ -64,6 +64,10 @@ const NAV_ITEMS = [
         label: "Centres of Excellence",
         href: "/research/centres-of-excellence",
       },
+      {
+        label: "Student Projects",
+        href: "/research/student-projects",
+      },
     ],
   },
   {
@@ -87,6 +91,10 @@ const NAV_ITEMS = [
 
 const IMPORTANT_LINKS = [
   {
+    label: "Administrative Staff",
+    href: "/administrative-staff",
+  },
+  {
     label: "Academic Calendar",
     href: "/academic-calendar",
   },
@@ -99,6 +107,10 @@ const IMPORTANT_LINKS = [
     href: "https://drive.google.com/drive/folders/1Hn4LY5Ex7u7BaqAKlp8icKJfz2Nfxip9?usp=sharing",
     redirectUrl:
       "https://drive.google.com/drive/folders/1Hn4LY5Ex7u7BaqAKlp8icKJfz2Nfxip9?usp=sharing",
+  },
+  {
+    label: "Institutional Committees",
+    href: "/institutional-committees",
   },
   {
     label: "SIP Guidelines (PGDM-EM)",
@@ -386,8 +398,8 @@ export default function Navbar() {
           <Link href="/" className="nsb-logo-wrap">
             <Image
               src="/assets/images/logo/nsblogo.webp"
-              width={200}
-              height={70}
+              width={250}
+              height={100}
               alt="NSB Logo"
               priority
             />
@@ -395,7 +407,7 @@ export default function Navbar() {
           <div className="nsb-logo-wrap nsb-logo-center">
             <Image
               src="/assets/images/logo/midlogo.jpg"
-              width={300}
+              width={200}
               height={70}
               alt="NSB Mid Logo"
               priority
