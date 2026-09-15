@@ -18,7 +18,9 @@ export const galleryData = {
     { src: "/assets/images/gallery/Event16.jpeg", title: "NSB wins 'Most promising B- School award'", description: "NSB wins award for 'Best B-School Award' at 'Education Leadership Award 2023' " },
   ],
   "MDP Programs": [
-    { src: "/assets/images/gallery/MDP1.webp", title: "Renewable Energy & Management Systems for Armed Forces Personnel", description: "" },
+    { src: "/assets/images/gallery/MDP26.jpeg", description: "NSB conducted a Capacity Building Programme during 9-11 Sept. 2026 on “Policy and Regulatory Aspects of Electricity Distribution” for executives of DISCOMs under the RDSS scheme of the MoP, GoI.", title: "NSB conducted Capacity Building Programme for DISCOM Officials during during 9-11 Sept. 2026" },
+    { src: "/assets/images/gallery/MDP1.jpeg", description: "NSB conducted a Capacity Building Programme during 18-20 Aug. 2026 on “Policy and Regulatory Aspects of Electricity Distribution” for executives of DISCOMs under the RDSS scheme of the MoP, GoI.", title: "NSB conducted Capacity Building Programme for DISCOM Officials during during 18-20 Aug. 2026" },
+    { src: "/assets/images/gallery/MDP1.webp", description: "Renewable Energy & Management Systems for Armed Forces Personnel", title: "Renewable Energy & Management Systems for Armed Forces Personnel" },
     { src: "/assets/images/gallery/MDP2.webp", title: "Socio-Economic Challenges", description: "NSB organized Employee Development Programme during 25-29 May, 2026 for the senior officials of Eskom & GSB South Africa." },
     { src: "/assets/images/gallery/MDP3.jpeg", title: "Project Management", description: "NSB organized International Program-cum-Field Visit on Project Management at Finland & Norway." },
     { src: "/assets/images/gallery/MDP4.jpg", title: "ITEC Training Programs for Power Professionals of Bhutan", description: "NSB has conducted 02 ITEC training programs for the Power Professionals of Bhutan. " },

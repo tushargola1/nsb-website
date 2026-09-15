@@ -95,12 +95,12 @@ const IMPORTANT_LINKS = [
     href: "/administrative-staff",
   },
   {
-    label: "Academic Calendar",
-    href: "/academic-calendar",
+    label: "Academic Calendar 2026",
+    href: "/academic-calendar-2026",
   },
   {
-    label: "Academic Holidays",
-    href: "/academic-holidays",
+    label: "Academic Holidays 2026",
+    href: "/academic-holidays-2026",
   },
   {
     label: "Programme Structure & Course Outlines",
@@ -161,10 +161,10 @@ const IMPORTANT_LINKS = [
       },
     ],
   },
-  {
-    label: "Mandatory Disclosures",
-    href: "/mandatory-disclosures",
-  },
+  // {
+  //   label: "Mandatory Disclosures",
+  //   href: "/mandatory-disclosures",
+  // },
   {
     label: "Disclosures",
     href: "/disclosures",
@@ -378,6 +378,9 @@ export default function Navbar() {
           </div>
           <div className="nsb-topbar-links fw-semibold">
             <TopDropdown />
+            <Link href="/mandatory-disclosures">
+             Mandatory Disclosures
+            </Link>
             <Link href="/learning-resource-centre">
               Learning Resource Centre
             </Link>

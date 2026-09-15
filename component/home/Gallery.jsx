@@ -3,7 +3,10 @@
 import { useState } from "react";
 import Image from "next/image";
 import Lightbox from "yet-another-react-lightbox";
+import Captions from "yet-another-react-lightbox/plugins/captions";
 import "yet-another-react-lightbox/styles.css";
+import "yet-another-react-lightbox/plugins/captions.css";
+
 import "./css/Gallary.css";
 import EventsCalendar from "../events-calendar/EventsCalendar";
 import { galleryData } from "@/component/data/galleryData";
@@ -84,9 +87,9 @@ export default function Gallery({ limit, showEvent }) {
                         <h4 className="rs-gallery-overlay-title">
                           {item.title}
                         </h4>
-                        <p className="rs-gallery-overlay-desc">
+                        {/* <p className="rs-gallery-overlay-desc">
                           {item.description}
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   </div>
@@ -131,16 +134,22 @@ export default function Gallery({ limit, showEvent }) {
         </div>
       </div>
 
-      <Lightbox
-        open={open}
-        close={() => setOpen(false)}
-        index={index}
-        slides={displayImages.map((item) => ({
-          src: item.image,
-          title: item.title,
-          description: item.description,
-        }))}
-      />
+   <Lightbox
+  open={open}
+  close={() => setOpen(false)}
+  index={index}
+  slides={displayImages.map((item) => ({
+    src: item.image,
+    title: item.title,
+    description: item.description,
+  }))}
+  plugins={[Captions]}
+  captions={{
+    showToggle: true,
+    descriptionTextAlign: "center",
+  }}
+/>
+
     </section>
   );
 }

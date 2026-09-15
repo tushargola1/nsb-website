@@ -175,7 +175,7 @@ const facultyData = [
   {
     slug: "alka-rai",
     name: "Dr. Alka Rai",
-    designation: "Assistant Professor (HR and OB)",
+    designation: "Assistant Professor",
     category: "NSB Faculty",
     image: "../assets/images/faculty/faculty-details/NSB Faculty/alka-rai.png",
 

@@ -25,6 +25,12 @@ export const HomeBannerData = [
     description: "",
   },
   {
+    id: 16,
+    src: "/assets/images/homebanner/9.jpeg",
+    title: "",
+    description: "",
+  },
+  {
     id: 13,
     src: "/assets/images/homebanner/6.jpeg",
     title: "",
