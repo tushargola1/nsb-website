@@ -64,7 +64,7 @@ export default function FacultyMembersPage() {
                               }}
                             >
                               {Array.isArray(project.title) ? (
-                                <ul className="mb-0 ps-3">
+                                <ul className="mb-0 ps-3" style={{ textAlign: "justify !important" }}>
                                   {project.title.map((item, i) => (
                                     <li key={i}>{item}</li>
                                   ))}
@@ -81,7 +81,7 @@ export default function FacultyMembersPage() {
                               }}
                             >
                               {Array.isArray(project.projectDetail) ? (
-                                <ul className="mb-0 ps-3">
+                                <ul className="mb-0 ps-3" style={{ textAlign: "justify !important" }}>
                                   {project.projectDetail.map((item, i) => (
                                     <li key={i}>{item}</li>
                                   ))}

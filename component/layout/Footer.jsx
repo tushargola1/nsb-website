@@ -82,7 +82,7 @@ export default function Footer() {
                           <Link href="/newsletter">NewsLetter</Link>
                         </li>
                         <li>
-                          <Link href="/campus-life">Careers</Link>
+                          <Link href="/career">Careers</Link>
                         </li>
                       </ul>
                     </div>

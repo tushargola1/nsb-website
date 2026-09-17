@@ -12,12 +12,12 @@ export const HomeBannerData = [
     title: "",
     description: "",
   },
-  {
-    id: 3,
-    src: "/assets/images/homebanner/3.png",
-    title: "",
-    description: "",
-  },
+  // {
+  //   id: 3,
+  //   src: "/assets/images/homebanner/3.png",
+  //   title: "",
+  //   description: "",
+  // },
   {
     id: 5,
     src: "/assets/images/homebanner/5.png",

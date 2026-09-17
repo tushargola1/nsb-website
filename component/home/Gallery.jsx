@@ -30,10 +30,25 @@ export default function Gallery({ limit, showEvent }) {
 
   const [index, setIndex] = useState(0);
   const tabs = ["All", "Events", "MDP Programs", "MOU", "Student Activities"];
-  const images =
-    activeTab === "All"
-      ? galleryDataMain
-      : galleryDataMain.filter((item) => item.category === activeTab);
+ const images =
+  activeTab === "All"
+    ? [
+        ...galleryDataMain.filter(
+          (item) => item.category === "MDP Programs"
+        ).slice(0, 2),
+
+        ...galleryDataMain.filter(
+          (item) => item.category === "Events"
+        ).slice(0, 2),
+
+        ...galleryDataMain.filter(
+          (item) =>
+            item.category !== "MDP Programs" &&
+            item.category !== "Events"
+        ),
+      ]
+    : galleryDataMain.filter((item) => item.category === activeTab);
+
 
   const displayImages = limit ? images.slice(0, limit) : images;
   return (

@@ -118,7 +118,7 @@ export default function StatsSection() {
                   />
                 </h2>
 
-                <p>{item.title}</p>
+                <p className="text-center">{item.title}</p>
               </div>
             </div>
           ))}

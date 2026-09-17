@@ -115,9 +115,9 @@ function renderPublicationValue(value) {
     if (value.length === 0) return null;
 
     return (
-      <ul className={styles.pubList}>
+      <ul className={styles.pubList} style={{ textAlign: "justify !important" }}>
         {value.map((item, i) => (
-          <li className={styles.pubListItem} key={i}>
+          <li className={styles.pubListItem} key={i} >
             <svg
               aria-hidden="true"
               className={styles.pubListIcon}
@@ -143,7 +143,7 @@ function renderPublicationValue(value) {
               />
             </svg>
 
-            <span className={styles.pubListText}>
+            <span className={styles.pubListText} >
               {typeof item === "string" || typeof item === "number"
                 ? renderTextWithLinks(String(item))
                 : Object.values(item)
@@ -183,8 +183,10 @@ function PublicationsSection({ publications }) {
         <div className={styles.pubGroup} key={key}>
           <h5 className={styles.pubGroupTitle}>{humanizeKey(key)}</h5>
           {renderPublicationValue(value)}
+          
         </div>
       ))}
+         
     </div>
   );
 }

@@ -47,6 +47,7 @@ const facultyData = [
     professionalAffiliation: [
       "Member, Inter Ministerial Empowered Steering Committee, Ministry of Environment, Forest & Climate Change, Government of India — on aspects of India's commitments to and compliance with the Montreal Protocol",
       "Member, Environmental Appraisal Committee for Mineral-based Industries for grant of environmental clearances, Ministry of Environment, Forest & Climate Change, Government of India",
+      
     ],
 
     teaching: [
@@ -77,9 +78,11 @@ const facultyData = [
       link: "https://nsb.ac.in/r-gopichandran/#",
 
       bookChapters: [
+        "Ramachandran, G., Subramani, M.K. (2026). Contours of Business Responsibility for Climate Protection: The Context of Montreal Protocol, the LRTAP and the Kunming-Montreal Global Biodiversity Framework. In: Vig, S., Pandey, A. (eds) Sustainable Management, Responsible Leadership, and Corporate Behaviour in the Age of Environmental Crisis. Responsible Leadership and Sustainable Management. Springer, Singapore. https://doi.org/10.1007/978-981-95-2717-5_13",
         "Behnassi, M., Ataur Rahman, M., D'Silva, J., Gopichandran, R., Gupta, H., Pollmann, O., and Ramachandran, N. (2020). Enhancing Resilience for Food and Nutrition Security within a Changing Climate. (Peer-reviewed, final stages of publication through Springer)",
         "Behnassi, M., Gupta, H., Ramachandran, N., Matsa, W., Gopichandran, R. and Ashfaq, M. (2020). Effectiveness of Disaster Risk Governance and Resilience Building: Linkages, Knowledge, Inclusiveness, and Regulation. (Peer-reviewed, final stages of publication through Springer)",
         "Gopichandran, R. (2020). Some Important Knowledge Gaps at the Interface of Chemical Ecology and Ecosystem Based Adaptation Planning: A Public Policy Perspective. NTPC School of Business, Noida, Uttar Pradesh, India. (Peer-reviewed, final stages of publication through Springer)",
+        
       ],
 
       researchInputsToGlobalReports: [
@@ -159,7 +162,7 @@ const facultyData = [
     category: "NSB Faculty",
     image: "/assets/images/faculty/abhinav.png",
     summary:
-      "Dr. Abhinav Jindal is a Professor of Economics with specialisation in Energy Economics. He has a PhD in Economics from IIM Indore with Bachelor's Degree in Mechanical Engineering.  ",
+      "Abhinav is a leading economist with over 22+ years energy/power industry experience and 50+ top-tier international publications including peer reviewed Journal Articles, Case studies, Book chapters and Reports in energy, economics, finance, environment and policy domain. He has written over 50+ OPEDs/Policy briefs which have featured in various popular media outlets in India and globally. His research focuses on Transition Finance, Coal Plants, Climate Risks-Transition and Physical risks, State Owned Enterprises (SoEs), Energy transition, Carbon Markets, Power Markets and Scaling Emerging Renewable Energy Technologies.",
 
     areasOfResearch: {
       areas: [

@@ -6,8 +6,8 @@ const page = () => {
   const governingBodyData = [
     {
       id: 1,
-      image: "/assets/images/faculty/rachana.png",
-      name: "Ms. Rachana Singh Bhal",
+      image: "/assets/images/faculty/premlata.jpeg",
+      name: "Ms. Premlata",
       position1: "Chairperson",
      
     },

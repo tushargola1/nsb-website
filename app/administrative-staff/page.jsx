@@ -158,7 +158,7 @@ const page = () => {
             {/* <div className="rs-team-wrapper"> */}
             {filteredFaculty.map((member) => (
               <div className="col-lg-3" key={member.slug}>
-                <TeamCard member={member} />
+                <TeamCard member={member} urlNeeded={false} />
               </div>
             ))}
 

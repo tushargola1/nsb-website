@@ -38,7 +38,7 @@ export default function HeroBanner() {
           clickable: true,
         }}
         autoplay={{
-          delay: 6000,
+          delay: 4500,
           disableOnInteraction: false,
           pauseOnMouseEnter: true,
         }}  
@@ -56,7 +56,7 @@ export default function HeroBanner() {
             spaceBetween: 0,
           },
           1200: {
-            slidesPerView: 5,
+            slidesPerView: 4,
             spaceBetween:5,
           },
         }}
