@@ -332,11 +332,11 @@ const page = () => {
                             Last Date to Apply for Registration and Application
                             form
                           </td>
-                          <td>Closing Soon</td>
+                          <td>Admission Closed</td>
                         </tr>
                         <tr>
                           <td>Commencement of Programme – PGDM (Executive)</td>
-                          <td>Will be declared soon</td>
+                          <td>3rd August 2026</td>
                         </tr>
                       </tbody>
                     </table>
@@ -351,9 +351,7 @@ const page = () => {
         <div className="container">
           <div className="row">
             <div className="col-xl-12">
-              <p className="rs-scholarships-description mb-3">
-                Exact dates will be communicated later.
-              </p>
+            
               <p className="rs-scholarships-description mb-3">
                 The programme commencement schedule (or any variation) will be
                 in accordance with AICTE guidelines.

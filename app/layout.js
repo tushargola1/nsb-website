@@ -51,7 +51,7 @@ export default function RootLayout({ children }) {
         <Preloader />
         <Navbar />
         <main>{children}</main>
-        <HomePopup />
+        {/* <HomePopup /> */}
 
         <WhatsappChat />
         <Footer />
