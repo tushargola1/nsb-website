@@ -27,10 +27,16 @@ const page = () => {
     },
     {
       id: 4,
-      image: "/assets/images/faculty/sunil.jpeg",
-      name: "Prof. Sunil Maheshwari",
+      image: "/assets/images/faculty/somnath.jpg",
+      name: "Prof. (Dr.) Som Nath Sachdeva",
       position: "Member",
     },
+    // {
+    //   id: 4,
+    //   image: "/assets/images/faculty/sunil.jpeg",
+    //   name: "Prof. Sunil Maheshwari",
+    //   position: "Member",
+    // },
     {
       id: 5,
       image: "/assets/images/faculty/faculty-details/NSB Faculty/R Gopichandran.webp",

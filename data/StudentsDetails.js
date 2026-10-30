@@ -232,4 +232,19 @@ export const studentsDetails = [
     about:
       "With a Civil Engineering background and over 16 years of experience in the construction of new projects and FGD systems, I am keenly looking forward to realigning my knowledge and competencies to the goal of sustainability in the power sector.",
   },
+  {
+    id: "29",
+    name: "Prudhviraj Potnuru",
+    designation: "Manager",
+    image: "/assets/images/students/31.png",
+    about:
+      "I’m Prudhviraj, Manager (Electrical Maintenance) at NTPC Kaniha, with experience in unit operations and in the maintenance of actuators and LT switchgear, along with procurement and contract administration.",
+  },
+  {
+    id: "30",
+    name: "Vimal Kumar",
+    designation: "Deputy General Manager",
+    image: "/assets/images/students/32.jpg",
+    about:"I am a Mechanical Engineer, with expertise in maintenance of Power Generation equipment and Material handling systems. I have    experience in Boiler Maintenance and Coal handling systems.",
+  },
 ];

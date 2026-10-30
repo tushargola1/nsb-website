@@ -86,9 +86,9 @@ const NAV_ITEMS = [
     ],
   },
   { label: "Admissions", href: "/admission" },
-  { label: "Contact", href: "/contact" },
+  { label: "Careers", href: "/career" },
 ];
-
+                          
 const IMPORTANT_LINKS = [
   {
     label: "Administrative Staff",
@@ -182,7 +182,7 @@ const IMPORTANT_LINKS = [
     href: "/student-feedback",
   },
   {
-    label: "Students Grievance Form",
+    label: "Grievance Form",
     href: "/grievance-redressal",
   },
   {
@@ -367,14 +367,13 @@ export default function Navbar() {
               <i className="fas fa-envelope me-2"></i>
               admission@nsb.ac.in
             </a>
-
-            <a
+            {/* <a
               href="mailto:contact@nsb.ac.in"
               className="contact-item fs-4 fw-semibold"
             >
               <i className="fas fa-envelope me-2"></i>
               contact@nsb.ac.in
-            </a>
+            </a> */}
           </div>
           <div className="nsb-topbar-links fw-semibold">
             <TopDropdown />
@@ -390,6 +389,11 @@ export default function Navbar() {
               target="_blank"
             >
               ERP Login
+            </Link>
+            <Link
+              href="/contact"
+            >
+              Contact
             </Link>
           </div>
         </div>

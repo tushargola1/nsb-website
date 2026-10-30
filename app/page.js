@@ -24,6 +24,7 @@ import Testimonials from "@/component/common/testimonials/Testimonials";
 export default function Home() {
   return (
     <>
+      {/* <Announcement /> */}
       <HeroBanner />
       <Announcement />
       {/* <Features /> */}

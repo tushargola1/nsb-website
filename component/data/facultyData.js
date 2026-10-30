@@ -794,37 +794,37 @@ const facultyData = [
     },
   },
 
-  {
-    slug: "sunil-maheshwari",
-    name: "Sunil Maheshwari",
-    designation: "Faculty",
-    category: "IIM-A Faculty",
-    image:
-      "../assets/images/faculty/faculty-details/IIM-A Faculty/Sunil Maheshwari.webp",
+  // {
+  //   slug: "sunil-maheshwari",
+  //   name: "Sunil Maheshwari",
+  //   designation: "Faculty",
+  //   category: "IIM-A Faculty",
+  //   image:
+  //     "../assets/images/faculty/faculty-details/IIM-A Faculty/Sunil Maheshwari.webp",
 
-    academicAffiliation: [
-      "Human Resource Management Area, IIM Ahmedabad",
-      "Business Policy Area, IIM Ahmedabad",
-      "Public System Group, IIM Ahmedabad",
-      "Centre for Management of Health Services (CMHS), IIM Ahmedabad",
-    ],
+  //   academicAffiliation: [
+  //     "Human Resource Management Area, IIM Ahmedabad",
+  //     "Business Policy Area, IIM Ahmedabad",
+  //     "Public System Group, IIM Ahmedabad",
+  //     "Centre for Management of Health Services (CMHS), IIM Ahmedabad",
+  //   ],
 
-    education: [
-      { degree: "Fellow", institution: "IIM Ahmedabad", year: "" },
-      { degree: "B. Tech.", institution: "IIT Delhi", year: "" },
-    ],
+  //   education: [
+  //     { degree: "Fellow", institution: "IIM Ahmedabad", year: "" },
+  //     { degree: "B. Tech.", institution: "IIT Delhi", year: "" },
+  //   ],
 
-    professionalAffiliation: [
-      "Member, Strategy Forum of India",
-      "Member, National HRD Network",
-    ],
+  //   professionalAffiliation: [
+  //     "Member, Strategy Forum of India",
+  //     "Member, National HRD Network",
+  //   ],
 
-    contact: {
-      website: "https://www.iima.ac.in",
-      email: "sunilm@iima.ac.in",
-      phone: "(91) 79-7152 4807",
-    },
-  },
+  //   contact: {
+  //     website: "https://www.iima.ac.in",
+  //     email: "sunilm@iima.ac.in",
+  //     phone: "(91) 79-7152 4807",
+  //   },
+  // },
   {
     slug: "arnab-laha",
     name: "Arnab Laha",

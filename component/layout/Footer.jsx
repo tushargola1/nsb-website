@@ -167,7 +167,7 @@ export default function Footer() {
                     <span className="rs-footer-social-title">Social Link:</span>
                     <div className="rs-footer-social theme-social has-radius-none has-medium hover-yellow has-theme-blue">
                       <a
-                        href="https://wa.me/919319888448"
+                        href="https://wa.me/919958880671"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
