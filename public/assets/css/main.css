@@ -22915,3 +22915,8 @@ height: 50px;
 p  {
     text-align: justify !important;
 }
+
+.missionLiContent1::after {
+    content: unset !important;
+
+}

@@ -32,7 +32,7 @@ export default function About() {
                       Dr. R Gopichandran
                     </h5>
                     <span className="rs-team-details-author-desig">
-                      Director, NTPC School Of Business
+                     Officiating Director, NTPC School Of Business
                     </span>
                   </div>
                 </div>
@@ -40,7 +40,7 @@ export default function About() {
                 {/* Right content */}
                 <div className="rs-team-details-content-wrapper">
                   <h3 className="rs-team-details-title">
-                 Director, NTPC School of Business
+                 Officiating Director, NTPC School of Business
                   </h3>
                   <p className="">
                     Dr. R Gopichandran’s work over 37 years has been on

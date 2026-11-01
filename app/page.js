@@ -20,11 +20,12 @@ import StatsSection from "@/component/home/StatsSection";
 import Placement from "@/component/home/Placement";
 import Recruiters from "@/component/common/recruiters/Recruiters";
 import Testimonials from "@/component/common/testimonials/Testimonials";
+import Announcement1 from "@/component/home/announcement/Announcement1";
 
 export default function Home() {
   return (
     <>
-      {/* <Announcement /> */}
+      <Announcement1 />
       <HeroBanner />
       <Announcement />
       {/* <Features /> */}

@@ -1,32 +1,32 @@
 "use client";
 
-import DownloadCard from "@/component/Cards/DownloadCard";
 import Breadcrump from "@/component/common/breadcrump/Breadcrump";
-import { useEffect, useState, useRef } from "react";
-const page = () => {
+import DownloadCard from "@/component/Cards/DownloadCard";
+
+const Career = () => {
   const careerOpportunities = [
     {
       id: 1,
       name: "NewsPaper Advertisement",
-      url: "",
+      url: "/assets/files/NSB_Director_QR.pdf",
     },
     {
       id: 2,
       name: "Detailed Advertisement",
-      url: "",
+      url: "/assets/files/NSB_Director_Recruitment_Advertisement.pdf",
     },
     {
       id: 3,
       name: "Application Form",
-      url: "",
+      url: "/assets/files/Application_Form_for_Director_NSB.pdf",
     },
   ];
 
   return (
     <div>
-      <Breadcrump currentPage={"Career"} parentPage={"Career"} />
+      <Breadcrump currentPage="Career" parentPage="Career" />
 
-      <section className="py-5 bg-light">
+      <section className="career-section py-5">
         <div className="container">
           <div className="section-space-bottom">
             <div className="section-title-wrapper">
@@ -34,15 +34,18 @@ const page = () => {
                 <h3
                   className="section-title has-theme-blue mb-20 ps-0"
                   id="governing-board-section"
-                  style={{ fontSize: "30px", fontWeight: "600" }}
+                  style={{
+                    fontSize: "30px",
+                    fontWeight: "600",
+                  }}
                 >
                   Advertisement for the post of Director, NSB
                 </h3>
               </div>
             </div>
           </div>
+
           <div className="row g-4 align-items-center justify-content-center">
-            {/* {stats.map((item, index) => ( */}
             <div className="col-lg-12 col-md-12">
               <div className="stat-card h-100 row g-4 align-items-center justify-content-center">
                 {careerOpportunities.map((item) => (
@@ -50,23 +53,25 @@ const page = () => {
                     className="col-xl-6 col-lg-6 col-md-6 col-12"
                     key={item.id}
                   >
-                    <DownloadCard item={item} />
+                    <DownloadCard
+                      item={item}
+                      enablePdfModal={true}
+                    />
                   </div>
                 ))}
               </div>
             </div>
-            {/* ))} */}
           </div>
         </div>
 
         <style jsx>{`
-          section {
+          .career-section {
             background: linear-gradient(135deg, #f8fbff, #eef5ff);
             position: relative;
             overflow: hidden;
           }
 
-          section:before {
+          .career-section:before {
             content: "";
             position: absolute;
             width: 300px;
@@ -75,18 +80,8 @@ const page = () => {
             background: rgba(13, 110, 253, 0.06);
             top: -100px;
             left: -80px;
+            pointer-events: none;
           }
-
-          // section:after {
-          //   content: "";
-          //   position: absolute;
-          //   width: 250px;
-          //   height: 250px;
-          //   border-radius: 50%;
-          //   background: rgba(102, 16, 242, 0.05);
-          //   bottom: -80px;
-          //   right: -70px;
-          // }
 
           .stat-card {
             position: relative;
@@ -146,64 +141,9 @@ const page = () => {
             transform: scaleX(1);
           }
 
-          .icon-box {
-            width: 88px;
-            height: 88px;
-            border-radius: 22px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 40px;
-            color: #fff;
-            margin: auto auto 28px;
-            box-shadow: 0 18px 35px rgba(0, 0, 0, 0.18);
-            transition: 0.45s;
-          }
-
-          .stat-card:hover .icon-box {
-            transform: rotate(-8deg) scale(1.08);
-          }
-
-          h2 {
-            margin-bottom: 10px;
-
-            letter-spacing: -2px;
-          }
-
-          p {
-            font-size: 17px;
-            color: #5b6572;
-            font-weight: 600;
-            margin: 0;
-          }
-
-          .stat-card .bg-number {
-            position: absolute;
-            right: 15px;
-            bottom: 0;
-            font-size: 90px;
-            font-weight: 900;
-            color: rgba(0, 0, 0, 0.03);
-            line-height: 1;
-            pointer-events: none;
-          }
           @media (max-width: 768px) {
             .stat-card {
               padding: 35px 20px;
-            }
-
-            .icon-box {
-              width: 75px;
-              height: 75px;
-              font-size: 34px;
-            }
-
-            h2 {
-              font-size: 42px;
-            }
-
-            p {
-              font-size: 16px;
             }
           }
         `}</style>
@@ -212,4 +152,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Career;

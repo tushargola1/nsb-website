@@ -15,7 +15,7 @@ const page = () => {
       <section className="rs-history-area section-space bg-primary">
         <div className="container">
           <div className="row g-4 align-items-center justify-content-center">
-            {VyaptiNewsletter.map((item) => (
+            {VyaptiNewsletter.reverse().map((item) => (
               <div
                 className="col-xl-6 col-lg-6 col-md-6 col-12"
                 key={item.id}

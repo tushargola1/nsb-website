@@ -87,6 +87,14 @@
     left: -32px;
 
 }
+.missionLiContent1::after{
+     content: "" !important;
+    position: absolute;
+    top: -15px;
+    font-size: 27px;
+    left: -32px;
+
+}
 .missionLiContent a {
   color: inherit;
   text-decoration: none;

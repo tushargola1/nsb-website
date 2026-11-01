@@ -1,7 +1,131 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
-
+import API_BASE_URL from "@/utils/api";
+import { useState } from "react";
 export default function Footer() {
+  const [quickEnquiry, setQuickEnquiry] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    program: "",
+  });
+
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [modal, setModal] = useState({
+    open: false,
+    success: false,
+    message: "",
+  });
+
+  const handleQuickEnquiryChange = (e) => {
+    const { name, value } = e.target;
+
+    let updatedValue = value;
+
+    if (name === "name") {
+      updatedValue = value.replace(/[^\p{L}\s]/gu, "");
+    }
+
+    if (name === "phone") {
+      updatedValue = value.replace(/\D/g, "").slice(0, 10);
+    }
+
+    setQuickEnquiry((prev) => ({
+      ...prev,
+      [name]: updatedValue,
+    }));
+  };
+
+  const handleQuickEnquirySubmit = async (e) => {
+    e.preventDefault();
+
+    const { name, email, phone, program } = quickEnquiry;
+
+    if (!name.trim() || !email.trim() || !phone || !program) {
+      setModal({
+        open: true,
+        success: false,
+        message: "Please fill in all the required fields.",
+      });
+      return;
+    }
+
+    if (!/^[\p{L}\s]+$/u.test(name.trim())) {
+      setModal({
+        open: true,
+        success: false,
+        message: "Name should contain only letters and spaces.",
+      });
+      return;
+    }
+
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim())) {
+      setModal({
+        open: true,
+        success: false,
+        message: "Please enter a valid email address.",
+      });
+      return;
+    }
+
+    if (!/^[0-9]{10}$/.test(phone)) {
+      setModal({
+        open: true,
+        success: false,
+        message: "Please enter a valid 10-digit mobile number.",
+      });
+      return;
+    }
+
+    setIsSubmitting(true);
+
+    try {
+      const response = await fetch(`${API_BASE_URL}/api/contact`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: name.trim(),
+          email: email.trim(),
+          phone,
+          subject: program,
+          message: `Quick enquiry submitted from the website footer. Interested Programme: ${program}`,
+          formType: "Enquiry Form",
+        }),
+      });
+
+      const result = await response.json();
+
+      if (!response.ok || !result.success) {
+        throw new Error(result.message || "Unable to submit your enquiry.");
+      }
+
+      setQuickEnquiry({
+        name: "",
+        email: "",
+        phone: "",
+        program: "",
+      });
+
+      setModal({
+        open: true,
+        success: true,
+        message:
+          "Your enquiry has been submitted successfully. Our team will contact you soon.",
+      });
+    } catch (error) {
+      setModal({
+        open: true,
+        success: false,
+        message:
+          error.message || "Something went wrong. Please try again later.",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
   return (
     <footer className="rs-footer-area rs-footer-one">
       <div className="container">
@@ -54,12 +178,10 @@ export default function Footer() {
                         <a href="mailto:contact@nsb.ac.in">contact@nsb.ac.in</a>
                       </div>
                     </div>
-                     <div className="rs-footer-content-item">
-                        <span>Email for Document Verification:</span>
-                        <a href="mailto:coe@nsb.ac.in">
-                          coe@nsb.ac.in
-                        </a>
-                      </div>
+                    <div className="rs-footer-content-item">
+                      <span>Email for Document Verification:</span>
+                      <a href="mailto:coe@nsb.ac.in">coe@nsb.ac.in</a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -70,13 +192,19 @@ export default function Footer() {
                     <div className="rs-footer-widget-link has-theme-yellow">
                       <ul>
                         <li>
-                          <Link href="/research/faculty-publications">Faculty Publications</Link>
+                          <Link href="/research/faculty-publications">
+                            Faculty Publications
+                          </Link>
                         </li>
                         <li>
-                          <Link href="/research/centres-of-excellence">Centres Of Excellence</Link>
+                          <Link href="/research/centres-of-excellence">
+                            Centres Of Excellence
+                          </Link>
                         </li>
                         <li>
-                          <Link href="/administrative-staff">Administrative Staff</Link>
+                          <Link href="/administrative-staff">
+                            Administrative Staff
+                          </Link>
                         </li>
                         <li>
                           <Link href="/newsletter">NewsLetter</Link>
@@ -92,53 +220,105 @@ export default function Footer() {
                     <div className="rs-footer-widget-link has-theme-yellow">
                       <ul>
                         <li>
-                          <Link href="/programmes/pgdm-energy-management">PGDM (Energy Management)</Link>
+                          <Link href="/programmes/pgdm-energy-management">
+                            PGDM (Energy Management)
+                          </Link>
                         </li>
                         <li>
-                          <Link href="/programmes/pgdm-executive">PGDM (Executive)</Link>
+                          <Link href="/programmes/pgdm-executive">
+                            PGDM (Executive)
+                          </Link>
                         </li>
                         <li>
-                          <Link href="/programmes/doctoral-phd">PGDM (Ph.D.)</Link>
+                          <Link href="/programmes/doctoral-phd">
+                            PGDM (Ph.D.)
+                          </Link>
                         </li>
                       </ul>
                     </div>
                   </div>
                   <div className="rs-footer-widget footer-1-col-4">
                     <h5 className="rs-footer-widget-title">Quick Enquiry</h5>
-                    <div className="rs-cta-input d-flex flex-column gap-3">
+
+                    <form
+                      onSubmit={handleQuickEnquirySubmit}
+                      className="rs-cta-input d-flex flex-column gap-3"
+                    >
                       <input
-                        id="name"
+                        id="footer-name"
                         name="name"
                         type="text"
                         placeholder="Enter your name"
+                        value={quickEnquiry.name}
+                        onChange={handleQuickEnquiryChange}
+                        maxLength={100}
+                        required
                       />
+
                       <input
-                        id="email2"
+                        id="footer-email"
                         name="email"
-                        type="text"
+                        type="email"
                         placeholder="Enter your email"
+                        value={quickEnquiry.email}
+                        onChange={handleQuickEnquiryChange}
+                        maxLength={150}
+                        required
                       />
+
                       <input
-                        id="number"
-                        name="number"
-                        type="number"
+                        id="footer-number"
+                        name="phone"
+                        type="tel"
                         placeholder="Enter your number"
+                        value={quickEnquiry.phone}
+                        onChange={handleQuickEnquiryChange}
+                        maxLength={10}
+                        inputMode="numeric"
+                        required
                       />
-                      <select name="program" id="program">
-                        <option value="Select Program">Select Program</option>
-                        <option value="PGDM (Energy Management)">PGDM (Energy Management)</option>
-                        <option value="PGDM (Executive)">PGDM (Executive)</option>
+
+                      <select
+                        name="program"
+                        id="footer-program"
+                        value={quickEnquiry.program}
+                        onChange={handleQuickEnquiryChange}
+                        required
+                      >
+                        <option value="">Select Program</option>
+                        <option value="PGDM (Energy Management)">
+                          PGDM (Energy Management)
+                        </option>
+                        <option value="PGDM (Executive)">
+                          PGDM (Executive)
+                        </option>
                         <option value="PHD">PHD</option>
                       </select>
-                      <div className="rs-program-btn text-center w-100">
+
+                      <div className="rs-program-btn text-center ">
                         <Link
-                          className="rs-btn has-icon has-theme-cyan hover-cyan"
-                          href=""
+                          href="#"
+                          className={`rs-btn has-icon has-theme-cyan hover-cyan w-100 ${
+                            isSubmitting ? "disabled" : ""
+                          }`}
+                          onClick={(e) => {
+                            e.preventDefault();
+
+                            if (!isSubmitting) {
+                              handleQuickEnquirySubmit(e);
+                            }
+                          }}
+                          aria-disabled={isSubmitting}
                         >
                           <span className="btn-text-wrap">
-                            <span className="text-default">Submit</span>
-                            <span className="text-hover">Submit</span>
+                            <span className="text-default">
+                              {isSubmitting ? "Submitting..." : "Submit"}
+                            </span>
+                            <span className="text-hover">
+                              {isSubmitting ? "Submitting..." : "Submit"}
+                            </span>
                           </span>
+
                           <span className="icon-box has-rotate">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -153,7 +333,7 @@ export default function Footer() {
                           </span>
                         </Link>
                       </div>
-                    </div>
+                    </form>
                   </div>
                 </div>
               </div>
@@ -205,8 +385,8 @@ export default function Footer() {
                   <div className="rs-footer-copyright-item">
                     <div className="rs-footer-copyright">
                       <p className="underline">
-                         © <span id="year">2026</span>NTPC School of Business (NSB). All Rights Reserved.
-
+                        © <span id="year">2026</span>NTPC School of Business
+                        (NSB). All Rights Reserved.
                       </p>
                     </div>
                   </div>

@@ -106,7 +106,7 @@ const page = () => {
               </p>
 
               <h5 className="rs-quote-author">
-                Prof. R. Gopichandran - Director, NTPC School of Business.
+                Prof. R. Gopichandran - Officiating Director, NTPC School of Business.
               </h5>
             </div>
           </div>
