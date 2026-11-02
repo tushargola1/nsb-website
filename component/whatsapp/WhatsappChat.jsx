@@ -116,8 +116,8 @@ export default function WhatsappChat() {
         <button className={styles.showChat} onClick={() => setIsOpen(true)}>
                
                                 <i className="fa-brands fa-whatsapp fs-2" style={{ color: "#4caf50" }}></i>
-
-          Chat with Us
+<span>
+          Chat with Us</span>
         </button>
       )}
     </>

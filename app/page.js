@@ -25,7 +25,7 @@ import Announcement1 from "@/component/home/announcement/Announcement1";
 export default function Home() {
   return (
     <>
-      <Announcement1 />
+      {/* <Announcement1 /> */}
       <HeroBanner />
       <Announcement />
       {/* <Features /> */}

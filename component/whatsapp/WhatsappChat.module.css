@@ -33,6 +33,14 @@
   cursor: pointer;
   box-shadow: 0 1px 15px rgba(32, 33, 36, 0.28);
 }
+@media (max-width: 480px) {
+  .showChat {
+  width: 40px;
+  }
+  .showChat span{
+    display: none;
+  }
+}
 
 
 .headerChat {
