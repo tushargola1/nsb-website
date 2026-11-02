@@ -28,7 +28,7 @@ const Career = () => {
     <div>
       <Breadcrump currentPage="Careers" parentPage="Careers" />
 
-      {/* <section className="career-section py-5">
+      <section className="career-section py-5">
         <div className="container">
           <div className="section-space-bottom">
             <div className="section-title-wrapper">
@@ -149,8 +149,8 @@ const Career = () => {
             }
           }
         `}</style>
-      </section> */}
-      <Maintenance/>
+      </section>
+      {/* <Maintenance/> */}
     </div>
   );
 };
