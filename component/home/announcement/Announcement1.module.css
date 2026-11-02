@@ -1,0 +1,68 @@
+.announce {
+  position: relative;
+  padding: 9px;
+  line-height: 2.3;
+  border: 1px solid rgb(231, 231, 231);
+  background: #fff;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.updateImg {
+  max-width: 44px;
+  height: auto;
+  z-index: 3;
+  flex-shrink: 0;
+}
+
+.rightImg {
+  transform: scaleX(-1);
+}
+
+.marquee {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  margin: 0 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.missionLiContent {
+  list-style: none;
+  color: var(--dark-blue);
+  font-weight: 700;
+}
+
+.missionLiContent a {
+  color: red;
+  text-decoration: none;
+}
+
+.track {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  white-space: nowrap;
+  padding: 0;
+  margin: 0;
+  animation: directorMarquee 12s linear infinite;
+}
+.track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes directorMarquee {
+  0% {
+    transform: translateX(0);
+  }
+
+  3% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}

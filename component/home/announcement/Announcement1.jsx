@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./Announcement.module.css";
+import styles from "./Announcement1.module.css";
 import Link from "next/link";
 
 const Announcement1 = () => {
@@ -13,23 +13,11 @@ const Announcement1 = () => {
         className={styles.updateImg}
       />
 
-      <div
-        className={styles.marquee}
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        <ul
-          className={styles.track}
-          style={{
-            animation: "unset !important",
-          }}
-        >
-          <li className={`${styles.missionLiContent} ${styles.missionLiContent1}`}>
-            <Link href="/careers" style={{ color: "red", textDecoration: "none" }}>
-             Advertisement for the post of Director, NSB
+      <div className={styles.marquee}>
+        <ul className={styles.track}>
+          <li className={styles.missionLiContent}>
+            <Link href="/careers">
+              Advertisement for the post of Director, NSB
             </Link>
           </li>
         </ul>
