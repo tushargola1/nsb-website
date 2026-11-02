@@ -28,7 +28,7 @@ const Announcement1 = () => {
           }}
         >
           <li className={`${styles.missionLiContent} ${styles.missionLiContent1}`}>
-            <Link href="/career" style={{ color: "red", textDecoration: "none" }}>
+            <Link href="/careers" style={{ color: "red", textDecoration: "none" }}>
              Advertisement for the post of Director, NSB
             </Link>
           </li>

@@ -9,7 +9,7 @@ const Career = () => {
     {
       id: 1,
       name: "Advertisement",
-      url: "/assets/files/NSB_Director_Recruitment_Advertisement.pdf",
+      url: "/assets/files/Newspaper-Adv.pdf",
     },
       {
       id: 2,
