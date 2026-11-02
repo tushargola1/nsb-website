@@ -5,6 +5,7 @@ const facultyData = [
     name: "Dr. R Gopichandran",
     designation: "Professor & Officiating Director NTPC School of Business",
     category: "NSB Faculty",
+    show:2,
     image:
       "../assets/images/faculty/faculty-details/NSB Faculty/R Gopichandran.webp",
 
@@ -91,6 +92,28 @@ const facultyData = [
       ],
     },
   },
+    {
+    slug: "dr-abhinav-jindal",
+    name: "Dr. Abhinav Jindal",
+    designation: "Professor",
+    show:2,
+
+    category: "NSB Faculty",
+    image: "/assets/images/faculty/abhinav.png",
+    summary:
+      "Abhinav is a leading economist with over 22+ years energy/power industry experience and 50+ top-tier international publications including peer reviewed Journal Articles, Case studies, Book chapters and Reports in energy, economics, finance, environment and policy domain. He has written over 50+ OPEDs/Policy briefs which have featured in various popular media outlets in India and globally. His research focuses on Transition Finance, Coal Plants, Climate Risks-Transition and Physical risks, State Owned Enterprises (SoEs), Energy transition, Carbon Markets, Power Markets and Scaling Emerging Renewable Energy Technologies.",
+
+    areasOfResearch: {
+      areas: [
+        "Energy Economics, Efficiancy and Productivity analysis, Energy policy, Energy Finance, & Transition Finance",
+      ],
+    },
+
+    contact: {
+      email: "abhinavjindal@ntpc.co.in",
+      phone: "(91) 9650994550",
+    },
+  },
   {
     slug: "ap-dash",
     name: "Dr. Ambika Prasad Dash",
@@ -154,27 +177,7 @@ const facultyData = [
       ],
     },
   },
-  {
-    slug: "dr-abhinav-jindal",
-    name: "Dr. Abhinav Jindal",
-    designation: "Professor",
 
-    category: "NSB Faculty",
-    image: "/assets/images/faculty/abhinav.png",
-    summary:
-      "Abhinav is a leading economist with over 22+ years energy/power industry experience and 50+ top-tier international publications including peer reviewed Journal Articles, Case studies, Book chapters and Reports in energy, economics, finance, environment and policy domain. He has written over 50+ OPEDs/Policy briefs which have featured in various popular media outlets in India and globally. His research focuses on Transition Finance, Coal Plants, Climate Risks-Transition and Physical risks, State Owned Enterprises (SoEs), Energy transition, Carbon Markets, Power Markets and Scaling Emerging Renewable Energy Technologies.",
-
-    areasOfResearch: {
-      areas: [
-        "Energy Economics, Efficiancy and Productivity analysis, Energy policy, Energy Finance, & Transition Finance",
-      ],
-    },
-
-    contact: {
-      email: "abhinavjindal@ntpc.co.in",
-      phone: "(91) 9650994550",
-    },
-  },
   {
     slug: "alka-rai",
     name: "Dr. Alka Rai",

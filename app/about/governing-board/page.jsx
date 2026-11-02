@@ -12,12 +12,7 @@ const page = () => {
       name: "Shri Gurdeep Singh",
       position: "President",
     },
-    {
-      id: 2,
-      image: "/assets/images/about/governingBoard/gauri.png",
-      name: "Dr Gauri Trivedi",
-      position: "Member",
-    },
+  
     
     {
       id: 3,
@@ -37,6 +32,12 @@ const page = () => {
     //   name: "Prof. Sunil Maheshwari",
     //   position: "Member",
     // },
+      {
+      id: 2,
+      image: "/assets/images/about/governingBoard/gauri.png",
+      name: "Dr Gauri Trivedi",
+      position: "Member",
+    },
     {
       id: 5,
       image: "/assets/images/faculty/faculty-details/NSB Faculty/R Gopichandran.webp",

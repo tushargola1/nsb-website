@@ -8,6 +8,7 @@ import Breadcrump from "@/component/common/breadcrump/Breadcrump";
 
 export default function FacultyMembersPage() {
   const [activeCategory, setActiveCategory] = useState("NSB Faculty");
+
   const categories = [
     "All",
     "NSB Faculty",
@@ -21,9 +22,21 @@ export default function FacultyMembersPage() {
       ? facultyData
       : facultyData.filter((member) => member.category === activeCategory);
 
+  // Apply special layout only for All and NSB Faculty
+  const useSpecialLayout = ["All", "NSB Faculty"].includes(activeCategory);
+
+  const specialFaculty = useSpecialLayout
+    ? filteredFaculty.filter((member) => member.show === 2)
+    : [];
+
+  const normalFaculty = useSpecialLayout
+    ? filteredFaculty.filter((member) => member.show !== 2)
+    : filteredFaculty;
+
   return (
     <main>
-      <Breadcrump currentPage={"Faculty Members"} parentPage={"Faculty"} />
+      <Breadcrump currentPage="Faculty Members" parentPage="Faculty" />
+
       <div className="mt-40 mb-40">
         <FacultyTabs
           activeCategory={activeCategory}
@@ -31,30 +44,41 @@ export default function FacultyMembersPage() {
           category={categories}
         />
       </div>
+
       {activeCategory === "IIM-A Faculty" && (
-        <>
-          <div className="container mb-30">
-            <div className="rs-team-content-info w-100 text-center">
-              <h4 className="rs-team-designation">
-                IIM-A Faculty Associted Extensively with NSB
-              </h4>
-            </div>
+        <div className="container mb-30">
+          <div className="rs-team-content-info w-100 text-center">
+            <h4 className="rs-team-designation">
+              IIM-A Faculty Associted Extensively with NSB
+            </h4>
           </div>
-        </>
+        </div>
       )}
-      {/* Team grid */}
+
+      {/* Team Grid */}
       <section className="rs-team-area section-space-bottom rs-team-one has-theme-blue">
         <div className="container">
-          <div className="row gy-4 align-items-center justify-content-center gap-5">
-            {/* <div className="rs-team-wrapper"> */}
-            {filteredFaculty.map((member) => (
-              <div className="col-lg-3" key={member.slug}>
-                <TeamCard member={member} urlNeeded={true} />
-              </div>
-            ))}
+          {/* Faculty with show: 2 */}
+          {specialFaculty.length > 0 && (
+            <div className="row gy-4 align-items-center justify-content-center gap-5 mb-4">
+              {specialFaculty.map((member) => (
+                <div className="col-lg-3" key={member.slug}>
+                  <TeamCard member={member} urlNeeded={true} />
+                </div>
+              ))}
+            </div>
+          )}
 
-            {/* </div> */}
-          </div>
+          {/* Normal Faculty */}
+          {normalFaculty.length > 0 && (
+            <div className="row gy-4 align-items-center justify-content-center gap-5">
+              {normalFaculty.map((member) => (
+                <div className="col-lg-3" key={member.slug}>
+                  <TeamCard member={member} urlNeeded={true} />
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       </section>
     </main>

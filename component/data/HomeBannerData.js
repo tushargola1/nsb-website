@@ -25,8 +25,14 @@ export const HomeBannerData = [
     description: "",
   },
   {
-    id: 17,
-    src: "/assets/images/homebanner/10.jpg",
+    id: 20,
+    src: "/assets/images/homebanner/13.jpg",
+    title: "",
+    description: "",
+  },
+{
+    id: 19,
+    src: "/assets/images/homebanner/12.jpg",
     title: "",
     description: "",
   },
@@ -36,18 +42,15 @@ export const HomeBannerData = [
     title: "",
     description: "",
   },
+  
+  
   {
-    id: 19,
-    src: "/assets/images/homebanner/12.jpg",
+    id: 17,
+    src: "/assets/images/homebanner/10.jpg",
     title: "",
     description: "",
   },
-  {
-    id: 20,
-    src: "/assets/images/homebanner/13.jpg",
-    title: "",
-    description: "",
-  },
+
   {
     id: 16,
     src: "/assets/images/homebanner/9.jpeg",

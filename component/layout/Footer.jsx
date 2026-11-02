@@ -210,7 +210,7 @@ export default function Footer() {
                           <Link href="/newsletter">NewsLetter</Link>
                         </li>
                         <li>
-                          <Link href="/career">Careers</Link>
+                          <Link href="/careers">Careers</Link>
                         </li>
                       </ul>
                     </div>

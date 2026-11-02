@@ -24,7 +24,7 @@ const Career = () => {
 
   return (
     <div>
-      <Breadcrump currentPage="Career" parentPage="Career" />
+      <Breadcrump currentPage="Careers" parentPage="Careers" />
 
       <section className="career-section py-5">
         <div className="container">

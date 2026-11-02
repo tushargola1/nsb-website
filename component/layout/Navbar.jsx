@@ -11,7 +11,7 @@ const NAV_ITEMS = [
     label: "About Us",
     href: "/about-us",
     children: [
-      { label: "Director NSB", href: "/about/officiating-director-nsb" },
+      { label: "Officiating Director NSB", href: "/about/officiating-director-nsb" },
       { label: "Governing Board", href: "/about/governing-board" },
       { label: "Governance Committee", href: "/about/governance-committee" },
       { label: "NEARS", href: "/about/nears" },
@@ -23,7 +23,7 @@ const NAV_ITEMS = [
             label: "Message from CMD Desk",
             href: "/about/message-from-cmd-desk",
           },
-          { label: "Director's Message", href: "/about/director-message" },
+          { label: "Officiating Director's Message", href: "/about/officiating-director-message" },
         ],
       },
     ],
@@ -86,7 +86,7 @@ const NAV_ITEMS = [
     ],
   },
   { label: "Admissions", href: "/admission" },
-  { label: "Careers", href: "/career" },
+  { label: "Careers", href: "/careers" },
 ];
                           
 const IMPORTANT_LINKS = [
