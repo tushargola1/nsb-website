@@ -155,20 +155,14 @@ export default function ContactForm() {
         body: JSON.stringify({
           name: fullName,
           email: nsbEmail.trim(),
-          phone,
-          subject: `Grievance Redressal - Enrollment No: ${enrollmentNo.trim()}`,
-          message: `
-Grievance Redressal Submission
+          phone: phone.trim(),
 
-First Name: ${firstName.trim()}
-Last Name: ${lastName.trim()}
-NSB Email: ${nsbEmail.trim()}
-Phone: ${phone}
-Enrollment Number: ${enrollmentNo.trim()}
+          // Enrollment number is included in the subject
+          subject: `Enrollment No: ${enrollmentNo.trim()}`,
 
-Grievance:
-${grievance.trim()}
-          `,
+          // Only the actual grievance goes in the message
+          message: grievance.trim(),
+
           formType: "Grievance Form",
         }),
       });
@@ -232,11 +226,11 @@ ${grievance.trim()}
                     </h5>
                   </div>
 
-                    <form
-  id="grievance-redressal-form"
-  onSubmit={handleSubmit}
-  noValidate
->
+                  <form
+                    id="grievance-redressal-form"
+                    onSubmit={handleSubmit}
+                    noValidate
+                  >
                     <div className="row rs-gutter-24">
                       {/* First Name */}
                       <div className="col-md-6">

@@ -1,9 +1,9 @@
 export const Disclosures = [
-  {
-    id: 1,
-    name: "Approval Process 2021-22",
-    url: "https://drive.google.com/file/d/1nEIYiI-5eOSvNZ3b8FuwbUJVpnzeSM1m/view",
-  },
+  // {
+  //   id: 1,
+  //   name: "Approval Process 2021-22",
+  //   url: "https://drive.google.com/file/d/1nEIYiI-5eOSvNZ3b8FuwbUJVpnzeSM1m/view",
+  // },
   {
     id: 2,
     name: "Safety Guidelines",

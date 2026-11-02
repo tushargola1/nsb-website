@@ -8,19 +8,20 @@ const Career = () => {
   const careerOpportunities = [
     {
       id: 1,
-      name: "NewsPaper Advertisement",
-      url: "/assets/files/NSB_Director_QR.pdf",
-    },
-    {
-      id: 2,
-      name: "Detailed Advertisement",
+      name: "Advertisement",
       url: "/assets/files/NSB_Director_Recruitment_Advertisement.pdf",
     },
-    {
-      id: 3,
+      {
+      id: 2,
       name: "Application Form",
       url: "/assets/files/Application_Form_for_Director_NSB.pdf",
     },
+    {
+      id: 3,
+      name: "Qualifying Requirements",
+      url: "/assets/files/NSB_Director_QR.pdf",
+    },
+  
   ];
 
   return (

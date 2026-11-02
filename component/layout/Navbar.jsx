@@ -83,6 +83,7 @@ const NAV_ITEMS = [
         href: "/corporate-relations/guest-lecture-series",
       },
       { label: "Placements", href: "/corporate-relations/placements" },
+      { label: "Vyapti Newsletter", href: "/newsletter" },
     ],
   },
   { label: "Admissions", href: "/admission" },
