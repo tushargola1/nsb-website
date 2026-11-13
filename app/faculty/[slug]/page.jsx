@@ -5,6 +5,7 @@ import styles from "./faculty_detail.module.css";
 import Link from "next/link";
 import Breadcrump from "@/component/common/breadcrump/Breadcrump";
 import Image from "next/image";
+import PdfPreviewButton from "@/component/PdfPreviewButton";
 export async function generateStaticParams() {
   return facultyData.map((member) => ({ slug: member.slug }));
 }
@@ -13,11 +14,14 @@ const EXCLUDED_KEYS = [
   "slug",
   "name",
   "designation",
+  "designation1",
   "category",
   "image",
   "contact",
   "summary",
   "publications",
+  "show",
+  "cv",
 ];
 
 function humanizeKey(key) {
@@ -82,9 +86,7 @@ function renderPublicationValue(value) {
 
     return parts.map((part, index) => {
       if (/^(https?:\/\/|www\.)/.test(part)) {
-        const href = part.startsWith("www.")
-          ? `https://${part}`
-          : part;
+        const href = part.startsWith("www.") ? `https://${part}` : part;
 
         // Remove punctuation from the end of URL
         const match = href.match(/^(.+?)([.,;:)\]}]+)?$/);
@@ -115,9 +117,12 @@ function renderPublicationValue(value) {
     if (value.length === 0) return null;
 
     return (
-      <ul className={styles.pubList} style={{ textAlign: "justify !important" }}>
+      <ul
+        className={styles.pubList}
+        style={{ textAlign: "justify !important" }}
+      >
         {value.map((item, i) => (
-          <li className={styles.pubListItem} key={i} >
+          <li className={styles.pubListItem} key={i}>
             <svg
               aria-hidden="true"
               className={styles.pubListIcon}
@@ -143,7 +148,7 @@ function renderPublicationValue(value) {
               />
             </svg>
 
-            <span className={styles.pubListText} >
+            <span className={styles.pubListText}>
               {typeof item === "string" || typeof item === "number"
                 ? renderTextWithLinks(String(item))
                 : Object.values(item)
@@ -177,16 +182,15 @@ function PublicationsSection({ publications }) {
   if (entries.length === 0) return null;
 
   return (
-    <div className={styles.pubSection}>
+    // <div className={styles.pubSection}>
+    <div>
       <h3 className={styles.pubMainTitle}>Publications</h3>
       {entries.map(([key, value]) => (
         <div className={styles.pubGroup} key={key}>
           <h5 className={styles.pubGroupTitle}>{humanizeKey(key)}</h5>
           {renderPublicationValue(value)}
-          
         </div>
       ))}
-         
     </div>
   );
 }
@@ -254,7 +258,9 @@ export default async function FacultyDetailPage({ params }) {
                       {member.name}
                     </h5>
                     <span className="rs-team-details-author-desig">
-                      {member.designation}
+                      {slug === "dr-abhinav-jindal"
+                        ? member.designation1
+                        : member.designation}
                     </span>
                   </div>
                 </div>
@@ -269,10 +275,7 @@ export default async function FacultyDetailPage({ params }) {
                       <p className="rs-team-details-desc">{member.summary}</p>
                     </>
                   )}
-                  {/* Dynamic fields in the two-column info grid, divided every 2 fields.
-                      Inline styles override the site's default multi-column CSS on
-                      rs-team-details-info (column-count), which was making the divider
-                      only span partial width instead of the full row. */}
+
                   <div
                     className="rs-team-details-info"
                     style={{ display: "block", columnCount: 1 }}
@@ -280,13 +283,8 @@ export default async function FacultyDetailPage({ params }) {
                     {fieldRows.map((row, rowIndex) => (
                       <div key={rowIndex} style={{ width: "100%" }}>
                         <div
-                          className="rs-team-details-info-row"
-                          style={{
-                            display: "grid",
-                            gridTemplateColumns: "repeat(2, 1fr)",
-                            columnGap: "30px",
-                            width: "100%",
-                          }}
+                          className="rs-team-details-info-row grid-template-details-page"
+                         
                         >
                           {row.map(([key, value]) => (
                             <div
@@ -313,6 +311,7 @@ export default async function FacultyDetailPage({ params }) {
                       </div>
                     ))}
                   </div>
+                  <PublicationsSection publications={member.publications} />
 
                   {/* Contact info */}
                   {member.contact && (
@@ -347,19 +346,28 @@ export default async function FacultyDetailPage({ params }) {
                             {member.contact.website}
                           </a>
                         )}
-                      </div>  
+                      </div>
                     </div>
                   )}
-
-                  <PublicationsSection publications={member.publications} />
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="row">
+          <div className="row align-items-center justify-content-center flex-row">
+            {member.cv?.length > 0 && member.cv[0]?.url && (
+              <div
+                className="col-xl-6 text-center paddingBottomDownload"
+                style={{ marginTop: "30px" }}
+              >
+                <PdfPreviewButton
+                  pdfUrl={member.cv[0].url}
+                  title={`${member.name} - Full CV`}
+                />
+              </div>
+            )}
             <div
-              className="col-xl-12 text-center"
+              className="col-xl-6 text-center"
               style={{ marginTop: "30px", paddingBottom: "60px" }}
             >
               <Link

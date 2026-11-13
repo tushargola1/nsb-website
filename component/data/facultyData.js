@@ -3,9 +3,9 @@ const facultyData = [
   {
     slug: "R_Gopichandran",
     name: "Dr. R Gopichandran",
-    designation: "Professor & Officiating Director NTPC School of Business",
+    designation: "Professor & Officiating Director",
     category: "NSB Faculty",
-    show:2,
+    show: 2,
     image:
       "../assets/images/faculty/faculty-details/NSB Faculty/R Gopichandran.webp",
 
@@ -48,7 +48,6 @@ const facultyData = [
     professionalAffiliation: [
       "Member, Inter Ministerial Empowered Steering Committee, Ministry of Environment, Forest & Climate Change, Government of India — on aspects of India's commitments to and compliance with the Montreal Protocol",
       "Member, Environmental Appraisal Committee for Mineral-based Industries for grant of environmental clearances, Ministry of Environment, Forest & Climate Change, Government of India",
-      
     ],
 
     teaching: [
@@ -83,7 +82,6 @@ const facultyData = [
         "Behnassi, M., Ataur Rahman, M., D'Silva, J., Gopichandran, R., Gupta, H., Pollmann, O., and Ramachandran, N. (2020). Enhancing Resilience for Food and Nutrition Security within a Changing Climate. (Peer-reviewed, final stages of publication through Springer)",
         "Behnassi, M., Gupta, H., Ramachandran, N., Matsa, W., Gopichandran, R. and Ashfaq, M. (2020). Effectiveness of Disaster Risk Governance and Resilience Building: Linkages, Knowledge, Inclusiveness, and Regulation. (Peer-reviewed, final stages of publication through Springer)",
         "Gopichandran, R. (2020). Some Important Knowledge Gaps at the Interface of Chemical Ecology and Ecosystem Based Adaptation Planning: A Public Policy Perspective. NTPC School of Business, Noida, Uttar Pradesh, India. (Peer-reviewed, final stages of publication through Springer)",
-        
       ],
 
       researchInputsToGlobalReports: [
@@ -92,12 +90,12 @@ const facultyData = [
       ],
     },
   },
-    {
+  {
     slug: "dr-abhinav-jindal",
     name: "Dr. Abhinav Jindal",
-    designation: "Professor",
-    show:2,
-
+    designation: "Professor & Dean",
+    designation1: "Professor & Academic Dean",
+    show: 2,
     category: "NSB Faculty",
     image: "/assets/images/faculty/abhinav.png",
     summary:
@@ -109,8 +107,91 @@ const facultyData = [
       ],
     },
 
+    publications: {
+      internationalPeerReviewedPublications: [
+        "Jindal, A., Sarkar, A. & Joyeeta, G. (2026). The Political Economy of Coal in India: Fiscal Dependencies and Economic Risks of Transition. Accepted at International Environmental Agreements: Politics, Law and Economics (A-ABDC).",
+
+        "Sinha, A. Jindal, A. & Abbas, S. (2026). Progress towards SDG 7 depends on Governance Quality and Climate Resilience in BRICS Countries. iScience (Cell Press), 22 Sept 2026, 117700.",
+
+        "Jindal, A., Shrimali, G., Gallice, B., Buller, A., Cervenka, J., Sarkar, A. & Borsuk, M. (2026). Energy-transition risks create uneven financial impacts across India’s power sector. Communications: Earth and Environment (Nature Portfolio), Vol. 7, Page 1-17, 13 May 2026.",
+
+        "Srivastav, S., Jindal, A., Isaad, H., & Dewi, W., Fankhauser, S., Wagner, G. (2026). Locked In and Priced Out: How Coal Power Contracts Fuel Debt and Delay the Energy Transition. Policy Brief. Smith School of Enterprise and the Environment, University of Oxford. August 4, 2026.",
+
+        "Jindal, A., Kerkhofs, R. Shrimali, G. (2026). Differentiated impacts of climate physical risks on the Indian power sector. iScience (Cell Press), Vol. 29, Issue 5, 15 May 2026, 115697.",
+
+        "Clark, A., Jindal, A., Gorbatyuk, A., Rafty, R., Springer, C., & Shrimali, G. (2026). Designing Financial Instruments for Accelerated Coal Plant Retirements: The case of China backed Coal Plants in Southeast Asia. Applied Energy, Vol. 422, 1 November 2026, 128339 (A-ABDC).",
+
+        "Jindal, A., Shaktawat P., & Abhilash K.S. (2025). At Scale Adoption of Floating Solar PV Technology: The Case of India. Energy for Sustainable Development, Vol. 89, Dec 2025, 101830 (IF.: 4.9).",
+
+        "Jindal, A., Puri, S., & Shrimali, G. (2025). Designing a prospective Carbon Trading Market in India: Key Properties, Enabling Features and Linkages. Applied Energy, Vol. 386, 15 May 2025, 125595 (A-ABDC).",
+
+        "Majumdarr, S., Jindal, A., & Pandey, J. (2025). Spilling the beans of recent oil spills in Latin America and Africa: A multi-case study analysis of Corporate Social Irresponsibility. Journal of Business Research, Vol. 200, November 2025, 115596 (A-ABDC, ABS-3).",
+
+        "Haider, S., Zafar, S., Jindal, A., & Khalid, A. (2025). Assessing the Efficiency of Indian Fertilizer industry: Does Financial performance and Innovation matter? Cogent Food & Agriculture, Vol. 11, No. 1, 2496699 (IF.: 2.3).",
+
+        "Jindal, A, Hishikar, S. & Shrimali, G. (2024). Estimating the Portfolio Carbon Footprint of Indian Banking System. Journal of Cleaner Production, Vol. 459, 25 June 2024, 142393 (A-ABDC).",
+
+        "Jindal, A., Nilakantan, R. & Sinha, A. (2024). CO2 Emissions Abatement Costs and Drivers for Indian Thermal Power Industry. Energy Policy, 184, 113865 (A-ABDC).",
+
+        "Jindal, A., Shrimali, G. & Gangwani, B. & Lal, R. (2024). Financing just energy transitions in Southeast Asia: Application of the Just Transition Transaction to Indonesia, Vietnam, and Philippines. Energy for Sustainable Development, Vol. 81, August 2024, 101472 (Q1, I.F. 4.9).",
+
+        "Jindal, A., Shrimali, G. & Tiwary, N. (2024). At Scale Adoption of Green Hydrogen in Indian Industry: Costs, Subsidies and Policies. Energy for Sustainable Development, Vol. 83, December 2024, 101549 (Q1, IF- 4.9).",
+
+        "Haider, S., Zafar, S. & Jindal, A. (2024). Drivers of residential electricity expenditure in India: Role of Socio-Economic Factors. Utilities Policy. Vol. 88, June 2024, 101735 (Q1, I.F. 4.4).",
+
+        "Tang, K., Cervenka, J., Buller, A., Gallice, B., Jindal, A., Baer, M., & Shrimali, G. (2024). Impact of climate scenario choices on climate financial risk assessment: High variance company performance under consistent climate stress test. Oxford Sustainable Finance Group, University of Oxford.",
+
+        "Shrimali, G., & Jindal, A. (2023). Policy design for making India Atmanirbhar (self-sufficient) in green energy technologies. The Electricity Journal (I.F. 2.2), Vol. 36, Issue 4, May 2023, 107264.",
+
+        "Majumdarr, S., Jindal, A., & Dasgupta, S. A. (2023). Iberdrola's roadmap to successful energy transition. Rutgers Business Review Journal (2023), Vol. 8, No. 2, pp.216-232. (B-ABDC).",
+
+        "Jindal, A., & Nilakantan, R. (2022). Regulatory Environment and Thermal Power Plant Performance: Evidence from India. Journal of Regulatory Economics. Vol. 61, Jan 2022 (A-ABDC).",
+
+        "Jindal, A., & Shrimali, G. (2022). At Scale Adoption of Battery Storage technology In Indian Power Industry: Enablers, frameworks and policies. Technological Forecasting and Social Change, Volume 176, March 2022, 121467. (A-ABDC).",
+
+        "Jindal, A., & Shrimali, G. (2022). Cost-Benefit analysis of Coal-Plant Repurposing in Developing Countries: A Case-study of India. Energy Policy, 164, 112911. (A-ABDC).",
+
+        "Koberle, A., Shrimali, G., Mittal, S., Jindal, A., & Donovan, C. (2022). Financial risks to coal value chain from a cost-conscious shift to renewables in India. Environmental Research Letters. (Q1, IF 6.947).",
+
+        "Zakari, A., Li, G., Khan, I., Jindal, A, Tawiah, V, & Alvarado, F. (2022). Are abundant energy resources and Chinese business a solution to environmental prosperity in Africa? Energy Policy, 163, 112829. (A-ABDC).",
+
+        "Lavuri, R., Jindal, A., & Akram, U. (2022). How Perceived Utilitarian and Hedonic value influence online impulse shopping in India? Moderating role of Perceived Trust and Perceived Risk. International Journal of Quality & Service Sciences. (B-ABDC).",
+
+        "Lavuri, R., Jindal, A., Akram, U., Naik, B. K. R., & Halibas, A. S. (2022). Exploring the antecedents of sustainable consumers' purchase intentions: Evidence from emerging countries. Sustainable Development. (C-ABDC).",
+
+        "Jindal, A., & Nilakantan, R. (2021). Falling efficiency levels of Indian coal-fired power plants: A slacks-based analysis. Energy Economics, 93, 105022. (A*-ABDC).",
+
+        "Shrimali, G., & Jindal, A. (2021). Coal Plant Repurposing for Ageing Coal Fleets in Developing Countries. Energy Sector Management Assistance Program: World Bank Group.",
+
+        "Debnath, R., Mittal, V., & Jindal, A. (2021). A review of challenges from increasing renewable generation in the Indian Power Sector: Way forward for Electricity (Amendment) Bill 2020. Energy & Environment, 0958305X20986246. (C-ABDC).",
+
+        "Bouyghrissi, S., Muntasir, M., Jindal, A., Berjaoui, A., Mahmood, H., & Khanniba, M. (2021). The importance of facilitating renewable energy use for abating CO2 emissions: The case of Morocco. Environmental Science and Pollution Research (IF. 5.4).",
+      ],
+
+      bookChapters: [
+        "Jindal, A., Kasina SP., & Sharma, N. (2026). State Owned Enterprises (SoEs) leading Energy transition in the Global South: Champions of global energy transition. “Navigating the Climate Crisis: Perspectives and Actions from the Global South for Mitigation & Adaptation.” Available at SSRN. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6746800",
+
+        "Sandhu, H. & Jindal, A. (2025). Exploring the Green Bond Market in India: Efficacy and Future Prospects. Financing Climate Action: India in a Global Context. Routledge. https://www.taylorfrancis.com/books/edit/10.4324/9781003589709/financing-climate-action-mritiunjoy-mohanty-runa-sarkar",
+
+        "Jindal, A., & Shrimali, G. (2024). Framework for Identifying Plants suited for repurposing. Box in The Role of Coal in a Sustainable Energy Mix for India: A Wide-Angle View. Routledge. https://www.taylorfrancis.com/books/oa-edit/10.4324/9781003433088/role-coal-sustainable-energy-mix-india-mritiunjoy-mohanty-runa-sarkar",
+
+        "Jindal, A., & Shrimali, G. (2024). Monetizing coal power plants through repurposing. Box in The Role of Coal in a Sustainable Energy Mix for India: A Wide-Angle View. Routledge. https://www.taylorfrancis.com/books/oa-edit/10.4324/9781003433088/role-coal-sustainable-energy-mix-india-mritiunjoy-mohanty-runa-sarkar",
+
+        "Jindal, A. (2024). Deutsche Bank TLC Framework for Investor Friendly Policies. Box in The Role of Coal in a Sustainable Energy Mix for India: A Wide-Angle View. Routledge. https://www.taylorfrancis.com/books/oa-edit/10.4324/9781003433088/role-coal-sustainable-energy-mix-india-mritiunjoy-mohanty-runa-sarkar",
+
+        "Majumdarr, S., Jindal, A., Srivastava S., & Garg, V. (2024). International Experiences: The case of Iberdrola, Enel and Nextera Energy. In The Role of Coal in a Sustainable Energy Mix for India: A Wide-Angle View. Routledge. https://www.taylorfrancis.com/books/oa-edit/10.4324/9781003433088/role-coal-sustainable-energy-mix-india-mritiunjoy-mohanty-runa-sarkar",
+
+        "Jain, A., & Jindal, A. (2022). Exploring the linkages between technological advancements and environmental degradation on the energy-growth nexus. In Energy-Growth Nexus in an Era of Globalization (pp. 1-25). Elsevier. https://www.sciencedirect.com/science/article/abs/pii/B9780128244401000126",
+      ],
+      caseStudies: [
+        "Nidugala, G.K., & Jindal, A. (2019). India in 2017: Has the Interest Rate Cycle come to an End? Case No.- IIMI/Case/2019/1. IIM Indore Case Center. https://www.iimidr.ac.in/research-publications/cases/",
+
+        "Nidugala, G.K., & Jindal, A. (2019). Venezuelan Economic Crisis: Dutch disease or a curse of Socialism? Case No.- IIMI/Case/2019/4. IIM Indore Case Center. https://www.iimidr.ac.in/research-publications/cases/",
+      ],
+    },
+
     contact: {
-      email: "abhinavjindal@ntpc.co.in",
+      email: "dean@nsb.ac.in",
       phone: "(91) 9650994550",
     },
   },
@@ -400,7 +481,13 @@ const facultyData = [
           "National Scholarship in 10th from Himachal Pradesh Board of School Education",
       },
     ],
-
+  cv : [
+    {
+      id: 1,
+      url: "/assets/files/cv/SandeepKumar_CV.pdf",
+    },
+  
+  ],
     education: [
       {
         degree: "Ph.D., Electrical Engineering (EE)",
@@ -524,7 +611,13 @@ const facultyData = [
 
     summary:
       "Dr. Shiv Ratan Agrawal is an Associate Professor in the Marketing area at NTPC School of Business (NSB), Noida. Overall, he has around 12 years of teaching and 3 years of industry experience. Before joining NSB, he worked at ICFAI Business School, Hyderabad and IIM, Bangalore. He has obtained his Ph.D. in Management from Maulana Azad National Institute of Technology, Bhopal (MP) as a full-time research scholar. He qualified NET examination in Management from UGC. He teaches Marketing Management, Marketing Research, Services Marketing and Brand Management. His research interests are in services marketing, customer relationship management, text mining and sentiment analysis. He has several international publications published in ABDC, SSCI, SCI and Scopus indexed journals. Importantly, he has 6 research papers published in A-category journals as per ABDC journal list.",
-
+  cv : [
+    {
+      id: 1,
+      url: "/assets/files/cv/ratan_cv.pdf",
+    },
+  
+  ],
     academicAffiliation: [
       "Associate Professor, NTPC School of Business (NSB), Noida",
       "Associate Professor, ICFAI Business School, Hyderabad",
@@ -657,7 +750,13 @@ const facultyData = [
       "Data Science",
       "Research Methodology",
     ],
-
+   cv : [
+    {
+      id: 1,
+      url: "/assets/files/cv/prashant_cv.pdf",
+    },
+  
+  ],
     contact: {
       website: "https://www.nsb.ac.in",
       email: "prashant.jha@nsb.ac.in",
@@ -699,7 +798,8 @@ const facultyData = [
     name: "Dr Santosh K Behera",
     designation: "Visiting Faculty",
     category: "Visiting Faculty",
-    image: "../assets/images/faculty/faculty-details/Visiting Faculty/santosh.png",
+    image:
+      "../assets/images/faculty/faculty-details/Visiting Faculty/santosh.png",
 
     contact: {
       website: "https://www.nsb.ac.in",
@@ -1800,30 +1900,26 @@ const facultyData = [
     thoughts: "",
 
     education: [
-        {
+      {
         degree: "M.Tech,",
         institution: "IIT Delhi",
         year: "",
       },
-        {
+      {
         degree: "Ph.D.,",
         institution: "AIMA-Aligarh Muslim University",
         year: "",
       },
-    
     ],
 
     professionalAffiliation: [],
 
     teaching: [
-       "Project Financing & Capital Budgeting, Operations & Infrastructure Management, Sustainability & ESG",
+      "Project Financing & Capital Budgeting, Operations & Infrastructure Management, Sustainability & ESG",
     ],
 
     areasOfResearch: {
-  areas: [
-        "Sustainability, Climate Change, Leadership, and Decision-Makin",
-      ],
-  
+      areas: ["Sustainability, Climate Change, Leadership, and Decision-Makin"],
     },
     contact: {
       website: "https://www.nsb.ac.in",
