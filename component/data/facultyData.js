@@ -94,7 +94,7 @@ const facultyData = [
     slug: "dr-abhinav-jindal",
     name: "Dr. Abhinav Jindal",
     designation: "Professor & Dean",
-    designation1: "Professor & Academic Dean",
+    designation1: "Dean (Academic, Research and Administration)",
     show: 2,
     category: "NSB Faculty",
     image: "/assets/images/faculty/abhinav.png",

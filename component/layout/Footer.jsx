@@ -353,7 +353,7 @@ export default function Footer() {
                       >
                         <i className="fa-brands fa-whatsapp fs-2"></i>
                       </a>
-                      <a
+                      {/* <a
                         href="https://www.facebook.com/NSB.NTPC"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -370,7 +370,7 @@ export default function Footer() {
                             fill="white"
                           ></path>
                         </svg>
-                      </a>
+                      </a> */}
                       <a
                         href="https://www.linkedin.com/school/nsb-ntpc/mycompany/"
                         target="_blank"
