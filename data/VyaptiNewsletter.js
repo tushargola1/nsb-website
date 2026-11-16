@@ -192,4 +192,9 @@ export const VyaptiNewsletter = [
     name: "Vyapti Newsletter 2026; Vol 6 Issue-10",
     url: "/assets/files/VyaptiVol6Issue10.pdf",
   },
+  {
+    id: 39,
+    name: "Vyapti Newsletter 2026; Vol 6 Issue-11",
+    url: "/assets/files/VyaptiVol6iss11.pdf",
+  },
 ];

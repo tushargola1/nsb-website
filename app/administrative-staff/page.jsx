@@ -89,13 +89,7 @@ const page = () => {
       image: "/assets/images/administrative/115.jpeg",
       category: "Finance Department",
     },
-    {
-      id: 4,
-      name: "Farooque Saifullah",
-      designation: "Finance Manager",
-      image: "/assets/images/administrative/103.webp",
-      category: "Finance Department",
-    },
+  
     {
       id: 7,
       name: "Navneet Katheriya",

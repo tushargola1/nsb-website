@@ -94,12 +94,12 @@ const facultyData = [
     slug: "dr-abhinav-jindal",
     name: "Dr. Abhinav Jindal",
     designation: "Professor & Dean",
-    designation1: "Dean (Academic, Research and Administration)",
+    designation1: "Dean (Academics, Research and Administration)",
     show: 2,
     category: "NSB Faculty",
     image: "/assets/images/faculty/abhinav.png",
     summary:
-      "Abhinav is a leading economist with over 22+ years energy/power industry experience and 50+ top-tier international publications including peer reviewed Journal Articles, Case studies, Book chapters and Reports in energy, economics, finance, environment and policy domain. He has written over 50+ OPEDs/Policy briefs which have featured in various popular media outlets in India and globally. His research focuses on Transition Finance, Coal Plants, Climate Risks-Transition and Physical risks, State Owned Enterprises (SoEs), Energy transition, Carbon Markets, Power Markets and Scaling Emerging Renewable Energy Technologies.",
+      "Abhinav is a leading economist with a Ph.D. in Economics from IIM Indore, over 22+ years energy/power industry experience and 50+ top-tier international publications including peer reviewed Journal Articles, Case studies, Book chapters and Reports in energy, economics, finance, environment and policy domain. He has written over 50+ OPEDs/Policy briefs which have featured in various popular media outlets in India and globally. His research focuses on Transition Finance, Coal Plants, Climate Risks-Transition and Physical risks, State Owned Enterprises (SoEs), Energy transition, Carbon Markets, Power Markets and Scaling Emerging Renewable Energy Technologies.",
 
     areasOfResearch: {
       areas: [
