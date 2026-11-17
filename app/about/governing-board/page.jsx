@@ -10,7 +10,7 @@ const page = () => {
       id: 1,
       image: "/assets/images/faculty/gurdeep.png",
       name: "Shri Gurdeep Singh",
-      position: "President",
+      position: "Chairman",
     },
   
     
@@ -26,12 +26,12 @@ const page = () => {
       name: "Prof. (Dr.) Som Nath Sachdeva",
       position: "Member",
     },
-    // {
-    //   id: 4,
-    //   image: "/assets/images/faculty/sunil.jpeg",
-    //   name: "Prof. Sunil Maheshwari",
-    //   position: "Member",
-    // },
+    {
+      id: 6,
+      image: "/assets/images/faculty/rangan.jpg",
+      name: "Prof. (Dr.) Rangan Banerjee",
+      position: "Member",
+    },
       {
       id: 2,
       image: "/assets/images/about/governingBoard/gauri.png",
